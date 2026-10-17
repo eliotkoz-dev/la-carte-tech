@@ -319,6 +319,7 @@
     pied.append(modif);
     corps.append(pied);
     $('fiche').replaceChildren(entete, corps);
+    $('fiche').scrollTop = 0;
   }
 
   function choisir(id, depuisAdresse) {

@@ -184,6 +184,11 @@ button { font: inherit; color: inherit; }
 .fiche-entete a:hover { color: #FFFFFF; text-decoration: underline; }
 .fiche-entete span { color: var(--lavande-texte); }
 .fiche-corps { display: flex; flex-direction: column; gap: 16px; padding: 24px; }
+/* Sur grand écran, la fiche a sa propre barre de défilement, indépendante de la liste. */
+@media (min-width: 1040px) {
+  .fiche { max-height: calc(100vh - 32px); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; }
+  .fiche-entete { position: sticky; top: 0; z-index: 2; }
+}
 .fiche-corps h2 { margin: 0; font-size: 34px; line-height: 1.05; font-weight: 800; letter-spacing: -0.03em; }
 .fiche-corps h3 { margin: 0; font-size: 14px; font-weight: 800; }
 .fiche-corps p { margin: 0; }
