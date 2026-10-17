@@ -188,6 +188,12 @@
       b.addEventListener('click', () => { choisir(a.id); if (window.innerWidth < 960) $('fiche').scrollIntoView(); });
       return b;
     }));
+    const choisie = $('grille').querySelector('[aria-pressed="true"]');
+    const liste = document.querySelector('.liste');
+    if (choisie && liste.scrollHeight > liste.clientHeight) {
+      const haut = choisie.offsetTop - liste.offsetTop;
+      if (haut < liste.scrollTop || haut + choisie.offsetHeight > liste.scrollTop + liste.clientHeight) liste.scrollTop = Math.max(0, haut - 60);
+    }
     $('compte').textContent = `${visibles.length} entreprise${visibles.length > 1 ? 's' : ''} · cliquez pour ouvrir la fiche`;
     $('vide').hidden = visibles.length > 0;
   }
