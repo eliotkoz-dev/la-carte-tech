@@ -1,0 +1,47 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Alan"
+categorie: fintech
+region: europe
+groupe: "Non cotée"
+siege: "Paris (France)"
+en_bref: "L’assurance santé en ligne"
+chiffre_affaires:
+  texte: "750 M€ de revenu récurrent annuel (2025)"
+  md_usd: 0.85
+chiffres_cles:
+- "Environ 1 million de membres (France, Belgique, Espagne, Canada)"
+- "Valorisée 4 Md€ (2024)"
+ce_qu_elle_vend: "Une complémentaire santé pour les entreprises et les indépendants, gérée dans une application, avec des services de prévention."
+produits:
+- nom: "Complémentaire santé"
+  detail: "pour les salariés et leur famille"
+- nom: "Prévoyance"
+  detail: "arrêt de travail et invalidité"
+- nom: "Application Alan"
+  detail: "remboursements et services de santé"
+modele: "Cotisations mensuelles payées par les entreprises et leurs salariés."
+clients: "entreprises de toutes tailles, indépendants"
+rachats:
+- "Aucun rachat listé"
+concurrents: "AXA, Harmonie Mutuelle, Malakoff Humanis"
+note: "En Belgique, la banque Belfius distribue Alan ; elle a mené sa levée de 173 M€ (2024)."
+vente:
+  approche: mixte
+  resume: "Les petites entreprises souscrivent en ligne ; des commerciaux et des courtiers vendent aux plus grandes. En Belgique, la banque Belfius distribue Alan."
+  acheteurs: "Le dirigeant ou le DRH"
+  argument: "Une mutuelle simple, remboursée vite, avec des services de santé dans l’application"
+  objections:
+  - "Le prix face aux mutuelles traditionnelles"
+  - "Changer d’assureur prend du temps"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "L’Echo, Alan en Belgique (janv. 2026)"
+  url: "https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/Business/Press/20260107-LEcho-Alan.pdf"
+- titre: "Siècle Digital, levée de 173 M€ à 4 Md€ de valorisation (2024)"
+  url: "https://siecledigital.fr/2024/09/20/alan-annonce-une-levee-de-fonds-record-de-173-millions-deuros-portant-sa-valorisation-a-4-milliards-deuros/"
+verifie_le: '2026-10-17'

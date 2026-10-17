@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Swile"
+categorie: fintech
+region: europe
+groupe: "Non cotée"
+siege: "Montpellier (France)"
+en_bref: "Titres-restaurant et avantages salariés"
+chiffre_affaires:
+  texte: "153 M€ en 2023"
+  md_usd: 0.17
+chiffres_cles:
+- "Environ 85 000 entreprises clientes"
+- "BPCE détient 22 % du capital"
+ce_qu_elle_vend: "Une carte et une application pour les titres-restaurant, les cartes cadeaux et les avantages des salariés."
+produits:
+- nom: "Carte Swile"
+  detail: "titres-restaurant"
+- nom: "Cadeaux"
+  detail: "cartes cadeaux des salariés"
+- nom: "Okarito"
+  detail: "voyages d’affaires"
+modele: "Commission payée par les commerçants sur chaque paiement, et frais payés par les entreprises clientes."
+clients: "entreprises et administrations"
+rachats:
+- "Bimpli (2022) : avantages salariés, ex-filiale de BPCE"
+- "Okarito : voyages d’affaires"
+concurrents: "Edenred, Pluxee, Up"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent aux entreprises et répondent aux appels d’offres publics (France Travail, SNCF…)."
+  acheteurs: "Le DRH et le comité social et économique (CSE)"
+  argument: "Une seule carte et une application simple pour tous les avantages"
+  objections:
+  - "Les frais pour les commerçants"
+  - "Changer de prestataire pour tous les salariés"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "FrenchWeb, Swile après sa fusion (avril 2025)"
+  url: "https://www.frenchweb.fr/swile-apres-son-private-reverse-merger-plus-grande-plus-stable-mais-encore-exposee/453990"
+verifie_le: '2026-10-17'

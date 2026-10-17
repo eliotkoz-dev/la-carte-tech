@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Pennylane"
+categorie: saas
+region: europe
+groupe: "Non cotée"
+siege: "Paris (France)"
+en_bref: "La comptabilité en ligne des PME"
+chiffre_affaires:
+  texte: "115 M€ de revenu récurrent annuel en 2025 (×2)"
+  md_usd: 0.13
+chiffres_cles:
+- "Valorisée 3,5 Md€ (janv. 2026)"
+- "Environ 800 000 entreprises clientes et 6 000 cabinets comptables partenaires"
+ce_qu_elle_vend: "Un logiciel qui réunit la comptabilité, la facturation et la gestion financière, partagé entre l’entreprise et son expert-comptable."
+produits:
+- nom: "Comptabilité"
+  detail: "partagée avec l’expert-comptable"
+- nom: "Facturation"
+  detail: "dont la facture électronique"
+- nom: "Gestion financière"
+  detail: "trésorerie et pilotage"
+modele: "Abonnement mensuel, payé par l’entreprise ou par son cabinet comptable."
+clients: "PME, indépendants, cabinets d’expertise comptable"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Cegid, Sage, Tiime"
+vente:
+  approche: partenaires
+  resume: "Les cabinets comptables partenaires recommandent l’outil à leurs clients ; les entreprises peuvent aussi s’inscrire en ligne."
+  acheteurs: "Le dirigeant de PME et son expert-comptable"
+  argument: "Un seul outil partagé avec le comptable, prêt pour la facture électronique obligatoire"
+  objections:
+  - "Changer de logiciel comptable en cours d’année"
+  - "Le prix face aux logiciels historiques"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Maddyness, Pennylane lève 175 M€ (janv. 2026)"
+  url: "https://www.maddyness.com/2026/01/20/pennylane-nouvelle-levee-de-fonds-de-175-millions-deuros-pour-la-licorne-francaise/"
+- titre: "Maddyness, Pennylane passe 100 M€ de revenus (déc. 2025)"
+  url: "https://www.maddyness.com/2025/12/04/pennylane-la-fintech-passe-le-cap-des-100-millions-deuros-de-revenus-et-devient-un-centaure/"
+verifie_le: '2026-10-17'

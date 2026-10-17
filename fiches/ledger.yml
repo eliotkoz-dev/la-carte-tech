@@ -1,0 +1,47 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Ledger"
+categorie: fintech
+region: europe
+groupe: "Non cotée"
+siege: "Paris (France)"
+en_bref: "Les coffres-forts de cryptomonnaies"
+chiffre_affaires:
+  texte: "Non publié"
+  md_usd: 0
+chiffres_cles:
+- "Plus de 8 millions d’appareils vendus"
+- "Plusieurs centaines de millions de dollars de revenus en 2025, sa meilleure année"
+- "Valorisée 1,5 Md$ (2023) ; entrée en Bourse à plus de 4 Md$ étudiée (janv. 2026)"
+ce_qu_elle_vend: "De petits appareils pour garder ses cryptomonnaies à l’abri du piratage, et une application pour les gérer."
+produits:
+- nom: "Ledger Nano"
+  detail: "portefeuille physique de cryptomonnaies"
+- nom: "Ledger Live"
+  detail: "application pour gérer ses cryptomonnaies"
+- nom: "Ledger Enterprise"
+  detail: "sécurité des actifs numériques pour les institutions"
+modele: "Vente d’appareils, et commissions sur les services de l’application (achat, échange)."
+clients: "particuliers, entreprises et institutions financières"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Trezor, Coinbase"
+vente:
+  approche: mixte
+  resume: "Les particuliers achètent en ligne et en magasin ; une équipe vend aux entreprises et aux banques (Ledger Enterprise)."
+  acheteurs: "Les détenteurs de cryptomonnaies ; les équipes sécurité des institutions"
+  argument: "Garder soi-même ses clés, hors d’Internet"
+  objections:
+  - "La confiance, après des incidents de sécurité passés"
+  - "Le prix de l’appareil"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Maddyness, Ledger envisage Wall Street (janv. 2026)"
+  url: "https://www.maddyness.com/2026/01/23/ledger-pourrait-debarquer-a-wall-street-des-2026-a-une-valorisation-de-plus-de-4-milliards-de-dollars/"
+- titre: "Cointribune, revenus de Ledger en 2025"
+  url: "https://www.cointribune.com/crypto-ledger-vise-la-bourse-de-new-york-alors-que-ses-revenus-explosent/"
+verifie_le: '2026-10-17'

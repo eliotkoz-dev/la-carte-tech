@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "PayFit"
+categorie: saas
+region: europe
+groupe: "Non cotée"
+siege: "Paris (France)"
+en_bref: "La paie en ligne des PME"
+chiffre_affaires:
+  texte: "Non publié"
+  md_usd: 0
+chiffres_cles:
+- "Plus de 22 000 clients (France, Espagne, Royaume-Uni)"
+- "Plus de 250 000 fiches de paie par mois"
+- "Rentable selon l’entreprise"
+ce_qu_elle_vend: "Un logiciel qui calcule et édite automatiquement les fiches de paie, et gère les congés et les notes de frais."
+produits:
+- nom: "Paie"
+  detail: "fiches de paie et déclarations automatiques"
+- nom: "RH"
+  detail: "congés et absences"
+- nom: "Notes de frais"
+  detail: "remboursements des salariés"
+modele: "Abonnement mensuel selon le nombre de salariés."
+clients: "PME et startups"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Silae, Lucca, Cegid"
+vente:
+  approche: mixte
+  resume: "Les petites entreprises s’inscrivent en ligne ; des commerciaux accompagnent les plus grandes."
+  acheteurs: "Le dirigeant de PME, le directeur financier ou le RH"
+  argument: "Faire la paie soi-même, simplement, sans expert"
+  objections:
+  - "Le prix face à un cabinet comptable"
+  - "La peur des erreurs de paie pendant le changement"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "PayFit, espace presse"
+  url: "https://payfit.com/fr/presse/"
+verifie_le: '2026-10-17'

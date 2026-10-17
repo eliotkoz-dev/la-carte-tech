@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Pigment"
+categorie: saas
+region: europe
+groupe: "Non cotée"
+siege: "Paris (France)"
+en_bref: "La planification financière des entreprises"
+chiffre_affaires:
+  texte: "Non publié"
+  md_usd: 0
+chiffres_cles:
+- "Levée de 145 M$ (avril 2024)"
+- "Chiffre d’affaires triplé en 2023"
+- "Environ la moitié des clients aux États-Unis"
+ce_qu_elle_vend: "Un logiciel qui aide les équipes finance, ventes et RH à construire leurs budgets et leurs prévisions."
+produits:
+- nom: "Planification financière"
+  detail: "budgets et prévisions"
+- nom: "Planification commerciale"
+  detail: "objectifs des commerciaux"
+- nom: "Effectifs"
+  detail: "prévoir les recrutements"
+modele: "Abonnement annuel."
+clients: "entreprises de taille moyenne et grands groupes (Unilever, Datadog…)"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Anaplan, Workday Adaptive Planning, Board"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent aux directions financières, avec un projet de mise en place de quelques semaines."
+  acheteurs: "Le directeur financier"
+  argument: "Remplacer les tableurs Excel par un outil collaboratif avec de l’IA"
+  objections:
+  - "Le coût et le temps de mise en place"
+  - "L’habitude d’Excel"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Mucrunch, Pigment lève 145 M$ (avril 2024)"
+  url: "https://mucrunch.beehiiv.com/p/french-startup-pigment-raises-145-million"
+verifie_le: '2026-10-17'

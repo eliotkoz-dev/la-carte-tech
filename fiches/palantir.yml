@@ -1,0 +1,47 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Palantir"
+categorie: data
+region: amerique-du-nord
+aussi: [ia]
+groupe: "Cotée à New York (Nasdaq)"
+siege: "États-Unis"
+en_bref: "Logiciels de données et d’IA"
+chiffre_affaires:
+  texte: "4,48 Md$ en 2025 (+56 %)"
+  md_usd: 4.48
+chiffres_cles:
+- "Revenus aux États-Unis : 3,32 Md$ (+75 %)"
+- "Capitalisation d’environ 295 Md$ (oct. 2026)"
+ce_qu_elle_vend: "Des logiciels qui rassemblent toutes les données d’une organisation et y branchent l’IA pour aider à décider."
+produits:
+- nom: "Foundry"
+  detail: "plateforme de données pour les entreprises"
+- nom: "Gotham"
+  detail: "plateforme pour la défense et le renseignement"
+- nom: "AIP"
+  detail: "brancher l’IA sur les données de l’organisation"
+modele: "Contrats pluriannuels avec les gouvernements et les grandes entreprises."
+clients: "gouvernements (défense, renseignement), grandes entreprises"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Databricks, Snowflake, les clouds"
+vente:
+  approche: vente-directe
+  resume: "Des équipes vendent de gros contrats, souvent après des ateliers courts où le client teste l’outil sur ses propres données."
+  acheteurs: "Les directions générales et des opérations, les ministères de la Défense"
+  argument: "Passer vite des données à des décisions, avec l’IA"
+  objections:
+  - "Le prix et la dépendance à un seul fournisseur"
+  - "Les questions d’éthique liées au renseignement"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Parameter, résultats 2025 de Palantir"
+  url: "https://parameter.io/palantir-pltr-stock-surges-on-explosive-2025-growth-and-70-u-s-revenue-gains/"
+- titre: "americancompanies.com, les 100 plus grandes entreprises américaines (oct. 2026)"
+  url: "https://americancompanies.com/reports/largest-american-companies/"
+verifie_le: '2026-10-17'

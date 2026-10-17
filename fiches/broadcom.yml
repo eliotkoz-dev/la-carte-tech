@@ -1,0 +1,49 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Broadcom"
+categorie: puces
+region: amerique-du-nord
+aussi: [cloud]
+groupe: "Cotée à New York (Nasdaq)"
+siege: "Palo Alto (Californie)"
+en_bref: "Puces réseau et IA, logiciels VMware"
+chiffre_affaires:
+  texte: "63,9 Md$ sur l’exercice 2025 (+24 %)"
+  md_usd: 63.9
+chiffres_cles:
+- "Puces : 36,9 Md$ ; logiciels : 27,0 Md$ (exercice 2025)"
+- "Capitalisation d’environ 1 800 Md$ (oct. 2026)"
+ce_qu_elle_vend: "Des puces sur mesure pour l’IA et pour le réseau des data centers, et des logiciels d’infrastructure (VMware)."
+produits:
+- nom: "Puces IA sur mesure"
+  detail: "conçues avec les géants du cloud et OpenAI"
+- nom: "Tomahawk"
+  detail: "puces qui font circuler les données dans les data centers"
+- nom: "VMware Cloud Foundation"
+  detail: "faire tourner un data center comme un cloud"
+modele: "Vente de puces aux clouds et aux fabricants de matériel ; abonnements pour les logiciels VMware."
+clients: "géants du cloud, fabricants de matériel, grandes entreprises"
+rachats:
+- "VMware (2023) : logiciels de virtualisation"
+- "Symantec Entreprise (2019) : cybersécurité"
+- "CA Technologies (2018) : logiciels d’entreprise"
+concurrents: "Nvidia, Marvell, AMD"
+vente:
+  approche: vente-directe
+  resume: "Très peu de très gros clients pour les puces, suivis en direct sur des années ; VMware est vendu aux grandes entreprises, en direct et par des partenaires."
+  acheteurs: "Les équipes matériel des géants du cloud ; le DSI pour VMware"
+  argument: "Des puces conçues sur mesure, plus efficaces que des puces généralistes pour un usage précis"
+  objections:
+  - "La forte hausse des prix de VMware après le rachat"
+  - "Le temps et le coût pour concevoir une puce sur mesure"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Broadcom, résultats de l’exercice 2025"
+  url: "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-fourth-quarter-and-fiscal-year-2025"
+- titre: "americancompanies.com, les 100 plus grandes entreprises américaines (oct. 2026)"
+  url: "https://americancompanies.com/reports/largest-american-companies/"
+verifie_le: '2026-10-17'

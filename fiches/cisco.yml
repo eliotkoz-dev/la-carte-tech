@@ -1,0 +1,51 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Cisco"
+categorie: cloud
+region: amerique-du-nord
+aussi: [cyber]
+groupe: "Cotée à New York (Nasdaq)"
+siege: "San José (Californie)"
+en_bref: "Le réseau des entreprises"
+chiffre_affaires:
+  texte: "63,3 Md$ sur l’exercice 2026 (+12 %)"
+  md_usd: 63.3
+chiffres_cles:
+- "9,3 Md$ de commandes d’infrastructure IA des géants du cloud (exercice 2026)"
+- "Capitalisation d’environ 450 Md$ (oct. 2026)"
+ce_qu_elle_vend: "Le matériel et les logiciels qui relient les ordinateurs d’une entreprise : réseau, sécurité, visioconférence (Webex) et analyse des données (Splunk)."
+produits:
+- nom: "Commutateurs et routeurs"
+  detail: "faire circuler les données"
+- nom: "Splunk"
+  detail: "analyser les données des systèmes et détecter les attaques"
+- nom: "Webex"
+  detail: "visioconférence"
+- nom: "Cisco Security"
+  detail: "pare-feu et accès sécurisé"
+modele: "Vente de matériel et, de plus en plus, abonnements logiciels."
+clients: "grandes entreprises, opérateurs télécoms, clouds, secteur public"
+rachats:
+- "Splunk (2024) : analyse des données et sécurité"
+- "Meraki (2012) : réseau géré depuis le cloud"
+- "Webex (2007) : visioconférence"
+concurrents: "Arista, HPE (Juniper), Palo Alto Networks"
+vente:
+  approche: partenaires
+  resume: "Vendu surtout par un très grand réseau de revendeurs et d’intégrateurs, avec des commerciaux Cisco sur les grands comptes."
+  acheteurs: "Le DSI et les équipes réseau et sécurité"
+  argument: "Un seul fournisseur pour tout le réseau et la sécurité, présent partout"
+  objections:
+  - "Le prix face à des concurrents plus récents"
+  - "La complexité des licences"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Cisco, résultats de l’exercice 2026"
+  url: "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+- titre: "americancompanies.com, les 100 plus grandes entreprises américaines (oct. 2026)"
+  url: "https://americancompanies.com/reports/largest-american-companies/"
+verifie_le: '2026-10-17'

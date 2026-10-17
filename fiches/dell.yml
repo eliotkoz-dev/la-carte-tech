@@ -1,0 +1,49 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Dell Technologies"
+categorie: puces
+region: amerique-du-nord
+aussi: [cloud]
+groupe: "Cotée à New York (NYSE)"
+siege: "Round Rock (Texas)"
+en_bref: "Serveurs d’IA et ordinateurs"
+chiffre_affaires:
+  texte: "113,5 Md$ sur l’exercice 2026 (+19 %)"
+  md_usd: 113.5
+chiffres_cles:
+- "Serveurs IA : 24,7 Md$ de ventes et 43 Md$ de commandes en attente (exercice 2026)"
+- "Capitalisation d’environ 283 Md$ (oct. 2026)"
+ce_qu_elle_vend: "Des ordinateurs pour les entreprises et le grand public, et des serveurs et du stockage pour les data centers, dont des serveurs d’IA équipés de puces Nvidia."
+produits:
+- nom: "PowerEdge"
+  detail: "serveurs, dont les serveurs d’IA"
+- nom: "Dell AI Factory"
+  detail: "serveurs d’IA prêts à l’emploi, avec Nvidia"
+- nom: "PC Dell"
+  detail: "ordinateurs portables et de bureau"
+- nom: "PowerStore"
+  detail: "stockage des données"
+modele: "Vente de matériel, avec services et financement."
+clients: "entreprises, clouds et fournisseurs d’IA, grand public"
+rachats:
+- "EMC (2016) : stockage (VMware, acquis avec EMC, a été séparé depuis)"
+concurrents: "HPE, Supermicro, Lenovo, HP"
+vente:
+  approche: mixte
+  resume: "Les PC s’achètent en ligne ou chez des revendeurs ; les serveurs sont vendus aux entreprises et aux clouds par des commerciaux et des partenaires."
+  acheteurs: "Le DSI ; les équipes infrastructure des clouds et des fournisseurs d’IA"
+  argument: "Des serveurs d’IA livrés vite et prêts à l’emploi"
+  objections:
+  - "Les délais de livraison des serveurs d’IA"
+  - "Le coût total face à la location dans le cloud"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Dell, résultats de l’exercice 2026"
+  url: "https://www.businesswire.com/news/home/20260226276981/en/Dell-Technologies-Delivers-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results"
+- titre: "americancompanies.com, les 100 plus grandes entreprises américaines (oct. 2026)"
+  url: "https://americancompanies.com/reports/largest-american-companies/"
+verifie_le: '2026-10-17'

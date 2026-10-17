@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "SK Hynix"
+categorie: puces
+region: asie
+groupe: "Cotée à Séoul (groupe SK)"
+siege: "Icheon (Corée du Sud)"
+en_bref: "La mémoire des puces d’IA"
+chiffre_affaires:
+  texte: "97,1 trillions de wons en 2025 (+47 %), ≈ 68 Md$"
+  md_usd: 68
+chiffres_cles:
+- "Bénéfice d’exploitation : 47,2 trillions de wons (marge de 49 %)"
+- "Capitalisation d’environ 995 Md$ (oct. 2026)"
+ce_qu_elle_vend: "Des puces mémoire, dont la HBM, la mémoire empilée indispensable aux puces d’IA de Nvidia."
+produits:
+- nom: "HBM"
+  detail: "mémoire empilée pour les puces d’IA"
+- nom: "DRAM"
+  detail: "mémoire vive"
+- nom: "Solidigm"
+  detail: "stockage SSD pour les data centers"
+modele: "Vente de puces mémoire aux fabricants de puces et aux clouds, souvent réservée des mois à l’avance."
+clients: "Nvidia et autres fabricants de puces d’IA, clouds, fabricants de téléphones et de PC"
+rachats:
+- "Activité stockage NAND d’Intel (2021-2025) : devenue Solidigm"
+concurrents: "Samsung, Micron"
+vente:
+  approche: vente-directe
+  resume: "Quelques très gros clients, comme Nvidia, réservent la production longtemps à l’avance, dans des contrats négociés en direct."
+  acheteurs: "Les équipes achats et matériel des fabricants de puces d’IA"
+  argument: "Le premier fournisseur de mémoire HBM pour l’IA"
+  objections:
+  - "Des prix qui changent beaucoup selon les cycles"
+  - "Peu de souplesse : les volumes se réservent longtemps à l’avance"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "SK Hynix, résultats 2025"
+  url: "https://technode.global/prnasia/sk-hynix-announces-fy25-financial-results-posts-record-high-results-and-delivers-highest-shareholder-returns/"
+- titre: "The Motley Fool, plus grandes entreprises tech (oct. 2026)"
+  url: "https://www.fool.com/research/largest-tech-companies"
+verifie_le: '2026-10-17'

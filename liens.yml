@@ -139,6 +139,11 @@
   type: investissement
   texte: "Nvidia investit dans Perplexity (janv. 2024)"
   source: "https://www.businesstoday.in/amp/entrepreneurship/start-up/story/perplexity-ai-raises-736m-in-funding-round-led-by-nvidia-bezos-now-valued-at-522m-412130-2024-01-06"
+- de: nvidia
+  vers: intel
+  type: investissement
+  texte: "Nvidia investit 5 Md$ dans Intel (finalisé fin 2025)"
+  source: "https://www.eenewseurope.com/en/nvidia-intel-stake-finalised-with-5-billion-share-purchase"
 - de: azure
   vers: openai
   type: partenariat
@@ -319,3 +324,38 @@
   type: partenariat
   texte: "Revolut et Google Cloud renforcent leur partenariat (sept. 2025)"
   source: "https://www.googlecloudpresscorner.com/2025-09-04-Revolut-and-Google-Cloud-Deepen-Strategic-Partnership-to-Power-Global-Growth-to-100M-Customers"
+- de: amd
+  vers: openai
+  type: partenariat
+  texte: "AMD fournit 6 GW de puces à OpenAI, qui peut devenir actionnaire d’AMD (oct. 2025)"
+  source: "https://openai.com/index/openai-amd-strategic-partnership"
+- de: broadcom
+  vers: openai
+  type: partenariat
+  texte: "Broadcom et OpenAI : 10 GW de puces d’IA conçues par OpenAI (oct. 2025)"
+  source: "https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/"
+- de: sk-hynix
+  vers: nvidia
+  type: partenariat
+  texte: "SK Hynix, premier fournisseur de mémoire HBM de Nvidia"
+  source: "https://mail.iconnect007.com/article/146969/nvidia-seeks-to-raise-hbm4-specs-in-response-to-amd-competition-sk-hynix-expected-to-remain-largest-supplier-in-2026/146966/smt"
+- de: dell
+  vers: nvidia
+  type: partenariat
+  texte: "Dell AI Factory : des serveurs d’IA construits avec Nvidia"
+  source: "https://www.dell.com/en-uk/blog/let-s-dive-into-the-dell-ai-factory-announcements-from-dell-technologies-world/"
+- de: arista
+  vers: microsoft
+  type: partenariat
+  texte: "Microsoft, l’un des deux plus gros clients d’Arista"
+  source: "https://americancompanies.com/news/arista-networks-inside-the-santa-clara-switch-makers-numbers/"
+- de: arista
+  vers: meta
+  type: partenariat
+  texte: "Meta, l’un des deux plus gros clients d’Arista"
+  source: "https://americancompanies.com/news/arista-networks-inside-the-santa-clara-switch-makers-numbers/"
+- de: pigment
+  vers: datadog
+  type: partenariat
+  texte: "Datadog utilise Pigment pour sa planification"
+  source: "https://mucrunch.beehiiv.com/p/french-startup-pigment-raises-145-million"

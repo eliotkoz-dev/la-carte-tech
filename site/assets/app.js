@@ -130,7 +130,7 @@
     const a = parId[id];
     $('resume-choix').replaceChildren(el('b', '', a.nom), ' ', el('span', '', `· ${CATEGORIES[a.categorie]} · ${REGIONS[a.region].nom} · ${a.ca} · ${texteLiens(a.id)}`));
     const be = a.bureauxEurope;
-    $('bureaux-choix').replaceChildren(el('b', '', 'Bureaux en Europe : '), be ? parPays(be.villes).map(([pays, villes]) => `${pays} (${villes.join(', ')})`).join(' · ') : 'aucun trouvé pour l’instant');
+    $('bureaux-choix').replaceChildren(el('b', '', 'Bureaux en Europe : '), be ? parPays(be.villes).map(([pays, villes]) => `${pays} (${villes.join(', ')})`).join(' · ') : 'pas encore renseigné');
   }
 
   // Les communes de la banlieue parisienne comptent pour « Paris » dans le filtre par ville.
@@ -286,7 +286,7 @@
     corps.append(bloc('Produits phares', prods));
     corps.append(bloc('Comment elle gagne de l’argent', el('p', '', a.modele), el('p', 'discret', `Clients : ${a.clients}`)));
     if (a.vente) corps.append(blocVente(a.vente));
-    corps.append(a.bureauxEurope ? blocBureaux(a.bureauxEurope) : bloc('Bureaux en Europe', el('p', 'discret', 'Aucun bureau en Europe trouvé pour l’instant.')));
+    corps.append(a.bureauxEurope ? blocBureaux(a.bureauxEurope) : bloc('Bureaux en Europe', el('p', 'discret', 'Pas encore renseigné.')));
     corps.append(bloc('Rachats marquants', liste(a.rachats)));
     if (a.note) corps.append(el('p', 'note', a.note));
     corps.append(bloc('Concurrents', el('p', '', a.concurrents)));

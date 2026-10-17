@@ -1,0 +1,44 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Back Market"
+categorie: ecommerce
+region: europe
+groupe: "Non cotée"
+siege: "Paris (France)"
+en_bref: "Les appareils reconditionnés"
+chiffre_affaires:
+  texte: "440 M€ en 2025"
+  md_usd: 0.5
+chiffres_cles:
+- "3 Md€ de ventes réalisées sur la plateforme en 2025 (+32 %)"
+- "18 millions de clients dans 17 pays"
+- "Rentable pour la première fois en 2025"
+- "Valorisée 5 Md€ (2022)"
+ce_qu_elle_vend: "Une place de marché de smartphones et d’ordinateurs reconditionnés, vendus par des professionnels et garantis."
+produits:
+- nom: "Place de marché"
+  detail: "appareils reconditionnés garantis"
+- nom: "Reprise"
+  detail: "revendre son ancien appareil"
+modele: "Commission sur chaque vente réalisée par les reconditionneurs."
+clients: "particuliers ; 1 800 reconditionneurs partenaires"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Amazon, Fnac Darty, Swappie"
+vente:
+  approche: libre-service
+  resume: "Les clients achètent sur le site ; une équipe recrute et contrôle les reconditionneurs qui vendent sur la plateforme."
+  acheteurs: "Les particuliers ; côté vendeurs, les reconditionneurs"
+  argument: "Moins cher que le neuf, garanti, et meilleur pour la planète"
+  objections:
+  - "La peur d’un appareil de moins bonne qualité"
+  - "Un prix proche du neuf sur les modèles récents"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Maddyness, Back Market rentable (févr. 2026)"
+  url: "https://www.maddyness.com/2026/02/04/back-market-devient-a-son-tour-rentable-pour-la-premiere-fois/"
+verifie_le: '2026-10-17'
