@@ -1,0 +1,65 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Adyen
+categorie: fintech
+region: europe
+groupe: Cotée à Amsterdam
+siege: Amsterdam (Pays-Bas)
+en_bref: Le paiement des grandes marques
+chiffre_affaires:
+  texte: "2,4 Md€ de revenu net en 2025 (+18 %)"
+  md_usd: 2.8
+chiffres_cles:
+- "1 400 Md€ de paiements traités (+8 %)"
+ce_qu_elle_vend: "Une plateforme unique pour encaisser en ligne, en application et en magasin, partout dans le monde."
+produits:
+- nom: Paiements en ligne
+  detail: site et application
+- nom: Terminaux
+  detail: paiement en magasin
+- nom: Adyen for Platforms
+  detail: paiements des marketplaces
+- nom: Issuing
+  detail: émission de cartes
+modele: Frais par transaction.
+clients: grandes marques internationales
+rachats:
+- Aucun rachat listé
+concurrents: "Stripe, Worldpay, Checkout.com"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent aux grandes marques internationales une plateforme pour tous leurs paiements."
+  acheteurs: "Le directeur financier, la direction e-commerce, et le DSI"
+  argument: "Une seule plateforme pour tous les pays et tous les canaux (en ligne et en magasin)"
+  objections:
+  - "Les frais par transaction"
+  - "Peu adapté aux petits commerçants"
+bureaux_europe:
+  villes:
+  - "Amsterdam (Pays-Bas)"
+  - "Paris (France)"
+  - "Londres (Royaume-Uni)"
+  - "Manchester (Royaume-Uni)"
+  - "Berlin (Allemagne)"
+  - "Munich (Allemagne)"
+  - "Bruxelles (Belgique)"
+  - "Madrid (Espagne)"
+  - "Milan (Italie)"
+  - "Prague (Tchéquie)"
+  - "Stockholm (Suède)"
+  - "Varsovie (Pologne)"
+  note: "Siège mondial à Amsterdam."
+  sources:
+  - titre: "Adyen, nos bureaux"
+    url: "https://adyen.com/offices"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage trouvée en octobre 2026 ; les offres visibles sont des postes de jeunes diplômés et confirmés."
+sources:
+- titre: "Adyen, résultats du 2e semestre 2025"
+  url: "https://www.adyen.com/press-and-media/adyen-publishes-h2-2025-financial-results-3pgu2"
+- titre: "FXC Intelligence, résultats 2025"
+  url: "https://www.fxcintel.com/research/analysis/ct-adyen-fy-25-earnings"
+verifie_le: '2026-10-17'

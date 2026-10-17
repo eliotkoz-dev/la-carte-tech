@@ -1,0 +1,94 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: AWS
+categorie: cloud
+region: amerique-du-nord
+groupe: Groupe Amazon
+siege: Seattle (États-Unis)
+en_bref: Le n°1 mondial du cloud
+chiffre_affaires:
+  texte: "128,7 Md$ en 2025 (+20 %)"
+  md_usd: 128.7
+chiffres_cles:
+- "42,2 Md$ au T2 2026 (+37 %), soit un rythme de près de 170 Md$ par an"
+- "N°1 mondial du cloud : 28 % du marché au T2 2026"
+ce_qu_elle_vend: "De l’informatique à la demande : serveurs, stockage, bases de données et IA, facturés à l’usage."
+produits:
+- nom: EC2
+  detail: serveurs virtuels à louer à l’heure
+- nom: S3
+  detail: stockage de fichiers en ligne
+- nom: RDS et DynamoDB
+  detail: bases de données gérées
+- nom: Amazon Bedrock
+  detail: "accès aux modèles d’IA, dont Claude"
+- nom: Trainium
+  detail: puces maison pour entraîner l’IA
+modele: "Paiement à l’usage (à l’heure, au gigaoctet, à la requête), avec des remises contre un engagement sur plusieurs années pour les grands comptes."
+clients: "startups, PME, grands groupes, secteur public"
+rachats:
+- "Annapurna Labs (2015) : conception de puces"
+concurrents: "Microsoft Azure, Google Cloud"
+note: Principal partenaire cloud d’Anthropic ; contrat de 38 Md$ avec OpenAI (nov. 2025).
+vente:
+  approche: mixte
+  resume: "N’importe qui ouvre un compte en ligne avec une carte bancaire ; pour les grands comptes, des commerciaux et des architectes techniques négocient des engagements sur plusieurs années. Beaucoup de ventes passent aussi par des intégrateurs et la place de marché AWS."
+  acheteurs: "Le DSI ou le directeur technique, les équipes de développeurs, et les achats pour les gros engagements"
+  argument: "Le catalogue de services le plus large et le plus ancien du marché"
+  objections:
+  - "La facture est difficile à prévoir et peut grimper vite"
+  - "La peur d’être enfermé chez un seul fournisseur"
+  - "La souveraineté des données pour les clients européens"
+bureaux_europe:
+  villes:
+  - "Courbevoie, La Défense (France)"
+  - "Luxembourg (Luxembourg)"
+  - "Londres (Royaume-Uni)"
+  - "Munich (Allemagne)"
+  - "Berlin (Allemagne)"
+  - "Madrid (Espagne)"
+  - "Milan (Italie)"
+  - "Bruxelles (Belgique)"
+  note: "Bureaux d’Amazon et d’AWS (liste partielle)."
+  sources:
+  - titre: "Amazon.jobs, offre de stage AWS en France"
+    url: "https://amazon.jobs/jobs/2773227"
+  - titre: "Amazon, nos bureaux dans le monde"
+    url: "https://www.aboutamazon.eu/news/working-at-amazon/our-global-offices"
+  - titre: "Amazon.jobs, Berlin"
+    url: "https://amazon.jobs/en/location/berlin-germany"
+  - titre: "Amazon.jobs, Bruxelles"
+    url: "https://amazon.jobs/en/location/brussels-belgium"
+stages:
+  statut: oui
+  detail: "Offre « Business Development Intern » en France : 3 à 6 mois, profils commerce et économie (offre 2025)."
+rejoindre:
+  bureaux:
+  - ville: Paris
+    detail: Offres de stage localisées à La Défense (Courbevoie) pour AWS France
+  voies:
+  - type: stage
+    nom: Business Development Intern
+    detail: 3 à 6 mois, profils commerce et économie (offre vue en 2025).
+  - type: stage
+    nom: Associate Solutions Architect Intern
+    detail: 12 à 26 semaines à temps plein, pour un étudiant en avant-dernière ou dernière année d’un cursus technique ; français et anglais courants.
+  langues: Français et anglais courants (offres France).
+  a_verifier: 'Alternance, VIE et programme jeunes diplômés : non trouvés sur les offres consultées.'
+  sources:
+  - titre: Amazon.jobs, offre Solutions Architect Intern (AWS France)
+    url: https://amazon.jobs/jobs/2798605
+  - titre: Amazon.jobs, offre Business Development Intern
+    url: https://amazon.jobs/jobs/2773227
+sources:
+- titre: "Amazon, résultats 2025"
+  url: "https://www.nasdaq.com/press-release/amazoncom-announces-fourth-quarter-results-2026-02-05"
+- titre: "Synergy Research, marché du cloud T2 2026"
+  url: "https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years"
+- titre: "Quartz, résultats T2 2026"
+  url: "https://qz.com/amazon-q2-2026-earnings-aws-cloud-growth-073026"
+- titre: "Amazon.jobs, offre de stage"
+  url: "https://amazon.jobs/jobs/2773227"
+verifie_le: '2026-10-17'

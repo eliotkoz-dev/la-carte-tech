@@ -1,0 +1,73 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Palo Alto Networks
+categorie: cyber
+region: amerique-du-nord
+groupe: Cotée à New York (Nasdaq)
+siege: Santa Clara (États-Unis)
+en_bref: Le n°1 de la cybersécurité
+chiffre_affaires:
+  texte: "11,48 Md$ sur l’exercice 2026"
+  md_usd: 11.48
+chiffres_cles: []
+ce_qu_elle_vend: "Des pare-feu, la sécurité du cloud et des plateformes qui détectent et bloquent les attaques."
+produits:
+- nom: Strata
+  detail: pare-feu réseau
+- nom: Cortex Cloud
+  detail: sécurité du cloud
+- nom: Cortex XSIAM
+  detail: centre de surveillance automatisé
+- nom: Prisma SASE
+  detail: accès sécurisé à distance
+modele: "Matériel et, de plus en plus, abonnements à la plateforme."
+clients: "grands groupes, secteur public"
+rachats:
+- "CyberArk (annoncé en 2025) : sécurité des identités"
+concurrents: "CrowdStrike, Fortinet, Microsoft"
+vente:
+  approche: partenaires
+  resume: "Surtout vendu par des revendeurs et intégrateurs en cybersécurité, avec des commerciaux Palo Alto sur les grands comptes."
+  acheteurs: "Le responsable de la sécurité informatique (RSSI) et le DSI"
+  argument: "Une plateforme unique pour remplacer plusieurs outils de sécurité"
+  objections:
+  - "Le prix"
+  - "Le coût et le risque de changer d’outils déjà en place"
+bureaux_europe:
+  villes:
+  - "Paris, Boulogne-Billancourt (France)"
+  - "Londres (Royaume-Uni)"
+  - "Dublin (Irlande)"
+  - "Munich (Allemagne)"
+  - "Francfort (Allemagne)"
+  - "Amsterdam (Pays-Bas)"
+  - "Anvers (Belgique)"
+  - "Madrid (Espagne)"
+  - "Barcelone (Espagne)"
+  - "Milan (Italie)"
+  - "Rome (Italie)"
+  - "Lisbonne (Portugal)"
+  - "Zurich (Suisse)"
+  - "Genève (Suisse)"
+  - "Vienne (Autriche)"
+  - "Prague (Tchéquie)"
+  - "Varsovie (Pologne)"
+  - "Stockholm (Suède)"
+  - "Helsinki (Finlande)"
+  - "Lysaker (Norvège)"
+  - "Ballerup (Danemark)"
+  - "Athènes (Grèce)"
+  sources:
+  - titre: "Palo Alto Networks, nos implantations"
+    url: "https://www.paloaltonetworks.com/company/locations"
+stages:
+  statut: a-verifier
+  detail: "Aucun stage ni alternance parmi les offres en France (Paris, Boulogne-Billancourt) consultées en octobre 2026 ; programmes de stage surtout aux États-Unis et en Inde."
+sources:
+- titre: "Palo Alto Networks, résultats 2026"
+  url: "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results"
+- titre: "Palo Alto Networks, offres en France"
+  url: "https://jobs.paloaltonetworks.com/en/location/france-jobs/47263/3017382/2"
+verifie_le: '2026-10-17'

@@ -1,0 +1,87 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Oracle
+categorie: cloud
+region: amerique-du-nord
+groupe: Cotée à New York
+siege: Austin (États-Unis)
+en_bref: "Bases de données, ERP et cloud"
+chiffre_affaires:
+  texte: "67,4 Md$ sur l’exercice 2026, clos fin mai (+17 %)"
+  md_usd: 67.4
+chiffres_cles:
+- "Cloud d’infrastructure (OCI) : 18,1 Md$ (+77 %)"
+ce_qu_elle_vend: "La base de données la plus utilisée par les grandes entreprises, des logiciels de gestion et un cloud qui loue de la puissance de calcul pour l’IA."
+produits:
+- nom: Oracle Database
+  detail: base de données
+- nom: OCI
+  detail: "cloud d’infrastructure, très utilisé pour l’IA"
+- nom: Fusion et NetSuite
+  detail: logiciels de gestion (ERP)
+- nom: Oracle Health
+  detail: "logiciels pour hôpitaux, ex-Cerner"
+modele: "Licences et maintenance de logiciels, abonnements cloud et location de capacité de calcul."
+clients: "grands groupes, secteur public"
+rachats:
+- "NetSuite (2016) : ERP"
+- "Cerner (2022) : santé"
+concurrents: "AWS, Microsoft, SAP"
+note: Partenaire d’OpenAI dans le projet d’infrastructure Stargate (2025).
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux grands comptes vendent licences, maintenance et cloud dans des contrats négociés sur plusieurs années."
+  acheteurs: "Le DSI et la direction des achats"
+  argument: "La base de données de référence des grands groupes, désormais disponible aussi dans les autres clouds"
+  objections:
+  - "Le prix des licences et les audits de licences"
+  - "La complexité des contrats"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Lyon (France)"
+  - "Lille (France)"
+  - "Toulouse (France)"
+  - "Aix-en-Provence (France)"
+  - "Sophia Antipolis (France)"
+  - "Strasbourg (France)"
+  - "Cesson-Sévigné (France)"
+  - "Lannion (France)"
+  - "Montbonnot (France)"
+  - "Londres (Royaume-Uni)"
+  - "Reading (Royaume-Uni)"
+  - "Manchester (Royaume-Uni)"
+  - "Bristol (Royaume-Uni)"
+  - "Leeds (Royaume-Uni)"
+  - "Solihull (Royaume-Uni)"
+  - "Linlithgow (Royaume-Uni)"
+  note: "Liste pour la France et le Royaume-Uni ; Oracle est présent dans presque tous les pays d’Europe."
+  sources:
+  - titre: "Oracle France, implantations"
+    url: "https://www.oracle.com/fr/corporate/contact/field-offices/"
+  - titre: "Oracle Royaume-Uni, implantations"
+    url: "https://oracle.com/uk/corporate/contact/field-offices"
+stages:
+  statut: a-verifier
+  detail: "Stages en développement (Tchéquie, Espagne), pas d’offre confirmée en France : à vérifier."
+rejoindre:
+  voies:
+  - type: graduate
+    nom: Génération Oracle
+    detail: Poste à temps plein en vente, ingénierie de solutions, conseil ou réussite client, pour diplômés et jeunes talents ; zone Europe, Moyen-Orient et Afrique.
+  - type: premier-poste
+    nom: Oracle NetSuite Business Development Representative
+    detail: Programme de carrière en vente chez NetSuite.
+  - type: stage
+    nom: Stages développeur et recherche
+    detail: Stages en République tchèque, en Espagne, en Autriche et en Suisse (Oracle Labs) ; une année de stage au Royaume-Uni.
+  a_verifier: La page étudiants ne cite aucune ville ni aucune offre propre à la France, et ne mentionne pas d’alternance.
+  sources:
+  - titre: Oracle, étudiants et diplômés
+    url: https://www.oracle.com/fr/careers/students-grads/
+sources:
+- titre: "Oracle, résultats de l’exercice 2026"
+  url: "https://www.oracle.com/ua/news/announcement/q4fy26-earnings-release-2026-06-10/"
+verifie_le: '2026-10-17'

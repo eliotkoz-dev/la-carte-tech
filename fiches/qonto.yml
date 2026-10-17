@@ -1,0 +1,82 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Qonto
+categorie: fintech
+region: europe
+groupe: Non cotée
+siege: Paris (France)
+en_bref: Le compte pro des PME
+chiffre_affaires:
+  texte: "495,4 M€ de produit net bancaire en 2025 (+10,4 %)"
+  md_usd: 0.57
+chiffres_cles:
+- "92,8 M€ de bénéfice net"
+ce_qu_elle_vend: "Un compte professionnel en ligne avec cartes, facturation et outils de gestion pour PME et indépendants."
+produits:
+- nom: Compte pro
+  detail: compte et cartes
+- nom: Facturation
+  detail: devis et factures
+- nom: Pré-comptabilité
+  detail: justificatifs et export comptable
+modele: "Abonnement mensuel selon la taille de l’entreprise, et frais sur les cartes."
+clients: "PME, indépendants"
+rachats:
+- "Penta (2022) : néobanque allemande"
+concurrents: "Revolut Business, Shine"
+vente:
+  approche: libre-service
+  resume: "Les entreprises ouvrent leur compte en ligne en quelques minutes ; beaucoup de clients viennent par les experts-comptables partenaires."
+  acheteurs: "Les dirigeants de PME, les indépendants, et leurs experts-comptables"
+  argument: "Une banque en ligne simple, avec des outils de gestion intégrés"
+  objections:
+  - "Le prix face aux banques traditionnelles"
+  - "Pas toute l’offre d’une banque classique (crédit)"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Berlin (Allemagne)"
+  - "Barcelone (Espagne)"
+  - "Milan (Italie)"
+  - "Belgrade (Serbie)"
+  sources:
+  - titre: "Welcome to the Jungle, offre de Qonto à Belgrade"
+    url: "https://www.welcometothejungle.com/en/companies/qonto/jobs/lead-customer-success-onboarding_belgrade"
+  - titre: "Beinsure, nouveau siège de Qonto à Paris"
+    url: "https://beinsure.com/news/fintech-qonto-opens-paris-headquarters-for-european-growth/"
+stages:
+  statut: oui
+  detail: "Stages de fin d’études et alternances à Paris."
+rejoindre:
+  bureaux:
+  - ville: Paris
+    detail: 3 200 m² en centre-ville
+  - ville: Berlin
+  - ville: Barcelone
+  - ville: Milan
+  - ville: Belgrade
+  voies:
+  - type: stage
+    nom: Stages de fin d’études (partenariats, opérations commerciales…)
+    detail: Stages à Paris, dont un Sales Operations Intern de 6 mois.
+  - type: alternance
+    nom: Alternances (partenariats, comptabilité…)
+    detail: Offres d’alternance à Paris.
+  calendrier: 'Processus de recrutement : environ 20 jours ouvrés, six étapes dont un cas pratique.'
+  langues: Candidature recommandée en anglais, langue de travail.
+  a_verifier: 'Programme jeunes diplômés et VIE : non trouvés.'
+  sources:
+  - titre: Qonto, parcours de candidature et bureaux
+    url: https://qonto.com/fr/careers/candidate-journey
+  - titre: Offre Partnerships Intern, Paris
+    url: https://www.welcometothejungle.com/en/companies/qonto/jobs/partnerships-intern-end-of-study-internship_paris
+  - titre: Offre Partnerships Apprentice, Paris
+    url: https://www.welcometothejungle.com/cs/companies/qonto/jobs/partnerships-apprentice_paris
+sources:
+- titre: "Boursedescredits, résultats 2025"
+  url: "https://www.boursedescredits.com/actualite-resultats-2025-fintech-francaise-qonto-confirme-rentabilite-voit-benefice-reculer-36-29808.php"
+- titre: "Business Cool, rachat de Penta"
+  url: "https://business-cool.com/actualites/actu-business/qonto-rachat-penta/"
+verifie_le: '2026-10-17'

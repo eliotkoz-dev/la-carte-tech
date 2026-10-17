@@ -1,0 +1,56 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Cohere
+categorie: ia
+region: amerique-du-nord
+groupe: Non cotée
+siege: Toronto (Canada)
+en_bref: L’IA générative pour les entreprises
+chiffre_affaires:
+  texte: "Environ 240 M$ de revenu récurrent annuel fin 2025"
+  md_usd: 0.24
+chiffres_cles:
+- Valorisée 6,8 Md$ en août 2025 (levée de 500 M$)
+- Environ 7 Md$ de valorisation début 2026
+ce_qu_elle_vend: "Des modèles d’IA et des agents pensés pour les entreprises, qui peuvent tourner dans leur propre cloud ou sur leurs serveurs."
+produits:
+- nom: Command
+  detail: modèles de langage pour les entreprises
+- nom: Embed et Rerank
+  detail: modèles pour chercher dans les documents de l’entreprise
+- nom: North
+  detail: plateforme d’agents IA pour les salariés
+modele: "Licences et API vendues aux entreprises, souvent installées dans un cloud privé."
+clients: grandes entreprises et administrations, banques, télécoms
+rachats:
+- Aucun rachat listé
+concurrents: "OpenAI, Anthropic, Mistral AI"
+note: "Partenaires cités : Oracle, SAP, Dell, Bell et Fujitsu."
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent aux grandes entreprises, souvent avec des partenaires (Oracle, SAP, Dell) qui intègrent les modèles dans leurs offres."
+  acheteurs: "Le DSI et les responsables de la sécurité, dans les secteurs régulés"
+  argument: "Une IA sûre et privée, qui peut tourner chez le client"
+  objections:
+  - "Des modèles moins connus que ceux d’OpenAI ou d’Anthropic"
+  - "Le retour sur investissement difficile à mesurer"
+bureaux_europe:
+  villes:
+  - "Londres (Royaume-Uni)"
+  - "Paris (France)"
+  sources:
+  - titre: "ResumeGeni, offre de Cohere listant ses bureaux"
+    url: "https://resumegeni.com/jobs/software-engineer-intern-fall-winter-2026-at-cohere-canada"
+stages:
+  statut: oui
+  detail: "Stages ingénieur et recherche de 3 à 6 mois (automne-hiver 2026, au Canada), offre publiée en mai 2026 sur un site relais ; bureaux aussi à Paris et Londres."
+sources:
+- titre: "TechCrunch, Cohere valorisée 6,8 Md$ (août 2025)"
+  url: "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"
+- titre: "Let’s Data Science, Cohere à 240 M$ de revenu récurrent (fév. 2026)"
+  url: "https://www.letsdatascience.com/news/cohere-reports-240-million-annual-recurring-revenue-de054e11"
+- titre: "ResumeGeni, offre Software Engineer Intern de Cohere (relais)"
+  url: "https://resumegeni.com/jobs/software-engineer-intern-fall-winter-2026-at-cohere-canada"
+verifie_le: '2026-10-17'

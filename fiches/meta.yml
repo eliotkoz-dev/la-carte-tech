@@ -1,0 +1,89 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Meta
+categorie: pub
+region: amerique-du-nord
+aussi: [ia]
+groupe: Cotée à New York (Nasdaq)
+siege: Menlo Park (États-Unis)
+en_bref: "Facebook, Instagram, WhatsApp"
+chiffre_affaires:
+  texte: "201,0 Md$ en 2025 (+22 %)"
+  md_usd: 201
+chiffres_cles:
+- "3,58 milliards de personnes utilisent une app Meta chaque jour (déc. 2025)"
+- 78 865 salariés fin 2025
+ce_qu_elle_vend: "Des réseaux sociaux et messageries gratuits, financés par la publicité ciblée."
+produits:
+- nom: Facebook
+  detail: réseau social
+- nom: Instagram
+  detail: "photos, vidéos, Reels"
+- nom: WhatsApp
+  detail: messagerie
+- nom: Meta AI et Llama
+  detail: assistant et modèles d’IA ouverts
+- nom: Ray-Ban Meta
+  detail: lunettes connectées
+modele: "Presque entièrement la publicité, vendue aux enchères et ciblée selon les centres d’intérêt."
+clients: annonceurs (des PME aux grandes marques)
+rachats:
+- Instagram (2012)
+- WhatsApp (2014)
+- "Oculus (2014) : réalité virtuelle"
+concurrents: "Google, TikTok, Snap"
+vente:
+  approche: mixte
+  resume: "La plupart des annonceurs achètent seuls dans le gestionnaire de publicités ; les grandes marques et les agences ont des équipes dédiées."
+  acheteurs: "Les directions marketing, les e-commerçants et les agences"
+  argument: "Une audience immense et un ciblage précis"
+  objections:
+  - "La mesure des résultats depuis les limites au suivi sur iPhone"
+  - "La sécurité des marques (publicité à côté de contenus problématiques)"
+bureaux_europe:
+  villes:
+  - "Dublin (Irlande)"
+  - "Cork (Irlande)"
+  - "Londres (Royaume-Uni)"
+  - "Paris (France)"
+  - "Berlin (Allemagne)"
+  - "Hambourg (Allemagne)"
+  - "Amsterdam (Pays-Bas)"
+  - "Madrid (Espagne)"
+  - "Milan (Italie)"
+  - "Rome (Italie)"
+  - "Zurich (Suisse)"
+  - "Prague (Tchéquie)"
+  - "Varsovie (Pologne)"
+  note: "Siège européen à Dublin."
+  sources:
+  - titre: "Relocate.me, Meta en Europe (mis à jour en 2026)"
+    url: "https://relocate.me/blog/wp-json/wp/v2/posts/1938"
+stages:
+  statut: oui
+  detail: "Stage de 12 semaines à Dublin, de juin à septembre."
+rejoindre:
+  bureaux:
+  - ville: Dublin
+    detail: 'Siège EMEA : équipes commerciales et partenaires'
+  voies:
+  - type: stage
+    nom: Account Manager, Intern
+    detail: 12 semaines, de juin à septembre à Dublin ; étudiant en licence (commerce, marketing, communication) ; anglais courant et une autre langue parmi français, allemand, suédois, danois, norvégien ou arabe.
+  - type: graduate
+    nom: University Grad
+    detail: 'Postes pour jeunes diplômés, listés sur la page étudiants (exemple : Network Production Engineer à Dublin).'
+  calendrier: Stage d’été de 12 semaines, de juin à septembre.
+  langues: Anglais courant et une langue européenne.
+  a_verifier: 'Paris et Londres : aucune offre étudiante vue ; autorisation de travail en Irlande exigée.'
+  sources:
+  - titre: Meta, offre Account Manager Intern (Dublin)
+    url: https://metacareers.com/jobs/966777912156187
+  - titre: Meta, étudiants et jeunes diplômés
+    url: https://www.metacareers.com/students-and-grads
+sources:
+- titre: "Meta, résultats 2025"
+  url: "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-12312025xexhibit991.htm"
+verifie_le: '2026-10-17'

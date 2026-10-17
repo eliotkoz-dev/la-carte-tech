@@ -1,0 +1,54 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: TSMC
+categorie: puces
+region: asie
+groupe: Cotée à Taïwan et New York
+siege: Hsinchu (Taïwan)
+en_bref: L’usine des puces du monde
+chiffre_affaires:
+  texte: "122,4 Md$ en 2025 (+35,9 %)"
+  md_usd: 122.4
+chiffres_cles:
+- "3 809 Md de dollars taïwanais (+31,6 %)"
+ce_qu_elle_vend: "Fabrique les puces conçues par d’autres (Apple, Nvidia, AMD…) : c’est le premier « fondeur » mondial."
+produits:
+- nom: Gravure 3 et 2 nanomètres
+  detail: les puces les plus avancées
+- nom: Packaging avancé (CoWoS)
+  detail: assemblage des puces d’IA
+modele: "Fabrication à façon : les clients conçoivent la puce, TSMC la produit dans ses usines."
+clients: "Apple, Nvidia, AMD, Qualcomm…"
+rachats:
+- Aucun rachat listé
+concurrents: "Samsung Foundry, Intel Foundry"
+note: Achète ses machines de gravure les plus avancées à ASML.
+vente:
+  approche: vente-directe
+  resume: "Quelques dizaines de très gros clients, suivis directement sur des années : TSMC réserve sa capacité de production longtemps à l’avance."
+  acheteurs: "Les dirigeants et les équipes de conception de puces des clients"
+  argument: "La technologie de gravure la plus avancée et une production très fiable"
+  objections:
+  - "Les capacités de production limitées pour les puces les plus avancées"
+  - "La concentration de la production à Taïwan"
+bureaux_europe:
+  villes:
+  - "Munich (Allemagne)"
+  - "Dresde (Allemagne)"
+  note: "Centre de conception à Munich (2026) ; usine ESMC à Dresde."
+  sources:
+  - titre: "Komo, sites de TSMC"
+    url: "https://komo.ai/directory/tsmc-offices"
+  - titre: "ESMC, programmes étudiants"
+    url: "https://esmc.eu/en/academy_program.html"
+stages:
+  statut: a-verifier
+  detail: "Pas de stage trouvé en Europe ; via ESMC, sa filiale de Dresde, un stage d’été de 4 semaines à Taïwan (session 2025 close)."
+sources:
+- titre: "TelecomLead, résultats 2025"
+  url: "https://telecomlead.com/semiconductor/tsmc-delivers-record-2025-revenue-and-profit-as-ai-chip-demand-fuels-growth-us-expansion-accelerates-124150"
+- titre: "ESMC, programmes étudiants"
+  url: "https://esmc.eu/en/academy_program.html"
+verifie_le: '2026-10-17'

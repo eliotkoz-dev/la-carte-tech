@@ -1,0 +1,65 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: ASML
+categorie: puces
+region: europe
+groupe: Cotée à Amsterdam
+siege: Veldhoven (Pays-Bas)
+en_bref: Les machines qui gravent les puces
+chiffre_affaires:
+  texte: "32,7 Md€ en 2025 (+15,6 %)"
+  md_usd: 37.6
+chiffres_cles:
+- "Bénéfice net : 9,6 Md€"
+ce_qu_elle_vend: "Les machines de lithographie qui gravent les puces ; seule entreprise au monde à fabriquer les machines EUV, indispensables aux puces les plus fines."
+produits:
+- nom: EUV
+  detail: lithographie extrême ultraviolet
+- nom: DUV
+  detail: lithographie classique
+- nom: Services
+  detail: maintenance et mises à jour des machines
+modele: "Vente de machines très chères aux fabricants de puces, puis maintenance sur des années."
+clients: "TSMC, Samsung, Intel…"
+rachats:
+- "Cymer (2013) : sources de lumière"
+- "HMI (2016) : inspection"
+concurrents: "Canon, Nikon"
+note: "Premier actionnaire de Mistral AI : 1,3 Md€ investis en 2025."
+vente:
+  approche: vente-directe
+  resume: "Très peu de clients, qui commandent des machines des années à l’avance ; ASML vend ensuite la maintenance et les mises à jour."
+  acheteurs: "Les dirigeants et les équipes industrielles des fabricants de puces"
+  argument: "Le seul fabricant au monde des machines de lithographie EUV"
+  objections:
+  - "Le prix très élevé de chaque machine"
+  - "Les restrictions d’exportation vers la Chine"
+bureaux_europe:
+  villes:
+  - "Veldhoven (Pays-Bas)"
+  - "Delft (Pays-Bas)"
+  - "Louvain (Belgique)"
+  - "Crolles (France)"
+  - "Berlin (Allemagne)"
+  - "Dresde (Allemagne)"
+  - "Erlangen (Allemagne)"
+  - "Maynooth (Irlande)"
+  - "Avezzano (Italie)"
+  - "Lanarkshire (Royaume-Uni)"
+  note: "Siège mondial à Veldhoven."
+  sources:
+  - titre: "ASML, nos implantations"
+    url: "https://www.asml.com/en/company/about-asml/locations"
+stages:
+  statut: oui
+  detail: "Stages surtout en ingénierie, par exemple un stage logiciel à l’été 2026 aux États-Unis (Wilton) ; rien trouvé en France."
+sources:
+- titre: "ASML, résultats 2025"
+  url: "https://investor.asml.com/news-releases/news-release-details/q4-2025-financial-results"
+- titre: "ASML, partenariat avec Mistral AI"
+  url: "https://www.asml.com/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership"
+- titre: "ASML, offre Internship Software Engineer Summer 2026"
+  url: "https://www.asml.com/en/careers/find-your-job/internship-software-engineer-summer-2026-j00329977"
+verifie_le: '2026-10-17'

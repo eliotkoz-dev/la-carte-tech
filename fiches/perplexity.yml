@@ -1,0 +1,57 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Perplexity
+categorie: ia
+region: amerique-du-nord
+groupe: Non cotée
+siege: San Francisco (États-Unis)
+en_bref: Le moteur de réponses par IA
+chiffre_affaires:
+  texte: "Plus de 750 M$ annualisés (sept. 2026, selon la presse)"
+  md_usd: 0.75
+chiffres_cles:
+- Valorisée 20 Md$ (sept. 2025)
+- 37,9 millions d’utilisateurs mensuels sur mobile (fév. 2026)
+ce_qu_elle_vend: "Un moteur de recherche qui répond directement aux questions avec des sources, et des agents qui font des tâches à la place de l’utilisateur."
+produits:
+- nom: Perplexity
+  detail: moteur de réponses avec sources
+- nom: Comet
+  detail: navigateur web avec IA
+- nom: Computer
+  detail: agents qui font des tâches (2026)
+- nom: Enterprise
+  detail: version pour les entreprises
+modele: "Abonnements (particuliers et entreprises), avec des crédits à l’usage pour les agents."
+clients: grand public, entreprises
+rachats:
+- Aucun rachat listé
+concurrents: "Google, OpenAI (ChatGPT)"
+vente:
+  approche: mixte
+  resume: "Les particuliers et les petites équipes s’abonnent en ligne ; une équipe commerciale vend l’offre Enterprise."
+  acheteurs: "Le grand public ; en entreprise, les directions métiers et le DSI"
+  argument: "Des réponses rapides, toujours avec leurs sources"
+  objections:
+  - "Google et ChatGPT font déjà la même chose"
+  - "La fiabilité des réponses et la confidentialité des recherches"
+bureaux_europe:
+  villes:
+  - "Londres (Royaume-Uni)"
+  note: "Programme de stage à Londres (liste partielle)."
+  sources:
+  - titre: "Built In, programme de stage à Londres"
+    url: "https://builtin.com/job/uk-internship-program/6259270"
+stages:
+  statut: a-verifier
+  detail: "Programme de stage à Londres (13 semaines, équipe inférence IA, master ou doctorat), offre retirée en janvier 2026."
+sources:
+- titre: "Fast Company, revenus et valorisation de Perplexity (sept. 2026)"
+  url: "https://fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity"
+- titre: "Reuters via Yahoo, Perplexity valorisée 20 Md$ (sept. 2025)"
+  url: "https://tech.yahoo.com/ai/articles/perplexity-finalizes-20-billion-valuation-232758661.html"
+- titre: "Built In, UK Internship Program de Perplexity (relais)"
+  url: "https://builtin.com/job/uk-internship-program/6259270"
+verifie_le: '2026-10-17'

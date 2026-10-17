@@ -1,0 +1,92 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Google Cloud
+categorie: cloud
+region: amerique-du-nord
+aussi: [ia]
+groupe: Groupe Alphabet
+siege: Californie (États-Unis)
+en_bref: "Cloud, data et IA (Gemini)"
+chiffre_affaires:
+  texte: Rythme annuel de plus de 70 Md$ fin 2025
+  md_usd: 70
+chiffres_cles:
+- "24,8 Md$ au T2 2026 (+82 %), soit près de 100 Md$ par an"
+- "15 % du marché mondial du cloud au T2 2026"
+ce_qu_elle_vend: "Le cloud de Google : serveurs, analyse de données, IA et outils de bureautique pour les entreprises."
+produits:
+- nom: Compute Engine
+  detail: serveurs à la demande
+- nom: BigQuery
+  detail: analyse de très gros volumes de données
+- nom: Vertex AI
+  detail: "plateforme d’IA : modèles Gemini, Claude…"
+- nom: TPU
+  detail: puces maison pour l’IA
+- nom: Google Workspace
+  detail: "Gmail, Docs, Meet pour les entreprises"
+modele: "Paiement à l’usage pour le cloud, abonnement par utilisateur pour Workspace."
+clients: "entreprises de toutes tailles, startups IA"
+rachats:
+- "Wiz (finalisé en mars 2026, 32 Md$) : sécurité du cloud"
+- "Mandiant (2022) : cybersécurité"
+- "Looker (2020) : data"
+concurrents: "AWS, Microsoft Azure"
+note: Fournit à Anthropic jusqu’à un million de puces TPU (accord d’octobre 2025).
+vente:
+  approche: mixte
+  resume: "Inscription en ligne pour les petits clients ; pour les grands, des commerciaux et des « customer engineers » (avant-vente technique) accompagnent le projet, souvent avec des partenaires intégrateurs."
+  acheteurs: "Le DSI, le directeur data et les équipes IA"
+  argument: "L’IA (Gemini, puces TPU) et l’analyse de données (BigQuery)"
+  objections:
+  - "Une part de marché plus faible qu’AWS et Azure : moins de partenaires et d’experts disponibles"
+  - "Le coût et l’effort de migration depuis un autre cloud"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Londres (Royaume-Uni)"
+  - "Dublin (Irlande)"
+  - "Zurich (Suisse)"
+  - "Munich (Allemagne)"
+  - "Berlin (Allemagne)"
+  - "Hambourg (Allemagne)"
+  - "Francfort (Allemagne)"
+  - "Amsterdam (Pays-Bas)"
+  - "Bruxelles (Belgique)"
+  - "Madrid (Espagne)"
+  - "Milan (Italie)"
+  - "Lisbonne (Portugal)"
+  - "Copenhague (Danemark)"
+  - "Aarhus (Danemark)"
+  - "Stockholm (Suède)"
+  - "Oslo (Norvège)"
+  - "Helsinki (Finlande)"
+  - "Varsovie (Pologne)"
+  - "Cracovie (Pologne)"
+  - "Wrocław (Pologne)"
+  - "Prague (Tchéquie)"
+  - "Vienne (Autriche)"
+  - "Bucarest (Roumanie)"
+  - "Athènes (Grèce)"
+  - "Vilnius (Lituanie)"
+  note: "Google Cloud fait partie de Google : ce sont les bureaux de Google."
+  sources:
+  - titre: "Google, nos implantations"
+    url: "https://about.google/company-info/locations/"
+stages:
+  statut: alternance
+  detail: "Alternance « Customer Engineer » en vente cloud à Paris (2 ans), réservée aux profils techniques Bac+5."
+sources:
+- titre: "Alphabet, résultats 2025"
+  url: "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf"
+- titre: "Dukascopy, résultats Alphabet T2 2026"
+  url: "https://www.dukascopy.com/swiss/french/marketwatch/market-news/Stock-Analysis/155537/"
+- titre: "Google Cloud, rachat de Wiz"
+  url: "https://www.googlecloudpresscorner.com/2026-03-11-Google-Completes-Acquisition-of-Wiz"
+- titre: "Google Cloud, Anthropic et les TPU (oct. 2025)"
+  url: "https://www.googlecloudpresscorner.com/2025-10-23-Anthropic-to-Expand-Use-of-Google-Cloud-TPUs-and-Services"
+- titre: Offre d’alternance Customer Engineer
+  url: "https://jobs.anitab.org/companies/google-24698/jobs/67874253-customer-engineer-apprenticeship-cloud-sales-september-2026-start-english-french"
+verifie_le: '2026-10-17'

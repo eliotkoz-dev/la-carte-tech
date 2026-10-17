@@ -1,0 +1,83 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: TikTok · ByteDance
+categorie: pub
+region: asie
+aussi: [ecommerce]
+groupe: "Groupe ByteDance, non coté"
+siege: Pékin · bureaux à Paris
+en_bref: "Vidéos courtes, pub et e-commerce"
+chiffre_affaires:
+  texte: Environ 155 Md$ en 2024 (Bloomberg)
+  md_usd: 155
+chiffres_cles:
+- "2025 : environ +50 % à l’international et +20 % en Chine (presse chinoise)"
+- "TikTok Shop France : plus de 33 000 vendeurs (mars 2026)"
+ce_qu_elle_vend: "Les applications de vidéos courtes TikTok et Douyin, financées par la publicité et l’achat intégré (TikTok Shop)."
+produits:
+- nom: TikTok et Douyin
+  detail: vidéos courtes
+- nom: TikTok for Business
+  detail: publicité
+- nom: TikTok Shop
+  detail: e-commerce dans l’application
+- nom: CapCut
+  detail: montage vidéo
+- nom: Volcano Engine et BytePlus
+  detail: cloud et IA
+modele: Publicité et commissions sur les ventes TikTok Shop.
+clients: "marques, agences, commerçants"
+rachats:
+- "Musical.ly (2017), fusionné dans TikTok"
+concurrents: "Meta, YouTube, Amazon"
+vente:
+  approche: mixte
+  resume: "Achat en ligne pour les petits annonceurs ; des équipes commerciales (Global Business Solutions) pour les marques et les agences."
+  acheteurs: "Les directions marketing, les agences, et les commerçants (TikTok Shop)"
+  argument: "Une audience jeune et des contenus qui font acheter"
+  objections:
+  - "L’incertitude réglementaire autour de TikTok"
+  - "La sécurité des marques"
+bureaux_europe:
+  villes:
+  - "Dublin (Irlande)"
+  - "Londres (Royaume-Uni)"
+  - "Paris (France)"
+  - "Berlin (Allemagne)"
+  - "Madrid (Espagne)"
+  - "Amsterdam (Pays-Bas)"
+  note: "Siège européen à Dublin."
+  sources:
+  - titre: "Nexscope, bureaux de TikTok"
+    url: "https://www.nexscope.ai/blog/tiktok-headquarters"
+stages:
+  statut: oui
+  detail: "Stages de 3 à 6 mois à Paris (Global Business Solutions)."
+rejoindre:
+  bureaux:
+  - ville: Paris
+    detail: Équipe Global Business Solutions France-Benelux
+  voies:
+  - type: stage
+    nom: Global Business Solutions intern
+    detail: 3 à 6 mois à Paris, début immédiat, aux côtés de l’équipe Customer Success (luxe, beauté, grande consommation) ; anglais et français professionnels.
+  - type: stage
+    nom: Luxury & fashion project intern (GBS)
+    detail: Stage à début 2026, même équipe.
+  langues: Anglais et français professionnels.
+  a_verifier: 'Alternance, VIE et programme jeunes diplômés : non trouvés ; autres villes européennes non vérifiées.'
+  sources:
+  - titre: Offre GBS intern Paris
+    url: https://www.themuse.com/jobs/tiktok/tiktok-global-business-solutions-intern-paris-2025
+  - titre: Offre Luxury & fashion project intern (GBS)
+    url: https://www.heysuccess.com/opportunity/TikTok-Luxury-fashion-project-intern-(GBS)-2026-start-57729
+sources:
+- titre: "Bloomberg Law, chiffre d’affaires de ByteDance"
+  url: "https://news.bloomberglaw.com/capital-markets/bytedance-aims-to-match-meta-sales-in-2025-as-tiktok-gains-steam"
+- titre: "TechNode, résultats 2025 de ByteDance"
+  url: "https://technode.com/2026/04/20/bytedance-2025-profit-drops-over-70-amid-surging-ai-investment"
+- titre: "Les Gens d’Internet, TikTok Shop France"
+  url: "https://gensdinternet.fr/2026/03/13/plus-de-33-000-vendeurs-sont-presents-sur-tiktok-shop-en-france/"
+verifie_le: '2026-10-17'

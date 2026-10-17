@@ -1,0 +1,83 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Mirakl
+categorie: ecommerce
+region: europe
+groupe: Non cotée
+siege: Paris (France)
+en_bref: Le logiciel des marketplaces
+chiffre_affaires:
+  texte: "218 M$ de revenus récurrents annuels en 2025 (+23 %)"
+  md_usd: 0.22
+chiffres_cles:
+- "14,6 Md$ de ventes réalisées sur les marketplaces de ses clients (+31 %)"
+- Plus de 450 clients
+- Rentable sur l’année 2025
+ce_qu_elle_vend: "Le logiciel qui permet à une enseigne ou à un distributeur B2B de lancer sa propre marketplace, avec des vendeurs tiers."
+produits:
+- nom: Mirakl Marketplace
+  detail: lancer une place de marché
+- nom: Mirakl Ads
+  detail: retail media
+- nom: Mirakl Payout
+  detail: paiement des vendeurs
+- nom: Mirakl Nexus
+  detail: commerce par agents IA
+modele: Abonnement SaaS et part du volume de ventes réalisé.
+clients: grandes enseignes et distributeurs B2B
+rachats:
+- Aucun rachat listé
+concurrents: "VTEX, Marketplacer"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent aux grands distributeurs un projet de place de marché, sur plusieurs mois."
+  acheteurs: "La direction générale et la direction e-commerce des distributeurs"
+  argument: "Lancer une place de marché sans gérer de stock supplémentaire"
+  objections:
+  - "Un projet de transformation lourd"
+  - "La part prise sur le volume de ventes"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Bordeaux (France)"
+  - "Londres (Royaume-Uni)"
+  - "Munich (Allemagne)"
+  - "Barcelone (Espagne)"
+  sources:
+  - titre: "Mirakl, nouveaux bureaux à Bordeaux"
+    url: "https://www.mirakl.com/fr-fr/news/mirakl-inaugure-ses-nouveaux-bureaux-a-bordeaux-en-vue-dune-croissance-de-ses-equipes-dans-la-region/"
+stages:
+  statut: oui
+  detail: "Stages de 6 mois et alternance à Paris."
+rejoindre:
+  bureaux:
+  - ville: Paris
+    detail: Double siège avec Boston
+  - ville: Boston
+  - ville: Londres
+  - ville: Barcelone
+  - ville: Bordeaux
+  - ville: Munich
+  - ville: New York
+  - ville: Sydney
+  - ville: Tokyo
+  voies:
+  - type: stage
+    nom: Stages à Paris
+    detail: Business Value Consultant, finance, data science, IA, communication ; 6 mois, étudiant en dernière année de master, anglais et français exigés.
+  - type: alternance
+    nom: Customer Marketing Apprentice
+    detail: Offre d’alternance à Paris.
+  langues: Anglais et français à l’écrit et à l’oral.
+  a_verifier: 'Programme jeunes diplômés et VIE : non trouvés ; les offres citées étaient fermées au moment de la vérification.'
+  sources:
+  - titre: Offre Business Value Consultant Intern, Paris
+    url: https://www.welcometothejungle.com/fr/companies/mirakl/jobs/business-value-consultant-stage_paris
+  - titre: Offre Customer Marketing Apprentice, Paris
+    url: https://welcometothejungle.com/fr/companies/mirakl/jobs/customer-marketing-apprentice_paris
+sources:
+- titre: "Mirakl, résultats 2025"
+  url: "https://www.mirakl.com/fr-fr/news/mirakl-resultats-2025-commerce-agentique-mirakl-nexus/"
+verifie_le: '2026-10-17'

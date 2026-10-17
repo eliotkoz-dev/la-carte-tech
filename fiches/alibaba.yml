@@ -1,0 +1,60 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Alibaba
+categorie: ecommerce
+region: asie
+groupe: Cotée à New York et Hong Kong
+siege: Hangzhou (Chine)
+en_bref: Le géant chinois du e-commerce
+chiffre_affaires:
+  texte: "1 023,7 Md de yuans sur l’exercice 2026 (+3 %), ≈ 142 Md$"
+  md_usd: 142
+chiffres_cles:
+- "Cloud : 41,6 Md de yuans au T1 2026 (+38 %)"
+ce_qu_elle_vend: "Les grandes places de marché chinoises (Taobao, Tmall), AliExpress à l’international, le B2B et le cloud."
+produits:
+- nom: Taobao et Tmall
+  detail: marketplaces en Chine
+- nom: AliExpress
+  detail: e-commerce international
+- nom: Alibaba.com
+  detail: commerce entre entreprises
+- nom: Alibaba Cloud
+  detail: cloud (voir la fiche)
+modele: "Commissions et publicité payées par les marchands, plus le cloud."
+clients: "marchands, grand public, entreprises"
+rachats:
+- "Lazada (2016) : Asie du Sud-Est"
+- "Ele.me (2018) : livraison de repas"
+concurrents: "JD.com, PDD (Temu), Amazon"
+vente:
+  approche: mixte
+  resume: "Les marchands ouvrent leur boutique en ligne et achètent de la publicité ; les grandes marques ont des équipes dédiées."
+  acheteurs: "Les marchands et les marques, surtout en Chine"
+  argument: "L’accès au plus grand marché de commerce en ligne chinois"
+  objections:
+  - "Les commissions et le coût de la publicité"
+  - "La concurrence (PDD, JD.com, Douyin)"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Francfort (Allemagne)"
+  note: "Liste partielle : région cloud ouverte à Paris en juin 2026, postes à Francfort ; autres sites en Allemagne et au Royaume-Uni sans ville précisée."
+  sources:
+  - titre: "Solutions Numériques, région Alibaba Cloud en France (juin 2026)"
+    url: "https://www.solutions-numeriques.com/communiques/alibaba-cloud-ouvre-une-region-cloud-en-france-structuree-autour-de-deux-zones-de-disponibilite/"
+  - titre: "Tiger Brokers, programme de stage mondial d’Alibaba"
+    url: "https://www-web.itiger.com/news/1152346468"
+stages:
+  statut: oui
+  detail: "Programme de stage mondial lancé en mars 2026 pour les diplômés 2027, dans 16 entités du groupe, avec des postes à Francfort et Singapour."
+sources:
+- titre: "Alibaba, résultats de l’exercice 2026 (Business Wire)"
+  url: "https://secure.businesswire.com/news/home/20260512841182/en/Alibaba-Group-Announces-March-Quarter-2026-and-Fiscal-Year-2026-Results"
+- titre: "Tiger Brokers, résultats Alibaba exercice 2026"
+  url: "https://www.itiger.com/news/1117739449"
+- titre: "Tiger Brokers, programme de stage mondial d’Alibaba (mars 2026)"
+  url: "https://www-web.itiger.com/news/1152346468"
+verifie_le: '2026-10-17'

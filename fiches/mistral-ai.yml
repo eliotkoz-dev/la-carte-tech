@@ -1,0 +1,60 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Mistral AI
+categorie: ia
+region: europe
+groupe: "Non cotée, fondée en 2023"
+siege: Paris (France)
+en_bref: Le champion français de l’IA
+chiffre_affaires:
+  texte: Plus de 400 M$ de revenu récurrent annuel
+  md_usd: 0.4
+chiffres_cles:
+- Plus de 11 Md€ de valorisation après la levée menée par ASML (sept. 2025)
+- Environ 350 personnes (2025)
+ce_qu_elle_vend: "Des modèles d’IA ouverts et commerciaux, et l’assistant Le Chat, pour les entreprises et administrations surtout en Europe."
+produits:
+- nom: Le Chat
+  detail: assistant ; offres Pro et Entreprise
+- nom: Mistral Large et Medium
+  detail: modèles généralistes
+- nom: Codestral
+  detail: modèle pour le code
+modele: "Licences et API pour les entreprises, souvent installées sur leurs propres serveurs ; abonnements Le Chat."
+clients: "entreprises et administrations, surtout en Europe"
+rachats:
+- "Koyeb (fév. 2026) : hébergement"
+- "Emmi AI (mai 2026) : simulation industrielle"
+concurrents: "OpenAI, Anthropic, Google"
+note: "ASML est devenu son premier actionnaire en 2025 (1,3 Md€ investis)."
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent aux grandes entreprises et aux administrations, souvent avec une installation sur leurs propres serveurs."
+  acheteurs: "Le DSI, le directeur data, et les acheteurs publics"
+  argument: "Un acteur européen, des modèles ouverts que le client peut installer chez lui"
+  objections:
+  - "Les performances face aux leaders américains"
+  - "La taille de l’entreprise et sa capacité d’accompagnement"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Londres (Royaume-Uni)"
+  note: "Siège à Paris ; un bureau en Allemagne aussi, sans ville précisée."
+  sources:
+  - titre: "Komo, bureaux de Mistral AI"
+    url: "https://komo.ai/directory/mistral-ai-offices"
+stages:
+  statut: oui
+  detail: "Stages à Paris, surtout techniques (IA appliquée, recherche), de 3 à 6 mois (offres 2026)."
+sources:
+- titre: "Wikipédia, Mistral AI"
+  url: "https://en.wikipedia.org/wiki/Mistral_AI"
+- titre: "Tiger Brokers, revenu récurrent de Mistral"
+  url: "https://www.itiger.com/news/1147847199"
+- titre: "ASML, partenariat avec Mistral AI"
+  url: "https://www.asml.com/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership"
+- titre: "Mistral AI, offre Applied AI Engineer Intern (Paris)"
+  url: "https://jobs.lever.co/mistral/881941e1-2741-48e2-8767-12866965fac5"
+verifie_le: '2026-10-17'

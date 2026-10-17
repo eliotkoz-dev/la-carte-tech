@@ -1,0 +1,73 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Apple
+categorie: puces
+region: amerique-du-nord
+groupe: Cotée à New York (Nasdaq)
+siege: Cupertino (États-Unis)
+en_bref: "iPhone, Mac et services"
+chiffre_affaires:
+  texte: "416,2 Md$ sur l’exercice 2025, clos fin septembre (+6 %)"
+  md_usd: 416.2
+chiffres_cles:
+- "Services (App Store, iCloud, Apple Music…) : plus de 100 Md$ (+14 %)"
+- "102,5 Md$ au seul T4 de l’exercice"
+ce_qu_elle_vend: "Des appareils haut de gamme (iPhone, Mac, iPad, Apple Watch) et des services par abonnement, avec ses propres puces."
+produits:
+- nom: iPhone
+  detail: "smartphone, premier produit du groupe"
+- nom: Services
+  detail: "App Store, iCloud, Apple Music, Apple Pay"
+- nom: Mac et iPad
+  detail: ordinateurs et tablettes
+- nom: Puces Apple Silicon
+  detail: puces maison (séries A et M)
+modele: "Vente d’appareils avec une forte marge, puis revenus récurrents : abonnements et commission sur les achats dans l’App Store."
+clients: "grand public, entreprises"
+rachats:
+- "Beats (2014) : audio"
+- "Shazam (2018) : reconnaissance musicale"
+concurrents: "Samsung, Google (Android), Huawei"
+note: ChatGPT est intégré à Siri depuis 2024. Ses puces sont fabriquées par TSMC.
+vente:
+  approche: partenaires
+  resume: "Apple vend dans ses Apple Store et en ligne, mais une grande partie des iPhone passe par les opérateurs et les distributeurs ; les entreprises achètent via des revendeurs."
+  acheteurs: "Le grand public ; en entreprise, le DSI qui équipe les salariés"
+  argument: "La qualité, la simplicité et un écosystème où tout fonctionne ensemble"
+  objections:
+  - "Le prix, plus élevé que la concurrence"
+  - "L’enfermement dans l’écosystème Apple"
+bureaux_europe:
+  villes:
+  - "Cork (Irlande)"
+  - "Londres (Royaume-Uni)"
+  - "Cambridge (Royaume-Uni)"
+  - "Munich (Allemagne)"
+  - "Berlin (Allemagne)"
+  - "Stuttgart (Allemagne)"
+  - "Paris (France)"
+  - "Grenoble (France)"
+  - "Madrid (Espagne)"
+  - "Barcelone (Espagne)"
+  - "Zurich (Suisse)"
+  - "Copenhague (Danemark)"
+  - "Linz (Autriche)"
+  - "Stockholm (Suède)"
+  - "Prague (Tchéquie)"
+  note: "Siège européen à Cork ; principaux sites hors magasins Apple Store."
+  sources:
+  - titre: "Relocate.me, Apple en Europe (mis à jour en 2025)"
+    url: "https://relocate.me/blog/working-abroad/apple-tech-jobs-in-europe"
+stages:
+  statut: a-verifier
+  detail: "Pas de stage trouvé en France ; les offres visibles sont des postes en Apple Store et en développement commercial."
+sources:
+- titre: "MacRumors, résultats exercice 2025"
+  url: "https://www.macrumors.com/2025/10/30/apple-4q-2025-earnings/"
+- titre: "Tom’s Guide, ChatGPT dans Siri"
+  url: "https://www.tomsguide.com/ai/chatgpt/openai-joins-forces-with-apple-to-bring-chatgpt-to-siri-heres-whats-new"
+- titre: "iAgora, offres d’Apple en France (relais)"
+  url: "https://www.iagora.com/work/fr/emplois/chez-Apple-6904?offset=50"
+verifie_le: '2026-10-17'

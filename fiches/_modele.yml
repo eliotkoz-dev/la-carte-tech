@@ -1,0 +1,62 @@
+# Modèle de fiche · copiez ce fichier, renommez-le (ex. fiches/mon-entreprise.yml)
+# puis remplissez chaque champ. Les fichiers qui commencent par « _ » sont ignorés.
+
+nom: Nom de l’entreprise
+categorie: saas          # cloud | ia | puces | data | saas | cyber | pub | ecommerce | fintech
+region: europe           # amerique-du-nord | europe | asie
+# aussi: [ia]             # facultatif : 1 ou 2 autres catégories où elle est active ; sa bulle se place entre les zones
+groupe: Cotée à Paris    # ou « Non cotée », « Groupe X »…
+siege: Paris (France)
+en_bref: Ce qu’elle fait, en moins de 6 mots
+chiffre_affaires:
+  texte: "1,2 Md€ en 2025 (+15 %)"   # affiché en gros sur la fiche ; « Non publié » si besoin
+  md_usd: 1.4                        # en milliards de dollars, pour la taille de la bulle (0 si non publié)
+chiffres_cles:
+  - "Nombre de clients, de salariés, part de marché… avec l’année"
+ce_qu_elle_vend: "Une phrase simple : quel produit, pour quoi faire."
+produits:
+  - nom: Produit 1
+    detail: ce qu’il fait, en quelques mots
+modele: "Comment elle gagne de l’argent : abonnement, commission, publicité…"
+clients: "PME, grands groupes…"
+rachats:
+  - "Nom (année) : ce que ça apporte"   # ou « Aucun rachat listé »
+concurrents: "Concurrent 1, Concurrent 2"
+# note: "Facultatif : une info utile (investisseurs, partenariats…)"
+# vente:                    # facultatif : comment elle vend (voir CONTRIBUTING.md)
+#   approche: mixte         # libre-service | vente-directe | mixte | partenaires
+#   resume: "Comment elle trouve et signe ses clients, en une ou deux phrases."
+#   acheteurs: "Qui décide de l’achat chez le client"
+#   argument: "Ce qu’elle met en avant face aux concurrents"
+#   objections:
+#     - "Une objection fréquente d’un client"
+#   sources:                # obligatoire dès qu’il y a un chiffre
+#     - titre: "…"
+#       url: "https://…"
+stages:
+  statut: a-verifier     # oui | alternance | a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+# bureaux_europe:           # facultatif : ses bureaux en Europe
+#   villes:
+#     - "Paris (France)"
+#     - "Dublin (Irlande)"
+#   note: "Facultatif : par exemple « liste partielle »"
+#   sources:
+#     - titre: "Page officielle des bureaux"
+#       url: "https://…"
+# rejoindre:                # facultatif : recrutement des étudiants (voir CONTRIBUTING.md)
+#   bureaux:
+#     - ville: Paris
+#       detail: "Siège France"
+#   voies:
+#     - type: stage           # stage | alternance | graduate | vie | premier-poste
+#       nom: "Intitulé du programme"
+#       detail: "Durée, profil, langues, période."
+#   a_verifier: "Ce qui n’est pas confirmé."
+#   sources:
+#     - titre: "Page carrières"
+#       url: "https://…"
+sources:
+  - titre: "Nom du site, titre de la page"
+    url: "https://…"
+verifie_le: "2026-10-17"

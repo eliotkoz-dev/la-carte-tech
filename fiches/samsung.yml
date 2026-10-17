@@ -1,0 +1,57 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Samsung Electronics
+categorie: puces
+region: asie
+groupe: "Groupe Samsung, cotée à Séoul"
+siege: Suwon (Corée du Sud)
+en_bref: "Smartphones, mémoire et écrans"
+chiffre_affaires:
+  texte: "333,6 trillions de wons en 2025 (+10,9 %), ≈ 235 Md$"
+  md_usd: 235
+chiffres_cles:
+- "Bénéfice d’exploitation : 43,6 trillions de wons (+33 %)"
+ce_qu_elle_vend: "Des smartphones, de la mémoire pour ordinateurs et serveurs d’IA, des écrans, des TV et de l’électroménager."
+produits:
+- nom: Galaxy
+  detail: smartphones et tablettes
+- nom: Mémoire DRAM et HBM
+  detail: "puces mémoire, dont celles des serveurs d’IA"
+- nom: Samsung Foundry
+  detail: fabrication de puces pour d’autres
+- nom: TV et électroménager
+  detail: grand public
+modele: "Vente de composants à d’autres industriels (mémoire, écrans) et de produits au grand public."
+clients: "grand public, fabricants d’électronique, clouds"
+rachats:
+- "Harman (2017) : audio et électronique automobile"
+concurrents: "Apple, SK hynix, TSMC"
+vente:
+  approche: vente-directe
+  resume: "Les composants (mémoire, écrans) sont vendus par des équipes grands comptes à d’autres industriels ; les téléphones et la télévision passent par les distributeurs et les opérateurs."
+  acheteurs: "Les acheteurs des fabricants d’électronique et des clouds ; le grand public"
+  argument: "Un fournisseur capable de produire en très grande quantité"
+  objections:
+  - "Le prix, très lié aux cycles du marché de la mémoire"
+  - "La concurrence d’autres fabricants (SK Hynix, Micron, fabricants chinois)"
+bureaux_europe:
+  villes:
+  - "Saint-Ouen (France)"
+  - "Chertsey (Royaume-Uni)"
+  note: "Liste partielle : siège français à Saint-Ouen, siège britannique à Chertsey."
+  sources:
+  - titre: "JobTeaser, offre de Samsung Electronics France à Saint-Ouen"
+    url: "https://www.jobteaser.com/fr/job-offers/8b222963-037a-4ba1-a96a-9a11dc8f820c-samsung-electronics-france-chef-de-projet-junior-trade-marketing-division-telecom-saint-ouen-93-h-f-stage"
+  - titre: "Companies House, Samsung Electronics (UK)"
+    url: "https://find-and-update.company-information.service.gov.uk/company/03086621"
+stages:
+  statut: a-verifier
+  detail: "Offres de stage en marketing à Saint-Ouen vues sur JobTeaser (trade marketing, chef de projet web), date non confirmée."
+sources:
+- titre: "Kyunghyang Shinmun, résultats 2025"
+  url: "https://www.khan.co.kr/en/article/202601290845007"
+- titre: "JobTeaser, stage Samsung Electronics France (relais)"
+  url: "https://www.jobteaser.com/fr/job-offers/8b222963-037a-4ba1-a96a-9a11dc8f820c-samsung-electronics-france-chef-de-projet-junior-trade-marketing-division-telecom-saint-ouen-93-h-f-stage"
+verifie_le: '2026-10-17'

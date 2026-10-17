@@ -1,0 +1,76 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: ServiceNow
+categorie: saas
+region: amerique-du-nord
+groupe: Cotée à New York
+siege: Santa Clara (États-Unis)
+en_bref: Automatiser les processus
+chiffre_affaires:
+  texte: "13,28 Md$ en 2025 (+21 %)"
+  md_usd: 13.28
+chiffres_cles: []
+ce_qu_elle_vend: "Une plateforme pour automatiser les demandes internes (IT, RH, service client) avec des workflows et des agents IA."
+produits:
+- nom: IT Service Management
+  detail: gérer les demandes informatiques
+- nom: Now Assist
+  detail: agents IA
+- nom: Customer Service Management
+  detail: service client
+- nom: HR Service Delivery
+  detail: demandes RH
+modele: Abonnement annuel par utilisateur et par module.
+clients: grands groupes
+rachats:
+- "Moveworks (finalisé en décembre 2025) : assistants IA"
+- "Armis (annoncé, finalisation prévue au S2 2026) : sécurité"
+concurrents: "Salesforce, Atlassian"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux grands comptes vendent la plateforme module par module, avec des partenaires pour le déploiement."
+  acheteurs: "Le DSI, puis les directions RH et service client"
+  argument: "Une seule plateforme pour automatiser tous les processus internes"
+  objections:
+  - "Le prix"
+  - "Le temps de déploiement"
+bureaux_europe:
+  villes:
+  - "Issy-les-Moulineaux (France)"
+  - "Lille (France)"
+  - "Londres (Royaume-Uni)"
+  - "Staines (Royaume-Uni)"
+  - "Dublin (Irlande)"
+  - "Berlin (Allemagne)"
+  - "Munich (Allemagne)"
+  - "Francfort (Allemagne)"
+  - "Düsseldorf (Allemagne)"
+  - "Hambourg (Allemagne)"
+  - "Amsterdam (Pays-Bas)"
+  - "Bruxelles (Belgique)"
+  - "Madrid (Espagne)"
+  - "Milan (Italie)"
+  - "Rome (Italie)"
+  - "Zurich (Suisse)"
+  - "Lausanne (Suisse)"
+  - "Vienne (Autriche)"
+  - "Stockholm (Suède)"
+  - "Göteborg (Suède)"
+  - "Oslo (Norvège)"
+  - "Helsinki (Finlande)"
+  - "Aarhus (Danemark)"
+  - "Søborg (Danemark)"
+  sources:
+  - titre: "ServiceNow, nos implantations"
+    url: "https://www.servicenow.com/company/locations.html"
+stages:
+  statut: a-verifier
+  detail: "Stages go-to-market en EMEA (Dublin, 12 mois à partir de septembre 2026), offre retirée en février 2026 : à surveiller pour 2027."
+sources:
+- titre: "ServiceNow, résultats 2025"
+  url: "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-Board-of-Directors-Authorizes-Additional-5B-for-Share-Repurchase-Program/default.aspx"
+- titre: "Built In Dublin, stage EMEA Go-To-Market de ServiceNow (relais)"
+  url: "https://builtindublin.ie/job/emea-go-market-crm-intern-12-months-placement-year/8065205"
+verifie_le: '2026-10-17'

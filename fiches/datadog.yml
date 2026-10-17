@@ -1,0 +1,84 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Datadog
+categorie: data
+region: amerique-du-nord
+groupe: Cotée à New York (Nasdaq)
+siege: New York · fondée par deux Français
+en_bref: Surveiller les applications cloud
+chiffre_affaires:
+  texte: "3,43 Md$ en 2025 (+28 %)"
+  md_usd: 3.43
+chiffres_cles:
+- 603 clients qui paient plus de 1 M$ par an
+- Environ 4 310 clients à plus de 100 000 $ par an
+ce_qu_elle_vend: "L’observabilité : surveiller en temps réel les serveurs, applications et journaux d’une entreprise dans le cloud."
+produits:
+- nom: Infrastructure Monitoring
+  detail: santé des serveurs
+- nom: APM
+  detail: performance des applications
+- nom: Log Management
+  detail: journaux
+- nom: Cloud Security
+  detail: sécurité du cloud
+modele: Abonnement selon le nombre de serveurs et le volume de données surveillées.
+clients: entreprises tech et grands groupes
+rachats:
+- "Sqreen (2021) : sécurité, startup française"
+concurrents: "Dynatrace, Splunk (Cisco)"
+vente:
+  approche: mixte
+  resume: "Essai gratuit et achat en ligne pour démarrer, puis des commerciaux font grandir le contrat : le client ajoute des produits au fil du temps."
+  acheteurs: "Les équipes techniques (développeurs, exploitation) et le directeur technique"
+  argument: "Une seule plateforme pour tout surveiller, rapide à installer"
+  objections:
+  - "La facture qui grimpe avec le volume de données"
+  - "La concurrence d’outils open source moins chers"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Dublin (Irlande)"
+  - "Madrid (Espagne)"
+  - "Lisbonne (Portugal)"
+  - "Amsterdam (Pays-Bas)"
+  note: "Grands bureaux ; espaces partagés aussi au Royaume-Uni, en Italie, en Allemagne, en Belgique et dans les pays nordiques."
+  sources:
+  - titre: "Datadog, carrières en Europe"
+    url: "https://careers.datadoghq.com/emea/"
+stages:
+  statut: oui
+  detail: "Stages à Paris (produit, ingénierie), 6 mois, début février à juin 2027."
+rejoindre:
+  bureaux:
+  - ville: Paris
+    detail: Stages produit et ingénierie ; équipe commerciale France
+  - ville: Dublin
+  - ville: Madrid
+  - ville: Lisbonne
+  - ville: Amsterdam
+  voies:
+  - type: stage
+    nom: Product Management Intern
+    detail: 6 mois à Paris (hybride), début entre février et juin 2027, pour un diplôme prévu en 2027 ; CV en anglais.
+  - type: stage
+    nom: Software Engineering Intern
+    detail: Plusieurs offres de stage ingénierie ouvertes.
+  - type: premier-poste
+    nom: Sales Development Representative (France)
+    detail: Poste d’entrée dans l’équipe commerciale, à Paris, hybride 3 jours au bureau ; 1 à 3 ans d’expérience demandés.
+  calendrier: 'Stages produit : début possible de février à juin 2027, pas d’autre date.'
+  a_verifier: 'Alternance et programme jeunes diplômés commerciaux : non trouvés.'
+  sources:
+  - titre: Datadog, offre Product Management Intern (Paris)
+    url: https://careers.datadoghq.com/detail/8143729/
+  - titre: Datadog, bureaux en Europe
+    url: https://careers.datadoghq.com/emea/
+  - titre: Offre Sales Development Representative (France)
+    url: https://builtin.com/job/sales-development-representative-france/3364585
+sources:
+- titre: "Datadog, résultats 2025"
+  url: "https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-fourth-quarter-and-fiscal-year-2025-financial"
+verifie_le: '2026-10-17'

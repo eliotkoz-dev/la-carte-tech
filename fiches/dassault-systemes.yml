@@ -1,0 +1,54 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Dassault Systèmes
+categorie: saas
+region: europe
+groupe: Cotée à Paris (CAC 40)
+siege: Vélizy-Villacoublay (France)
+en_bref: La 3D pour l’industrie
+chiffre_affaires:
+  texte: "6,2 Md€ en 2025 (stable)"
+  md_usd: 7.1
+chiffres_cles: []
+ce_qu_elle_vend: "Les logiciels de conception 3D et de simulation avec lesquels on dessine des avions, des voitures ou des médicaments."
+produits:
+- nom: CATIA
+  detail: conception 3D
+- nom: SOLIDWORKS
+  detail: conception 3D pour PME
+- nom: 3DEXPERIENCE
+  detail: plateforme collaborative
+- nom: Medidata
+  detail: essais cliniques
+modele: Licences et abonnements vendus aux industriels.
+clients: "aéronautique, automobile, santé, industrie"
+rachats:
+- SolidWorks (1997)
+- "Medidata (2019) : santé"
+concurrents: "Siemens, Autodesk, PTC"
+vente:
+  approche: vente-directe
+  resume: "Des équipes grands comptes vendent aux grands industriels ; les PME achètent surtout via des revendeurs (notamment pour SolidWorks)."
+  acheteurs: "Les directions de l’ingénierie et de l’innovation, et le DSI"
+  argument: "Concevoir et simuler un produit entier en 3D avant de le fabriquer"
+  objections:
+  - "Le prix des licences"
+  - "Le passage vers l’abonnement et le cloud"
+bureaux_europe:
+  villes:
+  - "Vélizy-Villacoublay (France)"
+  note: "Siège mondial à Vélizy ; bureaux dans 19 autres pays d’Europe (dont Royaume-Uni, Allemagne, Italie, Espagne, Pays-Bas, Suède, Suisse, Pologne)."
+  sources:
+  - titre: "Dassault Systèmes, nos bureaux"
+    url: "https://www.3ds.com/fr/careers/locations"
+stages:
+  statut: oui
+  detail: "Stage Stratégie et développement de marché à Vélizy, 6 mois, écoles de commerce acceptées (offre publiée en septembre 2026)."
+sources:
+- titre: "AllNews (AWP/AFP), résultats 2025"
+  url: "https://allnews.ch/node/149831"
+- titre: "Dassault Systèmes, offre de stage Stratégie et développement de marché"
+  url: "https://www.3ds.com/fr/careers/jobs/stage-strategie-et-developpement-de-marche-f-h-549808"
+verifie_le: '2026-10-17'

@@ -1,0 +1,80 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: SAP
+categorie: saas
+region: europe
+groupe: Cotée à Francfort
+siege: Walldorf (Allemagne)
+en_bref: Les logiciels de gestion (ERP)
+chiffre_affaires:
+  texte: "36,8 Md€ en 2025 (+8 %)"
+  md_usd: 42.3
+chiffres_cles:
+- "Cloud : 21,0 Md€ (+23 %)"
+ce_qu_elle_vend: "L’ERP, le logiciel qui fait tourner la finance, les achats, la production et les RH des grandes entreprises."
+produits:
+- nom: S/4HANA
+  detail: ERP
+- nom: SuccessFactors
+  detail: ressources humaines
+- nom: Ariba
+  detail: achats
+- nom: Concur
+  detail: notes de frais et voyages
+- nom: Business Data Cloud
+  detail: données et IA
+modele: "Abonnements cloud, et licences avec maintenance pour les clients historiques."
+clients: "grands groupes, ETI"
+rachats:
+- "Concur (2014) : notes de frais"
+- "Qualtrics (2018, revendu en 2023)"
+concurrents: "Oracle, Salesforce, Workday"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux grands comptes vendent des projets sur plusieurs années, mis en place avec des intégrateurs (Accenture, Capgemini…)."
+  acheteurs: "Le directeur financier, le DSI, et la direction générale"
+  argument: "Le logiciel de gestion (ERP) de référence des grands groupes"
+  objections:
+  - "Des projets longs et coûteux"
+  - "La migration obligatoire vers la nouvelle version cloud"
+bureaux_europe:
+  villes:
+  - "Walldorf (Allemagne)"
+  - "Levallois-Perret (France)"
+  - "Paris (France)"
+  note: "Liste partielle : siège mondial à Walldorf ; SAP est présent dans presque tous les pays d’Europe."
+  sources:
+  - titre: "Komo, bureaux de SAP"
+    url: "https://komo.ai/directory/sap-offices"
+stages:
+  statut: oui
+  detail: "Alternance de 2 ans en vente à Levallois-Perret et stages à Paris."
+rejoindre:
+  bureaux:
+  - ville: Levallois-Perret
+    detail: Tour SAP, siège de SAP France
+  - ville: Paris
+    detail: Experience Center
+  voies:
+  - type: alternance
+    nom: Sales Executive Associate
+    detail: 2 ans à Levallois-Perret, 3 jours au bureau par semaine, début en janvier 2027 ; français et anglais maîtrisés.
+  - type: alternance
+    nom: Alternances finance et assistant du directeur général
+    detail: Offres vues sur la même période.
+  - type: stage
+    nom: Assistant opérations et planification, Experience Center
+    detail: Stage à Paris.
+  langues: Français et anglais maîtrisés.
+  a_verifier: 'VIE et programme jeunes diplômés : non trouvés.'
+  sources:
+  - titre: Offre alternance Sales Executive Associate (SAP France)
+    url: https://flexa.careers/jobs/sap-alternance-sales-executive-associate-f-h-6accdb31d3a18e7317e2c836
+  - titre: Offre stage Experience Center, Paris
+    url: https://flexa.careers/jobs/sap-stage-assistant-e-op-rations-et-planification-experience-center-paris-f-h-6a54c7d67fc4eff0049282a7
+sources:
+- titre: "SAP, résultats 2025"
+  url: "https://www.nasdaq.com/press-release/sap-quarterly-statement-q4-2025-2026-01-29"
+verifie_le: '2026-10-17'

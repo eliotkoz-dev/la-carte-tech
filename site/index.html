@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Carte Tech · les acteurs</title>
+<meta name="description" content="Comprendre la tech et ses acteurs en 10 minutes : ce que vendent les entreprises, leur taille, leurs rachats, leurs liens et leurs stages. Projet open source.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="La Carte Tech · comprendre la tech et ses acteurs">
+<meta property="og:description" content="Comprendre la tech et ses acteurs en 10 minutes : ce que vendent les entreprises, leur taille, leurs rachats, leurs liens et leurs stages. Projet open source.">
+<meta property="og:image" content="https://eliotkoz-dev.github.io/la-carte-tech/assets/apercu.png">
+<meta property="og:url" content="https://eliotkoz-dev.github.io/la-carte-tech/">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="entete">
+  <a class="logo" href="index.html"><span class="logo-carres" aria-hidden="true"><span class="c-bleu"></span><span class="c-violet"></span><span class="c-violet"></span><span class="c-rose"></span></span><span class="logo-nom">La Carte Tech</span></a>
+  <nav class="nav" aria-label="Navigation principale">
+    <a href="index.html" aria-current="page">Les acteurs</a>
+    <a href="tech.html">La tech en rapide</a>
+    <a href="metiers.html">Les métiers</a>
+    <a class="bouton-nav" href="#contribuer">Contribuer</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-texte">
+    <p class="surtitre">Projet open source, par des étudiants, pour des étudiants</p>
+    <h1>Comprendre la tech et ses acteurs, en 10 minutes</h1>
+    <p class="chapo">Ce que vendent les entreprises tech, leur taille, leurs rachats, leurs liens, et si elles prennent des stagiaires. Chaque fiche est datée, sourcée et modifiable sur GitHub.</p>
+  </div>
+  <div class="mosaique" data-rangs="6" aria-hidden="true"></div>
+</section>
+
+<main class="page">
+  <section class="chiffres" aria-label="En chiffres">
+    <div class="chiffre"><p class="valeur"><span id="nb-acteurs">30</span> <span class="unite">acteurs</span></p><p class="legende">cloud, IA, puces, data, logiciels, cybersécurité, pub, e-commerce et fintech</p></div>
+    <div class="chiffre"><p class="valeur"><span id="nb-liens">13</span> <span class="unite">liens</span></p><p class="legende">parentés, investissements et partenariats entre ces acteurs</p></div>
+    <div class="chiffre rose"><p class="valeur">2 700 Md$</p><p class="legende">dépensés dans l’IA dans le monde en 2026, +49,5 % (prévision <a href="https://gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026">Gartner</a>)</p></div>
+  </section>
+
+  <section class="section" aria-labelledby="titre-acteurs">
+    <div class="titre-section">
+      <div><span class="chiffre-romain">I</span><h2 id="titre-acteurs">Les acteurs</h2></div>
+      <span class="trois-carres" aria-hidden="true"><span class="c-bleu"></span><span class="c-violet"></span><span class="c-rose"></span></span>
+    </div>
+    <h3 class="sous-titre">La carte</h3>
+    <p class="intro">Chaque bulle est une entreprise : sa taille suit son chiffre d’affaires annuel, sa couleur sa région d’origine. Les grands noms en rose sont les secteurs : une bulle placée entre deux secteurs est active dans les deux. Cliquez sur une bulle pour afficher ses liens (qui la possède, qui investit en elle, avec qui elle travaille) et ouvrir sa fiche.</p>
+    <div class="legende-carte" aria-label="Légende">
+      <div><b>Région</b>
+        <span class="leg"><span class="pastille" style="background: var(--us)"></span>Amérique du Nord</span>
+        <span class="leg"><span class="pastille" style="background: var(--europe)"></span>Europe</span>
+        <span class="leg"><span class="pastille" style="background: var(--asie)"></span>Asie</span>
+      </div>
+      <div><b>Chiffre d’affaires annuel</b>
+        <svg class="legende-tailles" width="168" height="112" viewBox="0 0 168 112" role="img" aria-label="Taille des bulles : 10, 100 et 500 milliards de dollars">
+          <circle cx="56" cy="57.3" r="52.7" fill="none" stroke="#8E8EA6" stroke-width="1.5"/>
+          <circle cx="56" cy="82" r="28" fill="none" stroke="#8E8EA6" stroke-width="1.5"/>
+          <circle cx="56" cy="95.7" r="14.3" fill="none" stroke="#8E8EA6" stroke-width="1.5"/>
+          <line x1="56" y1="4.6" x2="118" y2="4.6" stroke="#ACACB9" stroke-dasharray="2 2"/><text x="122" y="8.6" font-size="11" fill="#53536E">500 Md$</text>
+          <line x1="56" y1="54" x2="118" y2="54" stroke="#ACACB9" stroke-dasharray="2 2"/><text x="122" y="58" font-size="11" fill="#53536E">100 Md$</text>
+          <line x1="56" y1="81.4" x2="118" y2="81.4" stroke="#ACACB9" stroke-dasharray="2 2"/><text x="122" y="85.4" font-size="11" fill="#53536E">10 Md$</text>
+        </svg>
+        <span class="leg"><span class="pastille" style="border: 2px dashed #66667E; background: #FFFFFF"></span>non publié</span>
+      </div>
+      <div class="legende-liens"><b>Liens</b>
+        <button type="button" class="type-lien-btn" data-type-lien="parente" aria-pressed="true"><span class="ech parente"><span class="pointe"></span></span><span><b>1 · Parenté</b> <span class="nb"></span><br><span class="aide">la flèche va de la maison mère à sa filiale</span></span></button>
+        <button type="button" class="type-lien-btn" data-type-lien="investissement" aria-pressed="true"><span class="ech investissement"><span class="pointe"></span></span><span><b>2 · Investissement</b> <span class="nb"></span><br><span class="aide">la flèche va de l’investisseur à l’entreprise financée</span></span></button>
+        <button type="button" class="type-lien-btn" data-type-lien="partenariat" aria-pressed="true"><span class="ech partenariat"></span><span><b>3 · Partenariat</b> <span class="nb"></span><br><span class="aide">les deux travaillent ensemble</span></span></button>
+        <span class="aide">Cliquez pour afficher ou masquer un type de lien.</span>
+      </div>
+    </div>
+    <p class="compte astuce">Faites glisser la carte vers la gauche pour la voir en entier.</p>
+    <div class="cadre-carte">
+      <div class="carte" id="carte" role="group" aria-label="Carte des acteurs et de leurs liens">
+        <div class="infobulle" id="infobulle" role="tooltip" hidden></div>
+      </div>
+    </div>
+    <div class="barre-choix">
+      <div class="textes-choix">
+        <p id="resume-choix" aria-live="polite"></p>
+        <p id="bureaux-choix" class="bureaux-choix"></p>
+      </div>
+      <button type="button" class="bouton-rose" id="voir-fiche">Voir la fiche</button>
+    </div>
+    <details class="texte-liens">
+      <summary>Voir les liens et la méthode en texte</summary>
+      <div>
+        <p>Taille des bulles : le chiffre d’affaires annuel de chaque fiche (dernier exercice publié, ou revenu annualisé pour les entreprises non cotées), converti en dollars. Le rayon grandit avec la racine carrée du chiffre d’affaires, avec une taille minimale pour rester cliquable. Bulle vide : chiffre d’affaires non publié.</p>
+        <div id="liste-liens" class="liste-liens"></div>
+      </div>
+    </details>
+  </section>
+
+  <section class="section" aria-labelledby="titre-fiches">
+    <h3 class="sous-titre" id="titre-fiches">Les fiches</h3>
+    <div class="filtres" role="group" aria-label="Filtres">
+      <span id="pilules" style="display: contents"></span>
+      <span class="espace"></span>
+      <button type="button" class="pilule case" id="filtre-stages" aria-pressed="false"><span class="boite" aria-hidden="true"></span>Stage ou alternance confirmés</button>
+    </div>
+    <div class="filtres filtres-villes" id="villes" role="group" aria-label="Filtrer par ville de recrutement">
+      <span class="etiquette-filtre">Recrute à</span>
+      <span class="pilules-villes" style="display: contents"></span>
+    </div>
+    <div class="colonnes">
+      <section class="liste" aria-label="Liste des entreprises">
+        <p class="compte" id="compte"></p>
+        <div class="grille" id="grille"></div>
+        <p class="vide-filtres" id="vide" hidden>Aucune entreprise ne correspond à ces filtres.</p>
+      </section>
+      <aside class="fiche" id="fiche" aria-label="Fiche entreprise" tabindex="-1"></aside>
+    </div>
+  </section>
+
+  <section class="contribuer" id="contribuer" aria-labelledby="titre-contribuer">
+    <div>
+      <p class="surtitre">Contribuer</p>
+      <h2 id="titre-contribuer">Une fiche manque ou n’est plus à jour ?</h2>
+      <p>Chaque entreprise est un petit fichier sur GitHub. Proposez une modification : elle est relue avant publication. Règle d’or : uniquement des informations publiques, avec leur source.</p>
+      <div class="boutons">
+        <a class="bouton-rose" data-gh="issues/new?template=nouvelle-fiche.yml" href="#contribuer">Proposer une fiche</a>
+        <a class="bouton-contour" data-gh="issues/new?template=correction.yml" href="#contribuer">Signaler une erreur</a>
+        <a class="bouton-contour" data-gh="blob/main/CONTRIBUTING.md" href="#contribuer">Lire le guide</a>
+      </div>
+    </div>
+<pre class="code mono" aria-label="Exemple de fichier de fiche"><span class="com"># fiches/aws.yml</span>
+nom: <span class="val">AWS</span>
+categorie: <span class="val">cloud</span>
+chiffre_affaires:
+  texte: <span class="val">"128,7 Md$ en 2025 (+20 %)"</span>
+  md_usd: <span class="val">128.7</span>
+produits:
+  - nom: <span class="val">EC2</span>
+    detail: <span class="val">serveurs virtuels à louer</span>
+stages:
+  statut: <span class="ok">oui</span>
+sources:
+  - titre: <span class="val">Amazon, résultats 2025</span>
+    url: <span class="url">https://…</span></pre>
+  </section>
+  <section class="a-propos" id="a-propos" aria-labelledby="titre-a-propos">
+    <p class="surtitre">À propos</p>
+    <h2 id="titre-a-propos">Par et pour les étudiants</h2>
+    <div class="a-propos-texte">
+      <p>La Carte Tech est un projet créé par <b>Eliot K., étudiant à l’EM Lyon</b>. Il est fait par et pour les étudiants qui veulent travailler dans la tech : en quelques minutes, ils ont une vision large des acteurs, de ce qu’ils vendent, des liens entre eux et de la façon de les rejoindre.</p>
+      <p>Toutes les informations sont publiques, chaque chiffre a sa source et chaque fiche est datée. Le projet est ouvert sur GitHub : chacun peut proposer une correction ou une nouvelle entreprise.</p>
+    </div>
+  </section>
+  <p class="pied">La Carte Tech · v0.2 · <span id="date-maj">octobre 2026</span> · contenu sous licence CC BY-SA 4.0 · <a data-gh="" href="#contribuer">code source</a></p>
+</main>
+<script src="assets/commun.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

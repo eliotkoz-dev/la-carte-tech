@@ -1,0 +1,76 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Microsoft Azure
+categorie: cloud
+region: amerique-du-nord
+aussi: [ia]
+groupe: Groupe Microsoft
+siege: Redmond (États-Unis)
+en_bref: Le cloud de Microsoft
+chiffre_affaires:
+  texte: Plus de 100 Md$ sur l’exercice 2026 (clos fin juin)
+  md_usd: 100
+chiffres_cles:
+- "N°2 mondial du cloud : 20 % du marché au T2 2026"
+- "+43 % sur le dernier trimestre de l’exercice"
+ce_qu_elle_vend: "Le cloud de Microsoft : serveurs, données et IA, très utilisé par les grandes entreprises déjà clientes de Microsoft."
+produits:
+- nom: Azure Virtual Machines
+  detail: serveurs à la demande
+- nom: Azure AI Foundry
+  detail: "catalogue de modèles d’IA (OpenAI, Claude, Mistral…)"
+- nom: Azure SQL et Cosmos DB
+  detail: bases de données
+- nom: Microsoft Fabric
+  detail: plateforme data
+modele: "Paiement à l’usage, souvent vendu dans un contrat global avec les licences Microsoft 365."
+clients: "grands groupes, PME, secteur public"
+rachats:
+- Voir la fiche Microsoft
+concurrents: "AWS, Google Cloud"
+note: Anthropic s’est engagé à acheter 30 Md$ de capacité Azure (nov. 2025).
+vente:
+  approche: mixte
+  resume: "Azure se vend souvent avec le reste de Microsoft, dans un grand contrat d’entreprise ; les PME l’achètent surtout via des partenaires revendeurs."
+  acheteurs: "Le DSI, souvent déjà client de Microsoft 365 et Windows"
+  argument: "Tout est intégré aux outils Microsoft que l’entreprise utilise déjà, et l’accès aux modèles d’OpenAI"
+  objections:
+  - "La dépendance à Microsoft sur tout le système informatique"
+  - "Le coût, difficile à comparer quand tout est vendu ensemble"
+  - "La souveraineté des données"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Issy-les-Moulineaux (France)"
+  - "Dublin (Irlande)"
+  - "Londres (Royaume-Uni)"
+  - "Munich (Allemagne)"
+  - "Amsterdam (Pays-Bas)"
+  - "Bruxelles (Belgique)"
+  - "Milan (Italie)"
+  - "Zurich (Suisse)"
+  - "Copenhague (Danemark)"
+  - "Stockholm (Suède)"
+  - "Oslo (Norvège)"
+  - "Varsovie (Pologne)"
+  note: "Azure fait partie de Microsoft : ce sont les bureaux de Microsoft."
+  sources:
+  - titre: "Microsoft, centres en Europe"
+    url: "https://www.microsoft.com/en-us/hub/locations"
+  - titre: "Komo, bureaux de Microsoft"
+    url: "https://komo.ai/directory/microsoft-offices"
+stages:
+  statut: a-verifier
+  detail: "Azure fait partie de Microsoft : voir la fiche Microsoft. Dernières offres d’alternance vues à Issy-les-Moulineaux pour la rentrée 2024 (12 ou 24 mois)."
+sources:
+- titre: "Redmond Magazine, résultats Microsoft exercice 2026"
+  url: "https://redmondmag.com/articles/2026/07/30/microsoft-tops-90b-quarterly-revenue.aspx"
+- titre: "Synergy Research, marché du cloud T2 2026"
+  url: "https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years"
+- titre: "Pure AI, Anthropic s’engage sur 30 Md$ d’Azure"
+  url: "https://pureai.com/articles/2025/11/18/microsoft-and-nvidia-deepen-ties-with-anthropic.aspx"
+- titre: "Offre d’alternance Microsoft Partner Technology Strategy (relais)"
+  url: "https://coty.dejobs.org/issy-les-moulineaux-fra/partner-technology-strategy-intern/3DC769CC4324423192E2A8285F6BAF23/job/"
+verifie_le: '2026-10-17'

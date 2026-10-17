@@ -1,0 +1,60 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Alibaba Cloud
+categorie: cloud
+region: asie
+groupe: Groupe Alibaba
+siege: Hangzhou (Chine)
+en_bref: Le leader du cloud en Chine
+chiffre_affaires:
+  texte: "41,6 Md de yuans au T1 2026, ≈ 6 Md$ (+38 %)"
+  md_usd: 24
+chiffres_cles:
+- Soit un rythme d’environ 24 Md$ par an
+- "23 % du marché chinois du cloud IA au S1 2025 (IDC)"
+ce_qu_elle_vend: "Le cloud du groupe Alibaba : serveurs, data et modèles d’IA Qwen pour les entreprises en Chine et en Asie."
+produits:
+- nom: Elastic Compute Service
+  detail: serveurs à la demande
+- nom: Qwen
+  detail: "modèles d’IA, dont des versions open source"
+- nom: Model Studio
+  detail: plateforme pour créer des applications d’IA
+modele: Paiement à l’usage et contrats avec les grandes entreprises chinoises.
+clients: entreprises en Chine et en Asie
+rachats:
+- Voir la fiche Alibaba
+concurrents: "Volcano Engine (ByteDance), Tencent Cloud, Huawei Cloud"
+vente:
+  approche: mixte
+  resume: "Inscription en ligne et commerciaux pour les grandes entreprises, surtout en Chine et en Asie."
+  acheteurs: "Les DSI des entreprises chinoises, et des entreprises étrangères qui s’installent en Asie"
+  argument: "Le cloud le plus présent en Chine"
+  objections:
+  - "Les tensions géopolitiques et la souveraineté des données"
+  - "Une présence limitée en Europe"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Francfort (Allemagne)"
+  note: "Liste partielle : région cloud ouverte à Paris en juin 2026, postes à Francfort ; autres sites en Allemagne et au Royaume-Uni sans ville précisée."
+  sources:
+  - titre: "Solutions Numériques, région Alibaba Cloud en France (juin 2026)"
+    url: "https://www.solutions-numeriques.com/communiques/alibaba-cloud-ouvre-une-region-cloud-en-france-structuree-autour-de-deux-zones-de-disponibilite/"
+  - titre: "Tiger Brokers, programme de stage mondial d’Alibaba"
+    url: "https://www-web.itiger.com/news/1152346468"
+stages:
+  statut: oui
+  detail: "Programme de stage mondial d’Alibaba lancé en mars 2026 pour les diplômés 2027, avec des postes à Francfort et Singapour ; Alibaba Cloud en fait partie."
+sources:
+- titre: "Tiger Brokers, résultats Alibaba exercice 2026"
+  url: "https://www.itiger.com/news/1117739449"
+- titre: "Alibaba, croissance du cloud (mai 2026)"
+  url: "https://www.alibabagroup.com/document-1991364841188622336"
+- titre: "Dataconomy, marché chinois du cloud IA"
+  url: "https://dataconomy.com/2026/01/20/bytedance-targets-alibaba-with-aggressive-ai-cloud-expansion/"
+- titre: "Tiger Brokers, programme de stage mondial d’Alibaba (mars 2026)"
+  url: "https://www-web.itiger.com/news/1152346468"
+verifie_le: '2026-10-17'

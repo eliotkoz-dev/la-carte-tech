@@ -1,0 +1,66 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: CrowdStrike
+categorie: cyber
+region: amerique-du-nord
+groupe: Cotée à New York (Nasdaq)
+siege: Austin (États-Unis)
+en_bref: Protéger ordinateurs et cloud
+chiffre_affaires:
+  texte: "4,81 Md$ sur l’exercice 2026, clos fin janvier (+22 %)"
+  md_usd: 4.81
+chiffres_cles:
+- "5,25 Md$ de revenu récurrent annuel (+24 %)"
+ce_qu_elle_vend: "La protection des ordinateurs, serveurs, identités et du cloud contre les attaques, depuis une seule plateforme."
+produits:
+- nom: Falcon
+  detail: protection des postes
+- nom: Falcon Cloud Security
+  detail: sécurité du cloud
+- nom: Falcon Identity
+  detail: protection des identités
+- nom: Charlotte AI
+  detail: assistant IA pour les analystes
+modele: Abonnement par appareil protégé et par module.
+clients: entreprises de toutes tailles
+rachats:
+- "Humio (2021) : journaux"
+concurrents: "Palo Alto Networks, Microsoft, SentinelOne"
+vente:
+  approche: partenaires
+  resume: "Vendu par des revendeurs et intégrateurs, par des commerciaux sur les grands comptes, et sur les places de marché des clouds."
+  acheteurs: "Le responsable de la sécurité informatique (RSSI)"
+  argument: "Une seule plateforme avec un agent léger, et l’IA pour détecter les attaques"
+  objections:
+  - "Le prix par appareil"
+  - "La confiance, après la panne mondiale causée par une mise à jour en juillet 2024"
+  sources:
+  - titre: "Wikipédia, panne informatique de juillet 2024"
+    url: "https://fr.wikipedia.org/wiki/Panne_informatique_mondiale_de_juillet_2024"
+bureaux_europe:
+  villes:
+  - "Reading (Royaume-Uni)"
+  - "Cheltenham (Royaume-Uni)"
+  - "Milan (Italie)"
+  - "Barcelone (Espagne)"
+  - "Bruxelles (Belgique)"
+  - "Bucarest (Roumanie)"
+  - "Copenhague (Danemark)"
+  - "Aarhus (Danemark)"
+  note: "Siège européen à Reading."
+  sources:
+  - titre: "Built In, bureaux de CrowdStrike"
+    url: "https://builtin.com/company/crowdstrike/offices"
+  - titre: "CrowdStrike, ouverture du bureau de Milan"
+    url: "https://www.crowdstrike.com/press-releases/crowdstrike-expands-emea-presence-opens-new-office-in-italy"
+stages:
+  statut: a-verifier
+  detail: "Stage Technical Account Management à distance (été 2026, Royaume-Uni, Allemagne, Espagne), offre retirée en janvier 2026."
+sources:
+- titre: "CrowdStrike, résultats de l’exercice 2026"
+  url: "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-fourth-quarter-and-fiscal-year-2026"
+- titre: "Built In, offre Technical Account Management Intern (relais)"
+  url: "https://builtin.com/job/technical-account-management-intern-remote/7741238"
+verifie_le: '2026-10-17'

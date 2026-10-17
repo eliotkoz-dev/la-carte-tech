@@ -1,0 +1,64 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Zscaler
+categorie: cyber
+region: amerique-du-nord
+groupe: Cotée à New York (Nasdaq)
+siege: San José (Californie)
+en_bref: Sécuriser l’accès à Internet et aux applications
+chiffre_affaires:
+  texte: "3,35 Md$ sur l’exercice 2026 (+25 %)"
+  md_usd: 3.35
+chiffres_cles:
+- 3,77 Md$ de revenu récurrent annuel (juillet 2026, +25 %)
+- Exercice clos le 31 juillet
+ce_qu_elle_vend: "La sécurité « zero trust » : chaque connexion d’un salarié à Internet ou à une application passe par le cloud de Zscaler, qui la vérifie."
+produits:
+- nom: Zero Trust Exchange
+  detail: la plateforme cloud qui vérifie chaque connexion
+- nom: Zscaler Internet Access
+  detail: navigation sécurisée sur Internet
+- nom: Zscaler Private Access
+  detail: accès aux applications internes sans VPN
+modele: Abonnement annuel par utilisateur et par module.
+clients: grands groupes, secteur public
+rachats:
+- "Red Canary (2025) : détection et réponse aux attaques"
+concurrents: "Palo Alto Networks, Netskope, Cloudflare"
+vente:
+  approche: partenaires
+  resume: "Vendu avec des revendeurs et intégrateurs en cybersécurité, par des commerciaux grands comptes."
+  acheteurs: "Le responsable de la sécurité informatique (RSSI) et le DSI"
+  argument: "Remplacer les VPN et les pare-feu par un service cloud"
+  objections:
+  - "Le coût et le temps pour remplacer les équipements existants"
+  - "Faire passer tout le trafic de l’entreprise par un fournisseur"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Londres (Royaume-Uni)"
+  - "Amsterdam (Pays-Bas)"
+  - "Francfort (Allemagne)"
+  - "Munich (Allemagne)"
+  - "Madrid (Espagne)"
+  - "Valence (Espagne)"
+  - "Stockholm (Suède)"
+  - "Vienne (Autriche)"
+  - "Zurich (Suisse)"
+  - "Wrocław (Pologne)"
+  - "Zagreb (Croatie)"
+  - "Split (Croatie)"
+  sources:
+  - titre: "Zscaler, nous contacter"
+    url: "https://www.zscaler.com/company/contact"
+stages:
+  statut: a-verifier
+  detail: "Programme de stage d’été (ingénierie, marketing), surtout aux États-Unis ; aucune offre trouvée en Europe."
+sources:
+- titre: "Zscaler, résultats de l’exercice 2026"
+  url: "https://ir.zscaler.com/node/16456"
+- titre: "Zscaler, le programme de stage (sept. 2025)"
+  url: "https://www.zscaler.com/fr/blogs/zscaler-life/fueling-future-through-zscaler-s-internship-program"
+verifie_le: '2026-10-17'

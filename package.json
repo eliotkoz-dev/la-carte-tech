@@ -1,0 +1,14 @@
+{
+  "name": "la-carte-tech",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Comprendre la tech et ses acteurs, en 10 minutes. Projet open source.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/build.mjs && npx --yes serve@14.2.4 site"
+  },
+  "dependencies": {
+    "js-yaml": "4.1.0"
+  }
+}

@@ -1,0 +1,78 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Adobe
+categorie: saas
+region: amerique-du-nord
+groupe: Cotée à New York (Nasdaq)
+siege: San José (États-Unis)
+en_bref: "Création, documents et marketing"
+chiffre_affaires:
+  texte: "23,77 Md$ sur l’exercice 2025 (+11 %)"
+  md_usd: 23.77
+chiffres_cles: []
+ce_qu_elle_vend: "Les logiciels des créatifs (Photoshop, Premiere), des documents (Acrobat) et du marketing digital, avec l’IA Firefly."
+produits:
+- nom: Creative Cloud
+  detail: "Photoshop, Illustrator, Premiere"
+- nom: Acrobat
+  detail: PDF et signature
+- nom: Experience Cloud
+  detail: marketing digital
+- nom: Firefly
+  detail: IA générative d’images
+modele: Abonnements mensuels ou annuels.
+clients: "créatifs, entreprises, grand public"
+rachats:
+- "Semrush (finalisé en avril 2026) : visibilité dans la recherche et l’IA"
+- "Magento (2018) : e-commerce"
+- "Marketo (2018) : marketing"
+concurrents: "Canva, Figma"
+vente:
+  approche: mixte
+  resume: "Creative Cloud s’achète en ligne ; les offres pour les grandes entreprises (marketing, documents) sont vendues par des commerciaux."
+  acheteurs: "Les créatifs, les directions marketing, et le DSI"
+  argument: "Les outils standard des métiers créatifs"
+  objections:
+  - "Le prix de l’abonnement"
+  - "Des alternatives plus simples ou moins chères (Canva, Figma)"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Lyon (France)"
+  - "Clermont-Ferrand (France)"
+  - "Londres (Royaume-Uni)"
+  - "Reading (Royaume-Uni)"
+  - "Édimbourg (Royaume-Uni)"
+  - "Dublin (Irlande)"
+  - "Munich (Allemagne)"
+  - "Berlin (Allemagne)"
+  - "Hambourg (Allemagne)"
+  - "Amsterdam (Pays-Bas)"
+  - "Arnhem (Pays-Bas)"
+  - "Bruxelles (Belgique)"
+  - "Madrid (Espagne)"
+  - "Barcelone (Espagne)"
+  - "Milan (Italie)"
+  - "Rome (Italie)"
+  - "Zurich (Suisse)"
+  - "Bâle (Suisse)"
+  - "Copenhague (Danemark)"
+  - "Stockholm (Suède)"
+  - "Varsovie (Pologne)"
+  - "Bucarest (Roumanie)"
+  sources:
+  - titre: "Adobe, nos bureaux"
+    url: "https://www.adobe.com/about-adobe/contact/offices"
+stages:
+  statut: oui
+  detail: "Adobe Sales Academy EMEA : stages en vente à Londres (13 mois, en juillet), Madrid (6 mois, en mai) et Munich (6 mois, en mars) ; candidatures 2026 ouvertes."
+sources:
+- titre: "Adobe, résultats de l’exercice 2025"
+  url: "https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbeex991q425.htm"
+- titre: "MarketScreener, rachat de Semrush"
+  url: "https://www.marketscreener.com/news/adobe-inc-completed-the-acquisition-of-semrush-holdings-inc-from-siguler-guff-company-lp-grey-ce7f59d2df89f026"
+- titre: "Adobe, Sales Academy EMEA"
+  url: "https://careers.adobe.com/us/en/sales-academy-emea-"
+verifie_le: '2026-10-17'

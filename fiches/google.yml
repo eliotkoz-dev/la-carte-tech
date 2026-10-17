@@ -1,0 +1,104 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Google (Alphabet)
+categorie: pub
+region: amerique-du-nord
+aussi: [ia]
+groupe: "Alphabet, cotée à New York (Nasdaq)"
+siege: Mountain View (États-Unis)
+en_bref: "Recherche, YouTube et pub en ligne"
+chiffre_affaires:
+  texte: "402,8 Md$ en 2025 (+15 %)"
+  md_usd: 402.8
+chiffres_cles:
+- "Recherche Google : 63,1 Md$ au seul T4 2025"
+- "YouTube : plus de 60 Md$ en 2025 (pub et abonnements)"
+- 190 820 salariés fin 2025
+ce_qu_elle_vend: "La publicité sur la recherche Google, YouTube et des millions de sites, plus Android, Chrome, l’IA Gemini et le cloud."
+produits:
+- nom: Google Search
+  detail: moteur de recherche
+- nom: Google Ads
+  detail: outil où les annonceurs achètent leurs pubs
+- nom: YouTube
+  detail: "vidéo, pub et abonnements"
+- nom: Android et Play Store
+  detail: smartphones et applications
+- nom: Gemini
+  detail: assistant et modèles d’IA
+modele: "Surtout la publicité : les annonceurs paient au clic ou à l’affichage via Google Ads. Aussi abonnements (YouTube Premium, Google One) et cloud."
+clients: "annonceurs de toutes tailles, grand public, entreprises"
+rachats:
+- Android (2005)
+- YouTube (2006)
+- "DoubleClick (2008) : publicité"
+- "Wiz (2026) : sécurité du cloud"
+concurrents: "Meta, Amazon Ads, Microsoft, OpenAI"
+note: Investisseur d’Anthropic.
+vente:
+  approche: mixte
+  resume: "Les petits annonceurs créent leurs campagnes seuls sur Google Ads ; les grands annonceurs et les agences ont des équipes dédiées."
+  acheteurs: "Les directions marketing et les agences média"
+  argument: "Toucher les gens au moment où ils cherchent quelque chose"
+  objections:
+  - "Le coût par clic qui augmente"
+  - "Mesurer ce que la publicité rapporte vraiment"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Londres (Royaume-Uni)"
+  - "Dublin (Irlande)"
+  - "Zurich (Suisse)"
+  - "Munich (Allemagne)"
+  - "Berlin (Allemagne)"
+  - "Hambourg (Allemagne)"
+  - "Francfort (Allemagne)"
+  - "Amsterdam (Pays-Bas)"
+  - "Bruxelles (Belgique)"
+  - "Madrid (Espagne)"
+  - "Milan (Italie)"
+  - "Lisbonne (Portugal)"
+  - "Copenhague (Danemark)"
+  - "Aarhus (Danemark)"
+  - "Stockholm (Suède)"
+  - "Oslo (Norvège)"
+  - "Helsinki (Finlande)"
+  - "Varsovie (Pologne)"
+  - "Cracovie (Pologne)"
+  - "Wrocław (Pologne)"
+  - "Prague (Tchéquie)"
+  - "Vienne (Autriche)"
+  - "Bucarest (Roumanie)"
+  - "Athènes (Grèce)"
+  - "Vilnius (Lituanie)"
+  sources:
+  - titre: "Google, nos implantations"
+    url: "https://about.google/company-info/locations/"
+stages:
+  statut: alternance
+  detail: "Alternances à Paris pour la rentrée de septembre 2026 (vente et marketing, Customer Engineer, RH, ingénierie), vues sur des sites relais."
+rejoindre:
+  bureaux:
+  - ville: Paris
+    detail: Alternance en Sales and Marketing, Cloud Sales et RH
+  voies:
+  - type: alternance
+    nom: Sales and Marketing Apprenticeship
+    detail: 12 mois à Paris, rentrée de septembre ; Licence ou 2e année de Master en commerce ou marketing digital ; français et anglais courants. Candidatures de l’édition 2026 ouvertes jusqu’au 30 avril 2026.
+  - type: alternance
+    nom: Customer Engineer Apprenticeship, Cloud Sales
+    detail: Rentrée de septembre 2026, en français et anglais (intitulé vu, détails non vérifiés).
+  calendrier: 'Les alternances démarrent en septembre : les offres ouvrent au printemps.'
+  langues: Français et anglais courants.
+  a_verifier: 'Stages et programmes jeunes diplômés (BOLD, Dublin, Londres…) : à confirmer sur la page carrières officielle.'
+  sources:
+  - titre: Offre Sales and Marketing Apprenticeship 2026, Paris (relayée par AGEFIPH)
+    url: https://espace-emploi.agefiph.fr/candidat/offres/offre-d-emploi-sales-apprenticeparis-alternance-apprentissage-20462755
+  - titre: Offre Customer Engineer Apprenticeship 2026 (relayée par AnitaB.org)
+    url: https://jobs.anitab.org/companies/google-24698/jobs/67874253-customer-engineer-apprenticeship-cloud-sales-september-2026-start-english-french
+sources:
+- titre: "Alphabet, résultats 2025"
+  url: "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf"
+verifie_le: '2026-10-17'

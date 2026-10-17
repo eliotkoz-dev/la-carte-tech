@@ -1,0 +1,24 @@
+name: Signaler une erreur
+description: Une information est fausse ou plus à jour
+title: "Correction : "
+labels: ["correction"]
+body:
+  - type: input
+    id: fiche
+    attributes:
+      label: Quelle fiche ?
+      placeholder: ex. aws
+    validations:
+      required: true
+  - type: textarea
+    id: erreur
+    attributes:
+      label: Ce qui est faux, et la bonne information
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Lien vers la source
+    validations:
+      required: true

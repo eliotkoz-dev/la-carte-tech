@@ -1,0 +1,71 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Amazon
+categorie: ecommerce
+region: amerique-du-nord
+groupe: Cotée à New York (Nasdaq)
+siege: Seattle (États-Unis)
+en_bref: "Vente en ligne, Prime, pub et cloud"
+chiffre_affaires:
+  texte: "716,9 Md$ en 2025 (+12 %)"
+  md_usd: 716.9
+chiffres_cles:
+- "Dont AWS : 128,7 Md$ (+20 %)"
+- "Publicité : 21,3 Md$ au seul T4 2025"
+ce_qu_elle_vend: "La vente en ligne (en direct et via sa marketplace), l’abonnement Prime, la publicité et le cloud AWS."
+produits:
+- nom: Amazon.com et marketplace
+  detail: vente en ligne
+- nom: Prime
+  detail: "livraison rapide, Prime Video"
+- nom: Amazon Ads
+  detail: pub sur Amazon et Prime Video
+- nom: Expédié par Amazon
+  detail: logistique pour les vendeurs
+- nom: AWS
+  detail: cloud (voir la fiche)
+modele: "Marge sur ses ventes, commissions des vendeurs tiers, abonnements Prime, publicité et cloud."
+clients: "grand public, vendeurs, annonceurs, entreprises"
+rachats:
+- Twitch (2014)
+- "Whole Foods (2017) : supermarchés"
+- "MGM (2022) : films"
+concurrents: "Walmart, Alibaba, Temu, Shopify"
+note: Investisseur d’Anthropic.
+vente:
+  approche: mixte
+  resume: "Le grand public achète en ligne ; les vendeurs tiers s’inscrivent seuls, et les grandes marques ont des équipes dédiées pour la vente et la publicité."
+  acheteurs: "Le grand public ; les vendeurs et les marques"
+  argument: "Toucher des centaines de millions de clients avec une livraison rapide"
+  objections:
+  - "Les commissions élevées pour les vendeurs"
+  - "La concurrence des produits de marque Amazon"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Luxembourg (Luxembourg)"
+  - "Londres (Royaume-Uni)"
+  - "Munich (Allemagne)"
+  - "Berlin (Allemagne)"
+  - "Madrid (Espagne)"
+  - "Milan (Italie)"
+  - "Bruxelles (Belgique)"
+  note: "Principaux bureaux (liste partielle) ; le siège européen est à Luxembourg."
+  sources:
+  - titre: "Amazon, nos bureaux dans le monde"
+    url: "https://www.aboutamazon.eu/news/working-at-amazon/our-global-offices"
+  - titre: "Amazon.jobs, Berlin"
+    url: "https://amazon.jobs/en/location/berlin-germany"
+  - titre: "Amazon.jobs, Bruxelles"
+    url: "https://amazon.jobs/en/location/brussels-belgium"
+stages:
+  statut: oui
+  detail: "Stage Marketing France à Clichy (6 mois, offre de novembre 2025, vue sur un site relais) ; stages AWS à La Défense (voir la fiche AWS)."
+sources:
+- titre: "Amazon, résultats 2025"
+  url: "https://www.nasdaq.com/press-release/amazoncom-announces-fourth-quarter-results-2026-02-05"
+- titre: "Marketing Monk, offre 2026 Marketing Intern France (relais)"
+  url: "https://www.marketingmonk.so/jobboard/jobs/2026-marketing-intern-france-at-amazon-8y6h8m"
+verifie_le: '2026-10-17'

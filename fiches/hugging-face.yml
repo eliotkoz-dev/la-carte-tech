@@ -1,0 +1,52 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Hugging Face
+categorie: ia
+region: amerique-du-nord
+groupe: Non cotée
+siege: New York et Paris · fondée par trois Français
+en_bref: Le « GitHub » des modèles d’IA
+chiffre_affaires:
+  texte: "Plus de 100 M$ par an (estimation, 2026)"
+  md_usd: 0.1
+chiffres_cles:
+- Plus de 3 millions de modèles et 1 million de jeux de données (août 2026)
+- Plus de 500 000 organisations utilisatrices
+- Valorisée 4,5 Md$ en 2023 ; une vente à 13 Md$ ou plus étudiée en août 2026
+ce_qu_elle_vend: "Une plateforme où l’on partage, teste et déploie des modèles d’IA, surtout open source, avec des offres payantes pour les entreprises."
+produits:
+- nom: Hub
+  detail: bibliothèque de modèles et de jeux de données
+- nom: Spaces
+  detail: démos d’applications d’IA
+- nom: Inference Endpoints
+  detail: faire tourner un modèle dans le cloud
+- nom: Enterprise Hub
+  detail: la plateforme avec sécurité et contrôle pour les entreprises
+modele: "Gratuit pour la plupart des usages ; abonnements Pro, Team et Enterprise (par utilisateur), et paiement à l’usage pour la puissance de calcul."
+clients: développeurs, chercheurs, entreprises
+rachats:
+- Aucun rachat listé
+concurrents: "GitHub, les plateformes d’IA des clouds (Amazon Bedrock, Vertex AI)"
+note: "Sa levée de 2023 (235 M$) a été menée par Salesforce, avec Google, Amazon, Nvidia, Intel, IBM, Qualcomm et AMD."
+vente:
+  approche: mixte
+  resume: "Les développeurs l’utilisent gratuitement, puis les entreprises passent aux offres payantes en ligne ou avec une équipe commerciale."
+  acheteurs: "Les équipes IA et data, et le DSI pour l’offre Enterprise"
+  argument: "Le lieu central de l’IA open source : les modèles sont déjà là, et les développeurs aussi"
+  objections:
+  - "Pourquoi payer alors que l’essentiel est gratuit"
+  - "Les plateformes d’IA des clouds font une partie du même travail"
+stages:
+  statut: a-verifier
+  detail: "Stages en machine learning à distance (EMEA) ; la dernière offre vue a été retirée en février 2025."
+sources:
+- titre: "BetaNews, Hugging Face étudie une vente à 13 Md$ (août 2026)"
+  url: "https://betanews.com/article/hugging-face-13-billion-sale/"
+- titre: "eesel AI, les tarifs de Hugging Face (2026)"
+  url: "https://www.eesel.ai/en/blog/hugging-face-pricing"
+- titre: "Built In, offre Machine Learning Engineer Internship EMEA (relais)"
+  url: "https://builtin.com/job/machine-learning-engineer-internship-generative-ai-emea-remote/3938846"
+verifie_le: '2026-10-17'

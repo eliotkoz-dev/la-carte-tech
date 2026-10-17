@@ -1,0 +1,69 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Stripe
+categorie: fintech
+region: amerique-du-nord
+groupe: Non cotée
+siege: San Francisco et Dublin
+en_bref: Les paiements en ligne par API
+chiffre_affaires:
+  texte: Non publié
+  md_usd: 0
+chiffres_cles:
+- "1 900 Md$ de paiements traités en 2025 (+34 %)"
+- Valorisée 159 Md$ (février 2026)
+ce_qu_elle_vend: Le paiement en ligne et les services financiers que les entreprises branchent sur leur site ou application en quelques lignes de code.
+produits:
+- nom: Payments
+  detail: accepter les paiements
+- nom: Billing
+  detail: abonnements et factures
+- nom: Connect
+  detail: paiements des marketplaces
+- nom: Stablecoins (Bridge)
+  detail: paiements en crypto-dollars
+modele: Commission sur chaque transaction traitée.
+clients: "startups, plateformes, grands groupes"
+rachats:
+- "Bridge (2025) : stablecoins"
+concurrents: "Adyen, PayPal, Lemonway"
+note: Traite les paiements de Shopify Payments.
+vente:
+  approche: mixte
+  resume: "Les développeurs s’inscrivent et intègrent Stripe seuls ; une équipe commerciale vend aux grandes entreprises."
+  acheteurs: "Les développeurs et le directeur technique ; le directeur financier pour les grands comptes"
+  argument: "Une intégration simple et des outils pensés pour les développeurs"
+  objections:
+  - "Les frais par transaction"
+  - "Le coût de changer de fournisseur de paiement"
+bureaux_europe:
+  villes:
+  - "Dublin (Irlande)"
+  - "Londres (Royaume-Uni)"
+  note: "Liste partielle."
+  sources:
+  - titre: "Built In, bureaux de Stripe"
+    url: "https://builtin.com/company/stripe"
+stages:
+  statut: oui
+  detail: "Stage ingénierie seulement ; pas de stage commercial trouvé."
+rejoindre:
+  bureaux:
+  - ville: Dublin
+    detail: 'Hub européen : équipes commerciales par langue, dont des Account Executive francophones'
+  voies:
+  - type: stage
+    nom: Software Engineer, Intern
+    detail: Stage ingénierie, offre publiée sur le site Stripe.
+  a_verifier: 'Aucun stage, alternance ni programme jeunes diplômés commercial trouvé : les offres commerciales vues (Account Executive) demandent de l’expérience.'
+  sources:
+  - titre: Stripe, offre Software Engineer Intern
+    url: https://stripe.com/gb/jobs/listing/software-engineer-intern/7206494
+  - titre: Stripe, offre Account Executive francophone
+    url: https://stripe.com/jobs/listing/account-executive-mid-market-existing-business-french-speaking/7538123
+sources:
+- titre: "Stripe, lettre annuelle 2025"
+  url: "https://stripe.com/newsroom/news/stripe-2025-update"
+verifie_le: '2026-10-17'

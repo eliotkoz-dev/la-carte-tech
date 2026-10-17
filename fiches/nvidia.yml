@@ -1,0 +1,78 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Nvidia
+categorie: puces
+region: amerique-du-nord
+aussi: [ia]
+groupe: Cotée à New York (Nasdaq)
+siege: Santa Clara (États-Unis)
+en_bref: Les puces qui font tourner l’IA
+chiffre_affaires:
+  texte: "215,9 Md$ sur l’exercice 2026, clos fin janvier (+65 %)"
+  md_usd: 215.9
+chiffres_cles:
+- "68,1 Md$ au T4 de l’exercice (+73 % sur un an)"
+ce_qu_elle_vend: Les processeurs graphiques (GPU) et les systèmes complets qui entraînent et font tourner l’IA dans les data centers.
+produits:
+- nom: GPU data center (Blackwell)
+  detail: puces pour l’IA
+- nom: CUDA
+  detail: logiciel pour programmer les GPU
+- nom: "Réseau (InfiniBand, Ethernet)"
+  detail: relier des milliers de GPU
+- nom: GeForce
+  detail: cartes graphiques pour le jeu vidéo
+modele: "Vente de puces et de serveurs complets aux clouds, laboratoires d’IA et entreprises. Les puces sont fabriquées par TSMC."
+clients: "clouds, laboratoires d’IA, entreprises, joueurs"
+rachats:
+- "Mellanox (2020) : réseau"
+- "Run:ai (2024) : orchestration de l’IA"
+concurrents: "AMD, Google (TPU), Broadcom"
+note: "Investit dans OpenAI, Anthropic et Mistral AI."
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées vendent aux clouds et aux laboratoires d’IA ; les entreprises achètent souvent des serveurs Nvidia via des constructeurs (Dell, HPE…) ou louent les puces dans le cloud."
+  acheteurs: "Les clouds, les laboratoires d’IA, et les DSI des grandes entreprises"
+  argument: "Les puces les plus performantes pour l’IA et le logiciel CUDA que tous les développeurs connaissent"
+  objections:
+  - "Le prix et les délais de livraison"
+  - "La dépendance à un seul fournisseur, face aux puces d’AMD ou des clouds"
+bureaux_europe:
+  villes:
+  - "Courbevoie (France)"
+  - "Munich (Allemagne)"
+  - "Berlin (Allemagne)"
+  - "Würselen (Allemagne)"
+  - "Londres (Royaume-Uni)"
+  - "Cambridge (Royaume-Uni)"
+  - "Reading (Royaume-Uni)"
+  - "Bristol (Royaume-Uni)"
+  - "Belfast (Royaume-Uni)"
+  - "Zurich (Suisse)"
+  - "Amsterdam (Pays-Bas)"
+  - "Gand (Belgique)"
+  - "Roskilde (Danemark)"
+  - "Helsinki (Finlande)"
+  - "Göteborg (Suède)"
+  - "Lund (Suède)"
+  - "Varsovie (Pologne)"
+  - "Budapest (Hongrie)"
+  - "Athènes (Grèce)"
+  - "Iași (Roumanie)"
+  - "Kyiv (Ukraine)"
+  sources:
+  - titre: "Nvidia, contacts en Europe"
+    url: "https://www.nvidia.com/en-eu/contact/europe"
+stages:
+  statut: oui
+  detail: "Surtout des stages techniques, par exemple Data Processing Developer Technology à Munich (promotion 2027), offre publiée en octobre 2026 sur un site relais."
+sources:
+- titre: "Techleap, résultats Nvidia exercice 2026"
+  url: "https://finder.techleap.nl/news/feed/nvidia-grows-revenue-by-65-in-fiscal-2026-expects-78b-for-next-quarter"
+- titre: "Barchart, communiqué T4 2026"
+  url: "https://www.barchart.com/story/news/425565/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026"
+- titre: "Working Student Jobs, offre de stage Nvidia à Munich (relais)"
+  url: "https://www.workingstudentjobs.de/jobs/nvidia-data-processing-developer-technology-intern-2027-64606463"
+verifie_le: '2026-10-17'

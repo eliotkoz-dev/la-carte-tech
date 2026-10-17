@@ -1,0 +1,55 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: The Trade Desk
+categorie: pub
+region: amerique-du-nord
+groupe: Cotée à New York (Nasdaq)
+siege: Ventura (États-Unis)
+en_bref: Acheter de la pub aux enchères
+chiffre_affaires:
+  texte: "2,90 Md$ en 2025 (+18 %)"
+  md_usd: 2.9
+chiffres_cles:
+- "Environ 13,4 Md$ de dépenses publicitaires passées par la plateforme"
+ce_qu_elle_vend: "La plateforme où les agences et marques achètent de la publicité en ligne aux enchères : TV connectée, audio, sites et applications."
+produits:
+- nom: Kokai
+  detail: plateforme d’achat média avec IA
+- nom: Unified ID 2.0
+  detail: identifiant publicitaire
+- nom: Ventura
+  detail: système pour TV connectées
+modele: Commission sur les dépenses publicitaires passées par la plateforme.
+clients: agences et grandes marques
+rachats:
+- Aucun rachat majeur listé
+concurrents: "Google (DV360), Amazon DSP"
+vente:
+  approche: vente-directe
+  resume: "Des équipes vendent la plateforme aux agences média, puis directement aux grandes marques."
+  acheteurs: "Les agences média et les directions marketing des grandes marques"
+  argument: "Une plateforme indépendante qui ne vend pas ses propres espaces publicitaires"
+  objections:
+  - "La commission prélevée sur les dépenses"
+  - "La concurrence d’Amazon et Google"
+bureaux_europe:
+  villes:
+  - "Londres (Royaume-Uni)"
+  - "Paris (France)"
+  - "Hambourg (Allemagne)"
+  - "Madrid (Espagne)"
+  note: "Liste de 2022."
+  sources:
+  - titre: "The Trade Desk, fiche de présentation (2022)"
+    url: "https://www.thetradedesk.com/assets/global/documents/220526_TTD_Fact_Sheet_Update-2.pdf"
+stages:
+  statut: oui
+  detail: "Stage Data Science à Londres, pour un diplôme prévu entre l’automne 2026 et l’été 2027 ; pas de stage commercial trouvé."
+sources:
+- titre: "PPC Land, résultats 2025"
+  url: "https://ppc.land/trade-desk-posts-2-9b-in-2025-revenue-but-growth-slows-to-18/"
+- titre: "The Trade Desk, offre 2026 London Data Science Internship"
+  url: "https://careers.thetradedesk.com/jobs/4793185007/2026-london-data-science-internship"
+verifie_le: '2026-10-17'

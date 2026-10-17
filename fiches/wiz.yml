@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Wiz
+categorie: cyber
+region: amerique-du-nord
+aussi: [cloud]
+groupe: Groupe Google (Google Cloud) depuis mars 2026
+siege: New York · fondée en Israël
+en_bref: La sécurité du cloud
+chiffre_affaires:
+  texte: Non publié
+  md_usd: 0
+chiffres_cles:
+- Rachetée 32 Md$ en cash par Google (finalisé le 11 mars 2026)
+ce_qu_elle_vend: "Un outil qui scanne tout ce qu’une entreprise a dans le cloud (AWS, Azure, Google Cloud…) pour trouver et corriger les failles de sécurité."
+produits:
+- nom: Wiz Cloud
+  detail: repérer les failles dans le cloud
+- nom: Wiz Code
+  detail: sécuriser le code avant sa mise en ligne
+- nom: Wiz Defend
+  detail: détecter les attaques en cours
+modele: Abonnement annuel selon la taille de l’environnement cloud surveillé.
+clients: grandes entreprises sur un ou plusieurs clouds
+rachats:
+- Aucun rachat listé
+concurrents: "Palo Alto Networks, CrowdStrike"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent aux grandes entreprises ; Wiz est aussi disponible sur les places de marché des clouds."
+  acheteurs: "Le responsable de la sécurité informatique (RSSI) et les équipes cloud"
+  argument: "Une vue complète des risques sur tous les clouds, branchée en quelques minutes sans agent à installer"
+  objections:
+  - "Rester neutre entre les clouds maintenant que Wiz appartient à Google"
+  - "Le prix"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage trouvée en octobre 2026."
+sources:
+- titre: "Google Cloud, rachat de Wiz finalisé (mars 2026)"
+  url: "https://www.googlecloudpresscorner.com/2026-03-11-Google-Completes-Acquisition-of-Wiz"
+- titre: "Wiz, la plateforme"
+  url: "https://wiz.io/platform"
+verifie_le: '2026-10-17'

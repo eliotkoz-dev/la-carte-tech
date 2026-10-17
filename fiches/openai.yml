@@ -1,0 +1,62 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: OpenAI
+categorie: ia
+region: amerique-du-nord
+groupe: Non cotée
+siege: San Francisco (États-Unis)
+en_bref: ChatGPT et modèles GPT
+chiffre_affaires:
+  texte: Revenu annualisé proche de 70 Md$ (sept. 2026)
+  md_usd: 70
+chiffres_cles: []
+ce_qu_elle_vend: "L’assistant ChatGPT pour le grand public et les entreprises, et l’accès à ses modèles par API."
+produits:
+- nom: ChatGPT
+  detail: "assistant ; offres Plus, Pro, Business et Enterprise"
+- nom: API OpenAI
+  detail: modèles GPT pour les développeurs
+- nom: Codex
+  detail: agent qui écrit du code
+- nom: Sora
+  detail: génération de vidéos
+modele: Abonnements ChatGPT (particuliers et entreprises) et API facturée au nombre de tokens.
+clients: "grand public, entreprises, développeurs"
+rachats:
+- "io (2025) : appareils, avec Jony Ive"
+concurrents: "Anthropic, Google, Mistral AI"
+note: "Microsoft est son principal investisseur ; contrats cloud avec Oracle (Stargate) et AWS (38 Md$, nov. 2025) ; intégré à Siri sur iPhone depuis 2024."
+vente:
+  approche: mixte
+  resume: "ChatGPT s’achète en ligne par les particuliers et les petites équipes, et l’API en libre-service par les développeurs ; une équipe commerciale vend ChatGPT Enterprise et les gros contrats d’API."
+  acheteurs: "Les directions générales et métiers, le DSI, et les développeurs"
+  argument: "ChatGPT est l’outil d’IA le plus connu : les salariés l’utilisent déjà"
+  objections:
+  - "La confidentialité des données de l’entreprise"
+  - "Le coût à grande échelle et le retour sur investissement difficile à mesurer"
+  - "La dépendance à un seul fournisseur de modèles"
+bureaux_europe:
+  villes:
+  - "Londres (Royaume-Uni)"
+  - "Dublin (Irlande)"
+  - "Paris (France)"
+  - "Bruxelles (Belgique)"
+  - "Munich (Allemagne)"
+  sources:
+  - titre: "Komo, bureaux d’OpenAI"
+    url: "https://komo.ai/directory/openai-offices"
+  - titre: "Maginative, OpenAI ouvre un bureau à Munich"
+    url: "https://www.maginative.com/article/openai-announces-a-munich-office/"
+stages:
+  statut: a-verifier
+  detail: "Pas de stage trouvé. La Residency (6 mois à San Francisco, en poste à temps plein) est fermée pour 2026."
+sources:
+- titre: "Bloomberg Government, revenu annualisé"
+  url: "https://news.bgov.com/artificial-intelligence/openais-annualized-revenue-nears-70-billion-axios-says"
+- titre: "SD Times, contrat avec AWS"
+  url: "https://sdtimes.com/ai/openai-and-aws-announce-38-billion-deal-for-compute-infrastructure/"
+- titre: "OpenAI, Residency"
+  url: "https://openai.com/residency"
+verifie_le: '2026-10-17'

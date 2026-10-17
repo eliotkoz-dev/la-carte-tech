@@ -1,0 +1,78 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Doctolib
+categorie: saas
+region: europe
+groupe: Non cotée
+siege: Région parisienne (France)
+en_bref: Les logiciels des soignants
+chiffre_affaires:
+  texte: "438 M€ de revenus récurrents en 2024 (+22,5 %)"
+  md_usd: 0.5
+chiffres_cles:
+- Rentable depuis l’automne 2025
+ce_qu_elle_vend: "La prise de rendez-vous en ligne et les logiciels des médecins, cliniques et hôpitaux."
+produits:
+- nom: Prise de rendez-vous
+  detail: agenda en ligne
+- nom: Logiciel médical
+  detail: dossier patient et ordonnances
+- nom: Téléconsultation
+  detail: consultation vidéo
+modele: Abonnement mensuel payé par les soignants ; gratuit pour les patients.
+clients: "soignants, cliniques, hôpitaux"
+rachats:
+- "Medicus (2026) : Royaume-Uni"
+concurrents: Maiia
+note: "Valorisation implicite de 3,6 Md€ lors d’une vente de titres sur le marché secondaire (Bloomberg, avril 2026), contre 5,8 Md€ en 2022."
+vente:
+  approche: vente-directe
+  resume: "Une grande équipe commerciale démarche les soignants un par un, puis les cliniques et les hôpitaux."
+  acheteurs: "Les soignants eux-mêmes ; les directions d’établissements de santé"
+  argument: "Moins de temps au téléphone et moins de rendez-vous non honorés"
+  objections:
+  - "L’abonnement mensuel"
+  - "La sécurité des données de santé"
+bureaux_europe:
+  villes:
+  - "Levallois-Perret (France)"
+  - "Berlin (Allemagne)"
+  - "Milan (Italie)"
+  note: "Siège à Levallois-Perret ; présente aussi en Allemagne et en Italie."
+  sources:
+  - titre: "Le Quotidien du médecin, Doctolib en Allemagne"
+    url: "https://www.lequotidiendumedecin.fr/actus-medicales/esante/rendez-vous-medicaux-en-ligne-doctolib-veut-simplanter-en-allemagne"
+  - titre: "Siècle Digital, Doctolib en Italie"
+    url: "https://siecledigital.fr/2021/01/05/doctolib-se-projette-en-italie/"
+stages:
+  statut: oui
+  detail: "Stages et alternances à Levallois-Perret (1 an)."
+rejoindre:
+  bureaux:
+  - ville: Levallois-Perret
+    detail: 'Siège : le seul bureau cité par les offres consultées'
+  - ville: Paris
+  voies:
+  - type: alternance
+    nom: Alternances (recrutement, stratégie et produit marketing…)
+    detail: 1 an, rentrée de septembre 2026 ; français courant et anglais professionnel.
+  - type: stage
+    nom: Stages (chargé de recrutement…)
+    detail: Stages vus avec démarrage en janvier 2026.
+  langues: Français courant et anglais professionnel.
+  a_verifier: 'Berlin et autres pays : non vérifiés ; programme jeunes diplômés non trouvé.'
+  sources:
+  - titre: Offre alternance chargé de recrutement, septembre 2026
+    url: https://jobs.accel.com/companies/doctolib-2/jobs/68545297-alternance-charge-de-recrutement-x-f-m-septembre-2026
+  - titre: Offre alternance stratégie et produit marketing, septembre 2026
+    url: https://jobsbyculture.com/jobs/doctolib/alternance-strat-gie-et-produit-marketing-x-f-m-septembre-2026
+sources:
+- titre: "ABC Bourse, Doctolib rentable"
+  url: "https://www.abcbourse.com/marches/doctolib-franchit-un-cap-historique-12-ans-apres-sa-creation-l-entreprise-est_678828"
+- titre: "FrenchWeb, valorisation"
+  url: "https://www.frenchweb.fr/pourquoi-doctolib-vaut-elle-moins-cher-au-moment-meme-ou-son-modele-parait-plus-solide/461196"
+- titre: "Siècle Digital, rachat de Medicus"
+  url: "https://siecledigital.fr/2026/05/07/doctolib-mise-sur-le-royaume-uni-pour-poursuivre-sa-croissance-avec-le-rachat-de-medicus/"
+verifie_le: '2026-10-17'

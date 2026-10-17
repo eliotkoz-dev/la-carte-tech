@@ -1,0 +1,57 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Shopify
+categorie: ecommerce
+region: amerique-du-nord
+groupe: Cotée à New York (Nasdaq) et Toronto
+siege: Ottawa (Canada)
+en_bref: Créer sa boutique en ligne
+chiffre_affaires:
+  texte: "11,56 Md$ en 2025 (+30 %)"
+  md_usd: 11.56
+chiffres_cles:
+- "378,4 Md$ de ventes réalisées par ses marchands en 2025 (+29,5 %)"
+ce_qu_elle_vend: "Le logiciel pour créer sa boutique en ligne et vendre partout : site, réseaux sociaux, magasin physique."
+produits:
+- nom: Shopify
+  detail: boutique en ligne
+- nom: Shopify Payments
+  detail: "paiement, opéré avec Stripe"
+- nom: Shopify POS
+  detail: caisse en magasin
+- nom: Shop
+  detail: application d’achat
+modele: Abonnements mensuels et commission sur les paiements des marchands.
+clients: des indépendants aux grandes marques
+rachats:
+- "Deliverr (2022, revendu en 2023) : logistique"
+concurrents: "WooCommerce, Wix, Amazon"
+vente:
+  approche: mixte
+  resume: "Les marchands s’inscrivent en ligne ; une équipe commerciale vend Shopify Plus aux grandes marques."
+  acheteurs: "Les créateurs de boutiques en ligne, et les directions e-commerce"
+  argument: "Lancer une boutique en quelques minutes, avec des milliers d’applications"
+  objections:
+  - "Le coût des applications qui s’ajoutent"
+  - "Des frais supplémentaires si on n’utilise pas Shopify Payments"
+bureaux_europe:
+  villes:
+  - "Berlin (Allemagne)"
+  - "Londres (Royaume-Uni)"
+  - "Vilnius (Lituanie)"
+  - "Stockholm (Suède)"
+  note: "Liste de 2019 ; Shopify travaille surtout à distance."
+  sources:
+  - titre: "The Logic, Shopify choisit Berlin (2019)"
+    url: "https://thelogic.co/news/exclusive/shopify-picks-berlin-for-first-engineering-hub-outside-canada/"
+stages:
+  statut: oui
+  detail: "Stages data aux États-Unis (Bellevue, New York), de janvier à août 2026 ; rien trouvé en Europe."
+sources:
+- titre: "Digital Commerce 360, résultats 2025"
+  url: "https://www.digitalcommerce360.com/2026/02/17/shopify-revenue-gmv-q4-2025/"
+- titre: "Weekday, offre Data Internships 2026 de Shopify (relais)"
+  url: "https://jobs.weekday.works/shopify-data-internships%2C-2026---usa"
+verifie_le: '2026-10-17'

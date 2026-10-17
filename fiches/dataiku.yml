@@ -1,0 +1,52 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Dataiku
+categorie: data
+region: europe
+aussi: [ia]
+groupe: Non cotée
+siege: New York · fondée à Paris
+en_bref: La data et l’IA pour les métiers
+chiffre_affaires:
+  texte: Plus de 300 M$ de revenu récurrent annuel (janv. 2025)
+  md_usd: 0.3
+chiffres_cles:
+- Plus de 700 entreprises clientes
+- Plus de 1 100 salariés
+ce_qu_elle_vend: Une plateforme pour que les équipes data et métiers construisent et déploient ensemble des projets d’analyse et d’IA.
+produits:
+- nom: Dataiku Universal AI Platform
+  detail: "préparation des données, machine learning, IA générative et gouvernance"
+modele: Licences annuelles vendues aux grands groupes.
+clients: grands groupes
+rachats:
+- Aucun rachat listé
+concurrents: "Databricks, Alteryx"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent des licences annuelles aux grands groupes, puis l’usage s’étend à d’autres équipes."
+  acheteurs: "Le directeur data, et les directions métiers"
+  argument: "Rendre la data et l’IA accessibles aux équipes qui ne codent pas"
+  objections:
+  - "Le prix des licences"
+  - "Le recouvrement avec les outils déjà fournis par les clouds"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Londres (Royaume-Uni)"
+  - "Munich (Allemagne)"
+  - "Francfort (Allemagne)"
+  sources:
+  - titre: "Wikipédia, Dataiku"
+    url: "https://en.wikipedia.org/wiki/Dataiku"
+stages:
+  statut: oui
+  detail: "Stage Business Transformation à Paris, 6 mois à partir de mi-septembre, ouvert aux écoles de commerce (offre 2026)."
+sources:
+- titre: "Dataiku, communiqué de janvier 2025"
+  url: "https://www.dataiku.com/company/news/dataiku-surpasses-300-million-arr"
+- titre: "Dataiku, offre Business Transformation Intern (Paris)"
+  url: "https://job-boards.greenhouse.io/dataiku/jobs/5617264004"
+verifie_le: '2026-10-17'

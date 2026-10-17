@@ -1,0 +1,72 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Criteo
+categorie: pub
+region: europe
+aussi: [ecommerce]
+groupe: Cotée à New York (Nasdaq)
+siege: Paris (France)
+en_bref: La pub pour le commerce en ligne
+chiffre_affaires:
+  texte: "1,94 Md$ en 2025 (+1 %)"
+  md_usd: 1.94
+chiffres_cles:
+- "Marge après coûts média (contribution ex-TAC) : 1,17 Md$ (+5 %)"
+- 16 786 clients et 3 649 salariés fin 2025
+ce_qu_elle_vend: "De la publicité ciblée pour les e-commerçants, et le « retail media » : la pub vendue sur les sites des distributeurs."
+produits:
+- nom: Retail Media
+  detail: pub sur les sites des enseignes
+- nom: Performance Media
+  detail: pub qui fait revenir les visiteurs
+modele: "Payé à la performance (clics, ventes) ; Criteo garde une marge sur ce que l’annonceur dépense."
+clients: "e-commerçants, marques, distributeurs"
+rachats:
+- "HookLogic (2016) : retail media"
+- "Iponweb (2022) : technologie publicitaire"
+concurrents: "Google, Amazon Ads, The Trade Desk"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent aux e-commerçants et aux marques ; Criteo vend aussi aux distributeurs une technologie pour monétiser leur site (retail media)."
+  acheteurs: "Les directions e-commerce et marketing, et les distributeurs"
+  argument: "Des données d’achat et un paiement lié aux résultats"
+  objections:
+  - "La fin progressive des cookies tiers"
+  - "Mesurer ce que la publicité rapporte vraiment"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Barcelone (Espagne)"
+  note: "Liste partielle : Criteo est aussi présent en Allemagne, aux Pays-Bas, au Royaume-Uni, en Roumanie et à Chypre (villes non précisées)."
+  sources:
+  - titre: "Criteo, nos implantations"
+    url: "https://careers.criteo.com/en/locations/europe-and-middle-east/spain/"
+stages:
+  statut: oui
+  detail: "Stages de 4 à 6 mois à Paris et Barcelone, et alternance (Criteo Campus)."
+rejoindre:
+  bureaux:
+  - ville: Paris
+    detail: 'Siège : stages commerce, ingénierie, RSE'
+  - ville: Barcelone
+    detail: Stages Account Strategist et BI Analyst
+  voies:
+  - type: stage
+    nom: 'Criteo Campus : stages'
+    detail: Stages de 4 à 6 mois minimum ; sélection en 2 à 4 semaines ; sur site ou hybride.
+  - type: alternance
+    nom: Alternance
+    detail: Des alternants témoignent sur la page Criteo Campus (offres Talent Acquisition et autres).
+  calendrier: 'Exemple : un stage Campaign Manager à Paris démarre en janvier 2027.'
+  a_verifier: 'Programme jeunes diplômés : non mentionné sur la page.'
+  sources:
+  - titre: Criteo Campus
+    url: https://careers.criteo.com/en/working-at-criteo/criteo-campus/
+  - titre: Offre Business Development Lead Generation Intern (France, UK, DACH)
+    url: https://careers.criteo.com/en/jobs/r20802/business-development-lead-generation-intern-independent-agency-team-france-uk-dach/
+sources:
+- titre: "Criteo, résultats 2025"
+  url: "https://criteo.investorroom.com/2026-02-11-CRITEO-REPORTS-FOURTH-QUARTER-2025-RESULTS"
+verifie_le: '2026-10-17'

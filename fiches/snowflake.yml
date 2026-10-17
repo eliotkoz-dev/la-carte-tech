@@ -1,0 +1,60 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Snowflake
+categorie: data
+region: amerique-du-nord
+groupe: Cotée à New York
+siege: Bozeman (États-Unis)
+en_bref: Les données dans le cloud
+chiffre_affaires:
+  texte: "4,68 Md$ sur l’exercice 2026 (+29 %)"
+  md_usd: 4.68
+chiffres_cles:
+- Plus de 13 300 clients
+ce_qu_elle_vend: "Un entrepôt de données dans le cloud où les entreprises rangent, partagent et analysent leurs données, avec de l’IA intégrée."
+produits:
+- nom: AI Data Cloud
+  detail: entrepôt de données
+- nom: Cortex AI
+  detail: IA sur ses données
+- nom: Snowpark
+  detail: code Python sur les données
+- nom: Marketplace
+  detail: acheter et partager des jeux de données
+modele: Paiement à la consommation (crédits).
+clients: plus de 13 300 clients
+rachats:
+- "Streamlit (2022) : applications data"
+- "Crunchy Data (2025) : Postgres"
+concurrents: "Databricks, Google BigQuery"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent aux entreprises des crédits de consommation, souvent avec un engagement annuel."
+  acheteurs: "Le directeur data, les équipes data, et le DSI"
+  argument: "Une plateforme de données simple à utiliser, qui fonctionne sur les trois grands clouds"
+  objections:
+  - "Un coût de consommation difficile à prévoir"
+  - "La concurrence de Databricks et des outils des clouds"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Londres (Royaume-Uni)"
+  note: "Liste partielle : nouveau siège français à Paris (juillet 2026), bureau au Royaume-Uni."
+  sources:
+  - titre: "Snowflake, nouveau bureau en France (juillet 2026)"
+    url: "https://www.snowflake.com/en/news/press-releases/snowflake-opens-new-office-france-accelerate-data-ai-innovation/"
+  - titre: "Channel Web, nouveau bureau de Snowflake au Royaume-Uni"
+    url: "https://channelweb.co.uk/news/4115050/snowflake-open-uk-office-citing-strong-momentum-emea"
+stages:
+  statut: oui
+  detail: "Stage Partner Marketing à Paris (6 mois, au printemps), offre publiée en août 2026, vue sur un site relais."
+sources:
+- titre: "Snowflake, résultats de l’exercice 2026"
+  url: "https://snowflake.com/en/news/press-releases/snowflake-reports-financial-results-for-the-fourth-quarter-and-full-year-of-fiscal-2026"
+- titre: "Business Wire, partenariat avec Anthropic"
+  url: "https://www.businesswire.com/news/home/20251203124957/en/Snowflake-and-Anthropic-Announce-200-Million-Partnership-to-Bring-Agentic-AI-to-Global-Enterprises"
+- titre: "ZipRecruiter, offre Partner Marketing Intern Paris (relais)"
+  url: "https://www.ziprecruiter.fr/jobs/580214259-partner-marketing-intern-paris-french-speaking-a-snowflake"
+verifie_le: '2026-10-17'

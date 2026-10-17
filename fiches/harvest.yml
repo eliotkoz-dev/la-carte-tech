@@ -1,0 +1,49 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Harvest
+categorie: fintech
+region: europe
+groupe: Fonds TA Associates et Montagu
+siege: France
+en_bref: Les logiciels des conseillers en patrimoine
+chiffre_affaires:
+  texte: Près de 120 M€
+  md_usd: 0.14
+chiffres_cles:
+- Environ 600 salariés
+- Plus de 4 600 entreprises clientes en Europe
+ce_qu_elle_vend: "Des logiciels pour les conseillers en gestion de patrimoine, les banques et les assureurs."
+produits:
+- nom: O2S
+  detail: logiciel des conseillers en patrimoine
+- nom: Quantalys
+  detail: données et analyse de fonds
+- nom: Feefty
+  detail: épargne salariale
+modele: Abonnements SaaS.
+clients: plus de 4 600 entreprises en Europe
+rachats:
+- Quantalys (2021)
+- Manymore
+- Feefty
+- "Fincite (2025, Allemagne)"
+concurrents: Wealthcome
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent les logiciels aux cabinets de conseil en patrimoine, aux banques et aux assureurs."
+  acheteurs: "Les dirigeants de cabinets, et les directions métiers des banques et des assureurs"
+  argument: "Un logiciel spécialisé qui suit les obligations réglementaires du métier"
+  objections:
+  - "Le coût de changer de logiciel"
+  - "Le prix de l’abonnement"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage ou d’alternance trouvée en octobre 2026."
+sources:
+- titre: "FrenchWeb, Wealthcome face à Harvest"
+  url: "https://frenchweb.fr/wealthcome-leve-15-millions-deuros-pour-defier-harvest-et-accelerer-aupres-des-grands-comptes/463648"
+- titre: "Heuking, rachat de Fincite"
+  url: "https://www.heuking.de/de/news-events/aktuelle-meldungen/artikel/heuking-beraet-fincite-gruender-bei-zusammenschluss-mit-harvest-group.html"
+verifie_le: '2026-10-17'

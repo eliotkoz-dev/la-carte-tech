@@ -1,0 +1,55 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Tencent
+categorie: pub
+region: asie
+groupe: Cotée à Hong Kong
+siege: Shenzhen (Chine)
+en_bref: "WeChat, jeux vidéo et pub"
+chiffre_affaires:
+  texte: "751,8 Md de yuans en 2025 (+14 %), ≈ 104 Md$"
+  md_usd: 104.4
+chiffres_cles:
+- "1,42 milliard d’utilisateurs mensuels sur WeChat"
+ce_qu_elle_vend: "La super-app WeChat, des jeux vidéo, le paiement WeChat Pay, la publicité et le cloud."
+produits:
+- nom: WeChat (Weixin)
+  detail: messagerie et super-app
+- nom: Jeux vidéo
+  detail: "Honor of Kings, Riot Games, Supercell"
+- nom: WeChat Pay
+  detail: paiement
+- nom: Tencent Cloud
+  detail: cloud
+modele: "Jeux vidéo, services de paiement et publicité dans WeChat."
+clients: "grand public, annonceurs, entreprises"
+rachats:
+- Riot Games (2011 à 2015)
+- "Supercell (2016, majorité)"
+concurrents: "ByteDance, Alibaba, NetEase"
+vente:
+  approche: mixte
+  resume: "Le grand public paie dans les jeux et WeChat ; la publicité et le cloud sont vendus par des équipes commerciales et des agences."
+  acheteurs: "Le grand public ; les annonceurs et les entreprises en Chine"
+  argument: "WeChat, l’application que presque tout le monde utilise en Chine"
+  objections:
+  - "Un accès limité hors de Chine"
+  - "La réglementation chinoise"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  note: "Liste partielle : offre de stage de Tencent Games à Paris ; centre de données Tencent Cloud à Francfort."
+  sources:
+  - titre: "ResumeGeni, offre de Tencent à Paris"
+    url: "https://resumegeni.com/jobs/marketing-and-communication-assistant-intern-at-tencent-france-paris"
+stages:
+  statut: oui
+  detail: "Stage Marketing and Communication Assistant à Paris (Tencent Games), offre publiée en mai 2026, vue sur un site relais."
+sources:
+- titre: "Tencent, résultats 2025"
+  url: "https://technode.global/prnasia/tencent-announces-2025-annual-and-fourth-quarter-results/"
+- titre: "ResumeGeni, offre de stage Tencent à Paris (relais)"
+  url: "https://resumegeni.com/jobs/marketing-and-communication-assistant-intern-at-tencent-france-paris"
+verifie_le: '2026-10-17'

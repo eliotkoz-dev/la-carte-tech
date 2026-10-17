@@ -1,0 +1,85 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Revolut
+categorie: fintech
+region: europe
+groupe: Non cotée
+siege: Londres (Royaume-Uni)
+en_bref: La néobanque mondiale
+chiffre_affaires:
+  texte: "6,0 Md$ en 2025 (+46 %)"
+  md_usd: 6
+chiffres_cles:
+- "2,3 Md$ de bénéfice avant impôt"
+- "68,3 millions de clients particuliers et 767 000 entreprises"
+ce_qu_elle_vend: "Comptes, cartes, change, épargne et investissement depuis une application, pour les particuliers et les entreprises."
+produits:
+- nom: Compte et carte
+  detail: particuliers
+- nom: Revolut Business
+  detail: entreprises
+- nom: Plans Premium et Metal
+  detail: abonnements
+- nom: Trading et crypto
+  detail: investissement
+modele: "Abonnements, frais de change et de carte, intérêts sur les dépôts."
+clients: "particuliers, PME"
+rachats:
+- Aucun rachat listé
+concurrents: "Qonto, N26, banques traditionnelles"
+vente:
+  approche: libre-service
+  resume: "Tout se fait dans l’application, en quelques minutes ; les entreprises ouvrent un compte Revolut Business en ligne."
+  acheteurs: "Les particuliers ; les dirigeants de PME"
+  argument: "Une application simple pour payer, changer de devises et investir"
+  objections:
+  - "La confiance dans une banque récente"
+  - "Le service client"
+bureaux_europe:
+  villes:
+  - "Londres (Royaume-Uni)"
+  - "Vilnius (Lituanie)"
+  - "Cracovie (Pologne)"
+  - "Porto (Portugal)"
+  - "Lisbonne (Portugal)"
+  - "Barcelone (Espagne)"
+  - "Madrid (Espagne)"
+  - "Paris (France)"
+  note: "Siège mondial à Londres ; siège pour l’Europe de l’Ouest à Paris en 2027."
+  sources:
+  - titre: "Komo, bureaux de Revolut"
+    url: "https://komo.ai/directory/revolut-offices"
+  - titre: "Revolut, siège de Paris (avril 2026)"
+    url: "https://www.revolut.com/ru-EE/news/revolut_locks_in_paris_headquarters_for_western_europe/"
+stages:
+  statut: oui
+  detail: "Internship Programme 2027 et Graduate Programme de 12 mois (Barcelone, Madrid, Londres…)."
+rejoindre:
+  bureaux:
+  - ville: Barcelone
+  - ville: Madrid
+  - ville: Londres
+  - ville: Lisbonne
+  - ville: Porto
+  - ville: Cracovie
+  - ville: Dubaï
+  voies:
+  - type: graduate
+    nom: Graduate Programme
+    detail: 12 mois, hybride (3 jours au bureau), dans l’ingénierie, le produit, le design, la data, les opérations et la sécurité ; diplôme obtenu avant le début et candidature jusqu’à un an après.
+  - type: stage
+    nom: Internship Programme 2027
+    detail: Offres de stage pour 2027, par exemple Product Owner et Product Designer.
+  calendrier: Candidatures toute l’année ; recrutement surtout d’octobre à janvier et de mars à juin ; rentrées d’automne et de printemps.
+  a_verifier: 'Paris : pas dans la liste des villes du Graduate Programme ; aucun métier commercial dans la liste.'
+  sources:
+  - titre: Revolut, Graduate Programme
+    url: https://www.revolut.com/graduate-programme/
+  - titre: 'Revolut, Internship Programme 2027 : Product Designer'
+    url: https://www.revolut.com/careers/position/c2c28fdc-8cc9-4b3f-9e9b-126c723edb7a/
+sources:
+- titre: "Revolut, résultats 2025"
+  url: "https://www.revolut.com/en-AT/news/revolut_reports_record_profit_of_2_3bn_for_2025_as_revenue_surges_to_6bn/"
+verifie_le: '2026-10-17'

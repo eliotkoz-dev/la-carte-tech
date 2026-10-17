@@ -1,0 +1,154 @@
+# Les notions de la page « La tech en rapide ».
+# categorie : les plus gros acteurs de cette catégorie s’affichent quand on ouvre la notion
+#             (ou bien « acteurs » : une liste de fiches choisies à la main).
+# marche : facultatif, toujours avec sa source.
+
+- id: cloud
+  titre: Le cloud
+  categorie: cloud
+  en_une_phrase: "Louer de l’informatique à la demande (serveurs, stockage, IA) au lieu d’acheter ses propres machines."
+  comment_ca_marche:
+    - "Les fournisseurs construisent d’immenses data centers, répartis en « régions » dans le monde."
+    - "Trois niveaux : IaaS (on loue des serveurs), PaaS (une plateforme prête à l’emploi), SaaS (directement le logiciel)."
+    - "On paie à l’usage : à l’heure de calcul, au gigaoctet stocké, à la requête."
+  marche:
+    chiffre: "143 Md$"
+    detail: "dépensés dans le cloud d’infrastructure au seul T2 2026, +43 % sur un an"
+    source: { titre: "Synergy Research, juillet 2026", url: "https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years" }
+  barres:
+    titre: "Parts de marché mondiales, T2 2026"
+    items:
+      - { nom: "Amazon (AWS)", valeur: 28, texte: "28 %" }
+      - { nom: "Microsoft (Azure)", valeur: 20, texte: "20 %" }
+      - { nom: "Google Cloud", valeur: 15, texte: "15 %" }
+  mots_cles: [IaaS, PaaS, SaaS, Région, FinOps, Multi-cloud]
+  en_vente: "On vend de la flexibilité et de la vitesse ; les objections portent sur le coût et la dépendance au fournisseur."
+
+- id: ia
+  titre: L’IA générative
+  categorie: ia
+  en_une_phrase: "Des modèles qui écrivent, résument, analysent et agissent à partir d’instructions en langage naturel."
+  comment_ca_marche:
+    - "Un modèle de langage (LLM) est entraîné sur d’énormes quantités de textes, avec des milliers de puces pendant des semaines."
+    - "On l’utilise dans une application (ChatGPT, Claude, Le Chat) ou par API, facturée au nombre de tokens (des morceaux de mots)."
+    - "Les agents vont plus loin : ils enchaînent seuls des actions avec des outils (chercher, écrire du code, remplir un CRM)."
+  marche:
+    chiffre: "2 700 Md$"
+    detail: "de dépenses mondiales liées à l’IA prévues en 2026 (+49,5 %), puces et data centers compris"
+    source: { titre: "Gartner, septembre 2026", url: "https://gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026" }
+  mots_cles: [LLM, Token, RAG, Agent, MCP, Fine-tuning]
+  en_vente: "On parle de coût par tâche réussie, pas de prix par token."
+
+- id: puces
+  titre: Les puces
+  categorie: puces
+  en_une_phrase: "Les composants qui font calculer les téléphones, les ordinateurs et l’IA."
+  comment_ca_marche:
+    - "Certains conçoivent les puces sans les fabriquer (Nvidia, Apple)."
+    - "Des « fondeurs » les fabriquent dans des usines géantes (TSMC, Samsung)."
+    - "Pour graver les plus fines, il faut les machines EUV d’ASML, seul fabricant au monde."
+  marche:
+    chiffre: "772 Md$"
+    detail: "de ventes de semi-conducteurs en 2025 (+22 %) ; près de 1 000 Md$ attendus en 2026"
+    source: { titre: "WSTS, prévisions de novembre 2025", url: "https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026" }
+  mots_cles: [GPU, Fondeur, Nanomètre, EUV, HBM]
+  en_vente: "Les puces d’IA manquent : la vente se joue sur la capacité à livrer et sur la relation de long terme avec les clouds."
+
+- id: data
+  titre: La data
+  categorie: data
+  en_une_phrase: "Stocker, nettoyer et analyser les données de l’entreprise pour décider et nourrir l’IA."
+  comment_ca_marche:
+    - "Les données arrivent de partout (site web, CRM, usines) et sont copiées dans un entrepôt central (data warehouse ou lakehouse)."
+    - "On les nettoie et on les relie (ETL), puis on les analyse avec des tableaux de bord ou des modèles."
+    - "L’observabilité surveille en temps réel les serveurs et les applications."
+  mots_cles: [Data warehouse, Data lake, Lakehouse, ETL, Observabilité]
+  en_vente: "Pas de bonne IA sans données propres : dans une vente IA, c’est souvent le vrai sujet."
+
+- id: logiciels
+  titre: Les logiciels (SaaS)
+  categorie: saas
+  en_une_phrase: "Des logiciels loués par abonnement et utilisés dans le navigateur, sans installation."
+  comment_ca_marche:
+    - "L’éditeur héberge le logiciel et le met à jour pour tous ses clients en même temps."
+    - "Le client paie un abonnement, souvent par utilisateur et par an."
+    - "Exemples : CRM (Salesforce, HubSpot), ERP (SAP), bureautique (Microsoft 365), création (Adobe)."
+  marche:
+    chiffre: "299 Md$"
+    detail: "dépensés en logiciels SaaS dans le monde en 2025 (+19 %), selon une prévision"
+    source: { titre: "Gartner, prévision de novembre 2024", url: "https://www.gartner.com/en/newsroom/press-releases/2024-11-19-gartner-forecasts-worldwide-public-cloud-end-user-spending-to-total-723-billion-dollars-in-2025" }
+  mots_cles: [Abonnement, ARR, Churn, Onboarding, CRM, ERP]
+  en_vente: "Le revenu dépend du renouvellement : la vente continue après la signature."
+
+- id: cyber
+  titre: La cybersécurité
+  categorie: cyber
+  en_une_phrase: "Protéger les données, les accès et les systèmes de l’entreprise."
+  comment_ca_marche:
+    - "On protège les appareils (ordinateurs, serveurs), le réseau (pare-feu), le cloud et les identités (qui a accès à quoi)."
+    - "Un SOC surveille les alertes jour et nuit et réagit aux attaques."
+    - "Des règles comme le RGPD ou NIS2 obligent les entreprises à se protéger et à déclarer les incidents."
+  marche:
+    chiffre: "247,5 Md$"
+    detail: "de dépenses mondiales en cybersécurité prévues en 2026 (+13,6 %)"
+    source: { titre: "Gartner, septembre 2026 (via Software Strategies)", url: "https://softwarestrategiesblog.com/2026/10/05/gartner-3q26-information-security-forecast-post-quantum-firewalls-2030/" }
+  mots_cles: [IAM, SSO, SOC, Pare-feu, RGPD, NIS2]
+  en_vente: "Le responsable sécurité peut bloquer un deal à la fin : il faut l’impliquer tôt."
+
+- id: pub
+  titre: La publicité en ligne
+  categorie: pub
+  en_une_phrase: "Les marques paient pour apparaître devant les bonnes personnes : sur la recherche, les réseaux sociaux, les vidéos et les sites marchands."
+  comment_ca_marche:
+    - "Chaque emplacement est vendu aux enchères en une fraction de seconde : c’est la publicité programmatique."
+    - "L’annonceur paie au clic (CPC), aux mille affichages (CPM) ou à la vente."
+    - "Le retail media : les distributeurs vendent de la pub sur leur propre site, en s’appuyant sur leurs données d’achat."
+  marche:
+    chiffre: "1 343 Md$"
+    detail: "de dépenses publicitaires mondiales prévues en 2026 (+11,9 %) ; Alphabet, Amazon et Meta en captent 59,7 % hors Chine"
+    source: { titre: "WARC, prévisions d’octobre 2026 (via PPC Land)", url: "https://ppc.land/warc-forecasts-social-media-ad-spend-gains-21-3-to-394-6bn-in-2026/" }
+  barres:
+    titre: "Où va l’argent en 2026 (prévision)"
+    items:
+      - { nom: "Réseaux sociaux", valeur: 394.6, texte: "394,6 Md$" }
+      - { nom: "Recherche", valeur: 295.7, texte: "295,7 Md$" }
+      - { nom: "Retail media", valeur: 202.1, texte: "202,1 Md$" }
+  mots_cles: [CPC, CPM, Programmatique, Retail media, ROAS]
+  en_vente: "On vend du résultat mesurable : combien de ventes pour chaque euro dépensé (le ROAS)."
+
+- id: ecommerce
+  titre: L’e-commerce
+  categorie: ecommerce
+  en_une_phrase: "Vendre en ligne : sites marchands, places de marché et logiciels qui font tourner les boutiques."
+  comment_ca_marche:
+    - "Vente directe : la marque vend sur son propre site, souvent construit avec un logiciel comme Shopify."
+    - "Marketplace : un site accueille des milliers de vendeurs et prend une commission (Amazon, Vinted, ou une enseigne équipée par Mirakl)."
+    - "Derrière chaque commande : paiement, logistique, publicité et service client."
+  mots_cles: [Marketplace, GMV, Taux de conversion, Panier moyen, D2C]
+  en_vente: "Pour un logiciel e-commerce, les arguments sont la hausse des ventes et la vitesse de lancement."
+
+- id: paiements
+  titre: Les paiements et la fintech
+  categorie: fintech
+  en_une_phrase: "Faire circuler l’argent : payer en ligne et en magasin, tenir des comptes, prêter et investir."
+  comment_ca_marche:
+    - "Un paiement par carte passe par plusieurs acteurs : le commerçant, son prestataire de paiement (Stripe, Adyen), le réseau de cartes (Visa, Mastercard) et la banque du client."
+    - "Les néobanques (Revolut, Qonto) proposent des comptes 100 % en ligne."
+    - "Chaque acteur prend une petite commission sur chaque transaction."
+  marche:
+    chiffre: "2 600 Md$"
+    detail: "de revenus mondiaux tirés des paiements en 2025"
+    source: { titre: "McKinsey, Global Payments Report", url: "https://www.mckinsey.com/industries/financial-services/our-insights/global-payments-report" }
+  mots_cles: [PSP, KYC, Néobanque, Stablecoin, Commission]
+  en_vente: "Pour un gros marchand, 0,1 point de commission en moins vaut des millions : la vente se joue sur le taux d’acceptation des paiements et sur le prix."
+
+- id: api
+  titre: Les API
+  acteurs: [stripe, shopify, lemonway]
+  en_une_phrase: "Les ponts qui permettent à deux logiciels d’échanger des données ou de déclencher des actions."
+  comment_ca_marche:
+    - "Une application envoie une requête à l’API d’une autre (« crée ce paiement ») et reçoit une réponse."
+    - "Les webhooks font l’inverse : le service prévient l’application quand quelque chose se passe."
+    - "Beaucoup d’entreprises tech vendent directement leur API (Stripe, OpenAI, Lemonway)."
+  mots_cles: [REST, Clé d’API, Webhook, SDK, MCP]
+  en_vente: "Un produit bien branché au système du client est adopté, et difficile à remplacer."

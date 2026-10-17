@@ -1,0 +1,70 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Databricks
+categorie: data
+region: amerique-du-nord
+aussi: [ia]
+groupe: Non cotée
+siege: San Francisco (États-Unis)
+en_bref: Plateforme data et IA (lakehouse)
+chiffre_affaires:
+  texte: "Plus de 5,4 Md$ de revenu annualisé (fév. 2026)"
+  md_usd: 5.4
+chiffres_cles:
+- "+65 % sur un an"
+- Valorisée 134 Md$ (fév. 2026)
+- Plus de 20 000 organisations clientes
+ce_qu_elle_vend: "Une plateforme pour stocker et analyser toutes les données de l’entreprise, puis construire des agents d’IA dessus."
+produits:
+- nom: Data Intelligence Platform
+  detail: le « lakehouse »
+- nom: Databricks SQL
+  detail: entrepôt de données
+- nom: Agent Bricks
+  detail: créer des agents d’IA
+- nom: Unity Catalog
+  detail: gouvernance des données
+modele: Paiement à la consommation de puissance de calcul.
+clients: plus de 20 000 organisations
+rachats:
+- "MosaicML (2023) : IA générative"
+- "Tabular (2024) : tables de données"
+- "Neon (2025) : Postgres"
+concurrents: "Snowflake, Google BigQuery"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent aux grandes entreprises un engagement de consommation ; le produit est aussi disponible sur les places de marché des clouds."
+  acheteurs: "Le directeur data, les équipes data et IA, et le DSI"
+  argument: "Une seule plateforme pour les données et l’IA, sur des formats ouverts"
+  objections:
+  - "Un coût de consommation difficile à prévoir"
+  - "Une plateforme puissante mais complexe à maîtriser"
+bureaux_europe:
+  villes:
+  - "Amsterdam (Pays-Bas)"
+  - "Londres (Royaume-Uni)"
+  - "Paris (France)"
+  - "Berlin (Allemagne)"
+  - "Munich (Allemagne)"
+  - "Francfort (Allemagne)"
+  - "Madrid (Espagne)"
+  - "Milan (Italie)"
+  - "Stockholm (Suède)"
+  - "Aarhus (Danemark)"
+  - "Zurich (Suisse)"
+  - "Belgrade (Serbie)"
+  - "Zagreb (Croatie)"
+  sources:
+  - titre: "Databricks, bureaux dans le monde"
+    url: "https://databricks.com/company/contact/office-locations"
+stages:
+  statut: oui
+  detail: "Stages produit et ingénierie à Amsterdam pour l’été 2027, vus sur des sites relais."
+sources:
+- titre: "Databricks, communiqué du 9 fév. 2026"
+  url: "https://databricks.com/company/newsroom/press-releases/databricks-grows-65-yoy-surpasses-5-4-billion-revenue-run-rate"
+- titre: "Lux Capital, offre Product Management Intern Amsterdam (relais)"
+  url: "https://jobs.luxcapital.com/companies/databricks/jobs/57627656-product-management-intern-2026-amsterdam"
+verifie_le: '2026-10-17'

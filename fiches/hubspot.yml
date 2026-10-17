@@ -1,0 +1,60 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: HubSpot
+categorie: saas
+region: amerique-du-nord
+groupe: Cotée à New York
+siege: Cambridge (États-Unis)
+en_bref: Le CRM des PME
+chiffre_affaires:
+  texte: "3,13 Md$ en 2025 (+19 %)"
+  md_usd: 3.13
+chiffres_cles:
+- 288 706 clients fin 2025
+ce_qu_elle_vend: "Un CRM simple pour le marketing, la vente et le service client des PME."
+produits:
+- nom: Marketing Hub
+  detail: "emails, réseaux sociaux, landing pages"
+- nom: Sales Hub
+  detail: pipeline des commerciaux
+- nom: Service Hub
+  detail: service client
+- nom: Breeze
+  detail: agents IA
+modele: "Version gratuite, puis abonnements par palier (Starter, Pro, Enterprise)."
+clients: PME et startups
+rachats:
+- "Clearbit (2023) : données"
+concurrents: "Salesforce, Pipedrive"
+vente:
+  approche: mixte
+  resume: "Une version gratuite attire les clients (marketing « inbound ») ; ils passent aux offres payantes en ligne ou avec un commercial."
+  acheteurs: "Le dirigeant de PME, et les responsables marketing et commerciaux"
+  argument: "Un outil tout-en-un, simple, qu’on peut essayer gratuitement"
+  objections:
+  - "Le prix qui monte vite avec les paliers et le nombre de contacts"
+  - "Des limites pour les très grandes entreprises"
+bureaux_europe:
+  villes:
+  - "Dublin (Irlande)"
+  - "Berlin (Allemagne)"
+  - "Paris (France)"
+  - "Gand (Belgique)"
+  - "Londres (Royaume-Uni)"
+  - "Amsterdam (Pays-Bas)"
+  - "Madrid (Espagne)"
+  note: "Siège européen à Dublin."
+  sources:
+  - titre: "HubSpot, nos bureaux"
+    url: "https://hubspot.com/company/contact"
+stages:
+  statut: a-verifier
+  detail: "Programme de stage ingénieur à Dublin en 2026 (offre retirée en février 2026) ; pas de stage commercial trouvé en Europe."
+sources:
+- titre: "HubSpot, résultats 2025"
+  url: "https://www.businesswire.com/news/home/20260211469584/en/HubSpot-Reports-Strong-Q4-and-Full-Year-2025-Results"
+- titre: "Built In Dublin, programme de stage HubSpot (relais)"
+  url: "https://builtindublin.ie/job/hubspot-software-engineer-internship-placement-program-ireland/8463635"
+verifie_le: '2026-10-17'

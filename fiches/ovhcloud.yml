@@ -1,0 +1,61 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: OVHcloud
+categorie: cloud
+region: europe
+groupe: Cotée à Paris
+siege: Roubaix (France)
+en_bref: Le cloud européen
+chiffre_affaires:
+  texte: "1,085 Md€ sur l’exercice 2025, clos fin août (+9,3 %)"
+  md_usd: 1.25
+chiffres_cles:
+- "289,6 M€ au T3 de l’exercice 2026 (+6,9 %)"
+ce_qu_elle_vend: "Serveurs, cloud public et privé hébergés en Europe, avec des prix simples et prévisibles."
+produits:
+- nom: Bare Metal
+  detail: serveurs dédiés
+- nom: Public Cloud
+  detail: cloud à la demande
+- nom: Hosted Private Cloud
+  detail: cloud privé pour les entreprises
+- nom: Web Cloud
+  detail: hébergement de sites et noms de domaine
+modele: Abonnements mensuels et location de serveurs.
+clients: "PME, grands groupes, secteur public"
+rachats:
+- Aucun rachat majeur listé
+concurrents: "AWS, Scaleway, Hetzner"
+note: "Met en avant un cloud européen « souverain » ; Octave Klaba, fondateur, a repris la direction en 2025."
+vente:
+  approche: mixte
+  resume: "Commande en ligne pour les développeurs et les PME ; commerciaux et partenaires pour les grands comptes et le secteur public."
+  acheteurs: "Le DSI, les développeurs, et les acheteurs publics"
+  argument: "Un cloud européen, souverain, avec des prix simples et prévisibles"
+  objections:
+  - "Moins de services que les clouds américains, surtout en IA"
+  - "La fiabilité, depuis l’incendie d’un data center à Strasbourg en 2021"
+bureaux_europe:
+  villes:
+  - "Roubaix (France)"
+  - "Wrocław (Pologne)"
+  - "Cologne (Allemagne)"
+  note: "Siège à Roubaix ; autres villes vues dans les offres d’emploi (liste partielle)."
+  sources:
+  - titre: "OVHcloud, offre à Wrocław"
+    url: "https://careers.ovhcloud.com/job/WROC%C5%81AW-Cloud-Customer-Support-Representative-53-332/1426207733/"
+  - titre: "OVHcloud, offre à Cologne"
+    url: "https://careers.ovhcloud.com/job/K%C3%96LN-Hiring-Officer-%28mfx%29-50825/1379488633"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage ou d’alternance trouvée ; OVHcloud a recruté 8 alternants en 3 ans à Roubaix (candidature spontanée possible)."
+sources:
+- titre: "Next, résultats annuels 2025"
+  url: "https://next.ink/205353/ovhcloud-octave-klaba-reprend-encore-la-direction-revenus-en-hausse-gadin-en-bourse/"
+- titre: "Option Finance, T3 2026"
+  url: "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-06-25-ovhcloud-porte-par-le-cloud-public-confirme-ses-objectifs-annuels.html"
+- titre: "La bonne alternance, OVHcloud à Roubaix"
+  url: "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/recruteurs_lba/42476141900045/ovh"
+verifie_le: '2026-10-17'

@@ -1,0 +1,102 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Microsoft
+categorie: saas
+region: amerique-du-nord
+aussi: [ia]
+groupe: Cotée à New York (Nasdaq)
+siege: Redmond (États-Unis)
+en_bref: "Office, Windows, cloud et IA"
+chiffre_affaires:
+  texte: "331,8 Md$ sur l’exercice 2026, clos fin juin (+18 %)"
+  md_usd: 331.8
+chiffres_cles:
+- Plus de 90 Md$ au seul dernier trimestre
+- "Azure : plus de 100 Md$ sur l’exercice"
+ce_qu_elle_vend: "Les logiciels de bureau de presque toutes les entreprises, le cloud Azure, Windows, LinkedIn et les jeux Xbox."
+produits:
+- nom: Microsoft 365
+  detail: "Word, Excel, Outlook, Teams"
+- nom: Copilot
+  detail: assistant IA dans tous ses logiciels
+- nom: Azure
+  detail: cloud (voir la fiche)
+- nom: Windows
+  detail: système d’exploitation
+- nom: LinkedIn
+  detail: réseau professionnel
+- nom: Xbox
+  detail: jeux vidéo
+modele: "Abonnements par utilisateur (Microsoft 365, Copilot), cloud à l’usage, licences et publicité (LinkedIn, Bing)."
+clients: "entreprises de toutes tailles, grand public"
+rachats:
+- LinkedIn (2016)
+- GitHub (2018)
+- "Nuance (2022) : IA vocale"
+- "Activision Blizzard (2023) : jeux vidéo"
+concurrents: "Google, AWS, Salesforce"
+note: Principal investisseur d’OpenAI ; investit aussi dans Anthropic (2025) et Mistral AI (2024).
+vente:
+  approche: partenaires
+  resume: "Les grands groupes signent des contrats directement avec Microsoft, mais une grande partie des ventes passe par des partenaires revendeurs et intégrateurs, surtout pour les PME."
+  acheteurs: "Le DSI, et la direction générale pour les gros contrats"
+  argument: "Tout est déjà intégré : Windows, Office, Teams, Azure, Copilot"
+  objections:
+  - "Le prix de Copilot par utilisateur"
+  - "La dépendance à Microsoft"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Issy-les-Moulineaux (France)"
+  - "Dublin (Irlande)"
+  - "Londres (Royaume-Uni)"
+  - "Munich (Allemagne)"
+  - "Amsterdam (Pays-Bas)"
+  - "Bruxelles (Belgique)"
+  - "Milan (Italie)"
+  - "Zurich (Suisse)"
+  - "Copenhague (Danemark)"
+  - "Stockholm (Suède)"
+  - "Oslo (Norvège)"
+  - "Varsovie (Pologne)"
+  note: "Principaux sites : Microsoft a une filiale dans presque tous les pays d’Europe."
+  sources:
+  - titre: "Microsoft, centres en Europe"
+    url: "https://www.microsoft.com/en-us/hub/locations"
+  - titre: "Komo, bureaux de Microsoft"
+    url: "https://komo.ai/directory/microsoft-offices"
+stages:
+  statut: alternance
+  detail: "Alternance à Issy-les-Moulineaux (12 à 24 mois) ; stages globaux ouverts aux étudiants."
+rejoindre:
+  bureaux:
+  - ville: Issy-les-Moulineaux
+    detail: Siège de Microsoft France
+  - ville: Dublin
+    detail: Offres Early in Profession et Graduate Digital Sales sur le site irlandais
+  voies:
+  - type: alternance
+    nom: Business Program Management (apprenti)
+    detail: 12 à 24 mois à Issy-les-Moulineaux, pour un étudiant en licence ou master (offre de la rentrée 2024).
+  - type: stage
+    nom: Global university internships
+    detail: Stages ouverts aux étudiants de licence, master, MBA et doctorat, dans tous les métiers.
+  - type: graduate
+    nom: Graduate Digital Sales et Microsoft Aspire
+    detail: Programmes de début de carrière listés sur le site irlandais ; MCAPS EiP (ventes et leadership technique) sur 3 ans au niveau mondial.
+  a_verifier: Les offres françaises se trouvent sur le portail Microsoft Careers en filtrant sur la France ; la page étudiants ne liste pas de programme propre à la France.
+  sources:
+  - titre: Microsoft, programmes Early in Profession
+    url: https://careers.microsoft.com/students/us/en/ur-lp-france
+  - titre: Microsoft Irlande, programmes early careers
+    url: https://microsoft.com/en-IE/earlycareers/programs
+  - titre: Offre apprenti Business Program Management, Issy-les-Moulineaux
+    url: https://enableamerica.dejobs.org/issy-les-moulineaux-fra/business-program-management-intern/DA8CE4DFAC9045839EC1ABD812EC45D5/job/
+sources:
+- titre: "Redmond Magazine, résultats Microsoft exercice 2026"
+  url: "https://redmondmag.com/articles/2026/07/30/microsoft-tops-90b-quarterly-revenue.aspx"
+- titre: "Bloomberg Law, investissement de Microsoft et Nvidia dans Anthropic"
+  url: "https://news.bloomberglaw.com/tech-and-telecom-law/microsoft-nvidia-to-invest-as-much-as-15-billion-in-anthropic"
+verifie_le: '2026-10-17'

@@ -1,0 +1,114 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Salesforce
+categorie: saas
+region: amerique-du-nord
+aussi: [ia]
+groupe: Cotée à New York
+siege: San Francisco (États-Unis)
+en_bref: "Le n°1 du CRM, et des agents IA"
+chiffre_affaires:
+  texte: "41,5 Md$ sur l’exercice 2026, clos fin janvier (+10 %)"
+  md_usd: 41.5
+chiffres_cles:
+- Dont 399 M$ apportés par Informatica
+ce_qu_elle_vend: "Le CRM, l’outil où les équipes de vente, de service client et de marketing suivent leurs clients, avec des agents IA."
+produits:
+- nom: Sales Cloud
+  detail: CRM des commerciaux
+- nom: Service Cloud
+  detail: service client
+- nom: Agentforce
+  detail: agents IA
+- nom: Slack
+  detail: messagerie d’équipe
+- nom: Tableau
+  detail: tableaux de bord
+- nom: MuleSoft
+  detail: connecter les logiciels entre eux
+modele: "Abonnement annuel par utilisateur, avec des options payantes (IA, data)."
+clients: entreprises de toutes tailles
+rachats:
+- Informatica (finalisé le 18 nov. 2025)
+- Slack (2021)
+- Tableau (2019)
+- MuleSoft (2018)
+concurrents: "Microsoft Dynamics, HubSpot, SAP"
+note: Les modèles Claude d’Anthropic sont intégrés à Agentforce (2025).
+vente:
+  approche: vente-directe
+  resume: "Une machine commerciale très organisée (SDR, Account Executives, avant-vente), avec des intégrateurs pour la mise en place."
+  acheteurs: "Le directeur commercial, le marketing, le service client, et le DSI"
+  argument: "Le CRM numéro un, avec des agents IA (Agentforce) branchés sur les données client"
+  objections:
+  - "Le prix élevé et les options payantes"
+  - "La complexité : il faut souvent un intégrateur"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Lyon (France)"
+  - "Nantes (France)"
+  - "Grenoble (France)"
+  - "Marseille (France)"
+  - "Dublin (Irlande)"
+  - "Londres (Royaume-Uni)"
+  - "Berlin (Allemagne)"
+  - "Munich (Allemagne)"
+  - "Francfort (Allemagne)"
+  - "Düsseldorf (Allemagne)"
+  - "Stuttgart (Allemagne)"
+  - "Amsterdam (Pays-Bas)"
+  - "Bruxelles (Belgique)"
+  - "Madrid (Espagne)"
+  - "Barcelone (Espagne)"
+  - "Milan (Italie)"
+  - "Rome (Italie)"
+  - "Lisbonne (Portugal)"
+  - "Zurich (Suisse)"
+  - "Genève (Suisse)"
+  - "Vienne (Autriche)"
+  - "Copenhague (Danemark)"
+  - "Stockholm (Suède)"
+  - "Oslo (Norvège)"
+  - "Espoo (Finlande)"
+  - "Cracovie (Pologne)"
+  note: "Principaux sites (la page officielle en liste quelques autres en Allemagne et en Suisse)."
+  sources:
+  - titre: "Salesforce, implantations dans le monde"
+    url: "https://www.salesforce.com/company/locations/"
+stages:
+  statut: oui
+  detail: "Stages Futureforce toute l’année en EMEA ; graduate rotation à Dublin."
+rejoindre:
+  bureaux:
+  - ville: Paris
+    detail: Cité en exemple pour les stages Futureforce
+  - ville: Dublin
+    detail: Commercial Graduate Rotation Program
+  voies:
+  - type: stage
+    nom: Futureforce internship programs
+    detail: Stages toute l’année en EMEA, dans les métiers techniques, commerciaux et support ; durées variables.
+  - type: graduate
+    nom: Commercial Graduate Rotation Program
+    detail: 'À Dublin : 12 mois de rotation entre Sales Development et Solution Engineering ; réservé aux anciens ou actuels stagiaires ; anglais et français courants (édition de septembre 2025).'
+  - type: alternance
+    nom: Solution Engineering Presales Apprentice
+    detail: Offre d’alternance vue pour la rentrée 2024 (détails non vérifiés).
+  langues: Anglais, plus une langue européenne selon le marché (français pour le programme vu).
+  a_verifier: 'Dates d’ouverture des candidatures : aucune date fixe n’est publiée, il faut filtrer « Intern » sur la page emplois.'
+  sources:
+  - titre: Salesforce, stages Futureforce
+    url: https://www.salesforce.com/company/careers/university/internships/
+  - titre: Offre Commercial Graduate Rotation Program, Dublin
+    url: https://builtindublin.ie/job/commercial-graduate-rotation-program-french-speaker/4638668
+  - titre: Offre Presales Apprentice (septembre 2024)
+    url: https://www.themuse.com/jobs/salesforce/solution-engineering-presales-apprentice-septembre-2024
+sources:
+- titre: "Salesforce, résultats de l’exercice 2026"
+  url: "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000056/crm-q4fy26xexhibit991.htm"
+- titre: "Seeking Alpha, rachat d’Informatica"
+  url: "https://seekingalpha.com/news/4523363-salesforce-completes-acquisition-of-informatica"
+verifie_le: '2026-10-17'

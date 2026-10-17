@@ -1,0 +1,321 @@
+# Liens entre les acteurs de la carte, par ordre d’importance :
+#   1 · parente        « de » possède « vers » (maison mère → filiale)   trait rouge avec flèche
+#   2 · investissement « de » a investi dans « vers »                     trait noir avec flèche
+#   3 · partenariat    « de » et « vers » travaillent ensemble             pointillé, sans flèche
+# de / vers : le nom du fichier de la fiche, sans .yml. Ajoutez la source quand vous l’avez.
+
+- de: amazon
+  vers: aws
+  type: parente
+  texte: "Amazon possède AWS, sa filiale cloud"
+  source: "https://www.nasdaq.com/press-release/amazoncom-announces-fourth-quarter-results-2026-02-05"
+- de: google
+  vers: google-cloud
+  type: parente
+  texte: Alphabet (Google) possède Google Cloud
+  source: "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf"
+- de: microsoft
+  vers: azure
+  type: parente
+  texte: "Microsoft possède Azure, son activité cloud"
+  source: "https://redmondmag.com/articles/2026/07/30/microsoft-tops-90b-quarterly-revenue.aspx"
+- de: alibaba
+  vers: alibaba-cloud
+  type: parente
+  texte: Alibaba possède Alibaba Cloud
+  source: "https://www.alibabagroup.com/document-1991364841188622336"
+- de: google-cloud
+  vers: wiz
+  type: parente
+  texte: "Google rachète Wiz pour 32 Md$ et l’intègre à Google Cloud (mars 2026)"
+  source: "https://www.googlecloudpresscorner.com/2026-03-11-Google-Completes-Acquisition-of-Wiz"
+- de: microsoft
+  vers: openai
+  type: investissement
+  texte: "Microsoft détient environ 27 % d’OpenAI (oct. 2025)"
+  source: "https://www.scmp.com/tech/big-tech/article/3330714/microsoft-holds-27-openai-revamped-partnership"
+- de: nvidia
+  vers: openai
+  type: investissement
+  texte: "Nvidia prévoit d’investir 30 Md$ dans OpenAI (fév. 2026)"
+  source: "https://www.outlookbusiness.com/corporate/nvidia-to-invest-30bn-in-openai-previous-100bn-partnership-plan-scrapped"
+- de: amazon
+  vers: anthropic
+  type: investissement
+  texte: "Amazon a investi 8 Md$ dans Anthropic (2023-2024)"
+  source: "https://techcrunch.com/2024/11/22/anthropic-raises-an-additional-4b-from-amazon-makes-aws-its-primary-cloud-partner/"
+- de: google
+  vers: anthropic
+  type: investissement
+  texte: "Google investit dans Anthropic, dont 1 Md$ de plus en janv. 2025"
+  source: "https://www.nbcnewyork.com/news/business/money-report/google-agrees-to-new-1-billion-investment-in-anthropic/6117837/"
+- de: microsoft
+  vers: anthropic
+  type: investissement
+  texte: Microsoft investit dans Anthropic (nov. 2025)
+  source: "https://news.bloomberglaw.com/tech-and-telecom-law/microsoft-nvidia-to-invest-as-much-as-15-billion-in-anthropic"
+- de: nvidia
+  vers: anthropic
+  type: investissement
+  texte: Nvidia investit dans Anthropic (nov. 2025)
+  source: "https://news.bloomberglaw.com/tech-and-telecom-law/microsoft-nvidia-to-invest-as-much-as-15-billion-in-anthropic"
+- de: salesforce
+  vers: anthropic
+  type: investissement
+  texte: Salesforce investit dans Anthropic depuis 2023
+  source: "https://thenextweb.com/news/salesforce-anthropic-investment-5-billion-ipo"
+- de: asml
+  vers: mistral-ai
+  type: investissement
+  texte: "ASML investit 1,3 Md€ et devient le premier actionnaire de Mistral AI (sept. 2025)"
+  source: "https://www.asml.com/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership"
+- de: microsoft
+  vers: mistral-ai
+  type: investissement
+  texte: "Microsoft investit 15 M€ dans Mistral AI (fév. 2024)"
+  source: "https://siliconcanals.com/microsoft-invests-15m-in-mistral-ai/"
+- de: nvidia
+  vers: mistral-ai
+  type: investissement
+  texte: Nvidia investit dans Mistral AI (juin 2024)
+  source: "https://www.bloomberg.com/news/articles/2024-06-11/mistral-ai-raises-600-million-from-nvidia-samsung-and-vcs"
+- de: samsung
+  vers: mistral-ai
+  type: investissement
+  texte: Samsung investit dans Mistral AI (juin 2024)
+  source: "https://www.bloomberg.com/news/articles/2024-06-11/mistral-ai-raises-600-million-from-nvidia-samsung-and-vcs"
+- de: nvidia
+  vers: databricks
+  type: investissement
+  texte: Nvidia investit dans Databricks (2023)
+  source: "https://www.cnbc.com/2023/09/14/nvidia-and-capital-one-invest-in-databricks-at-43-billion-valuation.html/"
+- de: tencent
+  vers: qonto
+  type: investissement
+  texte: Tencent co-mène la levée de 104 M€ de Qonto (2020)
+  source: "https://siecledigital.fr/2020/01/21/tencent-rentre-au-capital-de-qonto-qui-leve-104-millions-deuros/"
+- de: oracle
+  vers: tiktok
+  type: investissement
+  texte: "Oracle détient environ 15 % de la coentreprise américaine de TikTok et héberge ses données (2026)"
+  source: "https://www.outlookbusiness.com/corporate/oracle-spent-22-bn-for-15-stake-in-tiktok-and-became-its-american-landlord"
+- de: google
+  vers: dataiku
+  type: investissement
+  texte: "CapitalG, le fonds d’Alphabet, entre au capital de Dataiku (2019)"
+  source: "https://www.frenchweb.fr/capitalg-ex-google-capital-prend-une-participation-minoritaire-dans-dataiku/385945"
+- de: nvidia
+  vers: cohere
+  type: investissement
+  texte: "Nvidia investit dans Cohere (2025)"
+  source: "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"
+- de: salesforce
+  vers: cohere
+  type: investissement
+  texte: "Salesforce investit dans Cohere (2025)"
+  source: "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"
+- de: salesforce
+  vers: hugging-face
+  type: investissement
+  texte: "Salesforce mène la levée de 235 M$ de Hugging Face (2023)"
+  source: "https://betanews.com/article/hugging-face-13-billion-sale/"
+- de: google
+  vers: hugging-face
+  type: investissement
+  texte: "Google investit dans Hugging Face (2023)"
+  source: "https://betanews.com/article/hugging-face-13-billion-sale/"
+- de: amazon
+  vers: hugging-face
+  type: investissement
+  texte: "Amazon investit dans Hugging Face (2023)"
+  source: "https://betanews.com/article/hugging-face-13-billion-sale/"
+- de: nvidia
+  vers: hugging-face
+  type: investissement
+  texte: "Nvidia investit dans Hugging Face (2023)"
+  source: "https://betanews.com/article/hugging-face-13-billion-sale/"
+- de: nvidia
+  vers: perplexity
+  type: investissement
+  texte: "Nvidia investit dans Perplexity (janv. 2024)"
+  source: "https://www.businesstoday.in/amp/entrepreneurship/start-up/story/perplexity-ai-raises-736m-in-funding-round-led-by-nvidia-bezos-now-valued-at-522m-412130-2024-01-06"
+- de: azure
+  vers: openai
+  type: partenariat
+  texte: OpenAI s’engage à acheter 250 Md$ de services Azure (oct. 2025)
+  source: "https://www.scmp.com/tech/big-tech/article/3330714/microsoft-holds-27-openai-revamped-partnership"
+- de: oracle
+  vers: openai
+  type: partenariat
+  texte: "Oracle loue 4,5 GW de data centers à OpenAI pour Stargate (2025)"
+  source: "https://openai.com/index/stargate-advances-with-partnership-with-oracle/"
+- de: aws
+  vers: openai
+  type: partenariat
+  texte: "AWS et OpenAI : contrat cloud de 38 Md$ (nov. 2025)"
+  source: "https://sdtimes.com/ai/openai-and-aws-announce-38-billion-deal-for-compute-infrastructure/"
+- de: aws
+  vers: anthropic
+  type: partenariat
+  texte: "AWS, principal partenaire cloud d’Anthropic ; Claude sur Amazon Bedrock"
+  source: "https://techcrunch.com/2024/11/22/anthropic-raises-an-additional-4b-from-amazon-makes-aws-its-primary-cloud-partner/"
+- de: google-cloud
+  vers: anthropic
+  type: partenariat
+  texte: Google Cloud fournit jusqu’à un million de puces TPU à Anthropic (oct. 2025)
+  source: "https://www.googlecloudpresscorner.com/2025-10-23-Anthropic-to-Expand-Use-of-Google-Cloud-TPUs-and-Services"
+- de: azure
+  vers: anthropic
+  type: partenariat
+  texte: Anthropic s’engage à acheter 30 Md$ de capacité Azure (nov. 2025)
+  source: "https://pureai.com/articles/2025/11/18/microsoft-and-nvidia-deepen-ties-with-anthropic.aspx"
+- de: salesforce
+  vers: anthropic
+  type: partenariat
+  texte: Claude intégré à Agentforce (2025)
+  source: "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership"
+- de: databricks
+  vers: anthropic
+  type: partenariat
+  texte: Claude disponible sur Databricks (2025)
+  source: "https://www.intelligentcio.com/north-america/2025/03/27/databricks-and-anthropic-sign-landmark-deal-to-bring-claude-models-to-the-data-intelligence-platform/"
+- de: snowflake
+  vers: anthropic
+  type: partenariat
+  texte: Partenariat de 200 M$ entre Snowflake et Anthropic (déc. 2025)
+  source: "https://www.businesswire.com/news/home/20251203124957/en/Snowflake-and-Anthropic-Announce-200-Million-Partnership-to-Bring-Agentic-AI-to-Global-Enterprises"
+- de: apple
+  vers: openai
+  type: partenariat
+  texte: ChatGPT intégré à Siri (2024)
+  source: "https://www.tomsguide.com/ai/chatgpt/openai-joins-forces-with-apple-to-bring-chatgpt-to-siri-heres-whats-new"
+- de: apple
+  vers: google
+  type: partenariat
+  texte: "Les prochains modèles d’IA d’Apple, dont Siri, reposent sur Gemini (janv. 2026)"
+  source: "https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/"
+- de: google-cloud
+  vers: meta
+  type: partenariat
+  texte: Meta signe un contrat cloud de plus de 10 Md$ sur six ans avec Google Cloud (août 2025)
+  source: "https://datacentrereview.com/2025/08/meta-signs-six-year-10-billion-cloud-deal-with-google/"
+- de: stripe
+  vers: openai
+  type: partenariat
+  texte: Stripe fait fonctionner l’achat direct dans ChatGPT (sept. 2025)
+  source: "https://stripe.com/newsroom/news/stripe-openai-instant-checkout"
+- de: shopify
+  vers: openai
+  type: partenariat
+  texte: Les marchands Shopify vendent directement dans ChatGPT (2025)
+  source: "https://retail-systems.com/rs/Direct_Purchases_Come_To_ChatGPT_With_Etsy_Shopify_Integration.php"
+- de: stripe
+  vers: shopify
+  type: partenariat
+  texte: Stripe traite les paiements de Shopify Payments
+  source: "https://thelogic.co/news/shopifys-secret-growth-weapon-stripe/"
+- de: sap
+  vers: databricks
+  type: partenariat
+  texte: SAP Databricks au cœur de SAP Business Data Cloud (fév. 2025)
+  source: "https://siliconangle.com/2025/02/13/sap-announces-databricks-partnership-power-ai-business-data-cloud/"
+- de: criteo
+  vers: microsoft
+  type: partenariat
+  texte: Criteo devient le partenaire retail media de Microsoft (2024)
+  source: "https://criteo.investorroom.com/2024-07-11-Criteo-Collaborates-with-Microsoft-Advertising-to-Drive-Retail-Media-Growth"
+- de: tsmc
+  vers: nvidia
+  type: partenariat
+  texte: "TSMC fabrique les puces de Nvidia, son premier client en 2025"
+  source: "https://www.notebookcheck.net/Nvidia-reportedly-overtook-Apple-to-become-TSMC-s-biggest-customer-in-2025-due-to-exceptional-Data-Center-revenue-growth.1208840.0.html"
+- de: tsmc
+  vers: apple
+  type: partenariat
+  texte: "TSMC fabrique les puces d’Apple (environ 25 % de son chiffre d’affaires en 2024)"
+  source: "https://www.notebookcheck.net/Nvidia-reportedly-overtook-Apple-to-become-TSMC-s-biggest-customer-in-2025-due-to-exceptional-Data-Center-revenue-growth.1208840.0.html"
+- de: asml
+  vers: tsmc
+  type: partenariat
+  texte: ASML fournit à TSMC ses machines de gravure
+  source: "https://bits-chips.nl/article/asml-to-ship-high-na-tool-to-tsmc-this-year"
+- de: oracle
+  vers: cohere
+  type: partenariat
+  texte: "Oracle, partenaire de Cohere"
+  source: "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"
+- de: sap
+  vers: cohere
+  type: partenariat
+  texte: "SAP, partenaire de Cohere"
+  source: "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"
+- de: google-cloud
+  vers: palo-alto
+  type: partenariat
+  texte: "Accord pluriannuel de plusieurs milliards de dollars entre Palo Alto Networks et Google Cloud (déc. 2025)"
+  source: "https://www.googlecloudpresscorner.com/2025-12-19-Palo-Alto-Networks-and-Google-Cloud-Forge-Landmark-Agreement-to-Help-Customers-Securely-Accelerate-Cloud-and-AI-Initiatives"
+- de: nvidia
+  vers: crowdstrike
+  type: partenariat
+  texte: "CrowdStrike et Nvidia : l’IA générative au service de la cybersécurité (2024)"
+  source: "https://www.businesswire.com/news/home/20240318142732/en/CrowdStrike-Collaborates-with-NVIDIA-to-Advance-Cybersecurity-with-Generative-AI"
+- de: nvidia
+  vers: servicenow
+  type: partenariat
+  texte: "ServiceNow et Nvidia développent ensemble de l’IA générative pour les entreprises (2023)"
+  source: "https://www.businesswire.com/news/home/20230517005342/en/ServiceNow-and-NVIDIA-Announce-Partnership-to-Build-Generative-AI-Across-Enterprise-IT"
+- de: nvidia
+  vers: ovhcloud
+  type: partenariat
+  texte: "OVHcloud propose les puces Nvidia dans son cloud"
+  source: "https://corporate.ovhcloud.com/en/newsroom/news/adopt-ai"
+- de: aws
+  vers: datadog
+  type: partenariat
+  texte: "Datadog élargit son accord de collaboration avec AWS"
+  source: "https://www.datadoghq.com/about/latest-news/press-releases/datadog-announces-expanded-collaboration-agreement-highlights-new-capabilities-with-aws-across-ai-observability-and-security-at-aws-reinvent/"
+- de: google-cloud
+  vers: adobe
+  type: partenariat
+  texte: "Adobe et Google Cloud élargissent leur partenariat dans l’IA créative (oct. 2025)"
+  source: "https://www.googlecloudpresscorner.com/2025-10-28-Adobe-and-Google-Cloud-Expand-Strategic-Partnership-to-Advance-the-Future-of-Creative-AI"
+- de: mistral-ai
+  vers: dassault-systemes
+  type: partenariat
+  texte: "Dassault Systèmes et Mistral AI : une IA souveraine pour l’industrie (2024, renforcé en 2025)"
+  source: "https://www.3ds.com/fr/newsroom/press-releases/new-era-sovereign-ai-dassault-systemes-and-mistral-ai-deepen-their-partnership"
+- de: microsoft
+  vers: docusign
+  type: partenariat
+  texte: "DocuSign et Microsoft, partenaires stratégiques (2022)"
+  source: "https://www.docusign.com/press-releases/docusign-and-microsoft-deepen-relationship-to-accelerate-anywhere-work"
+- de: openai
+  vers: hubspot
+  type: partenariat
+  texte: "HubSpot, premier CRM connecté à ChatGPT (2025)"
+  source: "https://www.hubspot.com/company-news/hubspot-deep-research-connector-for-chatgpt"
+- de: azure
+  vers: doctolib
+  type: partenariat
+  texte: "L’assistant de consultation de Doctolib repose sur Azure OpenAI (2024)"
+  source: "https://www.microsoft.com/en/customers/story/19557-doctolib-azure-open-ai-service"
+- de: adyen
+  vers: vinted
+  type: partenariat
+  texte: "Adyen traite les paiements de Vinted"
+  source: "https://www.vinted.com/help/1039"
+- de: adyen
+  vers: shopify
+  type: partenariat
+  texte: "Adyen gère les paiements des grands marchands Shopify (2023)"
+  source: "https://www.fintech.ca/2023/06/21/adyen-shopify-enterprise-merchants/"
+- de: mirakl
+  vers: shopify
+  type: partenariat
+  texte: "Mirakl et Shopify, partenaires pour les places de marché"
+  source: "https://www.mirakl.com/news/new-mirakl-and-shopify-partnership-opens-pathways-for-rapid-commerce-growth"
+- de: google-cloud
+  vers: revolut
+  type: partenariat
+  texte: "Revolut et Google Cloud renforcent leur partenariat (sept. 2025)"
+  source: "https://www.googlecloudpresscorner.com/2025-09-04-Revolut-and-Google-Cloud-Deepen-Strategic-Partnership-to-Power-Global-Growth-to-100M-Customers"

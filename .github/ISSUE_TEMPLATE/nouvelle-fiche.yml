@@ -1,0 +1,41 @@
+name: Proposer une fiche
+description: Une entreprise manque sur La Carte Tech
+title: "Nouvelle fiche : "
+labels: ["nouvelle fiche"]
+body:
+  - type: markdown
+    attributes:
+      value: "Merci ! Uniquement des informations publiques, avec un lien pour chacune. Si vous êtes à l’aise avec GitHub, vous pouvez aussi ajouter directement un fichier dans `fiches/` (voir CONTRIBUTING.md)."
+  - type: input
+    id: nom
+    attributes:
+      label: Nom de l’entreprise
+    validations:
+      required: true
+  - type: dropdown
+    id: categorie
+    attributes:
+      label: Catégorie
+      options: [Cloud & infra, IA, Data, Logiciels SaaS, Cybersécurité, Fintech, Plateformes]
+    validations:
+      required: true
+  - type: textarea
+    id: vend
+    attributes:
+      label: Ce qu’elle vend, en une ou deux phrases
+    validations:
+      required: true
+  - type: textarea
+    id: taille
+    attributes:
+      label: Taille (chiffre d’affaires, salariés, clients) avec la source
+  - type: textarea
+    id: stages
+    attributes:
+      label: Stages ou alternances (lien vers une offre si possible)
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (liens)
+    validations:
+      required: true

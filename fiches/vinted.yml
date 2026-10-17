@@ -1,0 +1,53 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Vinted
+categorie: ecommerce
+region: europe
+groupe: Non cotée
+siege: Vilnius (Lituanie)
+en_bref: La seconde main entre particuliers
+chiffre_affaires:
+  texte: "1,1 Md€ en 2025 (+38 %)"
+  md_usd: 1.27
+chiffres_cles:
+- "10,8 Md€ de ventes sur la plateforme (+47 %)"
+- "Bénéfice net : 62 M€"
+ce_qu_elle_vend: Une marketplace où les particuliers vendent leurs vêtements et objets d’occasion.
+produits:
+- nom: Vinted
+  detail: achat-vente entre particuliers
+- nom: Vinted Go
+  detail: livraison et points relais
+- nom: Vinted Pay
+  detail: paiement
+modele: "Frais de « protection acheteurs », mises en avant payantes des annonces et publicité."
+clients: particuliers
+rachats:
+- "Trendsales (2022) : Danemark"
+concurrents: "Leboncoin, eBay, Depop"
+vente:
+  approche: libre-service
+  resume: "Tout se fait dans l’application : les particuliers vendent gratuitement et les acheteurs paient des frais ; la publicité est vendue aux marques."
+  acheteurs: "Les particuliers ; les annonceurs"
+  argument: "Vendre gratuitement ses vêtements d’occasion"
+  objections:
+  - "Les frais de protection pour l’acheteur"
+  - "La concurrence (Leboncoin, Vestiaire Collective)"
+bureaux_europe:
+  villes:
+  - "Vilnius (Lituanie)"
+  note: "Siège à Vilnius (liste partielle)."
+  sources:
+  - titre: "Work in Lithuania, Vinted"
+    url: "https://jobs.workinlithuania.com/companies/122-vinted"
+stages:
+  statut: a-verifier
+  detail: "Offres de stage en opérations (optimisation des entrepôts, intégration) vues sur JobTeaser, date non confirmée."
+sources:
+- titre: "FashionUnited, résultats 2025"
+  url: "https://fashionunited.com/news/business/vinted-reaches-1-1-billion-euros-in-revenue-for-2025-accepting-a-strategic-drop-in-profits/2026040971654"
+- titre: "JobTeaser, stage Vinted Operations Integration (relais)"
+  url: "https://www.jobteaser.com/en/job-offers/75300a87-7d36-4569-8448-253fddd7ea8b-vinted-operations-integration-intern"
+verifie_le: '2026-10-17'

@@ -1,0 +1,53 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: DocuSign
+categorie: saas
+region: amerique-du-nord
+groupe: Cotée à New York (Nasdaq)
+siege: San Francisco (États-Unis)
+en_bref: Signature électronique
+chiffre_affaires:
+  texte: "3,22 Md$ sur l’exercice 2026, clos fin janvier (+8 %)"
+  md_usd: 3.22
+chiffres_cles: []
+ce_qu_elle_vend: La signature électronique et la gestion des contrats.
+produits:
+- nom: eSignature
+  detail: signer en ligne
+- nom: IAM
+  detail: gestion intelligente des contrats avec IA
+- nom: CLM
+  detail: cycle de vie des contrats
+modele: Abonnement selon le nombre d’utilisateurs et d’envois.
+clients: entreprises de toutes tailles
+rachats:
+- Aucun rachat listé
+concurrents: "Adobe Acrobat Sign, Yousign"
+vente:
+  approche: mixte
+  resume: "Les petites offres s’achètent en ligne ; des commerciaux vendent aux entreprises qui envoient beaucoup de contrats."
+  acheteurs: "Les directions juridique, commerciale et RH"
+  argument: "La signature électronique la plus connue, reconnue juridiquement"
+  objections:
+  - "Des alternatives moins chères"
+  - "La signature déjà incluse dans d’autres outils"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Francfort (Allemagne)"
+  - "Londres (Royaume-Uni)"
+  - "Dublin (Irlande)"
+  sources:
+  - titre: "Docusign, la société"
+    url: "https://www.docusign.com/fr-fr/societe"
+stages:
+  statut: oui
+  detail: "Stages surtout aux États-Unis, par exemple Software Engineer Intern à San Francisco (offre de janvier 2026) ; rien trouvé en Europe."
+sources:
+- titre: "Docusign, résultats de l’exercice 2026"
+  url: "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000017/q426ex-991er.htm"
+- titre: "Docusign, offre Software Engineer Intern"
+  url: "https://hubcareers-docusign.icims.com/jobs/28544/software-engineer-intern/job"
+verifie_le: '2026-10-17'
