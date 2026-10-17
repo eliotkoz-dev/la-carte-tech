@@ -282,18 +282,18 @@ button { font: inherit; color: inherit; }
 .source { margin: 0; font-size: 12px; color: var(--gris-2); }
 
 /* Page métiers */
-.parcours { display: flex; flex-wrap: wrap; align-items: stretch; }
-.etape { flex: 1 1 220px; display: flex; flex-direction: column; gap: 4px; padding: 20px 22px; color: #FFFFFF; }
-.etape p { margin: 0; }
-.etape .n { font-size: 12px; font-weight: 800; color: var(--rose-clair); }
-.etape .t { font-size: 21px; line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
-.etape .s { font-size: 14px; color: #E5E4FA; }
-.etape.e1 { background: var(--lavande); color: var(--encre); }
-.etape.e1 .n { color: var(--bleu); }
-.etape.e1 .s { color: var(--gris); }
-.etape.e2 { background: var(--violet); }
-.etape.e3 { background: var(--bleu); }
-.etape.e4 { background: var(--nuit); }
+.pas-de-parcours { display: flex; flex-direction: column; gap: 12px; padding: 24px 28px; background: var(--nuit); color: #FFFFFF; }
+.pas-de-parcours h2 { margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+.pas-de-parcours > div { display: flex; flex-direction: column; gap: 8px; max-width: 860px; }
+.pas-de-parcours p { margin: 0; font-size: 15px; color: var(--lavande-texte); }
+.pas-de-parcours b { color: #FFFFFF; }
+.pas-de-parcours a { color: var(--rose-clair); }
+.nav-familles { display: flex; flex-wrap: wrap; gap: 6px 10px; font-size: 14px; font-weight: 600; color: var(--gris-3); }
+.nav-familles a { color: var(--bleu); }
+.famille { scroll-margin-top: 16px; }
+.tete-famille { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; padding-bottom: 8px; border-bottom: 2px solid var(--nuit); }
+.h2-famille { margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.02em; color: var(--rose); }
+.tete-famille .discret { margin: 0; }
 .metier .role { margin: 0; font-size: 12px; font-weight: 700; color: var(--bleu); }
 .metier .entree { padding: 10px 12px; background: var(--fond-2); border-left: 3px solid var(--rose); font-size: 15px; color: var(--encre-2); }
 .vocabulaire { display: flex; flex-direction: column; gap: 14px; padding: 28px; background: var(--nuit); color: #FFFFFF; }
