@@ -2,6 +2,10 @@
 
 **Comprendre la tech et ses acteurs, en 10 minutes.**
 
+### 👉 [Voir le site : eliotkoz-dev.github.io/la-carte-tech](https://eliotkoz-dev.github.io/la-carte-tech/)
+
+[![La Carte Tech](site/assets/apercu.png)](https://eliotkoz-dev.github.io/la-carte-tech/)
+
 Un site open source, fait par des étudiants pour des étudiants, qui explique simplement :
 
 - **les acteurs** : 71 entreprises (cloud, IA, puces, data, logiciels, cybersécurité, pub, e-commerce, fintech), avec leur chiffre d’affaires, leurs produits phares, leur modèle économique, leur façon de vendre, leurs rachats, leurs liens (qui possède qui, qui investit dans qui, qui travaille avec qui) et leurs stages ;
