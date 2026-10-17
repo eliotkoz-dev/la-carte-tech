@@ -27,6 +27,8 @@ jobs:
       - run: npm ci
       - name: Vérifier les fiches et construire les données
         run: npm run build
+      - name: Ajouter un numéro de version aux fichiers CSS et JS (évite que les navigateurs gardent l’ancienne version)
+        run: sed -i -E "s#(assets/[a-z]+\.(css|js))\"#\1?v=${GITHUB_SHA::7}\"#g" site/*.html
       - if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
       - if: github.event_name != 'pull_request'
