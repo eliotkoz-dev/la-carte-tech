@@ -135,13 +135,17 @@
 
   // Les communes de la banlieue parisienne comptent pour « Paris » dans le filtre par ville.
   const ALIAS_VILLES = { 'Levallois-Perret': 'Paris', 'Issy-les-Moulineaux': 'Paris', 'La Défense': 'Paris', Courbevoie: 'Paris' };
-  const villesDe = (a) => [...new Set(((a.rejoindre && a.rejoindre.bureaux) || []).map((b) => ALIAS_VILLES[b.ville] || b.ville))];
+  // Villes où l'entreprise a des locaux : bureaux en Europe (« Ville (Pays) ») et villes citées dans « rejoindre ».
+  const villesDe = (a) => [...new Set([
+    ...((a.bureauxEurope && a.bureauxEurope.villes) || []).map((v) => v.ville),
+    ...((a.rejoindre && a.rejoindre.bureaux) || []).map((b) => b.ville)
+  ].map((v) => ALIAS_VILLES[v] || v))];
   const VOIES = { stage: 'Stage', alternance: 'Alternance', graduate: 'Graduate program', vie: 'VIE', 'premier-poste': 'Premier poste' };
 
   function construireVilles() {
     const compte = {};
     acteurs.forEach((a) => villesDe(a).forEach((v) => { compte[v] = (compte[v] || 0) + 1; }));
-    const villes = Object.entries(compte).filter(([, n]) => n >= 2).sort((p, q) => q[1] - p[1] || p[0].localeCompare(q[0], 'fr'));
+    const villes = Object.entries(compte).filter(([, n]) => n >= 6).sort((p, q) => q[1] - p[1] || p[0].localeCompare(q[0], 'fr'));
     const zone = $('villes');
     if (!villes.length) { zone.hidden = true; return; }
     zone.querySelector('.pilules-villes').replaceChildren(...villes.map(([v, n]) => {
