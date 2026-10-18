@@ -179,6 +179,11 @@
   type: investissement
   texte: "AMD investit dans Hugging Face (2023)"
   source: "https://betanews.com/article/hugging-face-13-billion-sale/"
+- de: nvidia
+  vers: synopsys
+  type: investissement
+  texte: "Nvidia investit 2 Md$ dans Synopsys et élargit leur partenariat (déc. 2025)"
+  source: "https://evertiq.com/design/2025-12-02-nvidia-invest-2-billion-in-synopsys"
 - de: azure
   vers: openai
   type: partenariat
@@ -399,3 +404,58 @@
   type: partenariat
   texte: "Coinbase reçoit la moitié du revenu résiduel des réserves de l’USDC, le stablecoin de Circle"
   source: "https://decrypt.co/312757/coinbase-circles-residual-usdc-reserve-revenue-filing?amp=1"
+- de: foxconn
+  vers: nvidia
+  type: partenariat
+  texte: "Foxconn assemble les serveurs d’IA de Nvidia : environ 40 % des racks d’IA assemblés dans le monde (juil. 2026)"
+  source: "https://thenextweb.com/news/hon-hai-sales-surge-ai-servers"
+- de: foxconn
+  vers: apple
+  type: partenariat
+  texte: "Foxconn assemble des iPhone d’Apple depuis de longues années"
+  source: "https://thenextweb.com/news/hon-hai-sales-surge-ai-servers"
+- de: broadcom
+  vers: anthropic
+  type: partenariat
+  texte: "Anthropic commande pour 21 Md$ de racks de puces TPU de Google, vendus par Broadcom (déc. 2025)"
+  source: "https://the-decoder.com/anthropic-places-21-billion-order-for-google-chips-via-broadcom/"
+- de: marvell
+  vers: aws
+  type: partenariat
+  texte: "Marvell et AWS : accord de cinq ans pour fournir des puces aux centres de données d’AWS (fin 2024)"
+  source: "https://www.nasdaq.com/articles/amazon-just-shared-great-news-ai-chipmaker-hint-not-nvidia"
+- de: spotify
+  vers: google-cloud
+  type: partenariat
+  texte: "Spotify a migré son infrastructure vers Google Cloud (annoncé en 2016)"
+  source: "https://datacenterknowledge.com/cloud/spotify-ditches-own-data-centers-in-favor-of-google-cloud"
+- de: lam-research
+  vers: tsmc
+  type: partenariat
+  texte: "TSMC figure parmi les plus gros clients de Lam Research"
+  source: "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000037/lrcx-20260628.htm"
+- de: lam-research
+  vers: micron
+  type: partenariat
+  texte: "Micron figure parmi les plus gros clients de Lam Research"
+  source: "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000037/lrcx-20260628.htm"
+- de: lam-research
+  vers: samsung
+  type: partenariat
+  texte: "Samsung figure parmi les plus gros clients de Lam Research"
+  source: "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000037/lrcx-20260628.htm"
+- de: lam-research
+  vers: sk-hynix
+  type: partenariat
+  texte: "SK hynix figure parmi les plus gros clients de Lam Research"
+  source: "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000037/lrcx-20260628.htm"
+- de: arm
+  vers: nvidia
+  type: partenariat
+  texte: "Nvidia détient une licence d’architecture Arm de 20 ans pour concevoir ses processeurs Grace"
+  source: "https://www.tomshardware.com/uk/news/nvidia-big-cpu-plans-with-20-year-arm-license"
+- de: qualcomm
+  vers: microsoft
+  type: partenariat
+  texte: "Les PC Copilot+ de Microsoft tournent sur les puces Snapdragon X de Qualcomm (2024)"
+  source: "https://www.fonearena.com/blog/424256/microsoft-copilot-plus-pc-features-snapdragon-x-series-devices.html/amp"
