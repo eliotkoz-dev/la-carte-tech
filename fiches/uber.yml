@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Uber"
+categorie: pub
+aussi: [ecommerce]
+region: amerique-du-nord
+groupe: "Cotée (NYSE : UBER)"
+siege: "San Francisco (Californie)"
+en_bref: "La plateforme de VTC et de livraison de repas"
+chiffre_affaires:
+  texte: "≈ 55,22 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 55.22
+chiffres_cles:
+- "Capitalisation d’environ 143,69 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "La plateforme de VTC et de livraison de repas."
+produits:
+- nom: "Uber (courses)"
+  detail: "réserver un chauffeur"
+- nom: "Uber Eats"
+  detail: "livraison de repas"
+- nom: "Uber Freight"
+  detail: "mise en relation pour le fret"
+modele: "Commission sur chaque course et chaque livraison, plus un abonnement (Uber One) et de la publicité."
+clients: "passagers, restaurants, livreurs et chauffeurs"
+rachats:
+- "Postmates (2020)"
+concurrents: "Bolt, DoorDash, DiDi"
+vente:
+  approche: libre-service
+  resume: "Les chauffeurs, les livreurs et les restaurants s’inscrivent seuls sur l’application."
+  acheteurs: "Les passagers et les restaurants"
+  argument: "Un service disponible partout, en quelques minutes"
+  objections:
+  - "Les règles sur le statut des chauffeurs"
+  - "Les commissions pour les restaurants"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

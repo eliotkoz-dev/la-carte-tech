@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "AppLovin"
+categorie: pub
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : APP)"
+siege: "Palo Alto (Californie)"
+en_bref: "La publicité mobile pilotée par IA pour les jeux et les applications"
+chiffre_affaires:
+  texte: "≈ 6,82 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 6.82
+chiffres_cles:
+- "Capitalisation d’environ 89,06 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "La publicité mobile pilotée par IA pour les jeux et les applications."
+produits:
+- nom: "AXON"
+  detail: "moteur d’IA qui place les publicités"
+- nom: "AppLovin Max"
+  detail: "mise en concurrence des annonceurs"
+- nom: "Plateforme pour développeurs"
+  detail: "promouvoir une application"
+modele: "Commission sur les publicités diffusées dans les applications."
+clients: "développeurs d’apps, studios de jeux, annonceurs"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Unity, Meta, Google"
+vente:
+  approche: mixte
+  resume: "Des annonceurs s’inscrivent seuls sur la plateforme ; une équipe vend aux grands studios."
+  acheteurs: "Les responsables acquisition des studios et marques"
+  argument: "Des installations d’apps rentables grâce à l’IA"
+  objections:
+  - "La dépendance au marché des jeux mobiles"
+  - "Les règles de confidentialité d’Apple et Google"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

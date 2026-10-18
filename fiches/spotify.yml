@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Spotify"
+categorie: pub
+region: europe
+groupe: "Cotée (NYSE : SPOT)"
+siege: "Stockholm (Suède)"
+en_bref: "La plus grande plateforme de streaming musical"
+chiffre_affaires:
+  texte: "≈ 21,03 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 21.03
+chiffres_cles:
+- "Capitalisation d’environ 109,07 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "La plus grande plateforme de streaming musical."
+produits:
+- nom: "Spotify Premium"
+  detail: "abonnement sans publicité"
+- nom: "Version gratuite"
+  detail: "écoute financée par la publicité"
+- nom: "Podcasts et livres audio"
+  detail: "autres contenus"
+modele: "Abonnements payants et publicité sur la version gratuite."
+clients: "auditeurs et annonceurs"
+rachats:
+- "Anchor et Gimlet (2019) : podcasts"
+concurrents: "Apple Music, YouTube Music, Amazon Music"
+vente:
+  approche: mixte
+  resume: "Les auditeurs s’inscrivent seuls ; une équipe publicitaire vend l’audience aux annonceurs et aux agences."
+  acheteurs: "Les auditeurs ; les agences et annonceurs"
+  argument: "Un catalogue immense et des recommandations personnalisées"
+  objections:
+  - "La part reversée aux maisons de disques"
+  - "La concurrence de géants comme Apple et Amazon"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

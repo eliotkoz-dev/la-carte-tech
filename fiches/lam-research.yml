@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Lam Research"
+categorie: puces
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : LRCX)"
+siege: "Fremont (Californie)"
+en_bref: "Les machines qui gravent et déposent les couches des puces"
+chiffre_affaires:
+  texte: "≈ 23,23 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 23.23
+chiffres_cles:
+- "Capitalisation d’environ 330,3 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "Les machines qui gravent et déposent les couches des puces."
+produits:
+- nom: "Machines de gravure"
+  detail: "creuser les motifs dans les puces"
+- nom: "Machines de dépôt"
+  detail: "empiler les couches de matériaux"
+- nom: "Nettoyage des plaquettes"
+  detail: "retirer les résidus entre deux étapes"
+modele: "Vente de machines à plusieurs millions de dollars pièce, puis pièces détachées, mises à jour et maintenance."
+clients: "fabricants de puces (TSMC, Samsung, Micron, Intel)"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Applied Materials, Tokyo Electron"
+vente:
+  approche: vente-directe
+  resume: "Quelques équipes dédiées vendent à une poignée de fabricants de puces, sur plusieurs années, au rythme de leurs usines."
+  acheteurs: "Les directeurs d’usine et de technologie des fabricants de puces"
+  argument: "Des machines précises, indispensables pour passer aux puces les plus fines"
+  objections:
+  - "Une clientèle très concentrée : quelques commandes pèsent lourd"
+  - "Les restrictions américaines à l’export vers la Chine"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

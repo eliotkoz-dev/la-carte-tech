@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Equinix"
+categorie: cloud
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : EQIX)"
+siege: "Redwood City (Californie)"
+en_bref: "Le plus grand loueur de centres de données où les clouds se connectent"
+chiffre_affaires:
+  texte: "≈ 9,8 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 9.8
+chiffres_cles:
+- "Capitalisation d’environ 97,28 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "Le plus grand loueur de centres de données où les clouds se connectent."
+produits:
+- nom: "Centres de données"
+  detail: "louer des baies et de l’espace"
+- nom: "Interconnexion"
+  detail: "relier clouds, banques et réseaux"
+- nom: "Equinix Fabric"
+  detail: "réseau privé entre clients"
+modele: "Loyers récurrents pour l’espace et l’électricité, plus des frais de connexion entre clients."
+clients: "géants du cloud, banques, opérateurs, entreprises"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Digital Realty, OVHcloud"
+vente:
+  approche: vente-directe
+  resume: "Des équipes commerciales vendent de l’espace et de la connectivité aux entreprises et aux fournisseurs de cloud."
+  acheteurs: "Les DSI et les responsables infrastructure"
+  argument: "Un lieu neutre où tous les clouds et réseaux se retrouvent"
+  objections:
+  - "Le prix de l’électricité"
+  - "Les géants du cloud construisent leurs propres centres"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

@@ -1,0 +1,44 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Seagate Technology"
+categorie: puces
+aussi: [data]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : STX)"
+siege: "Fremont (Californie)"
+en_bref: "Les disques durs qui stockent les données des grands centres de données"
+chiffre_affaires:
+  texte: "≈ 12,19 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 12.19
+chiffres_cles:
+- "Capitalisation d’environ 145,3 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "Les disques durs qui stockent les données des grands centres de données."
+produits:
+- nom: "Disques durs à grande capacité"
+  detail: "stockage des data centers"
+- nom: "Disques externes"
+  detail: "stockage grand public"
+modele: "Vente de disques durs aux géants du cloud et aux fabricants, au volume."
+clients: "géants du cloud, fabricants d’ordinateurs, grand public"
+rachats:
+- "Maxtor (2006)"
+concurrents: "Western Digital, Toshiba"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées négocient de gros volumes avec les géants du cloud."
+  acheteurs: "Les équipes infrastructure des géants du cloud"
+  argument: "Le stockage le moins cher au téraoctet pour les données froides"
+  objections:
+  - "Les SSD, plus rapides, gagnent du terrain"
+  - "Une clientèle concentrée chez quelques géants du cloud"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

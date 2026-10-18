@@ -12,7 +12,7 @@ const REGIONS = ['amerique-du-nord', 'europe', 'asie'];
 const STAGES = ['oui', 'alternance', 'a-verifier'];
 const TYPES = ['parente', 'investissement', 'partenariat'];
 const W = 1180;
-const H = 1200;
+const H = 1560;
 // Rayon des bulles : grandit avec la racine carrée du chiffre d'affaires (même formule que site/assets/app.js).
 const rayon = (md) => (md > 0 ? 8 + 2 * Math.sqrt(md) : 9);
 
@@ -176,9 +176,9 @@ acteurs.sort((a, b) => CATEGORIES.indexOf(a.categorie) - CATEGORIES.indexOf(b.ca
 // au plus près de leur cible, sans chevaucher les autres bulles, les noms ni les titres des zones.
 const CENTRES = {
   cloud: [215, 215], cyber: [590, 110], saas: [965, 215],
-  puces: [205, 545], ia: [590, 450], data: [975, 545],
-  ecommerce: [215, 870], pub: [590, 840], fintech: [965, 870],
-  crypto: [965, 1090]
+  puces: [205, 690], ia: [590, 540], data: [975, 600],
+  ecommerce: [215, 1150], pub: [590, 1090], fintech: [965, 1120],
+  crypto: [965, 1440]
 };
 const LIBELLES = { cloud: 'CLOUD & INFRA', ia: 'IA', puces: 'PUCES & MATÉRIEL', data: 'DATA', saas: 'LOGICIELS', cyber: 'CYBERSÉCURITÉ', pub: 'PUB & PLATEFORMES', ecommerce: 'E-COMMERCE', fintech: 'FINTECH & PAIEMENTS', crypto: 'CRYPTO & WEB3' };
 const largeurNom = (nom) => nom.length * 6.8 + 8;

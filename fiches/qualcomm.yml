@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Qualcomm"
+categorie: puces
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : QCOM)"
+siege: "San Diego (Californie)"
+en_bref: "Les puces et les brevets qui font fonctionner les smartphones"
+chiffre_affaires:
+  texte: "≈ 44,06 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 44.06
+chiffres_cles:
+- "Capitalisation d’environ 183,78 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "Les puces et les brevets qui font fonctionner les smartphones."
+produits:
+- nom: "Snapdragon"
+  detail: "puces de smartphones et d’ordinateurs"
+- nom: "Modems 5G"
+  detail: "connexion mobile"
+- nom: "Licences de brevets"
+  detail: "redevances sur les téléphones vendus"
+modele: "Vente de puces aux constructeurs, plus des redevances sur ses brevets."
+clients: "constructeurs de smartphones, d’ordinateurs et de voitures"
+rachats:
+- "Nuvia (2021) : processeurs"
+concurrents: "MediaTek, Apple, Samsung"
+vente:
+  approche: vente-directe
+  resume: "Des équipes commerciales et techniques travaillent avec chaque constructeur sur ses futurs modèles."
+  acheteurs: "Les équipes produit et achats des constructeurs de smartphones"
+  argument: "Les puces mobiles les plus performantes et les brevets 5G"
+  objections:
+  - "Apple conçoit ses propres modems"
+  - "La concurrence de MediaTek sur le milieu de gamme"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

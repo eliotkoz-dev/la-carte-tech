@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "ASE Group"
+categorie: puces
+region: asie
+groupe: "Cotée (Bourse de Taïwan : 3711, NYSE : ASX)"
+siege: "Kaohsiung (Taïwan)"
+en_bref: "Le numéro un mondial de l’assemblage et du test des puces"
+chiffre_affaires:
+  texte: "≈ 22,67 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 22.67
+chiffres_cles:
+- "Capitalisation d’environ 86,91 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "Le numéro un mondial de l’assemblage et du test des puces."
+produits:
+- nom: "Assemblage de puces"
+  detail: "mettre la puce dans son boîtier"
+- nom: "Test de puces"
+  detail: "vérifier chaque puce"
+- nom: "Packaging avancé"
+  detail: "empiler plusieurs puces dans un même boîtier"
+modele: "Facturation de l’assemblage et du test des puces des autres fabricants."
+clients: "fabricants de puces (Nvidia, Qualcomm, AMD)"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Amkor, JCET"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées travaillent avec chaque fabricant de puces sur ses assemblages."
+  acheteurs: "Les directeurs de production et d’achats des fabricants de puces"
+  argument: "Une capacité d’assemblage avancé pour les puces d’IA"
+  objections:
+  - "Les marges sont plus faibles que celles des fabricants de puces"
+  - "Une dépendance aux cycles du marché"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

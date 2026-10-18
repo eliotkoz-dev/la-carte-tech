@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Sony"
+categorie: pub
+aussi: [puces]
+region: asie
+groupe: "Cotée (Bourse de Tokyo : 6758, NYSE : SONY)"
+siege: "Tokyo (Japon)"
+en_bref: "PlayStation, la musique, le cinéma et les capteurs d’image des smartphones"
+chiffre_affaires:
+  texte: "≈ 81,33 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 81.33
+chiffres_cles:
+- "Capitalisation d’environ 145,26 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "PlayStation, la musique, le cinéma et les capteurs d’image des smartphones."
+produits:
+- nom: "PlayStation"
+  detail: "consoles et jeux vidéo"
+- nom: "Sony Music et Sony Pictures"
+  detail: "musique et cinéma"
+- nom: "Capteurs d’image"
+  detail: "les puces photo de nombreux smartphones"
+modele: "Vente de consoles et de jeux, abonnements, droits de musique et de films, et capteurs vendus aux fabricants."
+clients: "joueurs, auditeurs, fabricants de smartphones"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Nintendo, Microsoft (Xbox), Samsung"
+vente:
+  approche: mixte
+  resume: "Les joueurs achètent via les magasins et la boutique PlayStation ; une équipe vend les capteurs d’image aux fabricants de smartphones."
+  acheteurs: "Les joueurs ; les équipes produit des constructeurs de téléphones"
+  argument: "Des jeux exclusifs et des capteurs d’image parmi les meilleurs du marché"
+  objections:
+  - "Le prix des consoles"
+  - "Une dépendance à quelques grands clients pour les capteurs"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

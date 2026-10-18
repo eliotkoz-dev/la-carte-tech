@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Foxconn (Hon Hai)"
+categorie: puces
+region: asie
+groupe: "Cotée (Bourse de Taïwan : 2317)"
+siege: "New Taipei (Taïwan)"
+en_bref: "L’assembleur des iPhone et des serveurs d’IA de Nvidia"
+chiffre_affaires:
+  texte: "≈ 296,76 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 296.76
+chiffres_cles:
+- "Capitalisation d’environ 105,92 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "L’assembleur des iPhone et des serveurs d’IA de Nvidia."
+produits:
+- nom: "Assemblage de smartphones"
+  detail: "dont une grande partie des iPhone"
+- nom: "Serveurs d’IA"
+  detail: "assemblage pour Nvidia et les géants du cloud"
+- nom: "Véhicules électriques"
+  detail: "plateformes pour constructeurs"
+modele: "Fabrication sous contrat : il assemble des produits conçus par d’autres, avec de petites marges sur de gros volumes."
+clients: "Apple, Nvidia, géants du cloud"
+rachats:
+- "Sharp (2016) : écrans"
+concurrents: "Quanta, Pegatron, Wistron"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées travaillent avec chaque grand donneur d’ordre, souvent dès la conception du produit."
+  acheteurs: "Les directions achats et production des grandes marques"
+  argument: "Une capacité de fabrication immense, partout dans le monde"
+  objections:
+  - "Des marges très faibles"
+  - "Une dépendance à quelques très gros clients"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

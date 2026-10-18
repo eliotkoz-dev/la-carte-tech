@@ -1,0 +1,43 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Arm"
+categorie: puces
+region: europe
+groupe: "Cotée (Nasdaq : ARM), contrôlée par SoftBank"
+siege: "Cambridge (Royaume-Uni)"
+en_bref: "L’architecture de processeur présente dans presque tous les smartphones"
+chiffre_affaires:
+  texte: "≈ 5,15 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 5.15
+chiffres_cles:
+- "Capitalisation d’environ 243,29 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "L’architecture de processeur présente dans presque tous les smartphones."
+produits:
+- nom: "Architecture Arm"
+  detail: "le plan de base des processeurs, vendu sous licence"
+- nom: "Cœurs Cortex et Neoverse"
+  detail: "conceptions prêtes à intégrer, pour mobiles et serveurs"
+modele: "Licences payées une fois, puis une redevance sur chaque puce vendue."
+clients: "fabricants de puces (Apple, Qualcomm, Nvidia, Amazon) et d’appareils"
+rachats:
+- "Aucun rachat listé"
+concurrents: "x86 (Intel, AMD), RISC-V"
+vente:
+  approche: vente-directe
+  resume: "Des équipes de vente et d’ingénieurs négocient des licences pluriannuelles avec les fabricants de puces."
+  acheteurs: "Les directeurs techniques et produit des fabricants de puces"
+  argument: "Un standard qui consomme peu d’énergie, soutenu par un immense écosystème de logiciels"
+  objections:
+  - "La montée de RISC-V, libre de licence"
+  - "Des clients puissants (Apple, Qualcomm) qui conçoivent leurs propres cœurs"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Delta Electronics"
+categorie: puces
+region: asie
+groupe: "Cotée (Bourse de Taïwan : 2308)"
+siege: "Taipei (Taïwan)"
+en_bref: "Les alimentations et le refroidissement des serveurs d’IA"
+chiffre_affaires:
+  texte: "≈ 20,16 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 20.16
+chiffres_cles:
+- "Capitalisation d’environ 131 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "Les alimentations et le refroidissement des serveurs d’IA."
+produits:
+- nom: "Alimentations électriques"
+  detail: "convertir le courant pour les serveurs"
+- nom: "Refroidissement"
+  detail: "dissiper la chaleur des data centers"
+- nom: "Bornes de recharge"
+  detail: "véhicules électriques"
+modele: "Vente de composants et d’équipements aux fabricants de serveurs et d’industriels."
+clients: "fabricants de serveurs, géants du cloud, industriels"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Schneider Electric, Vertiv"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées vendent aux fabricants de serveurs et aux exploitants de data centers."
+  acheteurs: "Les achats et les ingénieurs des fabricants de serveurs"
+  argument: "Des alimentations efficaces et un refroidissement adapté à l’IA"
+  objections:
+  - "Des marges serrées sur les composants"
+  - "Une clientèle concentrée"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

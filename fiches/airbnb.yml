@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Airbnb"
+categorie: ecommerce
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : ABNB)"
+siege: "San Francisco (Californie)"
+en_bref: "La plateforme de locations de logements entre particuliers"
+chiffre_affaires:
+  texte: "≈ 13,15 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 13.15
+chiffres_cles:
+- "Capitalisation d’environ 104 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "La plateforme de locations de logements entre particuliers."
+produits:
+- nom: "Logements"
+  detail: "réserver chez des particuliers"
+- nom: "Expériences"
+  detail: "activités locales"
+- nom: "Services"
+  detail: "conciergerie et chefs à domicile"
+modele: "Commission sur chaque réservation, payée par l’hôte et le voyageur."
+clients: "voyageurs et hôtes"
+rachats:
+- "HotelTonight (2019)"
+concurrents: "Booking.com, Vrbo"
+vente:
+  approche: libre-service
+  resume: "Les hôtes publient leur annonce seuls ; il n’y a pas d’équipe de vente pour les voyageurs."
+  acheteurs: "Les voyageurs et les propriétaires"
+  argument: "Des logements uniques à des prix variés, partout dans le monde"
+  objections:
+  - "Les règles locales sur les locations courte durée"
+  - "Les frais de service"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

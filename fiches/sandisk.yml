@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Sandisk"
+categorie: puces
+aussi: [data]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : SNDK)"
+siege: "Californie (États-Unis)"
+en_bref: "Les mémoires flash et les SSD, séparés de Western Digital en 2025"
+chiffre_affaires:
+  texte: "≈ 20,24 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 20.24
+chiffres_cles:
+- "Capitalisation d’environ 187,78 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "Les mémoires flash et les SSD, séparés de Western Digital en 2025."
+produits:
+- nom: "SSD"
+  detail: "disques durs à mémoire flash"
+- nom: "Cartes mémoire et clés USB"
+  detail: "stockage grand public"
+- nom: "Mémoire flash pour data centers"
+  detail: "stockage rapide pour l’IA"
+modele: "Vente de mémoire flash et de SSD, au prix très variable du marché."
+clients: "fabricants d’appareils, géants du cloud, grand public"
+rachats:
+- "Séparée de Western Digital (février 2025)"
+concurrents: "Samsung, SK hynix, Micron, Kioxia"
+vente:
+  approche: mixte
+  resume: "Les particuliers achètent via la distribution et le web ; une équipe vend aux fabricants et aux géants du cloud."
+  acheteurs: "Les achats des fabricants et des data centers"
+  argument: "Du stockage rapide et fiable à un prix compétitif"
+  objections:
+  - "Des prix de la mémoire très volatils"
+  - "La concurrence de Samsung, SK hynix et Micron"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

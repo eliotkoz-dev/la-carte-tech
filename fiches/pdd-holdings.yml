@@ -1,0 +1,43 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "PDD Holdings"
+categorie: ecommerce
+region: asie
+groupe: "Cotée (Nasdaq : PDD)"
+siege: "Shanghai (Chine)"
+en_bref: "Pinduoduo et Temu, les places de marché à très bas prix"
+chiffre_affaires:
+  texte: "≈ 64,86 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 64.86
+chiffres_cles:
+- "Capitalisation d’environ 115,25 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "Pinduoduo et Temu, les places de marché à très bas prix."
+produits:
+- nom: "Pinduoduo"
+  detail: "achat groupé pour le marché chinois"
+- nom: "Temu"
+  detail: "marketplace internationale à bas prix"
+modele: "Commissions et publicité payées par les vendeurs."
+clients: "consommateurs et vendeurs"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Alibaba, Amazon, Shein"
+vente:
+  approche: libre-service
+  resume: "Les vendeurs et les fabricants s’inscrivent seuls sur la plateforme."
+  acheteurs: "Les consommateurs et les marchands"
+  argument: "Des prix très bas grâce à des liens directs avec les usines"
+  objections:
+  - "Les droits de douane et les règles sur les petits colis"
+  - "Des questions sur la qualité et la sécurité des produits"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

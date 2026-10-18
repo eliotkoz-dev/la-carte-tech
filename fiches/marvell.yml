@@ -1,0 +1,50 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Marvell Technology"
+categorie: puces
+aussi: [ia]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : MRVL)"
+siege: "Santa Clara (Californie)"
+en_bref: "Les puces de réseau et de calcul sur mesure des centres de données"
+chiffre_affaires:
+  texte: "8,2 Md$ (exercice clos en janvier 2026, +42 %)"
+  md_usd: 8.195
+chiffres_cles:
+- "Capitalisation d’environ 204,75 Md$ (16 oct. 2026)"
+- "74 % du chiffre d’affaires du 4e trimestre fiscal 2026 vient des centres de données"
+ce_qu_elle_vend: "Les puces de réseau et de calcul sur mesure des centres de données."
+produits:
+- nom: "Puces sur mesure (ASIC)"
+  detail: "conçues pour un client, par exemple un géant du cloud"
+- nom: "Optique et réseau"
+  detail: "relier les serveurs entre eux"
+- nom: "Stockage"
+  detail: "contrôleurs de disques durs et SSD"
+modele: "Vente de puces et de conceptions sur mesure aux géants du cloud et aux équipementiers."
+clients: "géants du cloud (AWS, Microsoft), équipementiers réseau"
+rachats:
+- "Inphi (2021) : composants optiques"
+- "Cavium (2018) : processeurs de réseau"
+concurrents: "Broadcom, Nvidia"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées conçoivent des puces sur mesure avec chaque grand client du cloud."
+  acheteurs: "Les équipes matériel des géants du cloud"
+  argument: "Des puces adaptées à leurs besoins, plus rentables que des puces génériques"
+  objections:
+  - "Quelques clients pèsent très lourd dans le chiffre d’affaires"
+  - "Broadcom, plus gros, domine les puces sur mesure"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+- titre: "Marvell, résultats de l’exercice 2026"
+  url: "https://investor.marvell.com/news-events/press-releases/detail/1011/"
+verifie_le: '2026-10-18'

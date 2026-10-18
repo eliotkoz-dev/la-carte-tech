@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Texas Instruments"
+categorie: puces
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : TXN)"
+siege: "Dallas (Texas)"
+en_bref: "Les puces analogiques qu’on retrouve dans presque tous les appareils électroniques"
+chiffre_affaires:
+  texte: "≈ 19,45 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 19.45
+chiffres_cles:
+- "Capitalisation d’environ 252,49 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "Les puces analogiques qu’on retrouve dans presque tous les appareils électroniques."
+produits:
+- nom: "Puces analogiques"
+  detail: "gérer l’alimentation et les signaux (capteurs, son)"
+- nom: "Microcontrôleurs"
+  detail: "petits cerveaux des objets connectés"
+- nom: "Calculatrices"
+  detail: "la marque grand public de l’entreprise"
+modele: "Vente de dizaines de milliers de puces bon marché, produites dans ses propres usines."
+clients: "industrie, automobile, électronique grand public"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Analog Devices, Infineon, NXP"
+vente:
+  approche: mixte
+  resume: "Les petits clients commandent en ligne sur le site de l’entreprise ; des commerciaux suivent les grands industriels et constructeurs automobiles."
+  acheteurs: "Les ingénieurs et les achats des industriels et constructeurs"
+  argument: "Des puces fiables, disponibles sur le long terme et produites en interne"
+  objections:
+  - "Des prix serrés face aux concurrents asiatiques"
+  - "Un marché qui suit les cycles de l’industrie et de l’automobile"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

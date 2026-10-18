@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Tokyo Electron"
+categorie: puces
+region: asie
+groupe: "Cotée (Bourse de Tokyo : 8035)"
+siege: "Tokyo (Japon)"
+en_bref: "Les machines de fabrication des puces, numéro un japonais"
+chiffre_affaires:
+  texte: "≈ 12,47 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 12.47
+chiffres_cles:
+- "Capitalisation d’environ 165,99 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "Les machines de fabrication des puces, numéro un japonais."
+produits:
+- nom: "Machines de dépôt et de gravure"
+  detail: "fabrication des couches"
+- nom: "Machines de nettoyage"
+  detail: "traiter les plaquettes"
+- nom: "Équipements de lithographie complémentaires"
+  detail: "préparer la gravure"
+modele: "Vente de machines, puis pièces et maintenance."
+clients: "fabricants de puces (TSMC, Samsung, Intel)"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Applied Materials, Lam Research, ASML"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées vendent aux grands fabricants de puces, avec un suivi sur place."
+  acheteurs: "Les directeurs d’usine et de technologie"
+  argument: "Des machines fiables et un service de proximité"
+  objections:
+  - "Une clientèle très concentrée"
+  - "Les restrictions à l’export vers la Chine"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

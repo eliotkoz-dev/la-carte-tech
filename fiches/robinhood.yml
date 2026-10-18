@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Robinhood"
+categorie: fintech
+aussi: [crypto]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : HOOD)"
+siege: "Menlo Park (Californie)"
+en_bref: "L’application de bourse et de cryptomonnaies sans commission"
+chiffre_affaires:
+  texte: "≈ 4,93 Md$ sur les 12 derniers mois (oct. 2026)"
+  md_usd: 4.93
+chiffres_cles:
+- "Capitalisation d’environ 88,89 Md$ (16 oct. 2026)"
+ce_qu_elle_vend: "L’application de bourse et de cryptomonnaies sans commission."
+produits:
+- nom: "Application de trading"
+  detail: "actions, options, ETF"
+- nom: "Crypto"
+  detail: "achat et vente de cryptomonnaies"
+- nom: "Robinhood Gold"
+  detail: "abonnement avec des services en plus"
+modele: "Revenus sur les ordres, intérêts sur les fonds des clients et abonnement Gold."
+clients: "particuliers"
+rachats:
+- "Bitstamp (2025) : plateforme crypto"
+concurrents: "Coinbase, eToro, Interactive Brokers"
+vente:
+  approche: libre-service
+  resume: "Les clients ouvrent un compte seuls dans l’application, sans commercial."
+  acheteurs: "Les investisseurs particuliers"
+  argument: "Investir en quelques clics, sans commission"
+  objections:
+  - "Des revenus qui suivent l’activité des marchés"
+  - "Les règles sur le trading des particuliers"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+verifie_le: '2026-10-18'

@@ -1,0 +1,48 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Advantest"
+categorie: puces
+region: asie
+groupe: "Cotée (Bourse de Tokyo : 6857)"
+siege: "Tokyo (Japon)"
+en_bref: "Les testeurs qui vérifient que chaque puce fonctionne"
+chiffre_affaires:
+  texte: "≈ 7,5 Md$ (1 129 Md¥, exercice clos en mars 2026)"
+  md_usd: 7.5
+chiffres_cles:
+- "Capitalisation d’environ 157,71 Md$ (16 oct. 2026)"
+- "Chiffre d’affaires : 1 129 Md¥ (≈ 7,5 Md$) sur l’exercice clos en mars 2026, en hausse de 45 %"
+ce_qu_elle_vend: "Les testeurs qui vérifient que chaque puce fonctionne."
+produits:
+- nom: "Testeurs de puces"
+  detail: "contrôler les puces à la sortie de l’usine"
+- nom: "Testeurs pour mémoire"
+  detail: "vérifier les puces mémoire"
+- nom: "Cartes de test"
+  detail: "adapter le test à chaque puce"
+modele: "Vente de testeurs, puis services et pièces."
+clients: "fabricants de puces (Nvidia, TSMC…)"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Teradyne"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées vendent aux fabricants et aux assembleurs de puces."
+  acheteurs: "Les directeurs de production et de qualité"
+  argument: "Un test rapide et fiable pour les puces d’IA les plus complexes"
+  objections:
+  - "Un marché très concentré autour de peu de clients"
+  - "Les cycles d’investissement des fabricants"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, plus gros chiffres d’affaires tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
+- titre: "MT Newswires via Placera, résultats d’Advantest"
+  url: "https://www.placera.se/telegram/advantest-s-net-income-soars-133-in-fiscal-year-2025-20260427"
+verifie_le: '2026-10-18'
