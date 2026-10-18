@@ -1,0 +1,66 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Cloudflare"
+categorie: cloud
+aussi: [cyber]
+region: amerique-du-nord
+groupe: "Cotée à New York (NYSE : NET)"
+siege: "San Francisco (Californie)"
+en_bref: "Le réseau qui accélère et protège une grande partie d’Internet"
+chiffre_affaires:
+  texte: "2,17 Md$ en 2025 (+30 %)"
+  md_usd: 2.17
+chiffres_cles:
+- "696 M$ de revenus au 2e trimestre 2026 (+36 %)"
+- "Prévision 2026 relevée à environ 2,87 Md$ (août 2026)"
+- "Utilisée par environ 21 % de tous les sites web (W3Techs, janvier 2026)"
+- "Environ 1 100 postes supprimés en mai 2026, soit 20 % des effectifs"
+ce_qu_elle_vend: "Un réseau mondial qui rend les sites plus rapides, les protège des attaques et permet d’y faire tourner du code au plus près des utilisateurs."
+produits:
+- nom: "CDN et protection DDoS"
+  detail: "sites plus rapides et protégés des attaques"
+- nom: "Workers"
+  detail: "faire tourner du code sur le réseau Cloudflare"
+- nom: "Zero Trust (Access, Gateway)"
+  detail: "sécuriser l’accès des employés aux applications"
+- nom: "Workers AI"
+  detail: "faire tourner des modèles d’IA sur le réseau"
+modele: "Offres gratuites pour attirer, puis abonnements payants et contrats entreprise facturés à l’usage."
+clients: "sites web, développeurs, grandes entreprises"
+rachats:
+- "Area 1 Security (2022) : protection contre le phishing"
+- "Replicate (2025) : déploiement de modèles d’IA"
+- "Astro (2026) : outil de développement web"
+concurrents: "Akamai, AWS, Fastly, Zscaler"
+vente:
+  approche: mixte
+  resume: "Les petits clients s’inscrivent seuls en ligne, souvent gratuitement ; une équipe commerciale vend les contrats aux grandes entreprises."
+  acheteurs: "Les développeurs et responsables web ; le RSSI et le DSI pour les grands comptes"
+  argument: "Un seul réseau pour la vitesse, la sécurité et le code, déjà présent partout"
+  objections:
+  - "Dépendre d’un seul fournisseur pour une partie d’Internet"
+  - "La facture qui monte avec l’usage"
+bureaux_europe:
+  villes:
+  - "Londres (Royaume-Uni)"
+  - "Lisbonne (Portugal)"
+  - "Varsovie (Pologne)"
+  note: "Cloudflare indique 12 sites en Europe, « de Lisbonne à Varsovie » ; seules ces trois villes sont nommées dans les sources lues."
+  sources:
+  - titre: "Cloudflare, carrières"
+    url: "https://www.cloudflare.com/careers/"
+  - titre: "Wikipédia, Cloudflare"
+    url: "https://en.wikipedia.org/wiki/Cloudflare"
+stages:
+  statut: a-verifier
+  detail: "La page carrières ne mentionne pas de programme de stage en Europe ; à vérifier sur la liste des offres."
+sources:
+- titre: "Cloudflare, résultats du 2e trimestre 2026"
+  url: "https://secure.businesswire.com/news/home/20260806407787/en/Cloudflare-Announces-Second-Quarter-2026-Financial-Results"
+- titre: "Converge Digest, résultats annuels 2025 de Cloudflare"
+  url: "https://convergedigest.com/cloudflare-hits-2-17b-in-2025-revenue-expands-edge-infrastructure-for-ai-traffic/"
+- titre: "Wikipédia, Cloudflare"
+  url: "https://en.wikipedia.org/wiki/Cloudflare"
+verifie_le: '2026-10-18'

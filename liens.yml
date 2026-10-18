@@ -29,6 +29,16 @@
   type: parente
   texte: "Google rachète Wiz pour 32 Md$ et l’intègre à Google Cloud (mars 2026)"
   source: "https://www.googlecloudpresscorner.com/2026-03-11-Google-Completes-Acquisition-of-Wiz"
+- de: ibm
+  vers: red-hat
+  type: parente
+  texte: "IBM a racheté Red Hat 34 Md$ en 2019 ; elle reste une filiale indépendante"
+  source: "https://en.wikipedia.org/wiki/Red_Hat"
+- de: ibm
+  vers: ibm-cloud
+  type: parente
+  texte: "IBM Cloud est l’activité cloud d’IBM"
+  source: "https://www.ibm.com/products/cloud"
 - de: microsoft
   vers: openai
   type: investissement

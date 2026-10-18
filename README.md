@@ -8,7 +8,7 @@
 
 Un site open source, fait par des étudiants pour des étudiants, qui explique simplement :
 
-- **les acteurs** : 76 entreprises (cloud, IA, puces, data, logiciels, cybersécurité, pub, e-commerce, fintech, crypto), avec leur chiffre d’affaires, leurs produits phares, leur modèle économique, leur façon de vendre, leurs rachats, leurs liens (qui possède qui, qui investit dans qui, qui travaille avec qui) et leurs stages ;
+- **les acteurs** : 79 entreprises (cloud, IA, puces, data, logiciels, cybersécurité, pub, e-commerce, fintech, crypto), avec leur chiffre d’affaires, leurs produits phares, leur modèle économique, leur façon de vendre, leurs rachats, leurs liens (qui possède qui, qui investit dans qui, qui travaille avec qui) et leurs stages ;
 - **la tech en rapide** : onze notions qui s’ouvrent au clic, avec la taille du marché et les plus gros acteurs ;
 - **les métiers** de la tech au-delà du code : vente, avant-vente, relation client, marketing, produit, data et fonctions business.
 

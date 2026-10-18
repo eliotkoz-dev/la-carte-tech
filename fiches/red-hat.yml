@@ -1,0 +1,69 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Red Hat"
+categorie: cloud
+region: amerique-du-nord
+groupe: "Filiale d’IBM"
+siege: "Raleigh (Caroline du Nord)"
+en_bref: "Le Linux et OpenShift des entreprises, vendus en abonnement"
+chiffre_affaires:
+  texte: "Non publié (IBM donne la croissance : +11 % au 2e trimestre 2026)"
+  md_usd: 0
+chiffres_cles:
+- "Revenus en hausse de 11 % au 2e trimestre 2026, une accélération (IBM)"
+- "Racheté 34 Md$ par IBM en 2019, il reste une filiale indépendante"
+- "Environ 19 000 salariés ; le plus grand centre d’ingénierie est à Brno (République tchèque), environ 1 500 personnes"
+ce_qu_elle_vend: "Des logiciels libres pour faire tourner les serveurs et les applications des entreprises, avec le support et les mises à jour en abonnement."
+produits:
+- nom: "Red Hat Enterprise Linux"
+  detail: "système d’exploitation des serveurs d’entreprise"
+- nom: "OpenShift"
+  detail: "plateforme pour faire tourner des applications sur n’importe quel cloud"
+- nom: "Ansible"
+  detail: "automatisation de l’informatique"
+- nom: "Red Hat AI"
+  detail: "IA pour les entreprises"
+modele: "Le logiciel est libre ; l’entreprise vend des abonnements de support, de mises à jour et de services."
+clients: "banques, opérateurs, administrations, grands groupes"
+rachats:
+- "Rachetée par IBM (2019)"
+concurrents: "SUSE, Canonical, VMware"
+vente:
+  approche: mixte
+  resume: "Les développeurs téléchargent le logiciel gratuitement ; des commerciaux et des revendeurs vendent aux entreprises les abonnements de support et les plateformes."
+  acheteurs: "Le DSI et les équipes infrastructure des grands groupes"
+  argument: "Faire tourner les mêmes applications sur serveurs internes et sur n’importe quel cloud, avec un support fiable"
+  objections:
+  - "Le logiciel étant libre, certains clients se demandent pourquoi payer"
+  - "Le prix des abonnements face aux alternatives"
+bureaux_europe:
+  villes:
+  - "Brno (République tchèque)"
+  - "Munich (Allemagne)"
+  - "Paris (France)"
+  - "Londres (Royaume-Uni)"
+  - "Farnborough (Royaume-Uni)"
+  - "Dublin (Irlande)"
+  - "Amsterdam (Pays-Bas)"
+  - "Madrid (Espagne)"
+  - "Barcelone (Espagne)"
+  - "Milan (Italie)"
+  - "Rome (Italie)"
+  - "Stockholm (Suède)"
+  - "Varsovie (Pologne)"
+  - "Zurich (Suisse)"
+  note: "Liste partielle : la page officielle cite aussi Berlin, Francfort, Walldorf, Lisbonne, Oslo, Cork, Vienne et d’autres villes ; Paris correspond à La Défense (Puteaux)."
+  sources:
+  - titre: "Red Hat, nos bureaux"
+    url: "https://www.redhat.com/en/about/offices"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage en Europe vérifiée : la page carrières n’a pas pu être lue. À vérifier sur le site de l’entreprise."
+sources:
+- titre: "Wikipédia, Red Hat"
+  url: "https://en.wikipedia.org/wiki/Red_Hat"
+- titre: "Hudson Labs, résultats d’IBM au 2e trimestre 2026"
+  url: "https://www.hudson-labs.com/research/ibm-q2-2026-earnings"
+verifie_le: '2026-10-18'

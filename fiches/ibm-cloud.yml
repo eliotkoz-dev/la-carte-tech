@@ -1,0 +1,50 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "IBM Cloud"
+categorie: cloud
+aussi: [ia]
+region: amerique-du-nord
+groupe: "Activité d’IBM"
+siege: "Armonk (New York)"
+en_bref: "Le cloud d’IBM pour les secteurs réglementés"
+chiffre_affaires:
+  texte: "Non publié (inclus dans les résultats d’IBM)"
+  md_usd: 0
+chiffres_cles:
+- "IBM : 17,2 Md$ de revenus au 2e trimestre 2026 (+1 %), logiciels +5 %"
+- "Visé : banques, santé, administrations, télécoms, jeux vidéo"
+ce_qu_elle_vend: "Un cloud d’entreprise (serveurs, plateforme, IA) pour les secteurs qui doivent respecter des règles strictes de sécurité et de conformité."
+produits:
+- nom: "Serveurs virtuels et bare metal"
+  detail: "louer des serveurs, dédiés ou virtuels"
+- nom: "Red Hat OpenShift on IBM Cloud"
+  detail: "faire tourner des applications en conteneurs"
+- nom: "watsonx Orchestrate"
+  detail: "agents IA pour automatiser des tâches"
+- nom: "Hébergement SAP et calcul haute performance"
+  detail: "pour les charges de travail critiques"
+modele: "Paiement à l’usage ou contrats d’engagement, souvent vendus avec les logiciels et le conseil d’IBM."
+clients: "banques, assurances, santé, administrations, télécoms"
+rachats:
+- "Aucun rachat listé"
+concurrents: "AWS, Azure, Google Cloud, OVHcloud"
+note: "IBM ne publie pas de chiffre d’affaires séparé pour IBM Cloud."
+vente:
+  approche: vente-directe
+  resume: "Les commerciaux d’IBM vendent le cloud avec les logiciels et le conseil, aux grands comptes qu’ils suivent déjà."
+  acheteurs: "Le DSI et le responsable conformité des banques et administrations"
+  argument: "Un cloud pensé pour les secteurs réglementés, avec sécurité et conformité intégrées"
+  objections:
+  - "Une part de marché bien plus petite que celle d’AWS, Azure et Google"
+  - "Le coût de quitter son cloud actuel"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières d’IBM."
+sources:
+- titre: "IBM, présentation d’IBM Cloud"
+  url: "https://www.ibm.com/products/cloud"
+- titre: "Hudson Labs, résultats d’IBM au 2e trimestre 2026"
+  url: "https://www.hudson-labs.com/research/ibm-q2-2026-earnings"
+verifie_le: '2026-10-18'
