@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Thales"
+categorie: espace
+region: europe
+groupe: "Cotée à Paris (Euronext)"
+siege: "La Défense (France)"
+en_bref: "Électronique de défense, aérospatial, cyber et identité numérique"
+chiffre_affaires:
+  texte: "26 Md$ en 2025 (+21 %)"
+  md_usd: 26.0
+chiffres_cles:
+- "Capitalisation d’environ 54 Md$ (oct. 2026)"
+ce_qu_elle_vend: "Des systèmes électroniques pour la défense, l’aviation et l’espace, et des solutions de cybersécurité et d’identité numérique."
+produits:
+- nom: "Défense"
+  detail: "radars, capteurs, systèmes de communication"
+- nom: "Aérospatial"
+  detail: "électronique de cockpit, satellites"
+- nom: "Cyber et identité numérique"
+  detail: "chiffrement, cartes SIM, identité"
+modele: "Contrats pluriannuels avec les armées et les États, plus des licences et services pour les entreprises."
+clients: "armées, États, compagnies aériennes, banques, opérateurs télécoms"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Airbus, RTX, Lockheed Martin, Safran"
+vente:
+  approche: vente-directe
+  resume: "Des équipes commerciales suivent de grands comptes (ministères, armées, industriels) sur des contrats longs."
+  acheteurs: "Les ministères de la Défense, les directions de la sécurité"
+  argument: "Une technologie de souveraineté européenne"
+  objections:
+  - "Les procédures d’achat publiques très longues"
+  - "La dépendance aux budgets des États"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, revenus de Thales"
+  url: "https://companiesmarketcap.com/thales/revenue/"
+- titre: "CompaniesMarketCap, capitalisation de Thales"
+  url: "https://companiesmarketcap.com/thales/marketcap/"
+verifie_le: '2026-10-18'

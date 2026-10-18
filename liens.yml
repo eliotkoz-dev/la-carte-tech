@@ -459,3 +459,13 @@
   type: partenariat
   texte: "Les PC Copilot+ de Microsoft tournent sur les puces Snapdragon X de Qualcomm (2024)"
   source: "https://www.fonearena.com/blog/424256/microsoft-copilot-plus-pc-features-snapdragon-x-series-devices.html/amp"
+- de: palantir
+  vers: airbus
+  type: partenariat
+  texte: "Le logiciel de Palantir alimente Skywise, la plateforme de données d’aviation civile d’Airbus (accord prolongé sur plusieurs années, 2026)"
+  source: "https://aerospace-innovations.com/palantir-technologies-extends-strategic-collaboration-with-airbus-through-multi-year-agreement/"
+- de: palantir
+  vers: anduril
+  type: partenariat
+  texte: "Palantir et Anduril forment un consortium pour relier leurs logiciels d’IA pour la défense (décembre 2024)"
+  source: "https://defensescoop.com/2024/12/06/palantir-anduril-consortium-ai-new-alliance-merge-capabilities/"

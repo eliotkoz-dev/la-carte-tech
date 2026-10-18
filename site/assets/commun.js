@@ -2,10 +2,10 @@
 window.CarteTech = (function () {
   const CATEGORIES = {
     cloud: 'Cloud & infra', ia: 'IA', puces: 'Puces & matériel', data: 'Data', saas: 'Logiciels',
-    cyber: 'Cybersécurité', pub: 'Pub & plateformes', ecommerce: 'E-commerce', fintech: 'Fintech & paiements', crypto: 'Crypto & web3'
+    cyber: 'Cybersécurité', pub: 'Pub & plateformes', ecommerce: 'E-commerce', fintech: 'Fintech & paiements', crypto: 'Crypto & web3', espace: 'Aérospatial & défense'
   };
   // Notion de la page « La tech en rapide » qui explique chaque catégorie.
-  const NOTION_DE = { cloud: 'cloud', ia: 'ia', puces: 'puces', data: 'data', saas: 'logiciels', cyber: 'cyber', pub: 'pub', ecommerce: 'ecommerce', fintech: 'paiements', crypto: 'crypto' };
+  const NOTION_DE = { cloud: 'cloud', ia: 'ia', puces: 'puces', data: 'data', saas: 'logiciels', cyber: 'cyber', pub: 'pub', ecommerce: 'ecommerce', fintech: 'paiements', crypto: 'crypto', espace: 'espace' };
   const REGIONS = { 'amerique-du-nord': { nom: 'Amérique du Nord', c: '#3A3AF4' }, europe: { nom: 'Europe', c: '#FF4F8B' }, asie: { nom: 'Asie', c: '#FFD800', bord: '#C9A400' } };
   const STAGES = { oui: 'Stage : oui', alternance: 'Alternance', 'a-verifier': 'Stage : à vérifier' };
   const MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];

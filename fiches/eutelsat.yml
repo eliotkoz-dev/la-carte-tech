@@ -1,0 +1,42 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Eutelsat"
+categorie: espace
+region: europe
+groupe: "Cotée à Paris (Euronext)"
+siege: "Paris (France)"
+en_bref: "Satellites de télécoms, dont la constellation OneWeb"
+chiffre_affaires:
+  texte: "1,23 Md€ en 2025-26 (≈ 1,43 Md$)"
+  md_usd: 1.43
+chiffres_cles:
+- "OneWeb (orbite basse) : 342,6 M$ (+69,5 %), 25 % du total"
+- "Refinancement de 5,7 Md$ bouclé en mars 2026 pour 440 satellites de remplacement"
+ce_qu_elle_vend: "De la connectivité par satellite (télévision, internet) pour les États, les entreprises et les opérateurs."
+produits:
+- nom: "OneWeb"
+  detail: "constellation de satellites en orbite basse"
+- nom: "Satellites géostationnaires"
+  detail: "télévision et données"
+modele: "Location de capacité satellite à des opérateurs télécoms, à des gouvernements et à des entreprises."
+clients: "opérateurs télécoms, États, armées, compagnies aériennes et maritimes"
+rachats:
+- "OneWeb (fusion)"
+concurrents: "SpaceX (Starlink), Amazon (Kuiper)"
+vente:
+  approche: mixte
+  resume: "Des équipes vendent en direct aux États et aux grandes entreprises, d’autres passent par des distributeurs."
+  acheteurs: "Les opérateurs télécoms, les ministères"
+  argument: "Une alternative européenne à Starlink"
+  objections:
+  - "La concurrence de Starlink"
+  - "Le coût des satellites de remplacement"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "DatacenterDynamics, résultats 2025-26 d’Eutelsat"
+  url: "https://www.datacenterdynamics.com/en/news/eutelsat-releases-2025-26-financial-results-with-695-increase-in-leo-revenues-yoy/"
+verifie_le: '2026-10-18'

@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Safran"
+categorie: espace
+region: europe
+groupe: "Cotée à Paris (Euronext)"
+siege: "Paris (France)"
+en_bref: "Moteurs d’avions, équipements et défense"
+chiffre_affaires:
+  texte: "36,6 Md$ en 2025 (+27 %)"
+  md_usd: 36.63
+chiffres_cles:
+- "Capitalisation d’environ 147 Md$ (oct. 2026)"
+ce_qu_elle_vend: "Des moteurs d’avions (dont, avec GE, ceux des A320 et Boeing 737), des équipements de cabine et des systèmes de défense."
+produits:
+- nom: "Moteurs d’avions"
+  detail: "propulsion civile et militaire"
+- nom: "Équipements"
+  detail: "trains d’atterrissage, nacelles, électronique"
+- nom: "Défense"
+  detail: "navigation et optronique"
+modele: "Vente de moteurs puis, surtout, pièces et maintenance sur toute leur durée de vie."
+clients: "constructeurs d’avions, compagnies aériennes, armées"
+rachats:
+- "Aucun rachat listé"
+concurrents: "RTX (Pratt & Whitney), GE Aerospace, Rolls-Royce"
+vente:
+  approche: vente-directe
+  resume: "Des équipes vendent aux constructeurs et aux compagnies des moteurs puis des contrats de maintenance."
+  acheteurs: "Les constructeurs, les directions techniques et des achats des compagnies"
+  argument: "Fiabilité et faible consommation de carburant"
+  objections:
+  - "Le prix des pièces"
+  - "La disponibilité des moteurs"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, revenus de Safran"
+  url: "https://companiesmarketcap.com/safran/revenue/"
+- titre: "CompaniesMarketCap, capitalisation de Safran"
+  url: "https://companiesmarketcap.com/safran/marketcap/"
+verifie_le: '2026-10-18'

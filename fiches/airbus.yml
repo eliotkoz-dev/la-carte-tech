@@ -1,0 +1,50 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Airbus"
+categorie: espace
+region: europe
+groupe: "Cotée à Paris (Euronext)"
+siege: "Toulouse / Leiden (France / Pays-Bas)"
+en_bref: "Avions de ligne, hélicoptères, défense et espace"
+chiffre_affaires:
+  texte: "85 Md$ en 2025 (+15 %)"
+  md_usd: 85.03
+chiffres_cles:
+- "89,5 Md$ de revenus sur les 12 derniers mois"
+- "Capitalisation d’environ 177 Md$ (oct. 2026)"
+- "Plus de 180 sites dans le monde"
+ce_qu_elle_vend: "Des avions commerciaux (famille A320, A350…), des hélicoptères, des avions militaires et des satellites."
+produits:
+- nom: "Airbus Commercial"
+  detail: "avions de ligne"
+- nom: "Airbus Helicopters"
+  detail: "hélicoptères civils et militaires"
+- nom: "Airbus Defence and Space"
+  detail: "avions militaires, satellites, systèmes de défense"
+modele: "Vente d’avions à des compagnies aériennes et à des loueurs, avec de longs carnets de commandes, puis services et maintenance."
+clients: "compagnies aériennes, loueurs d’avions, armées et États, agences spatiales"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Boeing, Embraer, Lockheed Martin, Thales"
+note: "Programme Graduate 2027 avec des profils commerciaux (support aux ventes, géospatial) : à vérifier sur le site carrières."
+vente:
+  approche: vente-directe
+  resume: "Des équipes commerciales négocient chaque contrat de plusieurs mois ou années avec les compagnies et les États, avec un fort appui des ingénieurs."
+  acheteurs: "Les directions des flottes et des achats, les ministères de la Défense"
+  argument: "Des appareils sobres, fiables, avec un soutien sur toute leur durée de vie"
+  objections:
+  - "Les délais de livraison"
+  - "Le prix, face à Boeing"
+stages:
+  statut: oui
+  detail: "Stages ouverts en France et alternances au Royaume-Uni (page carrières Airbus, oct. 2026). Un seul poste commercial listé : Customer Account Director (Tokyo)."
+sources:
+- titre: "CompaniesMarketCap, revenus d’Airbus"
+  url: "https://companiesmarketcap.com/airbus/revenue/"
+- titre: "CompaniesMarketCap, capitalisation d’Airbus"
+  url: "https://companiesmarketcap.com/airbus/marketcap/"
+- titre: "Airbus, carrières"
+  url: "https://www.airbus.com/en/careers"
+verifie_le: '2026-10-18'

@@ -1,0 +1,48 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Rocket Lab"
+categorie: espace
+region: amerique-du-nord
+groupe: "Cotée à New York (Nasdaq)"
+siege: "États-Unis"
+en_bref: "Petites fusées Electron et fabrication de satellites"
+chiffre_affaires:
+  texte: "602 M$ en 2025 (+38 %)"
+  md_usd: 0.602
+chiffres_cles:
+- "200 M$ au 1er trimestre 2026 (+63,5 %)"
+- "Carnet de commandes : 2,2 Md$ (mars 2026)"
+- "Plus de 70 lancements sous contrat"
+ce_qu_elle_vend: "Des lancements de petits satellites avec la fusée Electron, des satellites sur mesure et des composants."
+produits:
+- nom: "Electron"
+  detail: "petite fusée pour satellites"
+- nom: "Neutron"
+  detail: "fusée de taille moyenne en développement"
+- nom: "Space Systems"
+  detail: "satellites et composants"
+modele: "Contrats de lancement et de fabrication de satellites, surtout pour des agences publiques et des opérateurs."
+clients: "agences spatiales, armée américaine, opérateurs de satellites"
+rachats:
+- "Mynaric (terminé en 2026)"
+- "Motiv Space Systems (accord signé)"
+concurrents: "SpaceX, Airbus Defence and Space, Lockheed Martin"
+vente:
+  approche: vente-directe
+  resume: "Des équipes commerciales négocient des contrats de lancement et de satellites avec les agences et opérateurs."
+  acheteurs: "Les agences spatiales, les armées, les opérateurs de satellites"
+  argument: "Un lancement rapide et sur mesure"
+  objections:
+  - "Les retards de la fusée Neutron"
+  - "La concurrence de SpaceX"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Rocket Lab, résultats 2025"
+  url: "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-fourth-quarter-and-full-year-2025-financial"
+- titre: "Rocket Lab, résultats du premier trimestre 2026 (SEC)"
+  url: "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000027/rklb-05072026ex991.htm"
+verifie_le: '2026-10-18'

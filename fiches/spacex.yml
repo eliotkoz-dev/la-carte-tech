@@ -1,0 +1,51 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "SpaceX"
+categorie: espace
+region: amerique-du-nord
+groupe: "Cotée à New York (Nasdaq, SPCX)"
+siege: "États-Unis"
+en_bref: "Fusées réutilisables et internet par satellite (Starlink)"
+chiffre_affaires:
+  texte: "18,7 Md$ en 2025"
+  md_usd: 18.7
+chiffres_cles:
+- "Starlink : 11,4 Md$ de revenus (+50 %), soit 60 % du total"
+- "Starlink : 10,3 millions d’abonnés dans 164 pays (31 mars 2026)"
+- "Perte d’exploitation de 2,6 Md$ en 2025, tirée par le segment IA (xAI et X)"
+- "Capitalisation d’environ 1 920 Md$ (oct. 2026)"
+ce_qu_elle_vend: "Des lancements de fusées (en grande partie réutilisables) et un accès à Internet par satellite."
+produits:
+- nom: "Falcon"
+  detail: "fusées pour mettre des satellites et des astronautes en orbite"
+- nom: "Starlink"
+  detail: "internet par satellite, pour particuliers, entreprises et États"
+- nom: "Starship"
+  detail: "fusée géante en développement"
+- nom: "xAI et X"
+  detail: "segment IA et réseau social, intégrés au groupe"
+modele: "Abonnements Starlink (60 % des revenus) et contrats de lancement pour la NASA, l’armée américaine et des opérateurs de satellites."
+clients: "particuliers, entreprises, compagnies aériennes et maritimes, États, opérateurs de satellites"
+rachats:
+- "Segment IA (xAI et X) intégré au groupe"
+concurrents: "Eutelsat (OneWeb), Amazon (Kuiper), Rocket Lab, Airbus et Boeing (ULA)"
+note: "Les rôles commerciaux Starlink (entreprises, revendeurs) sont recrutés par zones, dont l’Europe."
+vente:
+  approche: mixte
+  resume: "Les particuliers s’abonnent en ligne ; pour les entreprises et les revendeurs, des équipes commerciales par zone vendent des abonnements et des terminaux."
+  acheteurs: "Les particuliers, les directions informatiques, les opérateurs télécoms et maritimes, les États"
+  argument: "Une connexion rapide partout, même là où la fibre n’arrive pas"
+  objections:
+  - "La dépendance à un seul fournisseur"
+  - "Le prix du matériel et de l’abonnement"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Broadband Breakfast, ce que révèle l’introduction en Bourse de SpaceX"
+  url: "https://broadbandbreakfast.com/spacex-ready-to-go-public-in-massive-ipo-reveals-that-starlink-is-paying-the-bills"
+- titre: "CompaniesMarketCap, capitalisation de SpaceX (oct. 2026)"
+  url: "https://companiesmarketcap.com/spacex/marketcap/"
+verifie_le: '2026-10-18'

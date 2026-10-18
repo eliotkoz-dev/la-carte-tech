@@ -2,7 +2,7 @@
 # puis remplissez chaque champ. Les fichiers qui commencent par « _ » sont ignorés.
 
 nom: Nom de l’entreprise
-categorie: saas          # cloud | ia | puces | data | saas | cyber | pub | ecommerce | fintech | crypto
+categorie: saas          # cloud | ia | puces | data | saas | cyber | pub | ecommerce | fintech | crypto | espace
 region: europe           # amerique-du-nord | europe | asie
 # aussi: [ia]             # facultatif : 1 ou 2 autres catégories où elle est active ; sa bulle se place entre les zones
 groupe: Cotée à Paris    # ou « Non cotée », « Groupe X »…

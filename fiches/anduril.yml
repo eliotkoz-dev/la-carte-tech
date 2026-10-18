@@ -1,0 +1,42 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Anduril"
+categorie: espace
+region: amerique-du-nord
+groupe: "Non cotée (valorisée 61 Md$)"
+siege: "États-Unis"
+en_bref: "Drones et systèmes de défense pilotés par logiciel"
+chiffre_affaires:
+  texte: "Environ 2,2 Md$ (revenus récents, mai 2026)"
+  md_usd: 2.2
+chiffres_cles:
+- "Valorisation de 61 Md$ à la levée de mai 2026 (5 Md$ levés)"
+- "31 Md$ de valorisation en juin 2025"
+ce_qu_elle_vend: "Des drones, des capteurs et des systèmes de défense reliés par un logiciel d’IA (Lattice)."
+produits:
+- nom: "Lattice"
+  detail: "logiciel qui relie capteurs et armes"
+- nom: "Drones et systèmes autonomes"
+  detail: "surveillance et défense"
+modele: "Contrats avec les armées, avec un modèle de start-up : produits développés en interne, puis vendus."
+clients: "armée américaine et alliés"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Lockheed Martin, RTX, Palantir"
+vente:
+  approche: vente-directe
+  resume: "Des équipes vendent aux armées, souvent après des démonstrations sur le terrain."
+  acheteurs: "Les armées et ministères de la Défense"
+  argument: "Des produits livrés vite et pilotés par le logiciel"
+  objections:
+  - "Les achats publics longs"
+  - "La concurrence des grands industriels"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Multiples.vc, valorisation d’Anduril"
+  url: "https://multiples.vc/private-comps/anduril"
+verifie_le: '2026-10-18'

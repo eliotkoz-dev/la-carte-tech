@@ -159,6 +159,23 @@
   mots_cles: [Blockchain, Stablecoin, Custody, MiCA, Wallet]
   en_vente: "Les revenus suivent les cours : quand le marché baisse, les volumes de trading chutent. Les acheteurs institutionnels (banques, gérants) demandent d’abord conformité, sécurité et licences."
 
+- id: espace
+  titre: L’aérospatial et la défense
+  categorie: espace
+  acteurs: [spacex, airbus, thales, rtx, anduril]
+  en_une_phrase: "Construire des avions, des moteurs, des satellites et des systèmes de défense, vendus surtout à des États et à des compagnies aériennes."
+  comment_ca_marche:
+    - "Les constructeurs (Airbus, Boeing) assemblent les avions ; les motoristes (Safran, RTX) fournissent les moteurs et gagnent surtout sur les pièces et la maintenance."
+    - "Côté défense, les clients sont des États : les contrats sont longs, publics, et suivent les budgets militaires."
+    - "L’espace se divise entre lanceurs (SpaceX, Rocket Lab) et satellites : Starlink (SpaceX) et OneWeb (Eutelsat) vendent de l’internet depuis l’orbite."
+    - "De nouveaux acteurs comme Anduril ou Palantir vendent des logiciels et des drones à la défense, comme une start-up de la tech."
+  marche:
+    chiffre: "268 Md$"
+    detail: "de carnet de commandes chez RTX fin 2025 (161 Md$ civil, 107 Md$ défense)"
+    source: { titre: "RTX, résultats 2025", url: "https://www.rtx.com/news/news-center/2026/01/27/rtx-reports-2025-results-and-announces-2026-outlook" }
+  mots_cles: [Carnet de commandes, Lanceur, Constellation, Orbite basse, Appel d’offres public]
+  en_vente: "Les cycles de vente durent des mois, voire des années : il faut convaincre des ingénieurs, des acheteurs publics et des militaires. Les rôles commerciaux existent (account directors, ventes de services, graduate programmes), mais ils sont rares et très spécialisés."
+
 - id: api
   titre: Les API
   acteurs: [stripe, shopify, lemonway]

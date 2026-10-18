@@ -8,8 +8,8 @@
 
 Un site open source, fait par des étudiants pour des étudiants, qui explique simplement :
 
-- **les acteurs** : 108 entreprises (cloud, IA, puces, data, logiciels, cybersécurité, pub, e-commerce, fintech, crypto), avec leur chiffre d’affaires, leurs produits phares, leur modèle économique, leur façon de vendre, leurs rachats, leurs liens (qui possède qui, qui investit dans qui, qui travaille avec qui) et leurs stages ;
-- **la tech en rapide** : onze notions qui s’ouvrent au clic, avec la taille du marché et les plus gros acteurs ;
+- **les acteurs** : 117 entreprises (cloud, IA, puces, data, logiciels, cybersécurité, pub, e-commerce, fintech, crypto, aérospatial et défense), avec leur chiffre d’affaires, leurs produits phares, leur modèle économique, leur façon de vendre, leurs rachats, leurs liens (qui possède qui, qui investit dans qui, qui travaille avec qui) et leurs stages ;
+- **la tech en rapide** : douze notions qui s’ouvrent au clic, avec la taille du marché et les plus gros acteurs ;
 - **les métiers** de la tech au-delà du code : vente, avant-vente, relation client, marketing, produit, data et fonctions business.
 
 Chaque chiffre a sa source.
@@ -40,7 +40,7 @@ Les liens entre entreprises sont dans [`liens.yml`](liens.yml), les notions de �
 ```
 fiches/            une fiche par entreprise (+ _modele.yml à copier)
 liens.yml          parentés, investissements et partenariats
-notions.yml        les onze notions de « La tech en rapide »
+notions.yml        les douze notions de « La tech en rapide »
 site/              les pages du site (HTML, CSS, JS)
 scripts/build.mjs  vérifie les fiches et génère site/data/acteurs.json
 ```

@@ -1,0 +1,44 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "RTX"
+categorie: espace
+region: amerique-du-nord
+groupe: "Cotée à New York (NYSE)"
+siege: "États-Unis"
+en_bref: "Moteurs d’avions, équipements de bord et missiles"
+chiffre_affaires:
+  texte: "88,6 Md$ en 2025 (+10 %)"
+  md_usd: 88.6
+chiffres_cles:
+- "Carnet de commandes : 268 Md$ (161 Md$ civil, 107 Md$ défense)"
+- "Pratt & Whitney 32,9 Md$, Collins Aerospace 30,2 Md$, Raytheon 28,0 Md$"
+ce_qu_elle_vend: "Des moteurs d’avions, des systèmes électroniques de bord et des missiles et radars."
+produits:
+- nom: "Pratt & Whitney"
+  detail: "moteurs d’avions"
+- nom: "Collins Aerospace"
+  detail: "équipements et systèmes de bord"
+- nom: "Raytheon"
+  detail: "missiles, radars, défense antiaérienne"
+modele: "Contrats de long terme avec les constructeurs, compagnies aériennes et armées, puis pièces et services."
+clients: "Boeing, Airbus, compagnies aériennes, armées"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Lockheed Martin, GE Aerospace, Safran, Thales"
+vente:
+  approche: vente-directe
+  resume: "Des équipes de grands comptes suivent les constructeurs, les compagnies et les ministères."
+  acheteurs: "Les ministères de la Défense, les directions des achats"
+  argument: "Une technologie éprouvée et un soutien mondial"
+  objections:
+  - "Les procédures d’achat publiques très longues"
+  - "Le prix"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "RTX, résultats 2025"
+  url: "https://www.rtx.com/news/news-center/2026/01/27/rtx-reports-2025-results-and-announces-2026-outlook"
+verifie_le: '2026-10-18'

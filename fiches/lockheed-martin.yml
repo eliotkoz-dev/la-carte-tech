@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Lockheed Martin"
+categorie: espace
+region: amerique-du-nord
+groupe: "Cotée à New York (NYSE)"
+siege: "États-Unis"
+en_bref: "Avions de combat, missiles et espace"
+chiffre_affaires:
+  texte: "75 Md$ en 2025 (+6 %)"
+  md_usd: 75.04
+chiffres_cles:
+- "77 Md$ de revenus sur les 12 derniers mois"
+- "Capitalisation d’environ 127 Md$ (oct. 2026)"
+ce_qu_elle_vend: "Des avions de combat (F-35), des missiles, des hélicoptères et des systèmes spatiaux."
+produits:
+- nom: "Aéronautique"
+  detail: "avions de combat comme le F-35"
+- nom: "Missiles et défense"
+  detail: "missiles et défense antiaérienne"
+- nom: "Espace"
+  detail: "satellites et systèmes spatiaux"
+modele: "Contrats avec le gouvernement américain et ses alliés, suivis de longs contrats de maintenance."
+clients: "armée américaine, gouvernements alliés"
+rachats:
+- "Aucun rachat listé"
+concurrents: "RTX, Airbus, Northrop Grumman, Thales"
+vente:
+  approche: vente-directe
+  resume: "Des équipes vendent aux États par grands programmes, avec des procédures d’achat publiques."
+  acheteurs: "Les ministères de la Défense"
+  argument: "Une capacité militaire éprouvée"
+  objections:
+  - "Les budgets publics"
+  - "Les retards de programme"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, revenus de Lockheed Martin"
+  url: "https://companiesmarketcap.com/lockheed-martin/revenue/"
+- titre: "CompaniesMarketCap, capitalisation de Lockheed Martin"
+  url: "https://companiesmarketcap.com/lockheed-martin/marketcap/"
+verifie_le: '2026-10-18'
