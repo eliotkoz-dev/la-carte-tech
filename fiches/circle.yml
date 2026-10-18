@@ -1,0 +1,49 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Circle
+categorie: crypto
+aussi: [fintech]
+region: amerique-du-nord
+groupe: "Cotée (NYSE : CRCL)"
+siege: "États-Unis"
+en_bref: "L’émetteur du stablecoin USDC, un dollar numérique"
+chiffre_affaires:
+  texte: "2,7 Md$ en 2025"
+  md_usd: 2.7
+chiffres_cles:
+- "73,3 Md$ d’USDC en circulation fin juin 2026 (+19 % sur un an)"
+- "701 M$ de revenus au 2e trimestre 2026 (+7 %), bénéfice net de 48 M$"
+- "Entrée en Bourse en 2025 ; 2,7 Md$ de revenus en 2025 (+64 %)"
+ce_qu_elle_vend: "Un stablecoin, l’USDC, qui vaut toujours un dollar, et les outils pour l’utiliser dans les paiements."
+produits:
+- nom: "USDC"
+  detail: "stablecoin adossé à des dollars en réserve"
+- nom: "Circle Mint"
+  detail: "créer et racheter des USDC contre des dollars"
+- nom: "Arc"
+  detail: "réseau blockchain en préparation pour les paiements"
+modele: "Intérêts perçus sur les réserves de l’USDC (dollars et bons du Trésor), dont une partie est reversée aux partenaires comme Coinbase."
+clients: "plateformes crypto, banques, entreprises de paiement"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Tether, Coinbase, Stripe (Bridge)"
+note: "Quand les taux d’intérêt baissent, ses revenus baissent aussi, car ils viennent des intérêts sur les réserves."
+vente:
+  approche: vente-directe
+  resume: "Une équipe commerciale démarche les plateformes, banques et entreprises de paiement pour qu’elles acceptent et distribuent l’USDC."
+  acheteurs: "Les directeurs produit et paiements des banques et fintechs ; les équipes de trésorerie"
+  argument: "Un dollar numérique régulé, transparent sur ses réserves, qui circule 24 h sur 24"
+  objections:
+  - "La concurrence de Tether, plus gros"
+  - "Les règles différentes selon les pays"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage en Europe vérifiée : la page carrières n’a pas pu être lue. À vérifier sur le site de l’entreprise."
+sources:
+- titre: "Circle, résultats du 2e trimestre 2026"
+  url: "https://s206.q4cdn.com/265218871/files/doc_news/2026/Aug/05/CIRCLE_Q2-2026.pdf"
+- titre: "Circle, résultats annuels 2025"
+  url: "https://www.circle.com/en/pressroom/circle-reports-fourth-quarter-and-full-fiscal-year-2025-financial-results"
+verifie_le: '2026-10-18'

@@ -51,7 +51,7 @@ bureaux_europe:
     url: "https://finance.yahoo.com/sectors/technology/articles/anthropic-boost-hiring-europe-opening-134751893.html"
 stages:
   statut: a-verifier
-  detail: "Pas de programme de stage trouvé. Anthropic propose un Fellows Program : 4 mois de recherche, à Londres ou aux États-Unis."
+  detail: "Pas de stage classique trouvé en octobre 2026. Anthropic propose des Fellows Programs (recherche, sécurité, politiques) avec une option Londres, et un poste Account Executive Startups à Dublin (poste de vente confirmé, pas un stage)."
 sources:
 - titre: "Bloomberg Government, revenu annualisé"
   url: "https://news.bgov.com/financial-accounting/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo"
@@ -63,4 +63,4 @@ sources:
   url: "https://www.googlecloudpresscorner.com/2025-10-23-Anthropic-to-Expand-Use-of-Google-Cloud-TPUs-and-Services"
 - titre: "Anthropic, Fellows Program"
   url: "https://job-boards.greenhouse.io/anthropic/jobs/5183052008"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

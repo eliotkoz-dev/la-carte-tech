@@ -1,0 +1,53 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Coinbase
+categorie: crypto
+aussi: [fintech]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : COIN)"
+siege: "États-Unis (entreprise sans siège, 100 % à distance)"
+en_bref: "La plus grande plateforme d’échange de cryptomonnaies cotée en Bourse"
+chiffre_affaires:
+  texte: "7,18 Md$ en 2025"
+  md_usd: 7.18
+chiffres_cles:
+- "1,22 Md$ de revenus au 2e trimestre 2026 (−18,5 % sur un an), perte nette de 360 M$"
+- "292 M$ de revenus liés aux stablecoins au 2e trimestre 2026, soit 24 % du total"
+- "4 321 salariés fin juin 2026, après un plan de départ d’environ 700 postes en mai 2026"
+ce_qu_elle_vend: "Une application pour acheter, vendre et garder des cryptomonnaies, et des services pour les institutions (échange, garde, prêt)."
+produits:
+- nom: "Coinbase (application)"
+  detail: "achat, vente et conservation de cryptomonnaies pour le grand public"
+- nom: "Coinbase Prime"
+  detail: "échange et garde pour les institutions"
+- nom: "Base"
+  detail: "réseau blockchain construit par Coinbase"
+- nom: "USDC"
+  detail: "stablecoin émis par Circle, dont Coinbase partage les revenus"
+modele: "Commissions sur les échanges, intérêts liés aux stablecoins et abonnements."
+clients: "particuliers, institutions et développeurs"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Kraken, Binance, Bitpanda"
+note: "Ses revenus dépendent du cours des cryptomonnaies : le volume de trading des particuliers a baissé de 38 % au 2e trimestre 2026."
+vente:
+  approche: mixte
+  resume: "Les particuliers s’inscrivent seuls dans l’application ; une équipe commerciale vend la garde, l’échange et les API aux institutions (Coinbase Prime)."
+  acheteurs: "Les particuliers ; les gérants d’actifs, banques et entreprises côté institutions"
+  argument: "Une plateforme cotée, régulée et sûre pour entrer dans la crypto"
+  objections:
+  - "Les frais face aux plateformes concurrentes"
+  - "La volatilité du marché, qui fait chuter les volumes"
+stages:
+  statut: a-verifier
+  detail: "Les stages publiés en octobre 2026 pour l’été 2027 sont à New York et San Francisco (dont un Sales Intern à New York, 12 semaines). Aucun stage en Europe vu."
+sources:
+- titre: "Coinbase, résultats du 2e trimestre 2026 (analyse beancount.io)"
+  url: "https://beancount.io/blog/2026/08/24/coinbase-q2-2026-earnings-analysis"
+- titre: "Coinbase, résultat 2025 (Traders Union)"
+  url: "https://tradersunion.com/news/cryptocurrency-news/show/1466787-coinbase-profit-hits-1-26b/"
+- titre: "Coinbase, offre Sales Intern (été 2027, New York)"
+  url: "https://builtinlondon.uk/job/sales-intern/11066615"
+verifie_le: '2026-10-18'

@@ -142,6 +142,23 @@
   mots_cles: [PSP, KYC, Néobanque, Stablecoin, Commission]
   en_vente: "Pour un gros marchand, 0,1 point de commission en moins vaut des millions : la vente se joue sur le taux d’acceptation des paiements et sur le prix."
 
+- id: crypto
+  titre: La crypto et le web3
+  categorie: crypto
+  acteurs: [coinbase, circle, kraken, ledger]
+  en_une_phrase: "Des actifs numériques (bitcoin, ether, stablecoins) échangés et gardés sans banque, sur des registres publics appelés blockchains."
+  comment_ca_marche:
+    - "Une plateforme d’échange (Coinbase, Kraken) permet d’acheter et vendre des cryptomonnaies et gagne une commission sur chaque opération."
+    - "Un stablecoin comme l’USDC (Circle) vaut toujours un dollar : l’émetteur garde des réserves en dollars et en bons du Trésor, et en tire des intérêts."
+    - "Pour garder ses cryptomonnaies soi-même, on utilise un portefeuille matériel comme ceux de Ledger, qui conserve les clés hors d’Internet."
+    - "En Europe, le règlement MiCA impose depuis le 1er juillet 2026 une autorisation pour proposer ces services."
+  marche:
+    chiffre: "73 Md$"
+    detail: "de stablecoin USDC en circulation fin juin 2026"
+    source: { titre: "Circle, résultats du deuxième trimestre 2026", url: "https://s206.q4cdn.com/265218871/files/doc_news/2026/Aug/05/CIRCLE_Q2-2026.pdf" }
+  mots_cles: [Blockchain, Stablecoin, Custody, MiCA, Wallet]
+  en_vente: "Les revenus suivent les cours : quand le marché baisse, les volumes de trading chutent. Les acheteurs institutionnels (banques, gérants) demandent d’abord conformité, sécurité et licences."
+
 - id: api
   titre: Les API
   acteurs: [stripe, shopify, lemonway]

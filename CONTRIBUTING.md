@@ -22,7 +22,7 @@ Copiez [`fiches/_modele.yml`](fiches/_modele.yml) dans un nouveau fichier, par e
 | Champ | Ce qu’on attend |
 |---|---|
 | `nom` | Le nom courant de l’entreprise |
-| `categorie` | `cloud`, `ia`, `puces`, `data`, `saas` (logiciels), `cyber`, `pub` (pub & plateformes), `ecommerce` ou `fintech` |
+| `categorie` | `cloud`, `ia`, `puces`, `data`, `saas` (logiciels), `cyber`, `pub` (pub & plateformes), `ecommerce`, `fintech` ou `crypto` |
 | `region` | Région d’origine : `amerique-du-nord`, `europe` ou `asie` |
 | `aussi` | Facultatif : 1 ou 2 autres catégories où l’entreprise est très active, par exemple `[ia]` pour un cloud qui vend aussi de l’IA. Sa bulle se place alors entre les zones |
 | `groupe`, `siege` | Cotée ou non, groupe, ville et pays |

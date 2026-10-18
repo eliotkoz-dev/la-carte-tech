@@ -77,13 +77,20 @@ bureaux_europe:
   - titre: "Google, nos implantations"
     url: "https://about.google/company-info/locations/"
 stages:
-  statut: alternance
-  detail: "Alternances à Paris pour la rentrée de septembre 2026 (vente et marketing, Customer Engineer, RH, ingénierie), vues sur des sites relais."
+  statut: oui
+  detail: "Stage New Business Sales à Dublin ou Hambourg, de mai à juillet 2027 (13 semaines minimum), candidatures avant le 13 novembre 2026. Alternances à Paris chaque septembre."
 rejoindre:
   bureaux:
+  - ville: Dublin
+    detail: Stage New Business Sales 2027 (choix Dublin ou Hambourg)
+  - ville: Hambourg
+    detail: Stage New Business Sales 2027
   - ville: Paris
     detail: Alternance en Sales and Marketing, Cloud Sales et RH
   voies:
+  - type: stage
+    nom: New Business Sales, BS/MS Intern 2027 (EMEA)
+    detail: 13 semaines minimum, début mai, juin ou juillet 2027, à Dublin (Irlande) ou Hambourg (Allemagne) ; étudiant en Licence ou Master (avant-dernière ou dernière année) ; anglais plus une langue (allemand, français, italien, espagnol, polonais ou arabe) ; expérience de vente appréciée ; pas de visa fourni. Candidatures avant le 13 novembre 2026, examinées au fil de l’eau.
   - type: alternance
     nom: Sales and Marketing Apprenticeship
     detail: 12 mois à Paris, rentrée de septembre ; Licence ou 2e année de Master en commerce ou marketing digital ; français et anglais courants. Candidatures de l’édition 2026 ouvertes jusqu’au 30 avril 2026.
@@ -101,4 +108,4 @@ rejoindre:
 sources:
 - titre: "Alphabet, résultats 2025"
   url: "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

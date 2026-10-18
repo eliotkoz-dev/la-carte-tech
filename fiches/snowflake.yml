@@ -49,7 +49,7 @@ bureaux_europe:
     url: "https://channelweb.co.uk/news/4115050/snowflake-open-uk-office-citing-strong-momentum-emea"
 stages:
   statut: oui
-  detail: "Stage Partner Marketing à Paris (6 mois, au printemps), offre publiée en août 2026, vue sur un site relais."
+  detail: "Stage SDR (développement commercial) à Munich, 6 mois, allemand et anglais demandés (offre de juillet 2026, statut à confirmer) ; stage Partner Marketing à Paris, 6 mois, au printemps (offre d’août 2026)."
 sources:
 - titre: "Snowflake, résultats de l’exercice 2026"
   url: "https://snowflake.com/en/news/press-releases/snowflake-reports-financial-results-for-the-fourth-quarter-and-full-year-of-fiscal-2026"
@@ -57,4 +57,4 @@ sources:
   url: "https://www.businesswire.com/news/home/20251203124957/en/Snowflake-and-Anthropic-Announce-200-Million-Partnership-to-Bring-Agentic-AI-to-Global-Enterprises"
 - titre: "ZipRecruiter, offre Partner Marketing Intern Paris (relais)"
   url: "https://www.ziprecruiter.fr/jobs/580214259-partner-marketing-intern-paris-french-speaking-a-snowflake"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

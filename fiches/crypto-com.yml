@@ -1,0 +1,43 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Crypto.com"
+categorie: crypto
+aussi: [fintech]
+region: asie
+groupe: "Non cotée"
+siege: "Singapour"
+en_bref: "Une application crypto grand public, avec son siège européen à Paris"
+chiffre_affaires:
+  texte: "Non publié"
+  md_usd: 0
+chiffres_cles:
+- "Siège européen installé à Paris depuis 2022, avec 150 M€ d’investissements annoncés en France"
+- "Enregistrée comme prestataire de services sur actifs numériques auprès de l’AMF (France) en 2022"
+ce_qu_elle_vend: "Une application pour acheter et garder des cryptomonnaies, et une carte de paiement liée à ses services."
+produits:
+- nom: "Application Crypto.com"
+  detail: "achat, vente et conservation de cryptomonnaies"
+- nom: "Carte Crypto.com"
+  detail: "carte de paiement qui utilise des cryptomonnaies"
+modele: "Commissions sur les échanges et les services de l’application."
+clients: "particuliers surtout"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Coinbase, Kraken, Bitpanda"
+note: "Ses chiffres d’affaires et ses effectifs actuels ne sont pas publiés."
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  note: "Siège régional européen annoncé en octobre 2022 ; liste partielle."
+  sources:
+  - titre: "Crowdfund Insider, Paris devient le siège européen de Crypto.com (oct. 2022)"
+    url: "https://www.crowdfundinsider.com/?p=197454"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage en Europe vérifiée. L’annonce de 2022 prévoyait des recrutements à Paris en conformité, développement commercial et produit."
+sources:
+- titre: "Crowdfund Insider, Paris devient le siège européen de Crypto.com (oct. 2022)"
+  url: "https://www.crowdfundinsider.com/?p=197454"
+verifie_le: '2026-10-18'

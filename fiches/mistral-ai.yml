@@ -47,7 +47,7 @@ bureaux_europe:
     url: "https://komo.ai/directory/mistral-ai-offices"
 stages:
   statut: oui
-  detail: "Stages à Paris, surtout techniques (IA appliquée, recherche), de 3 à 6 mois (offres 2026)."
+  detail: "Stages à Paris de 4 à 6 mois, surtout techniques (logiciel, recherche, doctorat IA) ; les offres vues sont fermées, à surveiller pour 2027."
 sources:
 - titre: "Wikipédia, Mistral AI"
   url: "https://en.wikipedia.org/wiki/Mistral_AI"
@@ -57,4 +57,4 @@ sources:
   url: "https://www.asml.com/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership"
 - titre: "Mistral AI, offre Applied AI Engineer Intern (Paris)"
   url: "https://jobs.lever.co/mistral/881941e1-2741-48e2-8767-12866965fac5"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

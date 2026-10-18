@@ -77,7 +77,7 @@ bureaux_europe:
     url: "https://about.google/company-info/locations/"
 stages:
   statut: alternance
-  detail: "Alternance « Customer Engineer » en vente cloud à Paris (2 ans), réservée aux profils techniques Bac+5."
+  detail: "Stage « Forward Deployed Engineering » (GenAI) à Londres de mai à juillet 2027, publié le 2 octobre 2026, candidatures avant le 13 novembre 2026. Alternance « Customer Engineer » à Paris pour les profils techniques Bac+5."
 sources:
 - titre: "Alphabet, résultats 2025"
   url: "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf"
@@ -89,4 +89,4 @@ sources:
   url: "https://www.googlecloudpresscorner.com/2025-10-23-Anthropic-to-Expand-Use-of-Google-Cloud-TPUs-and-Services"
 - titre: Offre d’alternance Customer Engineer
   url: "https://jobs.anitab.org/companies/google-24698/jobs/67874253-customer-engineer-apprenticeship-cloud-sales-september-2026-start-english-french"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

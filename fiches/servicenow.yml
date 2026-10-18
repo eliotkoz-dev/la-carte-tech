@@ -66,11 +66,11 @@ bureaux_europe:
   - titre: "ServiceNow, nos implantations"
     url: "https://www.servicenow.com/company/locations.html"
 stages:
-  statut: a-verifier
-  detail: "Stages go-to-market en EMEA (Dublin, 12 mois à partir de septembre 2026), offre retirée en février 2026 : à surveiller pour 2027."
+  statut: oui
+  detail: "Stage Business Development Representative à Dublin : 12 semaines à partir de juin 2027, pour un étudiant en Licence qui sort diplômé en 2028 ; langues demandées : allemand, espagnol, italien, français, néerlandais, arabe ou langue nordique (offre vue le 5 octobre 2026)."
 sources:
 - titre: "ServiceNow, résultats 2025"
   url: "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-Board-of-Directors-Authorizes-Additional-5B-for-Share-Repurchase-Program/default.aspx"
 - titre: "Built In Dublin, stage EMEA Go-To-Market de ServiceNow (relais)"
   url: "https://builtindublin.ie/job/emea-go-market-crm-intern-12-months-placement-year/8065205"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

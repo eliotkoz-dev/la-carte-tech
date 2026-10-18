@@ -7,12 +7,12 @@ import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const CATEGORIES = ['cloud', 'ia', 'puces', 'data', 'saas', 'cyber', 'pub', 'ecommerce', 'fintech'];
+const CATEGORIES = ['cloud', 'ia', 'puces', 'data', 'saas', 'cyber', 'pub', 'ecommerce', 'fintech', 'crypto'];
 const REGIONS = ['amerique-du-nord', 'europe', 'asie'];
 const STAGES = ['oui', 'alternance', 'a-verifier'];
 const TYPES = ['parente', 'investissement', 'partenariat'];
 const W = 1180;
-const H = 980;
+const H = 1200;
 // Rayon des bulles : grandit avec la racine carrée du chiffre d'affaires (même formule que site/assets/app.js).
 const rayon = (md) => (md > 0 ? 8 + 2 * Math.sqrt(md) : 9);
 
@@ -177,9 +177,10 @@ acteurs.sort((a, b) => CATEGORIES.indexOf(a.categorie) - CATEGORIES.indexOf(b.ca
 const CENTRES = {
   cloud: [215, 215], cyber: [590, 110], saas: [965, 215],
   puces: [205, 545], ia: [590, 450], data: [975, 545],
-  ecommerce: [215, 870], pub: [590, 840], fintech: [965, 870]
+  ecommerce: [215, 870], pub: [590, 840], fintech: [965, 870],
+  crypto: [965, 1090]
 };
-const LIBELLES = { cloud: 'CLOUD & INFRA', ia: 'IA', puces: 'PUCES & MATÉRIEL', data: 'DATA', saas: 'LOGICIELS', cyber: 'CYBERSÉCURITÉ', pub: 'PUB & PLATEFORMES', ecommerce: 'E-COMMERCE', fintech: 'FINTECH & PAIEMENTS' };
+const LIBELLES = { cloud: 'CLOUD & INFRA', ia: 'IA', puces: 'PUCES & MATÉRIEL', data: 'DATA', saas: 'LOGICIELS', cyber: 'CYBERSÉCURITÉ', pub: 'PUB & PLATEFORMES', ecommerce: 'E-COMMERCE', fintech: 'FINTECH & PAIEMENTS', crypto: 'CRYPTO & WEB3' };
 const largeurNom = (nom) => nom.length * 6.8 + 8;
 const obstacles = Object.entries(CENTRES).map(([id, [x, y]]) => {
   const w = LIBELLES[id].length * 13.5 + 16;

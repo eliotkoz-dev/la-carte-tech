@@ -3,7 +3,7 @@
 # Le format est expliqué dans CONTRIBUTING.md.
 
 nom: "Ledger"
-categorie: fintech
+categorie: crypto
 region: europe
 groupe: "Non cotée"
 siege: "Paris (France)"
@@ -37,11 +37,11 @@ vente:
   - "La confiance, après des incidents de sécurité passés"
   - "Le prix de l’appareil"
 stages:
-  statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  statut: oui
+  detail: "Plusieurs stages et alternances à Paris vus sur le site d’emplois de Ledger (revenue growth, marketing, juridique, fiscalité, formation, comptabilité) ; dates de début à confirmer sur l’offre."
 sources:
 - titre: "Maddyness, Ledger envisage Wall Street (janv. 2026)"
   url: "https://www.maddyness.com/2026/01/23/ledger-pourrait-debarquer-a-wall-street-des-2026-a-une-valorisation-de-plus-de-4-milliards-de-dollars/"
 - titre: "Cointribune, revenus de Ledger en 2025"
   url: "https://www.cointribune.com/crypto-ledger-vise-la-bourse-de-new-york-alors-que-ses-revenus-explosent/"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

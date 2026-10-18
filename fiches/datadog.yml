@@ -50,7 +50,7 @@ bureaux_europe:
     url: "https://careers.datadoghq.com/emea/"
 stages:
   statut: oui
-  detail: "Stages à Paris (produit, ingénierie), 6 mois, début février à juin 2027."
+  detail: "Stages à Paris (produit, ingénierie), 6 mois, début février à juin 2027 ; un stage « Applied Science » à Paris vu fin septembre 2026."
 rejoindre:
   bureaux:
   - ville: Paris
@@ -81,4 +81,4 @@ rejoindre:
 sources:
 - titre: "Datadog, résultats 2025"
   url: "https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-fourth-quarter-and-fiscal-year-2025-financial"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

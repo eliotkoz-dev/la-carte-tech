@@ -1,0 +1,57 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Bitpanda
+categorie: crypto
+region: europe
+groupe: "Non cotée"
+siege: "Vienne (Autriche)"
+en_bref: "La plateforme crypto et d’investissement européenne, née à Vienne"
+chiffre_affaires:
+  texte: "371 M€ en 2025 (≈ 430 M$, revenu ajusté)"
+  md_usd: 0.43
+chiffres_cles:
+- "7,4 millions d’utilisateurs inscrits fin 2025 (+25 %)"
+- "Revenu ajusté de 371 M€ en 2025 (+16 %)"
+- "Autorisation MiCA valable dans toute l’Union européenne annoncée en mars 2026"
+- "Entrée en Bourse à Francfort étudiée pour 2026, jusqu’à 5 Md€ (presse, janvier 2026)"
+ce_qu_elle_vend: "Une application pour acheter des cryptomonnaies, des actions, des ETF et des métaux, et des outils pour que d’autres entreprises proposent la crypto à leurs clients."
+produits:
+- nom: "Bitpanda (application)"
+  detail: "achat de cryptomonnaies, actions, ETF et métaux"
+- nom: "Bitpanda Technology Solutions"
+  detail: "services crypto proposés aux banques et fintechs partenaires"
+modele: "Commissions sur les achats et ventes, et services facturés aux partenaires."
+clients: "particuliers en Europe, banques et fintechs partenaires"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Coinbase, Kraken, Trade Republic"
+note: "Le nombre de partenaires professionnels est passé de 9 à 16 en 2025."
+bureaux_europe:
+  villes:
+  - "Vienne (Autriche)"
+  - "Berlin (Allemagne)"
+  - "Milan (Italie)"
+  - "Cracovie (Pologne)"
+  - "Bucarest (Roumanie)"
+  - "Amsterdam (Pays-Bas)"
+  - "Madrid (Espagne)"
+  - "Barcelone (Espagne)"
+  - "Dublin (Irlande)"
+  - "Londres (Royaume-Uni)"
+  note: "Liste issue de Wikipédia, à confirmer sur le site de l’entreprise."
+  sources:
+  - titre: "Wikipédia, Bitpanda"
+    url: "https://en.wikipedia.org/wiki/Bitpanda"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : la page carrières n’a pas pu être lue. À vérifier sur le site de l’entreprise."
+sources:
+- titre: "The Block, résultats 2025 de Bitpanda (mars 2026)"
+  url: "https://www.theblock.co/post/393233/bitpanda-reports-430-million-adjusted-revenue-in-2025-as-user-base-grows-25"
+- titre: "The Block, Bitpanda vise une Bourse en 2026 (janv. 2026)"
+  url: "https://www.theblock.co/post/385494/bitpanda-ipo-2026"
+- titre: "Wikipédia, Bitpanda"
+  url: "https://en.wikipedia.org/wiki/Bitpanda"
+verifie_le: '2026-10-18'

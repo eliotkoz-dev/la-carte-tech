@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: Kraken
+categorie: crypto
+region: amerique-du-nord
+groupe: "Non cotée (introduction en Bourse en pause)"
+siege: "États-Unis"
+en_bref: "Une grande plateforme d’échange de cryptomonnaies, autorisée en Europe depuis l’Irlande"
+chiffre_affaires:
+  texte: "≈ 1,0 Md$ au 1er semestre 2026 (revenu ajusté)"
+  md_usd: 1.0
+chiffres_cles:
+- "508 M$ de revenu ajusté au 2e trimestre 2026 (+17 %), 507 M$ au 1er trimestre"
+- "Valorisation implicite de 13,3 Md$ en avril 2026 (Deutsche Börse a pris 1,5 % pour 200 M$)"
+- "Dossier d’introduction en Bourse déposé en confidentiel en novembre 2025, puis mis en pause"
+ce_qu_elle_vend: "Une plateforme pour acheter, vendre et échanger des cryptomonnaies, avec des actions tokenisées pour les clients européens."
+produits:
+- nom: "Kraken (plateforme d’échange)"
+  detail: "achat, vente et échange de cryptomonnaies"
+- nom: "Actions tokenisées"
+  detail: "actions traditionnelles proposées sous forme de jetons aux clients européens"
+modele: "Commissions sur chaque échange."
+clients: "particuliers et institutions"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Coinbase, Bitpanda, Binance"
+note: "En Europe, elle opère avec l’autorisation MiCA de la Banque centrale d’Irlande."
+bureaux_europe:
+  villes:
+  - "Dublin (Irlande)"
+  note: "Liste partielle : l’autorisation européenne vient de la Banque centrale d’Irlande."
+  sources:
+  - titre: "StartupFortune, les autorisations MiCA (juin 2026)"
+    url: "https://startupfortune.com/binance-is-running-out-of-eu-doors-to-knock-on-as-the-mica-clock-expires/"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage en Europe vérifiée : la page carrières n’a pas pu être lue. À vérifier sur le site de l’entreprise."
+sources:
+- titre: "Kraken, point investisseurs d’août 2026"
+  url: "https://select.keenable.ai/r/kraken-investor-update-august-2026/PbKN2T41PjhagHr7NJu0sA"
+- titre: "StartupFortune, les autorisations MiCA (juin 2026)"
+  url: "https://startupfortune.com/binance-is-running-out-of-eu-doors-to-knock-on-as-the-mica-clock-expires/"
+verifie_le: '2026-10-18'
