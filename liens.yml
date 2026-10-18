@@ -47,32 +47,32 @@
 - de: nvidia
   vers: openai
   type: investissement
-  texte: "Nvidia prévoit d’investir 30 Md$ dans OpenAI (fév. 2026)"
-  source: "https://www.outlookbusiness.com/corporate/nvidia-to-invest-30bn-in-openai-previous-100bn-partnership-plan-scrapped"
+  texte: "Nvidia investit 30 Md$ dans le tour de 110 Md$ d’OpenAI (fév. 2026)"
+  source: "https://english.aaj.tv/news/amp/330453182"
 - de: amazon
   vers: anthropic
   type: investissement
-  texte: "Amazon a investi 8 Md$ dans Anthropic (2023-2024)"
-  source: "https://techcrunch.com/2024/11/22/anthropic-raises-an-additional-4b-from-amazon-makes-aws-its-primary-cloud-partner/"
+  texte: "Amazon a investi 8 Md$ dans Anthropic (2023-2024) et annonce jusqu’à 25 Md$ de plus (avril 2026)"
+  source: "https://www.thenews.pk/story/1411340-amazon-to-invest-up-to-25-billion-in-anthropic-as-part-of-100-billion-cloud-deal"
 - de: google
   vers: anthropic
   type: investissement
-  texte: "Google investit dans Anthropic, dont 1 Md$ de plus en janv. 2025"
-  source: "https://www.nbcnewyork.com/news/business/money-report/google-agrees-to-new-1-billion-investment-in-anthropic/6117837/"
+  texte: "Google investit 10 Md$ dans Anthropic, et jusqu’à 30 Md$ de plus selon des objectifs (avril 2026)"
+  source: "https://www.businesstoday.in/amp/tech-today/news/story/google-to-invest-10-billion-in-anthropic-may-add-30-billion-more-527408-2026-04-24"
 - de: microsoft
   vers: anthropic
   type: investissement
-  texte: Microsoft investit dans Anthropic (nov. 2025)
-  source: "https://news.bloomberglaw.com/tech-and-telecom-law/microsoft-nvidia-to-invest-as-much-as-15-billion-in-anthropic"
+  texte: "Microsoft peut investir jusqu’à 5 Md$ dans Anthropic (nov. 2025)"
+  source: "https://pureai.com/articles/2025/11/18/microsoft-and-nvidia-deepen-ties-with-anthropic.aspx"
 - de: nvidia
   vers: anthropic
   type: investissement
-  texte: Nvidia investit dans Anthropic (nov. 2025)
-  source: "https://news.bloomberglaw.com/tech-and-telecom-law/microsoft-nvidia-to-invest-as-much-as-15-billion-in-anthropic"
+  texte: "Nvidia peut investir jusqu’à 10 Md$ dans Anthropic (nov. 2025)"
+  source: "https://pureai.com/articles/2025/11/18/microsoft-and-nvidia-deepen-ties-with-anthropic.aspx"
 - de: salesforce
   vers: anthropic
   type: investissement
-  texte: Salesforce investit dans Anthropic depuis 2023
+  texte: "Salesforce détient environ 5 Md$ d’Anthropic : investi dès début 2023, puis à chaque tour"
   source: "https://thenextweb.com/news/salesforce-anthropic-investment-5-billion-ipo"
 - de: asml
   vers: mistral-ai
@@ -102,7 +102,7 @@
 - de: tencent
   vers: qonto
   type: investissement
-  texte: Tencent co-mène la levée de 104 M€ de Qonto (2020)
+  texte: "Tencent entre au capital de Qonto lors de sa levée de 104 M€ (2020)"
   source: "https://siecledigital.fr/2020/01/21/tencent-rentre-au-capital-de-qonto-qui-leve-104-millions-deuros/"
 - de: oracle
   vers: tiktok
@@ -154,6 +154,31 @@
   type: investissement
   texte: "Nvidia investit 5 Md$ dans Intel (finalisé fin 2025)"
   source: "https://www.eenewseurope.com/en/nvidia-intel-stake-finalised-with-5-billion-share-purchase"
+- de: amazon
+  vers: openai
+  type: investissement
+  texte: "Amazon investit jusqu’à 50 Md$ dans OpenAI : 15 Md$ d’abord, 35 Md$ ensuite sous conditions (fév. 2026)"
+  source: "https://english.aaj.tv/news/amp/330453182"
+- de: amd
+  vers: cohere
+  type: investissement
+  texte: "AMD Ventures participe à la levée de Cohere (2025)"
+  source: "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"
+- de: intel
+  vers: hugging-face
+  type: investissement
+  texte: "Intel investit dans Hugging Face (2023)"
+  source: "https://betanews.com/article/hugging-face-13-billion-sale/"
+- de: ibm
+  vers: hugging-face
+  type: investissement
+  texte: "IBM investit dans Hugging Face (2023)"
+  source: "https://betanews.com/article/hugging-face-13-billion-sale/"
+- de: amd
+  vers: hugging-face
+  type: investissement
+  texte: "AMD investit dans Hugging Face (2023)"
+  source: "https://betanews.com/article/hugging-face-13-billion-sale/"
 - de: azure
   vers: openai
   type: partenariat
@@ -172,8 +197,8 @@
 - de: aws
   vers: anthropic
   type: partenariat
-  texte: "AWS, principal partenaire cloud d’Anthropic ; Claude sur Amazon Bedrock"
-  source: "https://techcrunch.com/2024/11/22/anthropic-raises-an-additional-4b-from-amazon-makes-aws-its-primary-cloud-partner/"
+  texte: "AWS, principal partenaire cloud d’Anthropic, qui s’engage à y dépenser plus de 100 Md$ sur 10 ans (avril 2026)"
+  source: "https://www.thenews.pk/story/1411340-amazon-to-invest-up-to-25-billion-in-anthropic-as-part-of-100-billion-cloud-deal"
 - de: google-cloud
   vers: anthropic
   type: partenariat
@@ -257,7 +282,7 @@
 - de: oracle
   vers: cohere
   type: partenariat
-  texte: "Oracle, partenaire de Cohere"
+  texte: "Oracle, partenaire et ancien investisseur de Cohere"
   source: "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"
 - de: sap
   vers: cohere
@@ -369,3 +394,8 @@
   type: partenariat
   texte: "Datadog utilise Pigment pour sa planification"
   source: "https://mucrunch.beehiiv.com/p/french-startup-pigment-raises-145-million"
+- de: coinbase
+  vers: circle
+  type: partenariat
+  texte: "Coinbase reçoit la moitié du revenu résiduel des réserves de l’USDC, le stablecoin de Circle"
+  source: "https://decrypt.co/312757/coinbase-circles-residual-usdc-reserve-revenue-filing?amp=1"
