@@ -35,6 +35,16 @@ vente:
   objections:
   - "Changer de logiciel comptable en cours d’année"
   - "Le prix face aux logiciels historiques"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Berlin (Allemagne)"
+  note: "Siège à Paris ; présente en Allemagne depuis 2025 (offre d’emploi basée à Berlin)."
+  sources:
+  - titre: "Pennylane, carrières"
+    url: "https://www.pennylane.com/fr/carrieres"
+  - titre: "Offre Head of Success Germany, Berlin"
+    url: "https://www.arbeitnow.com/jobs/companies/pennylane/head-of-success-germany-berlin-444637"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."
@@ -43,4 +53,4 @@ sources:
   url: "https://www.maddyness.com/2026/01/20/pennylane-nouvelle-levee-de-fonds-de-175-millions-deuros-pour-la-licorne-francaise/"
 - titre: "Maddyness, Pennylane passe 100 M€ de revenus (déc. 2025)"
   url: "https://www.maddyness.com/2025/12/04/pennylane-la-fintech-passe-le-cap-des-100-millions-deuros-de-revenus-et-devient-un-centaure/"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

@@ -36,10 +36,27 @@ vente:
   objections:
   - "Le prix"
   - "Les règles sur les données personnelles et les cookies"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Lyon (France)"
+  - "Rennes (France)"
+  - "Londres (Royaume-Uni)"
+  - "Amsterdam (Pays-Bas)"
+  - "Barcelone (Espagne)"
+  - "Madrid (Espagne)"
+  - "Milan (Italie)"
+  - "Munich (Allemagne)"
+  note: "Le siège est à Paris ; bureaux hors d’Europe : New York, Dubaï, Tel Aviv, Singapour, Sydney, Tokyo…"
+  sources:
+  - titre: "Contentsquare, à propos"
+    url: "https://www.contentsquare.com/about"
+  - titre: "Built In, bureaux de Contentsquare"
+    url: "https://builtin.com/company/contentsquare/offices"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."
 sources:
 - titre: "FrenchWeb, levée de 600 M$ (2022)"
   url: "https://www.frenchweb.fr/contentsquare-leve-600-millions-de-dollars-et-double-sa-valorisation-a-56-milliards/434996"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

@@ -35,6 +35,15 @@ vente:
   objections:
   - "Rester neutre entre les clouds maintenant que Wiz appartient à Google"
   - "Le prix"
+bureaux_europe:
+  villes:
+  - "Londres (Royaume-Uni)"
+  - "Paris (France)"
+  - "Amsterdam (Pays-Bas)"
+  note: "Autres bureaux : New York, Tel Aviv, Tokyo, Sydney."
+  sources:
+  - titre: "Wiz, carrières"
+    url: "https://www.wiz.io/careers"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage trouvée en octobre 2026."
@@ -43,4 +52,4 @@ sources:
   url: "https://www.googlecloudpresscorner.com/2026-03-11-Google-Completes-Acquisition-of-Wiz"
 - titre: "Wiz, la plateforme"
   url: "https://wiz.io/platform"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

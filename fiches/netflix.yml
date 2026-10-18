@@ -36,6 +36,22 @@ vente:
   objections:
   - "Le prix de l’abonnement qui augmente"
   - "La concurrence des autres plateformes"
+bureaux_europe:
+  villes:
+  - "Amsterdam (Pays-Bas)"
+  - "Berlin (Allemagne)"
+  - "Helsinki (Finlande)"
+  - "Istanbul (Turquie)"
+  - "Londres (Royaume-Uni)"
+  - "Madrid (Espagne)"
+  - "Paris (France)"
+  - "Rome (Italie)"
+  - "Stockholm (Suède)"
+  - "Varsovie (Pologne)"
+  note: "Bureaux de la zone Europe, Moyen-Orient et Afrique."
+  sources:
+  - titre: "Netflix, nos bureaux"
+    url: "https://jobs.netflix.com/locations"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."
@@ -46,4 +62,4 @@ sources:
   url: "https://abc7news.com/post/netflix-acquire-warner-bros-studio-streaming-business-72-billion/18253468/"
 - titre: "americancompanies.com, les 100 plus grandes entreprises américaines (oct. 2026)"
   url: "https://americancompanies.com/reports/largest-american-companies/"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

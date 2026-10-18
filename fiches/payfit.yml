@@ -36,10 +36,19 @@ vente:
   objections:
   - "Le prix face à un cabinet comptable"
   - "La peur des erreurs de paie pendant le changement"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Barcelone (Espagne)"
+  - "Londres (Royaume-Uni)"
+  note: "Trois bureaux affichés sur la page carrières."
+  sources:
+  - titre: "PayFit, carrières"
+    url: "https://careers.payfit.com/"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."
 sources:
 - titre: "PayFit, espace presse"
   url: "https://payfit.com/fr/presse/"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

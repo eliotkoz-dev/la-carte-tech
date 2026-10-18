@@ -37,6 +37,16 @@ vente:
   objections:
   - "Le retard technologique pris face à TSMC et AMD"
   - "La consommation d’énergie des processeurs"
+bureaux_europe:
+  villes:
+  - "Munich (Allemagne)"
+  - "Karlsruhe (Allemagne)"
+  - "Nuremberg (Allemagne)"
+  - "Duisbourg (Allemagne)"
+  note: "Liste partielle : la page cite aussi la France, l’Italie, la Pologne, la Roumanie, la Suède et le Royaume-Uni, sans les villes."
+  sources:
+  - titre: "Intel, sites de travail"
+    url: "https://www.intel.com/content/www/us/en/jobs/locations.html"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."
@@ -47,4 +57,4 @@ sources:
   url: "https://www.eenewseurope.com/en/nvidia-intel-stake-finalised-with-5-billion-share-purchase"
 - titre: "americancompanies.com, les 100 plus grandes entreprises américaines (oct. 2026)"
   url: "https://americancompanies.com/reports/largest-american-companies/"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'

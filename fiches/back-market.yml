@@ -35,10 +35,22 @@ vente:
   objections:
   - "La peur d’un appareil de moins bonne qualité"
   - "Un prix proche du neuf sur les modèles récents"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  - "Bordeaux (France)"
+  - "Berlin (Allemagne)"
+  - "Barcelone (Espagne)"
+  - "Londres (Royaume-Uni)"
+  - "Prague (République tchèque)"
+  note: "Le siège est à Paris ; bureaux hors d’Europe : New York, Tokyo, Séoul."
+  sources:
+  - titre: "Back Market, nos bureaux"
+    url: "https://jobs.backmarket.com/locations"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."
 sources:
 - titre: "Maddyness, Back Market rentable (févr. 2026)"
   url: "https://www.maddyness.com/2026/02/04/back-market-devient-a-son-tour-rentable-pour-la-premiere-fois/"
-verifie_le: '2026-10-17'
+verifie_le: '2026-10-18'
