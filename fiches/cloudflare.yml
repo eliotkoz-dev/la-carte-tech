@@ -44,21 +44,52 @@ vente:
   - "La facture qui monte avec l’usage"
 bureaux_europe:
   villes:
-  - "Londres (Royaume-Uni)"
+  - "Bruxelles (Belgique)"
   - "Lisbonne (Portugal)"
-  - "Varsovie (Pologne)"
-  note: "Cloudflare indique 12 sites en Europe, « de Lisbonne à Varsovie » ; seules ces trois villes sont nommées dans les sources lues."
-  sources:
-  - titre: "Cloudflare, carrières"
-    url: "https://www.cloudflare.com/careers/"
-  - titre: "Wikipédia, Cloudflare"
-    url: "https://en.wikipedia.org/wiki/Cloudflare"
-bureaux_asie:
-  villes:
-  - "Singapour (Singapour)"
+  - "Londres (Royaume-Uni)"
+  - "Munich (Allemagne)"
+  - "Paris (France)"
   sources:
   - titre: "Cloudflare, présentation et adresses"
-    url: "https://www.cloudflare.com/overview"
+    url: "https://www.cloudflare.com/overview/"
+bureaux_asie:
+  villes:
+  - "Pékin (Chine)"
+  - "Bangalore (Inde)"
+  - "Séoul (Corée du Sud)"
+  - "Singapour (Singapour)"
+  - "Tokyo (Japon)"
+  sources:
+  - titre: "Cloudflare, présentation et adresses"
+    url: "https://www.cloudflare.com/overview/"
+bureaux_amerique_du_nord:
+  villes:
+  - "Austin (États-Unis)"
+  - "Champaign (États-Unis)"
+  - "New York (États-Unis)"
+  - "San Francisco (États-Unis)"
+  - "Washington (États-Unis)"
+  sources:
+  - titre: "Cloudflare, présentation et adresses"
+    url: "https://www.cloudflare.com/overview/"
+bureaux_amerique_latine:
+  villes:
+  - "Mexico (Mexique)"
+  sources:
+  - titre: "Cloudflare, présentation et adresses"
+    url: "https://www.cloudflare.com/overview/"
+bureaux_moyen_orient_afrique:
+  villes:
+  - "Dubaï (Émirats arabes unis)"
+  sources:
+  - titre: "Cloudflare, présentation et adresses"
+    url: "https://www.cloudflare.com/overview/"
+bureaux_oceanie:
+  villes:
+  - "Sydney (Australie)"
+  sources:
+  - titre: "Cloudflare, présentation et adresses"
+    url: "https://www.cloudflare.com/overview/"
 stages:
   statut: a-verifier
   detail: "La page carrières ne mentionne pas de programme de stage en Europe ; à vérifier sur la liste des offres."

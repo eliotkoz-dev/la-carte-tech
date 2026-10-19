@@ -40,7 +40,7 @@ Copiez [`fiches/_modele.yml`](fiches/_modele.yml) dans un nouveau fichier, par e
 | `stages.statut` | `oui` ou `alternance` seulement avec une offre publique en lien ; sinon `a-verifier` |
 | `vente` | Facultatif : comment l’entreprise vend (voir ci-dessous) |
 | `bureaux_europe` | Facultatif : `villes` (liste au format `Ville (Pays)`, par exemple `Paris (France)`), `note` (facultatif) et `sources` (obligatoire). S’affiche quand on clique sur l’entreprise |
-| `bureaux_asie` | Facultatif, même format que `bureaux_europe` : bureaux à Singapour (`Singapour (Singapour)`) et à Hong Kong (`Hong Kong (Chine)`). Une source par entreprise. S’affiche dans la fiche et alimente le filtre « Locaux à » |
+| `bureaux_asie`, `bureaux_amerique_du_nord`, `bureaux_amerique_latine`, `bureaux_moyen_orient_afrique`, `bureaux_oceanie` | Facultatifs, même format que `bureaux_europe` : `villes` au format `Ville (Pays)`, `note` facultative, `sources` obligatoire (page officielle de l’entreprise de préférence). S’affichent dans la fiche et alimentent le filtre « Locaux en … à … » |
 | `rejoindre` | Facultatif : comment l’entreprise recrute les étudiants (voir ci-dessous) |
 | `sources` | Au moins une : `titre` et `url` (qui commence par `https://`) |
 | `verifie_le` | Date de la dernière vérification, au format `AAAA-MM-JJ` |

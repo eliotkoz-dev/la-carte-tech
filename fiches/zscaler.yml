@@ -37,28 +37,66 @@ vente:
   - "Faire passer tout le trafic de l’entreprise par un fournisseur"
 bureaux_europe:
   villes:
-  - "Paris (France)"
-  - "Londres (Royaume-Uni)"
   - "Amsterdam (Pays-Bas)"
   - "Francfort (Allemagne)"
-  - "Munich (Allemagne)"
+  - "Londres (Royaume-Uni)"
   - "Madrid (Espagne)"
-  - "Valence (Espagne)"
+  - "Munich (Allemagne)"
+  - "Paris (France)"
+  - "Split (Croatie)"
   - "Stockholm (Suède)"
+  - "Valence (Espagne)"
   - "Vienne (Autriche)"
-  - "Zurich (Suisse)"
   - "Wrocław (Pologne)"
   - "Zagreb (Croatie)"
-  - "Split (Croatie)"
+  - "Zurich (Suisse)"
   sources:
-  - titre: "Zscaler, nous contacter"
+  - titre: "Zscaler, ses bureaux"
     url: "https://www.zscaler.com/company/contact"
 bureaux_asie:
   villes:
+  - "Bangalore (Inde)"
+  - "Chandigarh (Inde)"
+  - "Gurgaon (Inde)"
+  - "Hyderabad (Inde)"
+  - "Bombay (Inde)"
+  - "Pune (Inde)"
   - "Singapour (Singapour)"
+  - "Séoul (Corée du Sud)"
+  - "Tokyo (Japon)"
+  - "Osaka (Japon)"
   sources:
-  - titre: "Zscaler, ses bureaux (Built In Singapore)"
-    url: "https://builtinsingapore.com/company/zscaler/offices"
+  - titre: "Zscaler, ses bureaux"
+    url: "https://www.zscaler.com/company/contact"
+bureaux_amerique_du_nord:
+  villes:
+  - "Alpharetta (États-Unis)"
+  - "Bellevue (États-Unis)"
+  - "Boston (États-Unis)"
+  - "Burnaby (Canada)"
+  - "Dallas (États-Unis)"
+  - "Denver (États-Unis)"
+  - "New York (États-Unis)"
+  - "Santa Clara (États-Unis)"
+  - "Washington (États-Unis)"
+  sources:
+  - titre: "Zscaler, ses bureaux"
+    url: "https://www.zscaler.com/company/contact"
+bureaux_oceanie:
+  villes:
+  - "Melbourne (Australie)"
+  - "Sydney (Australie)"
+  sources:
+  - titre: "Zscaler, ses bureaux"
+    url: "https://www.zscaler.com/company/contact"
+bureaux_moyen_orient_afrique:
+  villes:
+  - "Dubaï (Émirats arabes unis)"
+  - "Ramat Gan (Israël)"
+  - "Riyad (Arabie saoudite)"
+  sources:
+  - titre: "Zscaler, ses bureaux"
+    url: "https://www.zscaler.com/company/contact"
 stages:
   statut: a-verifier
   detail: "Programme de stage d’été (ingénierie, marketing), surtout aux États-Unis ; aucune offre trouvée en Europe."

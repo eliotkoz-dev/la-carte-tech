@@ -35,6 +35,42 @@ vente:
   objections:
   - "Le coût pour quitter Cisco, déjà installé"
   - "Le prix du matériel haut de gamme"
+bureaux_amerique_du_nord:
+  villes:
+  - "Santa Clara (États-Unis)"
+  - "Austin (États-Unis)"
+  - "Nashua (États-Unis)"
+  - "Cary (États-Unis)"
+  - "San Francisco (États-Unis)"
+  - "Golden (États-Unis)"
+  - "Burnaby (Canada)"
+  sources:
+  - titre: "Arista, nous contacter"
+    url: "https://www.arista.com/en/company/contact-us"
+bureaux_asie:
+  villes:
+  - "Bangalore (Inde)"
+  - "Chennai (Inde)"
+  - "Pune (Inde)"
+  - "Singapour (Singapour)"
+  - "Seongnam (Corée du Sud)"
+  sources:
+  - titre: "Arista, nous contacter"
+    url: "https://www.arista.com/en/company/contact-us"
+bureaux_oceanie:
+  villes:
+  - "Sydney (Australie)"
+  sources:
+  - titre: "Arista, nous contacter"
+    url: "https://www.arista.com/en/company/contact-us"
+bureaux_europe:
+  villes:
+  - "Dublin (Irlande)"
+  - "Shannon (Irlande)"
+  note: "Liste partielle sur la page."
+  sources:
+  - titre: "Arista, nous contacter"
+    url: "https://www.arista.com/en/company/contact-us"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

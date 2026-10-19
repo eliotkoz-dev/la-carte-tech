@@ -48,16 +48,49 @@ bureaux_europe:
   - "Rome (Italie)"
   - "Stockholm (Suède)"
   - "Varsovie (Pologne)"
-  note: "Bureaux de la zone Europe, Moyen-Orient et Afrique."
+  note: "La page regroupe l’Europe, le Moyen-Orient et l’Afrique."
   sources:
-  - titre: "Netflix, nos bureaux"
+  - titre: "Netflix, ses bureaux dans le monde"
     url: "https://jobs.netflix.com/locations"
 bureaux_asie:
   villes:
+  - "Bangkok (Thaïlande)"
+  - "Hsinchu (Taïwan)"
+  - "Jakarta (Indonésie)"
+  - "Manille (Philippines)"
+  - "Bombay (Inde)"
+  - "Séoul (Corée du Sud)"
   - "Singapour (Singapour)"
+  - "Taipei (Taïwan)"
+  - "Tokyo (Japon)"
   sources:
-  - titre: "Netflix, carrières Asie-Pacifique"
-    url: "https://jobs.netflix.com/region/asia-pacific"
+  - titre: "Netflix, ses bureaux dans le monde"
+    url: "https://jobs.netflix.com/locations"
+bureaux_oceanie:
+  villes:
+  - "Sydney (Australie)"
+  sources:
+  - titre: "Netflix, ses bureaux dans le monde"
+    url: "https://jobs.netflix.com/locations"
+bureaux_amerique_latine:
+  villes:
+  - "Bogota (Colombie)"
+  - "Buenos Aires (Argentine)"
+  - "Mexico (Mexique)"
+  - "São Paulo (Brésil)"
+  sources:
+  - titre: "Netflix, ses bureaux dans le monde"
+    url: "https://jobs.netflix.com/locations"
+bureaux_amerique_du_nord:
+  villes:
+  - "Los Angeles (États-Unis)"
+  - "Los Gatos (États-Unis)"
+  - "New York (États-Unis)"
+  - "Toronto (Canada)"
+  - "Washington (États-Unis)"
+  sources:
+  - titre: "Netflix, ses bureaux dans le monde"
+    url: "https://jobs.netflix.com/locations"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

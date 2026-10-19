@@ -39,14 +39,48 @@ vente:
   - "La consommation d’énergie des processeurs"
 bureaux_europe:
   villes:
-  - "Munich (Allemagne)"
-  - "Karlsruhe (Allemagne)"
-  - "Nuremberg (Allemagne)"
-  - "Duisbourg (Allemagne)"
-  note: "Liste partielle : la page cite aussi la France, l’Italie, la Pologne, la Roumanie, la Suède et le Royaume-Uni, sans les villes."
+  - "Leixlip (Irlande)"
+  - "Shannon (Irlande)"
+  - "Gdańsk (Pologne)"
+  - "Varsovie (Pologne)"
+  note: "Liste partielle."
   sources:
-  - titre: "Intel, sites de travail"
-    url: "https://www.intel.com/content/www/us/en/jobs/locations.html"
+  - titre: "Intel dans le monde"
+    url: "https://www.intel.com/content/www/us/en/corporate-responsibility/community-global-sites.html"
+bureaux_amerique_du_nord:
+  villes:
+  - "Folsom (États-Unis)"
+  - "San José (États-Unis)"
+  - "Santa Clara (États-Unis)"
+  - "Chandler (États-Unis)"
+  - "Austin (États-Unis)"
+  note: "Sites cités sur la page « Intel dans le monde » : liste partielle (l’Oregon et le Nouveau-Mexique n’y ont pas de ville)."
+  sources:
+  - titre: "Intel dans le monde"
+    url: "https://www.intel.com/content/www/us/en/corporate-responsibility/community-global-sites.html"
+bureaux_amerique_latine:
+  villes:
+  - "Heredia (Costa Rica)"
+  - "Guadalajara (Mexique)"
+  - "Mexico (Mexique)"
+  sources:
+  - titre: "Intel dans le monde"
+    url: "https://www.intel.com/content/www/us/en/corporate-responsibility/community-global-sites.html"
+bureaux_moyen_orient_afrique:
+  villes:
+  - "Haïfa (Israël)"
+  sources:
+  - titre: "Intel dans le monde"
+    url: "https://www.intel.com/content/www/us/en/corporate-responsibility/community-global-sites.html"
+bureaux_asie:
+  villes:
+  - "Penang (Malaisie)"
+  - "Kulim (Malaisie)"
+  - "Hô Chi Minh-Ville (Vietnam)"
+  note: "Liste partielle."
+  sources:
+  - titre: "Intel dans le monde"
+    url: "https://www.intel.com/content/www/us/en/corporate-responsibility/community-global-sites.html"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

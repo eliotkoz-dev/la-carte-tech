@@ -10,6 +10,8 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CATEGORIES = ['cloud', 'ia', 'puces', 'data', 'saas', 'cyber', 'pub', 'ecommerce', 'fintech', 'crypto', 'espace'];
 const REGIONS = ['amerique-du-nord', 'europe', 'asie'];
 const STAGES = ['oui', 'alternance', 'a-verifier'];
+// Régions des bureaux : un bloc facultatif « bureaux_<région> » (tirets bas) par région.
+const REGIONS_BUREAUX = ['europe', 'asie', 'amerique-du-nord', 'amerique-latine', 'moyen-orient-afrique', 'oceanie'];
 const TYPES = ['parente', 'investissement', 'partenariat'];
 const W = 1950;
 const H = 1100;
@@ -76,7 +78,7 @@ function verifierVente(f, v) {
   };
 }
 
-// Bloc facultatif « bureaux_europe » : les villes d'Europe où l'entreprise a des bureaux, au format « Ville (Pays) ».
+// Blocs facultatifs « bureaux_europe », « bureaux_asie »… : les villes de la région où l'entreprise a des bureaux, au format « Ville (Pays) ».
 function verifierBureaux(f, b, cle = 'bureaux_europe') {
   if (b === undefined) return undefined;
   if (!b || typeof b !== 'object') { err(f, '« ' + cle + ' » doit contenir « villes » et « sources »'); return undefined; }
@@ -114,8 +116,12 @@ for (const f of fichiers) {
   if (!d.stages || !texte(d.stages.detail)) err(f, '« stages.detail » manquant');
   const rejoindre = verifierRejoindre(f, d.rejoindre);
   const vente = verifierVente(f, d.vente);
-  const bureauxEurope = verifierBureaux(f, d.bureaux_europe);
-  const bureauxAsie = verifierBureaux(f, d.bureaux_asie, 'bureaux_asie');
+  const bureaux = {};
+  for (const r of REGIONS_BUREAUX) {
+    const cle = 'bureaux_' + r.replace(/-/g, '_');
+    const b = verifierBureaux(f, d[cle], cle);
+    if (b) bureaux[r] = b;
+  }
   if (d.aussi !== undefined && (!Array.isArray(d.aussi) || d.aussi.length > 2 || !d.aussi.every((c) => CATEGORIES.includes(c) && c !== d.categorie))) err(f, `« aussi » : une liste de 1 ou 2 autres catégories (${CATEGORIES.join(', ')})`);
   if (!Array.isArray(d.sources) || d.sources.length === 0) err(f, 'au moins une source est obligatoire');
   else d.sources.forEach((s, i) => {
@@ -128,7 +134,7 @@ for (const f of fichiers) {
     id, nom: d.nom, categorie: d.categorie, region: d.region, groupe: d.groupe, siege: d.siege, enBref: d.en_bref,
     ca: ca.texte, mdUsd: ca.md_usd, cles: d.chiffres_cles || [], vend: d.ce_qu_elle_vend,
     produits: (d.produits || []).map((p) => ({ nom: p?.nom, detail: p?.detail })), modele: d.modele, clients: d.clients,
-    rachats: d.rachats, concurrents: d.concurrents, note: d.note || '', vente, aussi: d.aussi || [], bureauxEurope, bureauxAsie,
+    rachats: d.rachats, concurrents: d.concurrents, note: d.note || '', vente, aussi: d.aussi || [], bureaux,
     stage: d.stages?.statut, stageDetail: d.stages?.detail, rejoindre,
     sources: (d.sources || []).map((s) => ({ titre: s?.titre, url: s?.url })),
     verifieLe: date

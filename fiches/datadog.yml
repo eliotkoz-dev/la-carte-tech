@@ -39,22 +39,70 @@ vente:
   - "La concurrence d’outils open source moins chers"
 bureaux_europe:
   villes:
-  - "Paris (France)"
-  - "Dublin (Irlande)"
-  - "Madrid (Espagne)"
-  - "Lisbonne (Portugal)"
   - "Amsterdam (Pays-Bas)"
-  note: "Grands bureaux ; espaces partagés aussi au Royaume-Uni, en Italie, en Allemagne, en Belgique et dans les pays nordiques."
+  - "Bordeaux (France)"
+  - "Copenhague (Danemark)"
+  - "Dublin (Irlande)"
+  - "Grenoble (France)"
+  - "Hambourg (Allemagne)"
+  - "Lisbonne (Portugal)"
+  - "Londres (Royaume-Uni)"
+  - "Lyon (France)"
+  - "Madrid (Espagne)"
+  - "Montpellier (France)"
+  - "Nantes (France)"
+  - "Paris (France)"
+  - "Sophia Antipolis (France)"
+  - "Stockholm (Suède)"
   sources:
-  - titre: "Datadog, carrières en Europe"
-    url: "https://careers.datadoghq.com/emea/"
+  - titre: "Datadog, page Contact"
+    url: "https://www.datadoghq.com/about/contact/"
 bureaux_asie:
   villes:
+  - "Bangalore (Inde)"
+  - "Jakarta (Indonésie)"
+  - "Bombay (Inde)"
+  - "Osaka (Japon)"
+  - "Séoul (Corée du Sud)"
   - "Singapour (Singapour)"
-  note: "L’un des quatre pôles Asie-Pacifique (avec Tokyo, Séoul et Sydney)."
+  - "Tokyo (Japon)"
   sources:
-  - titre: "Datadog, carrières Asie-Pacifique"
-    url: "https://careers.datadoghq.com/apac/"
+  - titre: "Datadog, page Contact"
+    url: "https://www.datadoghq.com/about/contact/"
+bureaux_amerique_du_nord:
+  villes:
+  - "Bellevue (États-Unis)"
+  - "Boston (États-Unis)"
+  - "Chicago (États-Unis)"
+  - "Denver (États-Unis)"
+  - "New York (États-Unis)"
+  - "Pittsburgh (États-Unis)"
+  - "San Francisco (États-Unis)"
+  sources:
+  - titre: "Datadog, page Contact"
+    url: "https://www.datadoghq.com/about/contact/"
+bureaux_amerique_latine:
+  villes:
+  - "Mexico (Mexique)"
+  - "São Paulo (Brésil)"
+  sources:
+  - titre: "Datadog, page Contact"
+    url: "https://www.datadoghq.com/about/contact/"
+bureaux_moyen_orient_afrique:
+  villes:
+  - "Dubaï (Émirats arabes unis)"
+  - "Tel Aviv (Israël)"
+  note: "La page classe ces deux villes avec l’Europe."
+  sources:
+  - titre: "Datadog, page Contact"
+    url: "https://www.datadoghq.com/about/contact/"
+bureaux_oceanie:
+  villes:
+  - "Melbourne (Australie)"
+  - "Sydney (Australie)"
+  sources:
+  - titre: "Datadog, page Contact"
+    url: "https://www.datadoghq.com/about/contact/"
 stages:
   statut: oui
   detail: "Stages à Paris (produit, ingénierie), 6 mois, début février à juin 2027 ; un stage « Applied Science » à Paris vu fin septembre 2026."

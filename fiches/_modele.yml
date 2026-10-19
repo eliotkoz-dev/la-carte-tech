@@ -36,7 +36,7 @@ concurrents: "Concurrent 1, Concurrent 2"
 stages:
   statut: a-verifier     # oui | alternance | a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."
-# bureaux_europe:           # facultatif : ses bureaux en Europe
+# bureaux_europe:           # facultatif : ses bureaux en Europe (idem : bureaux_asie, bureaux_amerique_du_nord, bureaux_amerique_latine, bureaux_moyen_orient_afrique, bureaux_oceanie)
 #   villes:
 #     - "Paris (France)"
 #     - "Dublin (Irlande)"

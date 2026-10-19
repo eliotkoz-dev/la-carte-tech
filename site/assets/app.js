@@ -17,7 +17,11 @@
   const $ = (id) => document.getElementById(id);
   const eclaircir = (hex) => '#' + [1, 3, 5].map((i) => Math.round(parseInt(hex.slice(i, i + 2), 16) * 0.42 + 255 * 0.58).toString(16).padStart(2, '0')).join('');
 
-  const etat = { cat: 'tous', ville: null, stagesSeuls: false, choisi: null, types: { parente: true, investissement: true, partenariat: true } };
+  const REGIONS_BUREAUX = [
+    { id: 'europe', nom: 'Europe' }, { id: 'asie', nom: 'Asie' }, { id: 'amerique-du-nord', nom: 'Amérique du Nord' },
+    { id: 'amerique-latine', nom: 'Amérique latine' }, { id: 'moyen-orient-afrique', nom: 'Moyen-Orient et Afrique' }, { id: 'oceanie', nom: 'Océanie' }
+  ];
+  const etat = { cat: 'tous', regionVille: 'europe', ville: null, stagesSeuls: false, choisi: null, types: { parente: true, investissement: true, partenariat: true } };
   let acteurs = [];
   let liens = [];
   let depot = '';
@@ -214,28 +218,58 @@
     traits.forEach(({ l, t }) => t.classList.toggle('actif', l.de === id || l.vers === id));
     const a = parId[id];
     $('resume-choix').replaceChildren(el('b', '', a.nom), ' ', el('span', '', `· ${CATEGORIES[a.categorie]} · ${REGIONS[a.region].nom} · ${a.ca} · ${texteLiens(a.id)}`));
-    const be = a.bureauxEurope;
-    $('bureaux-choix').replaceChildren(el('b', '', 'Bureaux en Europe : '), be ? parPays(be.villes).map(([pays, villes]) => `${pays} (${villes.join(', ')})`).join(' · ') : 'pas encore renseigné');
-    if (a.bureauxAsie) $('bureaux-choix').append(el('br'), el('b', '', 'Asie : '), parPays(a.bureauxAsie.villes).map(([pays, villes]) => `${pays} (${villes.join(', ')})`).join(' · '));
+    const ligne = $('bureaux-choix');
+    ligne.replaceChildren();
+    const presentes = REGIONS_BUREAUX.filter((r) => a.bureaux && a.bureaux[r.id]);
+    if (!presentes.length) ligne.append(el('b', '', 'Bureaux : '), 'pas encore renseignés');
+    presentes.forEach((r, i) => {
+      if (i) ligne.append(el('br'));
+      ligne.append(el('b', '', r.nom + ' : '), parPays(a.bureaux[r.id].villes).map(([pays, villes]) => `${pays} (${villes.join(', ')})`).join(' · '));
+    });
   }
 
   // Les communes de la banlieue parisienne comptent pour « Paris » dans le filtre par ville.
+  const SEUIL_VILLE = 4;
   const ALIAS_VILLES = { 'Levallois-Perret': 'Paris', 'Issy-les-Moulineaux': 'Paris', 'La Défense': 'Paris', Courbevoie: 'Paris' };
   // Villes où l'entreprise a des locaux : bureaux en Europe (« Ville (Pays) ») et villes citées dans « rejoindre ».
   const villesDe = (a) => [...new Set([
-    ...((a.bureauxEurope && a.bureauxEurope.villes) || []).map((v) => v.ville),
-    ...((a.bureauxAsie && a.bureauxAsie.villes) || []).map((v) => v.ville),
+    ...REGIONS_BUREAUX.flatMap((r) => ((a.bureaux && a.bureaux[r.id] && a.bureaux[r.id].villes) || []).map((v) => v.ville)),
     ...((a.rejoindre && a.rejoindre.bureaux) || []).map((b) => b.ville)
   ].map((v) => ALIAS_VILLES[v] || v))];
   const VOIES = { stage: 'Stage', alternance: 'Alternance', graduate: 'Graduate program', vie: 'VIE', 'premier-poste': 'Premier poste' };
 
+  // Région de chaque ville, d'après les listes de bureaux (« Ville (Pays) » rangé dans la région où elle est listée).
+  const regionDeVille = {};
   function construireVilles() {
+    acteurs.forEach((a) => REGIONS_BUREAUX.forEach((r) => ((a.bureaux && a.bureaux[r.id] && a.bureaux[r.id].villes) || []).forEach((v) => { regionDeVille[ALIAS_VILLES[v.ville] || v.ville] = r.id; })));
     const compte = {};
     acteurs.forEach((a) => villesDe(a).forEach((v) => { compte[v] = (compte[v] || 0) + 1; }));
-    const villes = Object.entries(compte).filter(([, n]) => n >= 6).sort((p, q) => q[1] - p[1] || p[0].localeCompare(q[0], 'fr'));
     const zone = $('villes');
-    if (!villes.length) { zone.hidden = true; return; }
-    zone.querySelector('.pilules-villes').replaceChildren(...villes.map(([v, n]) => {
+    const nbParRegion = {};
+    Object.keys(compte).forEach((v) => { if (regionDeVille[v]) nbParRegion[regionDeVille[v]] = (nbParRegion[regionDeVille[v]] || 0) + 1; });
+    const regions = REGIONS_BUREAUX.filter((r) => acteurs.some((a) => a.bureaux && a.bureaux[r.id]));
+    if (!regions.length) { zone.hidden = true; return; }
+    if (!regions.some((r) => r.id === etat.regionVille)) etat.regionVille = regions[0].id;
+    const onglets = zone.querySelector('.regions-villes');
+    onglets.replaceChildren(...regions.map((r) => {
+      const n = acteurs.filter((a) => a.bureaux && a.bureaux[r.id]).length;
+      const b = el('button', 'pilule', r.nom + ' ');
+      b.type = 'button';
+      b.dataset.region = r.id;
+      b.append(el('span', 'n', String(n)));
+      b.addEventListener('click', () => { etat.regionVille = r.id; etat.ville = null; majVilles(compte); majListe(); });
+      return b;
+    }));
+    majVilles(compte);
+  }
+
+  function majVilles(compte) {
+    const zone = $('villes');
+    zone.querySelectorAll('.regions-villes .pilule').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.region === etat.regionVille)));
+    const villes = Object.entries(compte).filter(([v, n]) => regionDeVille[v] === etat.regionVille && n >= SEUIL_VILLE).sort((p, q) => q[1] - p[1] || p[0].localeCompare(q[0], 'fr'));
+    const cible = zone.querySelector('.pilules-villes');
+    if (!villes.length) { cible.replaceChildren(el('span', 'discret', 'Pas encore assez de bureaux renseignés dans cette région.')); return; }
+    cible.replaceChildren(...villes.map(([v, n]) => {
       const b = el('button', 'pilule', v + ' ');
       b.type = 'button';
       b.dataset.ville = v;
@@ -243,6 +277,7 @@
       b.addEventListener('click', () => { etat.ville = etat.ville === v ? null : v; majListe(); });
       return b;
     }));
+    zone.querySelectorAll('.pilules-villes .pilule[data-ville]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ville === etat.ville)));
   }
 
   function construirePilules() {
@@ -263,7 +298,7 @@
   function majListe() {
     document.querySelectorAll('#pilules .pilule').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.cat === etat.cat)));
     $('filtre-stages').setAttribute('aria-pressed', String(etat.stagesSeuls));
-    document.querySelectorAll('#villes .pilule').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ville === etat.ville)));
+    document.querySelectorAll('#villes .pilules-villes .pilule[data-ville]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ville === etat.ville)));
     const visibles = acteurs.filter((a) => (etat.cat === 'tous' || a.categorie === etat.cat) && (!etat.stagesSeuls || a.stage !== 'a-verifier') && (!etat.ville || villesDe(a).includes(etat.ville)));
     $('grille').replaceChildren(...visibles.map((a) => {
       const b = el('button', 'carte-ent');
@@ -327,7 +362,7 @@
     return Object.entries(pays);
   };
 
-  function blocBureaux(b, titre = 'Bureaux en Europe') {
+  function blocBureaux(b, titre) {
     const d = el('div', 'bloc-bureaux');
     const haut = el('div', 'vente-haut');
     haut.append(el('h3', '', titre), el('span', 'nb-bureaux', `${b.villes.length} ville${b.villes.length > 1 ? 's' : ''} · ${parPays(b.villes).length} pays`));
@@ -383,8 +418,10 @@
     corps.append(bloc('Produits phares', prods));
     corps.append(bloc('Comment elle gagne de l’argent', el('p', '', a.modele), el('p', 'discret', `Clients : ${a.clients}`)));
     if (a.vente) corps.append(blocVente(a.vente));
-    corps.append(a.bureauxEurope ? blocBureaux(a.bureauxEurope) : bloc('Bureaux en Europe', el('p', 'discret', 'Pas encore renseigné.')));
-    if (a.bureauxAsie) corps.append(blocBureaux(a.bureauxAsie, 'Bureaux à Hong Kong et Singapour'));
+    REGIONS_BUREAUX.forEach((r) => {
+      if (a.bureaux && a.bureaux[r.id]) corps.append(blocBureaux(a.bureaux[r.id], 'Bureaux en ' + r.nom));
+      else if (r.id === 'europe') corps.append(bloc('Bureaux en Europe', el('p', 'discret', 'Pas encore renseigné.')));
+    });
     corps.append(bloc('Rachats marquants', liste(a.rachats)));
     if (a.note) corps.append(el('p', 'note', a.note));
     corps.append(bloc('Concurrents', el('p', '', a.concurrents)));
