@@ -61,6 +61,13 @@ bureaux_europe:
     url: "https://www.microsoft.com/en-us/hub/locations"
   - titre: "Komo, bureaux de Microsoft"
     url: "https://komo.ai/directory/microsoft-offices"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Siège Asie-Pacifique de Microsoft, plus de 1 400 personnes (2019)."
+  sources:
+  - titre: "IT Brief, le nouveau siège Asie-Pacifique de Microsoft"
+    url: "https://itbrief.com.au/story/microsoft-showcases-innovations-in-new-asia-pacific-hq"
 stages:
   statut: a-verifier
   detail: "Azure fait partie de Microsoft : voir la fiche Microsoft. Dernières offres d’alternance vues à Issy-les-Moulineaux pour la rentrée 2024 (12 ou 24 mois)."

@@ -49,6 +49,15 @@ bureaux_europe:
   sources:
   - titre: "HubSpot, nos bureaux"
     url: "https://hubspot.com/company/contact"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Siège régional pour l’Asie-Pacifique."
+  sources:
+  - titre: "HubSpot, ses bureaux"
+    url: "https://www.hubspot.com/company/contact?no_head=1"
+  - titre: "HubSpot, siège Asie-Pacifique à Singapour"
+    url: "https://www.hubspot.com/company-news/hubspot-opens-official-asia-pacific-headquarters-in-singapore-will-create-150-new-jobs-over-next-3-years"
 stages:
   statut: a-verifier
   detail: "Programme de stage ingénieur à Dublin en 2026 (offre retirée en février 2026) ; pas de stage commercial trouvé en Europe."

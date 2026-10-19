@@ -48,6 +48,15 @@ bureaux_europe:
   sources:
   - titre: "Komo, bureaux de SAP"
     url: "https://komo.ai/directory/sap-offices"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  - "Hong Kong (Chine)"
+  sources:
+  - titre: "SAP, bureau de Singapour"
+    url: "https://www.sap.com/about/company/office-locations/singapore.html"
+  - titre: "SAP, bureau de Hong Kong"
+    url: "https://www.sap.com/about/company/office-locations/hong-kong.html"
 stages:
   statut: oui
   detail: "Alternance de 2 ans en vente à Levallois-Perret et stages à Paris."

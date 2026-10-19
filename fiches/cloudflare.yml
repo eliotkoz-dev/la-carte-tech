@@ -53,6 +53,12 @@ bureaux_europe:
     url: "https://www.cloudflare.com/careers/"
   - titre: "Wikipédia, Cloudflare"
     url: "https://en.wikipedia.org/wiki/Cloudflare"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  sources:
+  - titre: "Cloudflare, présentation et adresses"
+    url: "https://www.cloudflare.com/overview"
 stages:
   statut: a-verifier
   detail: "La page carrières ne mentionne pas de programme de stage en Europe ; à vérifier sur la liste des offres."

@@ -36,6 +36,13 @@ vente:
   objections:
   - "La confiance, après des incidents de sécurité passés"
   - "Le prix de l’appareil"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Pôle Asie-Pacifique de Ledger, au centre de Singapour."
+  sources:
+  - titre: "Ledger, ses implantations"
+    url: "https://careers.ledger.com/our-company/our-locations/"
 stages:
   statut: oui
   detail: "Plusieurs stages et alternances à Paris vus sur le site d’emplois de Ledger (revenue growth, marketing, juridique, fiscalité, formation, comptabilité) ; dates de début à confirmer sur l’offre."

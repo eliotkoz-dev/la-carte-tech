@@ -49,6 +49,13 @@ bureaux_europe:
     url: "https://komo.ai/directory/openai-offices"
   - titre: "Maginative, OpenAI ouvre un bureau à Munich"
     url: "https://www.maginative.com/article/openai-announces-a-munich-office/"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Bureau annoncé en octobre 2024, deuxième bureau d’OpenAI en Asie."
+  sources:
+  - titre: "Fortune, OpenAI ouvre un bureau à Singapour"
+    url: "https://fortune.com/asia/2024/10/09/openai-opens-singapore-office-chatgpt-asia"
 stages:
   statut: a-verifier
   detail: "Pas de stage trouvé. La Residency (6 mois à San Francisco, en poste à temps plein) est fermée pour 2026."

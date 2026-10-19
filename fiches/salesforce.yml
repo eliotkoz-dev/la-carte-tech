@@ -78,6 +78,12 @@ bureaux_europe:
   sources:
   - titre: "Salesforce, implantations dans le monde"
     url: "https://www.salesforce.com/company/locations/"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  sources:
+  - titre: "Salesforce, ses bureaux dans le monde"
+    url: "https://www.salesforce.com/company/locations/"
 stages:
   statut: oui
   detail: "Stages Futureforce toute l’année en EMEA ; graduate rotation à Dublin."

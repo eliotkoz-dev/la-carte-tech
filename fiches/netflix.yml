@@ -52,6 +52,12 @@ bureaux_europe:
   sources:
   - titre: "Netflix, nos bureaux"
     url: "https://jobs.netflix.com/locations"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  sources:
+  - titre: "Netflix, carrières Asie-Pacifique"
+    url: "https://jobs.netflix.com/region/asia-pacific"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

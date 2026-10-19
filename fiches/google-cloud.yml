@@ -75,6 +75,13 @@ bureaux_europe:
   sources:
   - titre: "Google, nos implantations"
     url: "https://about.google/company-info/locations/"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Siège Asie-Pacifique de Google à Mapletree Business City."
+  sources:
+  - titre: "Mingtiandi, Mapletree rachète le siège de Google"
+    url: "https://www.mingtiandi.com/real-estate/finance/mapletree-reit-to-acquire-google-hq-as-part-of-s1-6b-deal"
 stages:
   statut: alternance
   detail: "Stage « Forward Deployed Engineering » (GenAI) à Londres de mai à juillet 2027, publié le 2 octobre 2026, candidatures avant le 13 novembre 2026. Alternance « Customer Engineer » à Paris pour les profils techniques Bac+5."

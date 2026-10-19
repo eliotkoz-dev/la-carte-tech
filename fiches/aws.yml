@@ -61,6 +61,13 @@ bureaux_europe:
     url: "https://amazon.jobs/en/location/berlin-germany"
   - titre: "Amazon.jobs, Bruxelles"
     url: "https://amazon.jobs/en/location/brussels-belgium"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Pôle AWS Asie-Pacifique : 360 000 pieds carrés, jusqu’à 3 000 personnes (février 2025)."
+  sources:
+  - titre: "Amazon, nouveau bureau de Singapour, pôle AWS Asie-Pacifique"
+    url: "https://press.aboutamazon.com/aws/2025/2/amazon-unveils-new-singapore-office-as-aws-asia-pacific-hub"
 stages:
   statut: oui
   detail: "Offre « Business Development Intern » en France : 3 à 6 mois, profils commerce et économie (offre 2025)."

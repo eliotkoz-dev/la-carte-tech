@@ -44,6 +44,13 @@ bureaux_europe:
   sources:
   - titre: "The Trade Desk, fiche de présentation (2022)"
     url: "https://www.thetradedesk.com/assets/global/documents/220526_TTD_Fact_Sheet_Update-2.pdf"
+bureaux_asie:
+  villes:
+  - "Hong Kong (Chine)"
+  note: "Bureau ouvert vers 2015-2016."
+  sources:
+  - titre: "Campaign Asia, l’équipe de Hong Kong de The Trade Desk"
+    url: "https://www.campaignasia.com/article/hong-kong-team-adds-to-the-trade-desks-rapid-regional-growth/430476"
 stages:
   statut: oui
   detail: "Stage Data Science à Londres, pour un diplôme prévu entre l’automne 2026 et l’été 2027 ; pas de stage commercial trouvé."

@@ -34,6 +34,13 @@ vente:
   objections:
   - "Des prix tirés vers le bas par les concurrents"
   - "Un marché lié aux cycles de l’industrie"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Site de plus de 200 employés (R&D, tests, ventes, production) à Kallang."
+  sources:
+  - titre: "EE Asia, Analog Devices à Singapour"
+    url: "https://www.eetasia.com/?p=49483"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

@@ -47,6 +47,13 @@ bureaux_europe:
     url: "https://www.solutions-numeriques.com/communiques/alibaba-cloud-ouvre-une-region-cloud-en-france-structuree-autour-de-deux-zones-de-disponibilite/"
   - titre: "Tiger Brokers, programme de stage mondial d’Alibaba"
     url: "https://www-web.itiger.com/news/1152346468"
+bureaux_asie:
+  villes:
+  - "Hong Kong (Chine)"
+  note: "Siège à Hong Kong d’Alibaba et d’Ant Group : étages achetés à One Causeway Bay en octobre 2025."
+  sources:
+  - titre: "Alibaba Group, achat de bureaux à One Causeway Bay"
+    url: "https://www.alibabagroup.com/document-1915940084457144320"
 stages:
   statut: oui
   detail: "Programme de stage mondial lancé en mars 2026 pour les diplômés 2027, dans 16 entités du groupe, avec des postes à Francfort et Singapour."

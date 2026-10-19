@@ -77,12 +77,12 @@ function verifierVente(f, v) {
 }
 
 // Bloc facultatif « bureaux_europe » : les villes d'Europe où l'entreprise a des bureaux, au format « Ville (Pays) ».
-function verifierBureaux(f, b) {
+function verifierBureaux(f, b, cle = 'bureaux_europe') {
   if (b === undefined) return undefined;
-  if (!b || typeof b !== 'object') { err(f, '« bureaux_europe » doit contenir « villes » et « sources »'); return undefined; }
-  if (!Array.isArray(b.villes) || b.villes.length === 0 || !b.villes.every((v) => typeof v === 'string' && /^.+ \([^()]+\)$/.test(v))) err(f, '« bureaux_europe.villes » : une liste de villes au format « Ville (Pays) »');
-  if (b.note !== undefined && !texte(b.note)) err(f, '« bureaux_europe.note » est vide');
-  if (!Array.isArray(b.sources) || b.sources.length === 0 || !b.sources.every((s) => s && texte(s.titre) && url(s.url))) err(f, '« bureaux_europe.sources » : au moins une source (titre et url en https://)');
+  if (!b || typeof b !== 'object') { err(f, '« ' + cle + ' » doit contenir « villes » et « sources »'); return undefined; }
+  if (!Array.isArray(b.villes) || b.villes.length === 0 || !b.villes.every((v) => typeof v === 'string' && /^.+ \([^()]+\)$/.test(v))) err(f, '« ' + cle + '.villes » : une liste de villes au format « Ville (Pays) »');
+  if (b.note !== undefined && !texte(b.note)) err(f, '« ' + cle + '.note » est vide');
+  if (!Array.isArray(b.sources) || b.sources.length === 0 || !b.sources.every((s) => s && texte(s.titre) && url(s.url))) err(f, '« ' + cle + '.sources » : au moins une source (titre et url en https://)');
   return {
     villes: (b.villes || []).map((v) => { const m = String(v).match(/^(.+) \(([^()]+)\)$/); return m ? { ville: m[1], pays: m[2] } : { ville: String(v), pays: '' }; }),
     note: b.note || '', sources: (b.sources || []).map((s) => ({ titre: s?.titre, url: s?.url }))
@@ -115,6 +115,7 @@ for (const f of fichiers) {
   const rejoindre = verifierRejoindre(f, d.rejoindre);
   const vente = verifierVente(f, d.vente);
   const bureauxEurope = verifierBureaux(f, d.bureaux_europe);
+  const bureauxAsie = verifierBureaux(f, d.bureaux_asie, 'bureaux_asie');
   if (d.aussi !== undefined && (!Array.isArray(d.aussi) || d.aussi.length > 2 || !d.aussi.every((c) => CATEGORIES.includes(c) && c !== d.categorie))) err(f, `« aussi » : une liste de 1 ou 2 autres catégories (${CATEGORIES.join(', ')})`);
   if (!Array.isArray(d.sources) || d.sources.length === 0) err(f, 'au moins une source est obligatoire');
   else d.sources.forEach((s, i) => {
@@ -127,7 +128,7 @@ for (const f of fichiers) {
     id, nom: d.nom, categorie: d.categorie, region: d.region, groupe: d.groupe, siege: d.siege, enBref: d.en_bref,
     ca: ca.texte, mdUsd: ca.md_usd, cles: d.chiffres_cles || [], vend: d.ce_qu_elle_vend,
     produits: (d.produits || []).map((p) => ({ nom: p?.nom, detail: p?.detail })), modele: d.modele, clients: d.clients,
-    rachats: d.rachats, concurrents: d.concurrents, note: d.note || '', vente, aussi: d.aussi || [], bureauxEurope,
+    rachats: d.rachats, concurrents: d.concurrents, note: d.note || '', vente, aussi: d.aussi || [], bureauxEurope, bureauxAsie,
     stage: d.stages?.statut, stageDetail: d.stages?.detail, rejoindre,
     sources: (d.sources || []).map((s) => ({ titre: s?.titre, url: s?.url })),
     verifieLe: date

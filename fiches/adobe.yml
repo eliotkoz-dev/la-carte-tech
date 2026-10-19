@@ -65,6 +65,13 @@ bureaux_europe:
   sources:
   - titre: "Adobe, nos bureaux"
     url: "https://www.adobe.com/about-adobe/contact/offices"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  - "Hong Kong (Chine)"
+  sources:
+  - titre: "Adobe, ses bureaux dans le monde"
+    url: "https://www.adobe.com/company/contact/offices.html"
 stages:
   statut: oui
   detail: "Adobe Sales Academy EMEA : stages en vente à Londres (13 mois, en juillet), Madrid (6 mois, en mai) et Munich (6 mois, en mars) ; candidatures 2026 ouvertes."

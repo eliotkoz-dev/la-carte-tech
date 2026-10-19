@@ -45,6 +45,13 @@ bureaux_europe:
     url: "https://www.solutions-numeriques.com/communiques/alibaba-cloud-ouvre-une-region-cloud-en-france-structuree-autour-de-deux-zones-de-disponibilite/"
   - titre: "Tiger Brokers, programme de stage mondial d’Alibaba"
     url: "https://www-web.itiger.com/news/1152346468"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Siège international d’Aliyun (annonce de 2015)."
+  sources:
+  - titre: "DatacenterDynamics, Alibaba installe le siège de son cloud à Singapour"
+    url: "https://www.datacenterdynamics.com/en/news/alibaba-sets-up-cloud-hq-and-data-center-in-singapore/"
 stages:
   statut: oui
   detail: "Programme de stage mondial d’Alibaba lancé en mars 2026 pour les diplômés 2027, avec des postes à Francfort et Singapour ; Alibaba Cloud en fait partie."

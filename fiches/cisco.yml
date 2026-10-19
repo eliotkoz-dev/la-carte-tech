@@ -63,6 +63,13 @@ bureaux_europe:
   sources:
   - titre: "Cisco, bureaux dans le monde"
     url: "https://www.cisco.com/site/us/en/about/contact-cisco/global-office-locations.html"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  - "Hong Kong (Chine)"
+  sources:
+  - titre: "Cisco, bureaux Asie-Pacifique"
+    url: "https://www3-realm.cisco.com/web/siteassets/contacts/offices/asiapac.html"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

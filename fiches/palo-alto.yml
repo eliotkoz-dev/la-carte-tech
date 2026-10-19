@@ -62,6 +62,13 @@ bureaux_europe:
   sources:
   - titre: "Palo Alto Networks, nos implantations"
     url: "https://www.paloaltonetworks.com/company/locations"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  - "Hong Kong (Chine)"
+  sources:
+  - titre: "Palo Alto Networks, ses bureaux"
+    url: "https://www.paloaltonetworks.com/company/about-us/locations"
 stages:
   statut: a-verifier
   detail: "Aucun stage ni alternance parmi les offres en France (Paris, Boulogne-Billancourt) consultées en octobre 2026 ; programmes de stage surtout aux États-Unis et en Inde."

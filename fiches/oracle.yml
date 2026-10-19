@@ -63,6 +63,12 @@ bureaux_europe:
     url: "https://www.oracle.com/fr/corporate/contact/field-offices/"
   - titre: "Oracle Royaume-Uni, implantations"
     url: "https://oracle.com/uk/corporate/contact/field-offices"
+bureaux_asie:
+  villes:
+  - "Hong Kong (Chine)"
+  sources:
+  - titre: "Oracle, bureaux en Asie-Pacifique"
+    url: "https://www.oracle.com/apac/corporate/contact/field-offices/"
 stages:
   statut: a-verifier
   detail: "Stages en développement (Tchéquie, Espagne), pas d’offre confirmée en France : à vérifier."

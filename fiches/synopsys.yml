@@ -36,6 +36,13 @@ vente:
   objections:
   - "Le prix des licences"
   - "L’intégration d’Ansys dans l’offre"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  - "Hong Kong (Chine)"
+  sources:
+  - titre: "Synopsys, ses bureaux dans le monde"
+    url: "https://synopsys.com/company/contact-synopsys/office-locations.html"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

@@ -49,6 +49,15 @@ bureaux_europe:
     url: "https://anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence"
   - titre: "Yahoo Finance, ouverture du bureau de Milan (mai 2026)"
     url: "https://finance.yahoo.com/sectors/technology/articles/anthropic-boost-hiring-europe-opening-134751893.html"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Bureau annoncé en septembre 2026 (ouverture prévue en octobre), pensé comme pôle pour l’Asie du Sud-Est."
+  sources:
+  - titre: "CRN Asia, Anthropic confirme son bureau de Singapour"
+    url: "https://www.crnasia.com/news/2026/artificial-intelligence/anthropic-confirms-new-office-in-singapore"
+  - titre: "Fortune, Anthropic ouvre à Singapour en octobre"
+    url: "https://fortune.com/2026/09/16/anthropic-open-singapore-office-october-chasing-openai-southeast-asia/"
 stages:
   statut: a-verifier
   detail: "Pas de stage classique trouvé en octobre 2026. Anthropic propose des Fellows Programs (recherche, sécurité, politiques) avec une option Londres, et un poste Account Executive Startups à Dublin (poste de vente confirmé, pas un stage)."

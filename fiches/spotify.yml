@@ -34,6 +34,13 @@ vente:
   objections:
   - "La part reversée aux maisons de disques"
   - "La concurrence de géants comme Apple et Amazon"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Pôle Asie ouvert en 2014."
+  sources:
+  - titre: "Marketing-Interactive, Spotify ouvre son pôle asiatique"
+    url: "https://www.marketing-interactive.com/spotify-opens-asia-hub-singapore"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

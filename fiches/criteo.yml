@@ -43,6 +43,12 @@ bureaux_europe:
   sources:
   - titre: "Criteo, nos implantations"
     url: "https://careers.criteo.com/en/locations/europe-and-middle-east/spain/"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  sources:
+  - titre: "Criteo, son bureau de Singapour"
+    url: "https://www.criteo.com/blog/criteo-singapore-office/"
 stages:
   statut: oui
   detail: "Stages de 4 à 6 mois à Paris et Barcelone, et alternance (Criteo Campus)."

@@ -43,6 +43,13 @@ bureaux_europe:
   sources:
   - titre: "Dassault Systèmes, nos bureaux"
     url: "https://www.3ds.com/fr/careers/locations"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  - "Hong Kong (Chine)"
+  sources:
+  - titre: "Dassault Systèmes, ses bureaux dans le monde"
+    url: "https://www.3ds.com/about/company/office-locations"
 stages:
   statut: oui
   detail: "Stage Stratégie et développement de marché à Vélizy, 6 mois, écoles de commerce acceptées (offre publiée en septembre 2026)."

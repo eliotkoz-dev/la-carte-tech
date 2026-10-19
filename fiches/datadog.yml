@@ -48,6 +48,13 @@ bureaux_europe:
   sources:
   - titre: "Datadog, carrières en Europe"
     url: "https://careers.datadoghq.com/emea/"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "L’un des quatre pôles Asie-Pacifique (avec Tokyo, Séoul et Sydney)."
+  sources:
+  - titre: "Datadog, carrières Asie-Pacifique"
+    url: "https://careers.datadoghq.com/apac/"
 stages:
   statut: oui
   detail: "Stages à Paris (produit, ingénierie), 6 mois, début février à juin 2027 ; un stage « Applied Science » à Paris vu fin septembre 2026."

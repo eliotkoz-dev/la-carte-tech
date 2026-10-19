@@ -44,6 +44,13 @@ bureaux_europe:
   sources:
   - titre: "ResumeGeni, offre de Tencent à Paris"
     url: "https://resumegeni.com/jobs/marketing-and-communication-assistant-intern-at-tencent-france-paris"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Pôle régional pour l’Asie du Sud-Est annoncé en 2020."
+  sources:
+  - titre: "Jakarta Post, Tencent ouvre un pôle à Singapour"
+    url: "https://www.thejakartapost.com/news/2020/09/15/chinas-tencent-to-open-southeast-asia-regional-hub-in-singapore.html"
 stages:
   statut: oui
   detail: "Stage Marketing and Communication Assistant à Paris (Tencent Games), offre publiée en mai 2026, vue sur un site relais."

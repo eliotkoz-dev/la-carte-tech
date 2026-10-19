@@ -59,6 +59,13 @@ bureaux_europe:
   sources:
   - titre: "Databricks, bureaux dans le monde"
     url: "https://databricks.com/company/contact/office-locations"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Nouveau bureau plus grand annoncé en septembre 2026, pôle Asie-Pacifique."
+  sources:
+  - titre: "CRN Asia, Databricks investit 350 M$ à Singapour"
+    url: "https://www.crnasia.com/news/2026/data/databricks-invests-us-350m-in-singapore"
 stages:
   statut: oui
   detail: "Stages produit et ingénierie à Amsterdam pour l’été 2027, vus sur des sites relais."

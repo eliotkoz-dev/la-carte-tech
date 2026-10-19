@@ -53,6 +53,12 @@ bureaux_europe:
   sources:
   - titre: "Zscaler, nous contacter"
     url: "https://www.zscaler.com/company/contact"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  sources:
+  - titre: "Zscaler, ses bureaux (Built In Singapore)"
+    url: "https://builtinsingapore.com/company/zscaler/offices"
 stages:
   statut: a-verifier
   detail: "Programme de stage d’été (ingénierie, marketing), surtout aux États-Unis ; aucune offre trouvée en Europe."

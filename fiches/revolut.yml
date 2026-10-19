@@ -53,6 +53,13 @@ bureaux_europe:
     url: "https://komo.ai/directory/revolut-offices"
   - titre: "Revolut, siège de Paris (avril 2026)"
     url: "https://www.revolut.com/ru-EE/news/revolut_locks_in_paris_headquarters_for_western_europe/"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Nouveau bureau à Collyer Quay Centre prévu début 2027, objectif de plus de 300 salariés en trois ans."
+  sources:
+  - titre: "HR Online, Revolut investit à Singapour"
+    url: "https://www.humanresourcesonline.net/revolut-to-invest-nearly-s-350mn-in-singapore-with-new-collyer-quay-office"
 stages:
   statut: oui
   detail: "Internship Programme 2027 et Graduate Programme de 12 mois (Barcelone, Madrid, Londres…)."

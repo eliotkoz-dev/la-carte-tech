@@ -38,6 +38,13 @@ vente:
   objections:
   - "La concurrence de Tether, plus gros"
   - "Les règles différentes selon les pays"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Bureau inauguré en mai 2023."
+  sources:
+  - titre: "Circle, ouverture du bureau de Singapour"
+    url: "https://circle.com/blog/passion-made-possible-circles-singapore-office-opens"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage en Europe vérifiée : la page carrières n’a pas pu être lue. À vérifier sur le site de l’entreprise."

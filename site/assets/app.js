@@ -131,6 +131,7 @@
     $('resume-choix').replaceChildren(el('b', '', a.nom), ' ', el('span', '', `· ${CATEGORIES[a.categorie]} · ${REGIONS[a.region].nom} · ${a.ca} · ${texteLiens(a.id)}`));
     const be = a.bureauxEurope;
     $('bureaux-choix').replaceChildren(el('b', '', 'Bureaux en Europe : '), be ? parPays(be.villes).map(([pays, villes]) => `${pays} (${villes.join(', ')})`).join(' · ') : 'pas encore renseigné');
+    if (a.bureauxAsie) $('bureaux-choix').append(el('br'), el('b', '', 'Asie : '), parPays(a.bureauxAsie.villes).map(([pays, villes]) => `${pays} (${villes.join(', ')})`).join(' · '));
   }
 
   // Les communes de la banlieue parisienne comptent pour « Paris » dans le filtre par ville.
@@ -138,6 +139,7 @@
   // Villes où l'entreprise a des locaux : bureaux en Europe (« Ville (Pays) ») et villes citées dans « rejoindre ».
   const villesDe = (a) => [...new Set([
     ...((a.bureauxEurope && a.bureauxEurope.villes) || []).map((v) => v.ville),
+    ...((a.bureauxAsie && a.bureauxAsie.villes) || []).map((v) => v.ville),
     ...((a.rejoindre && a.rejoindre.bureaux) || []).map((b) => b.ville)
   ].map((v) => ALIAS_VILLES[v] || v))];
   const VOIES = { stage: 'Stage', alternance: 'Alternance', graduate: 'Graduate program', vie: 'VIE', 'premier-poste': 'Premier poste' };
@@ -240,10 +242,10 @@
     return Object.entries(pays);
   };
 
-  function blocBureaux(b) {
+  function blocBureaux(b, titre = 'Bureaux en Europe') {
     const d = el('div', 'bloc-bureaux');
     const haut = el('div', 'vente-haut');
-    haut.append(el('h3', '', 'Bureaux en Europe'), el('span', 'nb-bureaux', `${b.villes.length} ville${b.villes.length > 1 ? 's' : ''} · ${parPays(b.villes).length} pays`));
+    haut.append(el('h3', '', titre), el('span', 'nb-bureaux', `${b.villes.length} ville${b.villes.length > 1 ? 's' : ''} · ${parPays(b.villes).length} pays`));
     d.append(haut);
     const ul = el('ul', 'pays-bureaux');
     parPays(b.villes).forEach(([pays, villes]) => { const li = el('li'); li.append(el('b', '', pays), ' ', el('span', '', villes.join(', '))); ul.append(li); });
@@ -297,6 +299,7 @@
     corps.append(bloc('Comment elle gagne de l’argent', el('p', '', a.modele), el('p', 'discret', `Clients : ${a.clients}`)));
     if (a.vente) corps.append(blocVente(a.vente));
     corps.append(a.bureauxEurope ? blocBureaux(a.bureauxEurope) : bloc('Bureaux en Europe', el('p', 'discret', 'Pas encore renseigné.')));
+    if (a.bureauxAsie) corps.append(blocBureaux(a.bureauxAsie, 'Bureaux à Hong Kong et Singapour'));
     corps.append(bloc('Rachats marquants', liste(a.rachats)));
     if (a.note) corps.append(el('p', 'note', a.note));
     corps.append(bloc('Concurrents', el('p', '', a.concurrents)));

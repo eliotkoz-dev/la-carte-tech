@@ -48,6 +48,13 @@ bureaux_europe:
     url: "https://careers.ovhcloud.com/job/WROC%C5%81AW-Cloud-Customer-Support-Representative-53-332/1426207733/"
   - titre: "OVHcloud, offre à Cologne"
     url: "https://careers.ovhcloud.com/job/K%C3%96LN-Hiring-Officer-%28mfx%29-50825/1379488633"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Bureau Asie-Pacifique ouvert en 2019."
+  sources:
+  - titre: "OVHcloud, ouverture du bureau de Singapour (2019)"
+    url: "https://corporate.ovhcloud.com/asia/newsroom/news/ovhcloud-strengthens-its-offering-new-office-and-increased-collaboration-asia-pacific/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage ou d’alternance trouvée ; OVHcloud a recruté 8 alternants en 3 ans à Roubaix (candidature spontanée possible)."

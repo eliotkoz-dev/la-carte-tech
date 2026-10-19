@@ -32,6 +32,13 @@ vente:
   objections:
   - "Quelques clients concentrent les achats"
   - "Les contrôles américains à l’export"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Siège régional et plus de 1 500 employés (2024)."
+  sources:
+  - titre: "EDB Singapour, KLA ouvre une nouvelle usine"
+    url: "https://www.edb.gov.sg/en/news-and-insights/semiconductor-firm-kla-opens-new-singapore-plant-that-will-create-400-new-jobs"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

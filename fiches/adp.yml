@@ -34,6 +34,12 @@ vente:
   objections:
   - "Le changement de prestataire de paie est lourd"
   - "Le prix par salarié"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  sources:
+  - titre: "ADP Singapour, adresse du bureau"
+    url: "https://sg.adp.com/about-adp/office-locations.aspx"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

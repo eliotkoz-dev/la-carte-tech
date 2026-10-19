@@ -60,6 +60,13 @@ bureaux_europe:
     url: "https://amazon.jobs/en/location/berlin-germany"
   - titre: "Amazon.jobs, Bruxelles"
     url: "https://amazon.jobs/en/location/brussels-belgium"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Plus de 2 500 salariés à Singapour ; deuxième bureau au centre d’affaires, ouvert en février 2025."
+  sources:
+  - titre: "Amazon, nouveau bureau de Singapour, pôle AWS Asie-Pacifique"
+    url: "https://press.aboutamazon.com/aws/2025/2/amazon-unveils-new-singapore-office-as-aws-asia-pacific-hub"
 stages:
   statut: oui
   detail: "Stage Marketing France à Clichy (6 mois, offre de novembre 2025, vue sur un site relais) ; stages AWS à La Défense (voir la fiche AWS)."

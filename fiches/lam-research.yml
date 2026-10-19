@@ -34,6 +34,13 @@ vente:
   objections:
   - "Une clientèle très concentrée : quelques commandes pèsent lourd"
   - "Les restrictions américaines à l’export vers la Chine"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Présent depuis plus de 30 ans, avec un pôle de services ; environ 200 embauches annoncées en septembre 2026."
+  sources:
+  - titre: "EDB Singapour, Lam Research ajoute 200 emplois"
+    url: "https://www.edb.gov.sg/en/news-and-insights/us-semiconductor-equipment-firm-lam-research-to-add-200-jobs-in-singapore-amid-ai-boom"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

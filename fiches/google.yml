@@ -76,6 +76,13 @@ bureaux_europe:
   sources:
   - titre: "Google, nos implantations"
     url: "https://about.google/company-info/locations/"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Siège Asie-Pacifique de Google à Mapletree Business City."
+  sources:
+  - titre: "Mingtiandi, Mapletree rachète le siège de Google"
+    url: "https://www.mingtiandi.com/real-estate/finance/mapletree-reit-to-acquire-google-hq-as-part-of-s1-6b-deal"
 stages:
   statut: oui
   detail: "Stage New Business Sales à Dublin ou Hambourg, de mai à juillet 2027 (13 semaines minimum), candidatures avant le 13 novembre 2026. Alternances à Paris chaque septembre."

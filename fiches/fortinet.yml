@@ -34,6 +34,13 @@ vente:
   objections:
   - "La concurrence de Palo Alto Networks"
   - "Les failles découvertes dans ses produits"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  - "Hong Kong (Chine)"
+  sources:
+  - titre: "Fortinet, ses bureaux dans le monde"
+    url: "https://www.fortinet.com/corporate/about-us/global-offices"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

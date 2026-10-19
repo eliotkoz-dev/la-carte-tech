@@ -58,6 +58,13 @@ bureaux_europe:
   sources:
   - titre: "Red Hat, nos bureaux"
     url: "https://www.redhat.com/en/about/offices"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  - "Hong Kong (Chine)"
+  sources:
+  - titre: "Red Hat, ses bureaux dans le monde"
+    url: "https://www.redhat.com/en/about/office-locations"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage en Europe vérifiée : la page carrières n’a pas pu être lue. À vérifier sur le site de l’entreprise."

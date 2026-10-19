@@ -46,6 +46,13 @@ bureaux_europe:
   sources:
   - titre: "Built In, bureaux de Stripe"
     url: "https://builtin.com/company/stripe"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Pôle d’ingénierie annoncé en 2019 (quatrième au monde)."
+  sources:
+  - titre: "Stripe, son pôle d’ingénierie à Singapour"
+    url: "https://stripe.com/ie/blog/singapore-eng-office"
 stages:
   statut: oui
   detail: "Stage ingénierie seulement ; pas de stage commercial trouvé."

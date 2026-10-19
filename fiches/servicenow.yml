@@ -65,6 +65,13 @@ bureaux_europe:
   sources:
   - titre: "ServiceNow, nos implantations"
     url: "https://www.servicenow.com/company/locations.html"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  - "Hong Kong (Chine)"
+  sources:
+  - titre: "ServiceNow, ses bureaux"
+    url: "https://www.servicenow.com/company/locations.html"
 stages:
   statut: oui
   detail: "Stage Business Development Representative à Dublin : 12 semaines à partir de juin 2027, pour un étudiant en Licence qui sort diplômé en 2028 ; langues demandées : allemand, espagnol, italien, français, néerlandais, arabe ou langue nordique (offre vue le 5 octobre 2026)."

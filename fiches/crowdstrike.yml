@@ -55,6 +55,13 @@ bureaux_europe:
     url: "https://builtin.com/company/crowdstrike/offices"
   - titre: "CrowdStrike, ouverture du bureau de Milan"
     url: "https://www.crowdstrike.com/press-releases/crowdstrike-expands-emea-presence-opens-new-office-in-italy"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Pôle asiatique ouvert en novembre 2023 (premier bureau en 2016)."
+  sources:
+  - titre: "CrowdStrike, nouveau pôle asiatique à Singapour"
+    url: "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-opens-new-asian-hub-in-singapore/"
 stages:
   statut: a-verifier
   detail: "Stage Technical Account Management à distance (été 2026, Royaume-Uni, Allemagne, Espagne), offre retirée en janvier 2026."

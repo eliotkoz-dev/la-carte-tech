@@ -34,6 +34,13 @@ vente:
   objections:
   - "La commission, jugée élevée par les hôtels"
   - "Les règles européennes sur la concurrence"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Pôle Asie-Pacifique de Booking.com, plus de 300 employés."
+  sources:
+  - titre: "Booking.com, carrières à Singapour"
+    url: "https://careers.booking.com/singapore"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
