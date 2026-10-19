@@ -31,11 +31,94 @@
   const texteLiens = (id) => { const d = liensDe(id).length; return d === 0 ? 'aucun lien représenté' : `${d} lien${d > 1 ? 's' : ''} représenté${d > 1 ? 's' : ''}`; };
   const relies = (a, b) => liens.some((l) => (l.de === a && l.vers === b) || (l.de === b && l.vers === a));
 
+  // Carte déplaçable et zoomable : le cadre a une hauteur fixe, la carte (W × H) bouge dedans.
+  const vue = { k: 1, x: 0, y: 0 };
+  function initialiserZoom(carte, info) {
+    const cadre = $('cadre-carte');
+    const aide = $('aide-carte');
+    let kMin = 0.3;
+    const K_MAX = 2.5;
+    const appliquer = () => {
+      const cw = cadre.clientWidth, ch = cadre.clientHeight;
+      vue.k = Math.min(Math.max(vue.k, kMin), K_MAX);
+      const lw = W * vue.k, lh = H * vue.k;
+      vue.x = lw <= cw ? (cw - lw) / 2 : Math.min(0, Math.max(cw - lw, vue.x));
+      vue.y = lh <= ch ? (ch - lh) / 2 : Math.min(0, Math.max(ch - lh, vue.y));
+      carte.style.transform = `translate(${vue.x}px, ${vue.y}px) scale(${vue.k})`;
+    };
+    const zoomer = (facteur, cx, cy) => {
+      const avant = vue.k;
+      vue.k = Math.min(Math.max(avant * facteur, kMin), K_MAX);
+      const f = vue.k / avant;
+      vue.x = cx - (cx - vue.x) * f;
+      vue.y = cy - (cy - vue.y) * f;
+      appliquer();
+    };
+    const calculer = () => { kMin = Math.min(cadre.clientWidth / W, cadre.clientHeight / H, 1); };
+    const largeur = () => { vue.k = Math.min(cadre.clientWidth / W, 1); vue.x = 0; vue.y = 0; calculer(); appliquer(); };
+    const centre = () => [cadre.clientWidth / 2, cadre.clientHeight / 2];
+    const masquerAide = () => aide.classList.add('cachee');
+    $('zoom-plus').addEventListener('click', () => { masquerAide(); zoomer(1.3, ...centre()); });
+    $('zoom-moins').addEventListener('click', () => { masquerAide(); zoomer(1 / 1.3, ...centre()); });
+    $('zoom-tout').addEventListener('click', () => { masquerAide(); vue.k = kMin; vue.x = 0; vue.y = 0; appliquer(); });
+    cadre.addEventListener('wheel', (e) => {
+      if (!(e.ctrlKey || e.metaKey)) return;
+      e.preventDefault();
+      masquerAide();
+      const r = cadre.getBoundingClientRect();
+      zoomer(Math.exp(-e.deltaY * 0.0025), e.clientX - r.left, e.clientY - r.top);
+    }, { passive: false });
+    // Glisser (souris ou doigt) et pincer (deux doigts).
+    const pts = new Map();
+    let depart = null, bouge = false, distance = 0;
+    cadre.addEventListener('pointerdown', (e) => {
+      if (e.target.closest('.outils-carte')) return;
+      pts.set(e.pointerId, [e.clientX, e.clientY]);
+      depart = { x: e.clientX, y: e.clientY, vx: vue.x, vy: vue.y };
+      bouge = false;
+      if (pts.size === 2) { const [a, b] = [...pts.values()]; distance = Math.hypot(a[0] - b[0], a[1] - b[1]); }
+    });
+    window.addEventListener('pointermove', (e) => {
+      if (!pts.has(e.pointerId)) return;
+      pts.set(e.pointerId, [e.clientX, e.clientY]);
+      if (pts.size === 2) {
+        const [a, b] = [...pts.values()];
+        const d = Math.hypot(a[0] - b[0], a[1] - b[1]);
+        const r = cadre.getBoundingClientRect();
+        if (distance) zoomer(d / distance, (a[0] + b[0]) / 2 - r.left, (a[1] + b[1]) / 2 - r.top);
+        distance = d; bouge = true; masquerAide();
+        return;
+      }
+      if (!depart) return;
+      const dx = e.clientX - depart.x, dy = e.clientY - depart.y;
+      if (!bouge && Math.hypot(dx, dy) < 6) return;
+      bouge = true; masquerAide();
+      cadre.classList.add('glisse');
+      vue.x = depart.vx + dx; vue.y = depart.vy + dy;
+      appliquer();
+    });
+    const fin = (e) => {
+      if (!pts.has(e.pointerId)) return;
+      pts.delete(e.pointerId);
+      distance = 0;
+      cadre.classList.remove('glisse');
+      if (pts.size === 1) { const [p] = [...pts.values()]; depart = { x: p[0], y: p[1], vx: vue.x, vy: vue.y }; }
+      if (pts.size === 0) depart = null;
+    };
+    window.addEventListener('pointerup', fin);
+    window.addEventListener('pointercancel', fin);
+    // Après un glissé, on ne déclenche pas le clic sur l'entreprise survolée.
+    cadre.addEventListener('click', (e) => { if (bouge) { e.stopPropagation(); e.preventDefault(); bouge = false; } }, true);
+    window.addEventListener('resize', () => { calculer(); appliquer(); });
+    largeur();
+  }
+
   function construireCarte(zones) {
     const carte = $('carte');
     const info = $('infobulle');
     carte.style.width = W + 'px';
     carte.style.height = H + 'px';
+    initialiserZoom(carte, info);
     // Une zone par catégorie : le nom de la catégorie en gros, au centre de la zone.
     zones.forEach((z) => {
       const titre = el('span', 'titre-zone', z.nom);
@@ -75,6 +158,8 @@
         info.replaceChildren(el('p', 't', a.nom), el('p', '', `${CATEGORIES[a.categorie]} · ${REGIONS[a.region].nom}`), el('p', 'ca', a.ca), el('p', 'l', texteLiens(a.id)));
         info.style.left = Math.min(Math.max(a.x + r + 10, 8), W - 260) + 'px';
         info.style.top = Math.min(Math.max(a.y - 40, 8), H - 140) + 'px';
+        info.style.transform = `scale(${1 / vue.k})`;
+        info.style.transformOrigin = '0 0';
         info.hidden = false;
       };
       const cacher = () => { info.hidden = true; };

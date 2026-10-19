@@ -77,8 +77,13 @@
         <span class="aide">Cliquez pour afficher ou masquer un type de lien.</span>
       </div>
     </div>
-    <p class="compte astuce">Faites glisser la carte vers la gauche pour la voir en entier.</p>
-    <div class="cadre-carte">
+    <div class="cadre-carte" id="cadre-carte">
+      <div class="outils-carte" role="group" aria-label="Zoom de la carte">
+        <button type="button" id="zoom-plus" aria-label="Zoomer">+</button>
+        <button type="button" id="zoom-moins" aria-label="Dézoomer">−</button>
+        <button type="button" id="zoom-tout" aria-label="Voir toute la carte" title="Voir toute la carte">⤢</button>
+      </div>
+      <p class="aide-carte" id="aide-carte">Glissez pour descendre dans la carte · boutons + et − ou Ctrl + molette pour zoomer</p>
       <div class="carte" id="carte" role="group" aria-label="Carte des acteurs et de leurs liens">
         <div class="infobulle" id="infobulle" role="tooltip" hidden></div>
       </div>
