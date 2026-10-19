@@ -11,8 +11,8 @@ const CATEGORIES = ['cloud', 'ia', 'puces', 'data', 'saas', 'cyber', 'pub', 'eco
 const REGIONS = ['amerique-du-nord', 'europe', 'asie'];
 const STAGES = ['oui', 'alternance', 'a-verifier'];
 const TYPES = ['parente', 'investissement', 'partenariat'];
-const W = 1760;
-const H = 990;
+const W = 1950;
+const H = 1100;
 // Rayon des bulles : grandit avec la racine carrée du chiffre d'affaires (même formule que site/assets/app.js).
 const rayon = (md) => (md > 0 ? 8 + 2 * Math.sqrt(md) : 9);
 
@@ -176,9 +176,9 @@ acteurs.sort((a, b) => CATEGORIES.indexOf(a.categorie) - CATEGORIES.indexOf(b.ca
 // entre les deux. Les catégories souvent liées sont voisines. Les plus grosses bulles sont placées en premier,
 // au plus près de leur cible, sans chevaucher les autres bulles, les noms ni les titres des zones.
 const CENTRES = {
-  cyber: [226, 143], cloud: [660, 165], saas: [1100, 143], data: [1568, 275],
-  puces: [226, 517], ia: [660, 484], pub: [1100, 506], fintech: [1568, 572],
-  espace: [226, 869], ecommerce: [880, 858], crypto: [1568, 869]
+  cyber: [250, 160], cloud: [760, 185], saas: [1220, 160], data: [1730, 305],
+  puces: [250, 610], ia: [800, 560], pub: [1220, 560], fintech: [1730, 640],
+  espace: [250, 1000], ecommerce: [975, 990], crypto: [1730, 995]
 };
 const LIBELLES = { cloud: 'CLOUD & INFRA', ia: 'IA', puces: 'PUCES & MATÉRIEL', data: 'DATA', saas: 'LOGICIELS', cyber: 'CYBERSÉCURITÉ', pub: 'PUB & PLATEFORMES', ecommerce: 'E-COMMERCE', fintech: 'FINTECH & PAIEMENTS', crypto: 'CRYPTO & WEB3', espace: 'AÉROSPATIAL & DÉFENSE' };
 const largeurNom = (nom) => nom.length * 6.8 + 8;
