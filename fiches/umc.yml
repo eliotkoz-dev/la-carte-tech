@@ -1,0 +1,43 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "United Microelectronics (UMC)"
+categorie: puces
+region: asie
+groupe: "Cotée à Taïwan (2303) et à New York (UMC)"
+siege: "Hsinchu (Taïwan)"
+en_bref: "Un fondeur taïwanais de puces sur des procédés matures"
+chiffre_affaires:
+  texte: "7,7 Md$ en 2025 (+6 %)"
+  md_usd: 7.67
+chiffres_cles:
+- "Capitalisation d’environ 49,7 Md$ (oct. 2026)"
+- "8,0 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Un fondeur taïwanais de puces sur des procédés matures."
+produits:
+- nom: "Fonderie de puces"
+  detail: "fabrication de puces pour d’autres entreprises"
+- nom: "Procédés matures"
+  detail: "28 nm et plus"
+modele: "Fabrication de puces conçues par d’autres, facturée à la plaquette."
+clients: "concepteurs de puces"
+rachats:
+- "Aucun rachat listé"
+concurrents: "TSMC, GlobalFoundries, SMIC"
+vente:
+  approche: vente-directe
+  resume: "Des équipes commerciales suivent chaque concepteur de puces."
+  acheteurs: "Les directeurs de production"
+  argument: "Des puces à coût maîtrisé sur des procédés éprouvés"
+  objections:
+  - "La concurrence chinoise sur les procédés matures"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de United Microelectronics (UMC)"
+  url: "https://companiesmarketcap.com/united-microelectronics/revenue/"
+verifie_le: '2026-10-19'

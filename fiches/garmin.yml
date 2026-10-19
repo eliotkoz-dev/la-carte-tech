@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Garmin"
+categorie: puces
+region: europe
+groupe: "Cotée (NYSE : GRMN)"
+siege: "Schaffhouse (Suisse)"
+en_bref: "Montres GPS, appareils de sport et électronique pour avions et bateaux"
+chiffre_affaires:
+  texte: "7,2 Md$ en 2025 (+15 %)"
+  md_usd: 7.24
+chiffres_cles:
+- "Capitalisation d’environ 54,92 Md$ (oct. 2026)"
+- "7,7 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Montres GPS, appareils de sport et électronique pour avions et bateaux."
+produits:
+- nom: "Montres connectées"
+  detail: "suivi du sport et de la santé"
+- nom: "GPS et aviation"
+  detail: "navigation pour avions et bateaux"
+- nom: "Capteurs vélo et golf"
+  detail: "appareils de sport"
+modele: "Vente d’appareils par des distributeurs et en ligne."
+clients: "grand public, aviation, marine, automobile"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Apple, Fitbit, Polar"
+vente:
+  approche: mixte
+  resume: "Les clients achètent chez les distributeurs et en ligne ; des équipes vendent aux constructeurs d’avions et de bateaux."
+  acheteurs: "Les consommateurs et les constructeurs"
+  argument: "Des appareils robustes avec une grosse autonomie"
+  objections:
+  - "Le prix"
+  - "La concurrence d’Apple"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Garmin"
+  url: "https://companiesmarketcap.com/garmin/revenue/"
+verifie_le: '2026-10-19'

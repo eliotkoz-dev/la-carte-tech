@@ -1,0 +1,43 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Unimicron"
+categorie: puces
+region: asie
+groupe: "Cotée à Taïwan (3037)"
+siege: "Taoyuan (Taïwan)"
+en_bref: "Les supports qui relient les puces aux cartes électroniques"
+chiffre_affaires:
+  texte: "≈ 8,0 Md$ en 2024 (+27 %)"
+  md_usd: 8.02
+chiffres_cles:
+- "Capitalisation d’environ 56,64 Md$ (oct. 2026)"
+- "Chiffre 2024 de la page CompaniesMarketCap"
+ce_qu_elle_vend: "Les supports qui relient les puces aux cartes électroniques."
+produits:
+- nom: "Substrats de puces (ABF)"
+  detail: "supports des processeurs et accélérateurs"
+- nom: "Cartes de circuits imprimés"
+  detail: "cartes pour serveurs et téléphones"
+modele: "Vente de substrats et de cartes aux fabricants de puces et de serveurs."
+clients: "fabricants de puces, de serveurs"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Ibiden, Shinko, AT&S"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées travaillent avec chaque fabricant de puces."
+  acheteurs: "Les achats des fabricants"
+  argument: "Une capacité d’emballage avancé pour l’IA"
+  objections:
+  - "La dépendance à quelques clients"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Unimicron"
+  url: "https://companiesmarketcap.com/unimicron/revenue/"
+verifie_le: '2026-10-19'

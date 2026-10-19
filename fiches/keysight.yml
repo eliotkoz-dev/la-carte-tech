@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Keysight"
+categorie: puces
+region: amerique-du-nord
+groupe: "Cotée (NYSE : KEYS)"
+siege: "Santa Rosa (Californie)"
+en_bref: "Les instruments de test et de mesure pour l’électronique et la 5G/6G"
+chiffre_affaires:
+  texte: "5,7 Md$ en 2025 (+13 %)"
+  md_usd: 5.67
+chiffres_cles:
+- "Capitalisation d’environ 56,38 Md$ (oct. 2026)"
+- "6,6 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Les instruments de test et de mesure pour l’électronique et la 5G/6G."
+produits:
+- nom: "Oscilloscopes et analyseurs"
+  detail: "mesurer les signaux"
+- nom: "Logiciels de test"
+  detail: "simuler et valider"
+- nom: "Tests 5G/6G"
+  detail: "mesurer les réseaux"
+modele: "Vente d’instruments et de logiciels, puis licences et services."
+clients: "fabricants d’électronique, opérateurs, défense"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Rohde & Schwarz, Tektronix"
+vente:
+  approche: vente-directe
+  resume: "Des équipes techniques et commerciales vendent aux laboratoires et aux usines."
+  acheteurs: "Les ingénieurs des laboratoires"
+  argument: "Des mesures de référence, pour des produits plus rapides à lancer"
+  objections:
+  - "Le prix des instruments"
+  - "Les cycles de l’électronique"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Keysight"
+  url: "https://companiesmarketcap.com/keysight/revenue/"
+verifie_le: '2026-10-19'

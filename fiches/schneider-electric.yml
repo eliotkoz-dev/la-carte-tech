@@ -1,0 +1,47 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Schneider Electric"
+categorie: puces
+aussi: [cloud]
+region: europe
+groupe: "Cotée à Paris (Euronext)"
+siege: "Rueil-Malmaison (France)"
+en_bref: "Gestion de l’énergie et automatisation pour les bâtiments et les data centers"
+chiffre_affaires:
+  texte: "47,2 Md$ en 2025 (+19 %)"
+  md_usd: 47.16
+chiffres_cles:
+- "Capitalisation d’environ 158,08 Md$ (oct. 2026)"
+- "Fournisseur d’équipements pour les data centers de l’IA"
+ce_qu_elle_vend: "Gestion de l’énergie et automatisation pour les bâtiments et les data centers."
+produits:
+- nom: "Électricité et distribution"
+  detail: "tableaux, onduleurs, câblage"
+- nom: "Automatisation industrielle"
+  detail: "pilotage des usines"
+- nom: "Logiciels EcoStruxure"
+  detail: "suivi de l’énergie et des machines"
+modele: "Vente de matériel, de logiciels et de services par des distributeurs et en direct."
+clients: "industriels, bâtiments, data centers"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Siemens, ABB, Eaton"
+vente:
+  approche: mixte
+  resume: "Beaucoup de produits passent par des distributeurs et des installateurs ; des équipes vendent en direct aux grands clients."
+  acheteurs: "Les directions techniques et des achats, les exploitants de data centers"
+  argument: "Des data centers et des usines plus sobres en énergie"
+  objections:
+  - "Le prix face à des concurrents locaux"
+  - "Les délais d’approvisionnement"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Schneider Electric"
+  url: "https://companiesmarketcap.com/schneider-electric/revenue/"
+verifie_le: '2026-10-19'

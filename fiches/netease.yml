@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "NetEase"
+categorie: pub
+region: asie
+groupe: "Cotée (Nasdaq : NTES, Hong Kong : 9999)"
+siege: "Hangzhou (Chine)"
+en_bref: "Jeux vidéo, musique en ligne et éducation"
+chiffre_affaires:
+  texte: "15,8 Md$ en 2025 (+8 %)"
+  md_usd: 15.78
+chiffres_cles:
+- "Capitalisation d’environ 80,72 Md$ (oct. 2026)"
+- "16,8 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Jeux vidéo, musique en ligne et éducation."
+produits:
+- nom: "Jeux en ligne"
+  detail: "jeux mobiles et PC"
+- nom: "NetEase Cloud Music"
+  detail: "streaming musical"
+- nom: "Youdao"
+  detail: "apprentissage en ligne"
+modele: "Ventes dans les jeux, abonnements et publicité."
+clients: "joueurs, abonnés"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Tencent, Activision, Spotify"
+vente:
+  approche: libre-service
+  resume: "Les joueurs téléchargent et paient dans les jeux ; des équipes gèrent les partenariats avec les plateformes."
+  acheteurs: "Les joueurs"
+  argument: "Des jeux populaires adaptés au marché chinois"
+  objections:
+  - "Les licences de jeux en Chine"
+  - "La concurrence de Tencent"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de NetEase"
+  url: "https://companiesmarketcap.com/netease/revenue/"
+verifie_le: '2026-10-19'

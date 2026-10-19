@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Nokia"
+categorie: puces
+region: europe
+groupe: "Cotée à Helsinki (NOKIA)"
+siege: "Espoo (Finlande)"
+en_bref: "Les équipements réseau des opérateurs télécoms"
+chiffre_affaires:
+  texte: "23,0 Md$ en 2025 (+11 %)"
+  md_usd: 22.96
+chiffres_cles:
+- "Capitalisation d’environ 51,17 Md$ (oct. 2026)"
+- "23,4 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Les équipements réseau des opérateurs télécoms."
+produits:
+- nom: "Réseaux mobiles"
+  detail: "antennes 4G et 5G"
+- nom: "Réseaux optiques"
+  detail: "fibres et routeurs"
+- nom: "Réseaux pour data centers"
+  detail: "connexions pour l’IA"
+modele: "Vente d’équipements aux opérateurs, puis maintenance et logiciels."
+clients: "opérateurs télécoms, entreprises"
+rachats:
+- "Infinera (2025)"
+concurrents: "Ericsson, Huawei, Cisco"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées négocient de gros contrats avec chaque opérateur."
+  acheteurs: "Les directions réseau des opérateurs"
+  argument: "Des réseaux fiables et un accompagnement long"
+  objections:
+  - "Le prix face à Huawei"
+  - "Des commandes qui suivent les budgets des opérateurs"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Nokia"
+  url: "https://companiesmarketcap.com/nokia/revenue/"
+verifie_le: '2026-10-19'

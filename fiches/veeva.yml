@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Veeva Systems"
+categorie: saas
+region: amerique-du-nord
+groupe: "Cotée (NYSE : VEEV)"
+siege: "Pleasanton (Californie)"
+en_bref: "Les logiciels pour l’industrie pharmaceutique"
+chiffre_affaires:
+  texte: "3,2 Md$ en 2025 (+16 %)"
+  md_usd: 3.19
+chiffres_cles:
+- "Capitalisation d’environ 50,25 Md$ (oct. 2026)"
+- "3,5 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Les logiciels pour l’industrie pharmaceutique."
+produits:
+- nom: "Veeva CRM"
+  detail: "suivi des médecins pour les laboratoires"
+- nom: "Vault"
+  detail: "documents réglementaires"
+- nom: "Veeva Data"
+  detail: "données pour la santé"
+modele: "Abonnements annuels pour les laboratoires pharmaceutiques."
+clients: "laboratoires pharmaceutiques, biotechs"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Salesforce, IQVIA"
+vente:
+  approche: vente-directe
+  resume: "Des commerciaux vendent aux grands laboratoires, avec des équipes qui connaissent la réglementation."
+  acheteurs: "Les directions commerciales et réglementaires"
+  argument: "Un logiciel conçu pour les règles de la pharma"
+  objections:
+  - "Le prix"
+  - "Le changement de fournisseur est lourd"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Veeva Systems"
+  url: "https://companiesmarketcap.com/veeva-systems/revenue/"
+verifie_le: '2026-10-19'

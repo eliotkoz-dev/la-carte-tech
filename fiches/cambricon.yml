@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Cambricon"
+categorie: puces
+aussi: [ia]
+region: asie
+groupe: "Cotée (Bourse de Shanghai : 688256)"
+siege: "Pékin (Chine)"
+en_bref: "Des puces d’IA chinoises, concurrentes de celles de Nvidia"
+chiffre_affaires:
+  texte: "≈ 1,4 Md$ sur les 12 derniers mois"
+  md_usd: 1.39
+chiffres_cles:
+- "Capitalisation d’environ 87,54 Md$ (oct. 2026)"
+- "Revenus : 0,16 Md$ en 2024 d’après la même page, donc une très forte hausse à vérifier"
+ce_qu_elle_vend: "Des puces d’IA chinoises, concurrentes de celles de Nvidia."
+produits:
+- nom: "Puces d’IA Siyuan"
+  detail: "accélérer les calculs d’IA"
+- nom: "Cartes accélératrices"
+  detail: "pour serveurs de data centers"
+modele: "Vente de puces d’IA aux opérateurs et aux géants du numérique chinois."
+clients: "géants du numérique et opérateurs chinois"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Nvidia, Huawei (Ascend)"
+vente:
+  approche: vente-directe
+  resume: "Des équipes vendent directement aux grands groupes chinois, avec un appui d’ingénieurs."
+  acheteurs: "Les directions techniques des clouds"
+  argument: "Une alternative locale aux puces Nvidia, soumises aux restrictions américaines"
+  objections:
+  - "Un écosystème logiciel moins mûr que CUDA"
+  - "Dépendance à la fabrication chez SMIC"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Cambricon"
+  url: "https://companiesmarketcap.com/cambricon-technologies/revenue/"
+verifie_le: '2026-10-19'

@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Autodesk"
+categorie: saas
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : ADSK)"
+siege: "San Francisco (Californie)"
+en_bref: "AutoCAD, Revit et Fusion pour concevoir bâtiments et produits"
+chiffre_affaires:
+  texte: "7,2 Md$ en 2025 (+18 %)"
+  md_usd: 7.2
+chiffres_cles:
+- "Capitalisation d’environ 50,13 Md$ (oct. 2026)"
+- "7,8 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "AutoCAD, Revit et Fusion pour concevoir bâtiments et produits."
+produits:
+- nom: "AutoCAD"
+  detail: "plans en 2D et 3D"
+- nom: "Revit"
+  detail: "modélisation de bâtiments"
+- nom: "Fusion"
+  detail: "conception de produits"
+modele: "Abonnements annuels, vendus par des revendeurs et en ligne."
+clients: "architectes, ingénieurs, industriels, studios"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Dassault Systèmes, Siemens, Bentley"
+vente:
+  approche: mixte
+  resume: "Beaucoup de licences passent par des revendeurs ; des équipes suivent les grands comptes."
+  acheteurs: "Les directions techniques des cabinets et des industriels"
+  argument: "Un standard utilisé par les écoles et les bureaux d’étude"
+  objections:
+  - "Les hausses de prix"
+  - "La concurrence des outils en ligne"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Autodesk"
+  url: "https://companiesmarketcap.com/autodesk/revenue/"
+verifie_le: '2026-10-19'

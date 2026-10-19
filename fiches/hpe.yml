@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Hewlett Packard Enterprise"
+categorie: cloud
+region: amerique-du-nord
+groupe: "Cotée (NYSE : HPE)"
+siege: "Houston (Texas)"
+en_bref: "Serveurs, réseaux et cloud hybride pour les entreprises"
+chiffre_affaires:
+  texte: "35,7 Md$ en 2025 (+14 %)"
+  md_usd: 35.74
+chiffres_cles:
+- "Capitalisation d’environ 73,18 Md$ (oct. 2026)"
+- "41,9 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Serveurs, réseaux et cloud hybride pour les entreprises."
+produits:
+- nom: "Serveurs et stockage"
+  detail: "matériel de data center"
+- nom: "Réseaux (Aruba, Juniper)"
+  detail: "réseaux d’entreprise"
+- nom: "GreenLake"
+  detail: "le matériel proposé comme un abonnement"
+modele: "Vente de matériel et abonnements de type cloud privé."
+clients: "grandes entreprises, administrations, laboratoires de calcul"
+rachats:
+- "Juniper Networks (2025)"
+concurrents: "Dell, Cisco, Lenovo"
+vente:
+  approche: mixte
+  resume: "Des équipes vendent aux grands comptes ; beaucoup de ventes passent par des revendeurs et intégrateurs."
+  acheteurs: "Les directions informatiques"
+  argument: "Une infrastructure chez soi avec un paiement à l’usage"
+  objections:
+  - "Le prix face aux clouds publics"
+  - "Le délai des serveurs d’IA"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Hewlett Packard Enterprise"
+  url: "https://companiesmarketcap.com/hewlett-packard-enterprise/revenue/"
+verifie_le: '2026-10-19'

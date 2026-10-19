@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Panasonic"
+categorie: puces
+region: asie
+groupe: "Cotée à Tokyo (6752)"
+siege: "Osaka (Japon)"
+en_bref: "Électronique, batteries pour voitures et équipements industriels"
+chiffre_affaires:
+  texte: "≈ 58 Md$ sur les 12 derniers mois"
+  md_usd: 58.0
+chiffres_cles:
+- "Capitalisation d’environ 58,69 Md$ (oct. 2026)"
+- "Chiffre à confirmer : la page CompaniesMarketCap présente des données de 2023"
+ce_qu_elle_vend: "Électronique, batteries pour voitures et équipements industriels."
+produits:
+- nom: "Batteries"
+  detail: "cellules pour véhicules électriques"
+- nom: "Électroménager et électronique"
+  detail: "produits grand public"
+- nom: "Solutions pour entreprises"
+  detail: "logistique, automatisation"
+modele: "Vente de produits grand public et de batteries aux constructeurs."
+clients: "consommateurs, constructeurs automobiles, entreprises"
+rachats:
+- "Aucun rachat listé"
+concurrents: "LG, Samsung, CATL"
+vente:
+  approche: mixte
+  resume: "Les produits grand public passent par des distributeurs ; des équipes vendent les batteries aux constructeurs."
+  acheteurs: "Les constructeurs, les distributeurs"
+  argument: "Une qualité industrielle et une expérience dans les batteries"
+  objections:
+  - "La concurrence chinoise"
+  - "Les marges faibles dans le grand public"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Panasonic"
+  url: "https://companiesmarketcap.com/panasonic/revenue/"
+verifie_le: '2026-10-19'

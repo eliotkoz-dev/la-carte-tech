@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "NXP Semiconductors"
+categorie: puces
+region: europe
+groupe: "Cotée (Nasdaq : NXPI)"
+siege: "Eindhoven (Pays-Bas)"
+en_bref: "Les puces pour les voitures, la sécurité et les objets connectés"
+chiffre_affaires:
+  texte: "12,3 Md$ en 2025 (−3 %)"
+  md_usd: 12.26
+chiffres_cles:
+- "Capitalisation d’environ 57,82 Md$ (oct. 2026)"
+- "13,2 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Les puces pour les voitures, la sécurité et les objets connectés."
+produits:
+- nom: "Puces automobiles"
+  detail: "radar, électronique de bord"
+- nom: "Microcontrôleurs et processeurs"
+  detail: "objets connectés"
+- nom: "Sécurité et paiement"
+  detail: "cartes sans contact"
+modele: "Vente de puces aux constructeurs et aux industriels, souvent pour de longues séries."
+clients: "constructeurs automobiles, industriels, fabricants de cartes"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Infineon, Texas Instruments, STMicroelectronics"
+vente:
+  approche: mixte
+  resume: "Des équipes suivent les grands constructeurs ; des distributeurs servent les petits clients."
+  acheteurs: "Les ingénieurs et les achats"
+  argument: "Des puces fiables et sécurisées pour la voiture"
+  objections:
+  - "Les cycles de l’automobile"
+  - "La concurrence chinoise"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de NXP Semiconductors"
+  url: "https://companiesmarketcap.com/nxp-semiconductors/revenue/"
+verifie_le: '2026-10-19'

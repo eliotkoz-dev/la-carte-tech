@@ -1,0 +1,47 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "MercadoLibre"
+categorie: ecommerce
+aussi: [fintech]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : MELI)"
+siege: "Montevideo (Uruguay)"
+en_bref: "Le e-commerce et les paiements de l’Amérique latine"
+chiffre_affaires:
+  texte: "28,9 Md$ en 2025 (+39 %)"
+  md_usd: 28.89
+chiffres_cles:
+- "Capitalisation d’environ 92,97 Md$ (oct. 2026)"
+- "35,2 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Le e-commerce et les paiements de l’Amérique latine."
+produits:
+- nom: "Mercado Libre"
+  detail: "place de marché"
+- nom: "Mercado Pago"
+  detail: "paiements et crédit"
+- nom: "Mercado Envios"
+  detail: "logistique"
+modele: "Commission sur les ventes, publicité, paiements et crédit."
+clients: "vendeurs et acheteurs d’Amérique latine"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Amazon, Shopee, Shein"
+vente:
+  approche: mixte
+  resume: "Les vendeurs s’inscrivent seuls ; des équipes suivent les grandes marques et les partenaires logistiques."
+  acheteurs: "Les vendeurs, les marques, les commerçants"
+  argument: "Une place de marché, des paiements et une livraison dans un seul écosystème"
+  objections:
+  - "Les commissions"
+  - "La concurrence d’Amazon et des plateformes asiatiques"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de MercadoLibre"
+  url: "https://companiesmarketcap.com/mercadolibre/revenue/"
+verifie_le: '2026-10-19'

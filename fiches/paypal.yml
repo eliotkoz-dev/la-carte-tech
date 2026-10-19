@@ -1,0 +1,47 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "PayPal"
+categorie: fintech
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : PYPL)"
+siege: "San José (Californie)"
+en_bref: "Les paiements en ligne et le portefeuille numérique"
+chiffre_affaires:
+  texte: "33,2 Md$ en 2025 (+4 %)"
+  md_usd: 33.17
+chiffres_cles:
+- "Capitalisation d’environ 48,87 Md$ (oct. 2026)"
+- "34,1 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Les paiements en ligne et le portefeuille numérique."
+produits:
+- nom: "PayPal"
+  detail: "portefeuille pour payer en ligne"
+- nom: "Venmo"
+  detail: "paiements entre amis"
+- nom: "Braintree"
+  detail: "paiement pour les marchands"
+modele: "Commission sur chaque transaction, intérêts et services aux marchands."
+clients: "particuliers, marchands en ligne"
+rachats:
+- "Honey (2020)"
+- "Venmo (2013, avec Braintree)"
+concurrents: "Stripe, Adyen, Apple Pay"
+vente:
+  approche: mixte
+  resume: "Les marchands branchent PayPal en libre-service ; des équipes vendent aux grands marchands."
+  acheteurs: "Les directions e-commerce et financières"
+  argument: "Des paiements familiers pour des centaines de millions d’acheteurs"
+  objections:
+  - "Les commissions"
+  - "La concurrence des paiements des téléphones"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de PayPal"
+  url: "https://companiesmarketcap.com/paypal/revenue/"
+verifie_le: '2026-10-19'

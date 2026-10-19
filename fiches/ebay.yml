@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "eBay"
+categorie: ecommerce
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : EBAY)"
+siege: "San José (Californie)"
+en_bref: "La place de marché pour acheter et vendre de l’occasion et des collections"
+chiffre_affaires:
+  texte: "11,1 Md$ en 2025 (+8 %)"
+  md_usd: 11.1
+chiffres_cles:
+- "Capitalisation d’environ 53,52 Md$ (oct. 2026)"
+- "12,0 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "La place de marché pour acheter et vendre de l’occasion et des collections."
+produits:
+- nom: "Place de marché"
+  detail: "annonces et enchères"
+- nom: "Paiements"
+  detail: "paiement géré par eBay"
+- nom: "Services pour vendeurs"
+  detail: "promotion et expédition"
+modele: "Commission sur chaque vente et services publicitaires."
+clients: "vendeurs, acheteurs"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Amazon, Vinted, Leboncoin"
+vente:
+  approche: libre-service
+  resume: "Les vendeurs et acheteurs s’inscrivent seuls ; des équipes suivent les grands vendeurs."
+  acheteurs: "Les vendeurs particuliers et professionnels"
+  argument: "Un public mondial pour tout type d’objets"
+  objections:
+  - "Les commissions"
+  - "La concurrence des places de marché de seconde main"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de eBay"
+  url: "https://companiesmarketcap.com/ebay/revenue/"
+verifie_le: '2026-10-19'

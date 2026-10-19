@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "DoorDash"
+categorie: ecommerce
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : DASH)"
+siege: "San Francisco (Californie)"
+en_bref: "Livraison de repas et de courses à domicile"
+chiffre_affaires:
+  texte: "13,7 Md$ en 2025 (+28 %)"
+  md_usd: 13.71
+chiffres_cles:
+- "Capitalisation d’environ 81,95 Md$ (oct. 2026)"
+- "15,9 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Livraison de repas et de courses à domicile."
+produits:
+- nom: "DoorDash"
+  detail: "application de livraison"
+- nom: "DashPass"
+  detail: "abonnement de livraison"
+- nom: "Wolt"
+  detail: "livraison en Europe"
+modele: "Commission sur chaque commande, frais de livraison et publicité."
+clients: "restaurants, commerces, consommateurs"
+rachats:
+- "Wolt (finlandais, livraison en Europe)"
+concurrents: "Uber Eats, Deliveroo, Just Eat"
+vente:
+  approche: mixte
+  resume: "Les restaurants s’inscrivent sur la plateforme ; des équipes commerciales suivent les grandes enseignes."
+  acheteurs: "Les restaurateurs et les enseignes"
+  argument: "Plus de commandes et de clients, sans livreurs à gérer"
+  objections:
+  - "Les commissions élevées"
+  - "La concurrence des autres plateformes"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de DoorDash"
+  url: "https://companiesmarketcap.com/doordash/revenue/"
+verifie_le: '2026-10-19'

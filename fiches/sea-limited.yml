@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Sea Limited"
+categorie: ecommerce
+aussi: [fintech]
+region: asie
+groupe: "Cotée à New York (NYSE : SE)"
+siege: "Singapour"
+en_bref: "Shopee (e-commerce), Garena (jeux) et Monee (finance) en Asie du Sud-Est"
+chiffre_affaires:
+  texte: "22,9 Md$ en 2025 (+36 %)"
+  md_usd: 22.94
+chiffres_cles:
+- "Capitalisation d’environ 57,43 Md$ (oct. 2026)"
+ce_qu_elle_vend: "Shopee (e-commerce), Garena (jeux) et Monee (finance) en Asie du Sud-Est."
+produits:
+- nom: "Shopee"
+  detail: "place de marché"
+- nom: "Garena"
+  detail: "jeux vidéo (Free Fire)"
+- nom: "Monee"
+  detail: "paiements et crédit"
+modele: "Commissions sur les ventes, jeux et services financiers."
+clients: "vendeurs, joueurs, consommateurs d’Asie du Sud-Est et du Brésil"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Lazada, TikTok Shop, Tokopedia"
+vente:
+  approche: mixte
+  resume: "Les vendeurs s’inscrivent seuls ; des équipes vendent aux grandes marques."
+  acheteurs: "Les vendeurs et les marques"
+  argument: "Une audience régionale très large"
+  objections:
+  - "Les commissions"
+  - "La concurrence de TikTok Shop"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "KrASIA, résultats 2025 de Sea Limited"
+  url: "https://amp.kr-asia.com/sea-fails-to-impress-investors-despite-strong-q4-results"
+verifie_le: '2026-10-19'

@@ -1,0 +1,47 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Monolithic Power Systems"
+categorie: puces
+aussi: [ia]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : MPWR)"
+siege: "Kirkland (Washington)"
+en_bref: "Les puces qui alimentent les serveurs d’IA, les voitures et les appareils"
+chiffre_affaires:
+  texte: "2,8 Md$ en 2025 (+26 %)"
+  md_usd: 2.79
+chiffres_cles:
+- "Capitalisation d’environ 59,5 Md$ (oct. 2026)"
+- "3,3 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Les puces qui alimentent les serveurs d’IA, les voitures et les appareils."
+produits:
+- nom: "Puces d’alimentation"
+  detail: "convertir et distribuer le courant"
+- nom: "Modules pour serveurs"
+  detail: "alimenter les accélérateurs d’IA"
+- nom: "Puces automobiles"
+  detail: "électronique de bord"
+modele: "Vente de puces d’alimentation aux fabricants de serveurs et d’appareils."
+clients: "fabricants de serveurs, d’automobiles, d’électronique"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Texas Instruments, Infineon, Vicor"
+vente:
+  approche: mixte
+  resume: "Des distributeurs servent beaucoup de clients ; des équipes suivent les grands constructeurs de serveurs."
+  acheteurs: "Les ingénieurs et les achats"
+  argument: "Moins de pertes d’énergie dans les serveurs d’IA"
+  objections:
+  - "Le prix"
+  - "La dépendance à quelques clients"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Monolithic Power Systems"
+  url: "https://companiesmarketcap.com/monolithic-power-systems/revenue/"
+verifie_le: '2026-10-19'

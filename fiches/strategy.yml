@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Strategy (MicroStrategy)"
+categorie: saas
+aussi: [crypto]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : MSTR)"
+siege: "Tysons Corner (Virginie)"
+en_bref: "Un éditeur de logiciels devenu le plus gros détenteur de bitcoins côté entreprises"
+chiffre_affaires:
+  texte: "0,47 Md$ en 2025 (+3 %)"
+  md_usd: 0.47
+chiffres_cles:
+- "Capitalisation d’environ 57,94 Md$ (oct. 2026)"
+- "Le cours dépend de la valeur de ses bitcoins"
+ce_qu_elle_vend: "Un éditeur de logiciels devenu le plus gros détenteur de bitcoins côté entreprises."
+produits:
+- nom: "Logiciel d’analyse de données"
+  detail: "tableaux de bord pour entreprises"
+- nom: "Réserve de bitcoins"
+  detail: "stratégie de trésorerie en bitcoin"
+modele: "Un petit métier logiciel, financé et dominé par l’achat de bitcoins par émissions de titres."
+clients: "grandes entreprises"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Microsoft (Power BI), Tableau"
+vente:
+  approche: vente-directe
+  resume: "Des équipes vendent ses logiciels aux grandes entreprises ; l’essentiel de l’intérêt des investisseurs vient du bitcoin."
+  acheteurs: "Les directions informatiques, les investisseurs"
+  argument: "Des données lisibles pour décider"
+  objections:
+  - "Un cours qui suit celui du bitcoin"
+  - "Un métier logiciel de petite taille"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Strategy (MicroStrategy)"
+  url: "https://companiesmarketcap.com/microstrategy/revenue/"
+verifie_le: '2026-10-19'

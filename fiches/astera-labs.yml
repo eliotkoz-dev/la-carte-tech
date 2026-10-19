@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Astera Labs"
+categorie: puces
+aussi: [ia]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : ALAB)"
+siege: "Santa Clara (Californie)"
+en_bref: "Les puces de connectivité qui relient les accélérateurs d’IA"
+chiffre_affaires:
+  texte: "0,85 Md$ en 2025 (+115 %)"
+  md_usd: 0.85
+chiffres_cles:
+- "Capitalisation d’environ 49,58 Md$ (oct. 2026)"
+- "1,2 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Les puces de connectivité qui relient les accélérateurs d’IA."
+produits:
+- nom: "Retimers"
+  detail: "relier les composants du serveur"
+- nom: "Commutateurs PCIe et CXL"
+  detail: "distribuer les données"
+- nom: "Cables intelligents"
+  detail: "connexions rapides"
+modele: "Vente de puces aux fabricants de serveurs et aux géants du cloud."
+clients: "géants du cloud, fabricants de serveurs"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Broadcom, Marvell"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées travaillent avec les grands acteurs du cloud."
+  acheteurs: "Les équipes matériel du cloud"
+  argument: "Une connectivité adaptée à l’IA, vendue à un très petit nombre de clients"
+  objections:
+  - "Peu de clients très importants"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Astera Labs"
+  url: "https://companiesmarketcap.com/astera-labs/revenue/"
+verifie_le: '2026-10-19'

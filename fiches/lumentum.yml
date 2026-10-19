@@ -1,0 +1,47 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Lumentum"
+categorie: puces
+aussi: [ia]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : LITE)"
+siege: "San Jose (Californie)"
+en_bref: "Les lasers et composants optiques qui relient les serveurs d’IA"
+chiffre_affaires:
+  texte: "2,1 Md$ en 2025 (+49 %)"
+  md_usd: 2.1
+chiffres_cles:
+- "Capitalisation d’environ 74,65 Md$ (oct. 2026)"
+- "3,0 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Les lasers et composants optiques qui relient les serveurs d’IA."
+produits:
+- nom: "Lasers pour data centers"
+  detail: "envoyer les données par la lumière"
+- nom: "Composants optiques"
+  detail: "modules pour le réseau"
+- nom: "Lasers industriels"
+  detail: "découpe et capteurs"
+modele: "Vente de composants optiques aux équipementiers réseau et aux géants du cloud."
+clients: "équipementiers réseau, géants du cloud"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Coherent, Broadcom"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées travaillent avec les gros clients du cloud et des équipementiers."
+  acheteurs: "Les équipes réseau et matériel"
+  argument: "Des liaisons plus rapides et moins gourmandes pour les clusters d’IA"
+  objections:
+  - "Peu de clients très importants"
+  - "Des capacités de production limitées"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Lumentum"
+  url: "https://companiesmarketcap.com/lumentum/revenue/"
+verifie_le: '2026-10-19'

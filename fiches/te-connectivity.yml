@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "TE Connectivity"
+categorie: puces
+region: europe
+groupe: "Cotée (NYSE : TEL)"
+siege: "Schaffhouse (Suisse)"
+en_bref: "Connecteurs et capteurs pour les voitures, les usines et les data centers"
+chiffre_affaires:
+  texte: "18,1 Md$ en 2025 (+14 %)"
+  md_usd: 18.09
+chiffres_cles:
+- "Capitalisation d’environ 61,65 Md$ (oct. 2026)"
+- "19,3 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Connecteurs et capteurs pour les voitures, les usines et les data centers."
+produits:
+- nom: "Connecteurs"
+  detail: "raccorder les circuits"
+- nom: "Capteurs"
+  detail: "mesurer pression, température"
+- nom: "Solutions pour data centers"
+  detail: "câbles et connexions rapides"
+modele: "Vente de composants à de très grands volumes aux constructeurs."
+clients: "constructeurs automobiles, industriels, géants du cloud"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Amphenol, Molex"
+vente:
+  approche: mixte
+  resume: "Des équipes vendent aux grands constructeurs ; les distributeurs servent les petits clients."
+  acheteurs: "Les ingénieurs et les achats"
+  argument: "Des connexions fiables dans des environnements difficiles"
+  objections:
+  - "Le prix"
+  - "La dépendance à l’automobile"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de TE Connectivity"
+  url: "https://companiesmarketcap.com/te-connectivity/revenue/"
+verifie_le: '2026-10-19'

@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Keyence"
+categorie: puces
+region: asie
+groupe: "Cotée à Tokyo (6861)"
+siege: "Osaka (Japon)"
+en_bref: "Capteurs, caméras industrielles et instruments de mesure pour les usines"
+chiffre_affaires:
+  texte: "≈ 6,8 Md$ sur les 12 derniers mois"
+  md_usd: 6.83
+chiffres_cles:
+- "Capitalisation d’environ 124,79 Md$ (oct. 2026)"
+- "Chiffres de la page CompaniesMarketCap (dernier exercice et 12 mois) : à confirmer sur le site investisseurs"
+ce_qu_elle_vend: "Capteurs, caméras industrielles et instruments de mesure pour les usines."
+produits:
+- nom: "Capteurs"
+  detail: "détecter et mesurer en usine"
+- nom: "Vision industrielle"
+  detail: "caméras qui contrôlent les pièces"
+- nom: "Microscopes et mesure"
+  detail: "inspection de précision"
+modele: "Vente directe de produits standard par une très grande équipe commerciale d’ingénieurs."
+clients: "usines, fabricants d’électronique et d’automobile"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Omron, Cognex, Siemens"
+vente:
+  approche: vente-directe
+  resume: "Des ingénieurs commerciaux visitent les usines, démontrent le produit et livrent vite."
+  acheteurs: "Les ingénieurs de production et de qualité"
+  argument: "Un produit adapté dès la démo, avec une livraison rapide"
+  objections:
+  - "Le prix élevé"
+  - "L’enfermement dans une marque"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Keyence"
+  url: "https://companiesmarketcap.com/keyence/revenue/"
+verifie_le: '2026-10-19'

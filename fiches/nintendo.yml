@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Nintendo"
+categorie: pub
+region: asie
+groupe: "Cotée à Tokyo (7974)"
+siege: "Kyoto (Japon)"
+en_bref: "Consoles de jeux (Switch) et jeux comme Mario et Zelda"
+chiffre_affaires:
+  texte: "≈ 11,5 Md$ sur les 12 derniers mois"
+  md_usd: 11.51
+chiffres_cles:
+- "Capitalisation d’environ 63,06 Md$ (oct. 2026)"
+- "Chiffre à confirmer : la page CompaniesMarketCap montre 12,0 Md$ pour l’exercice précédent"
+ce_qu_elle_vend: "Consoles de jeux (Switch) et jeux comme Mario et Zelda."
+produits:
+- nom: "Switch"
+  detail: "console hybride"
+- nom: "Jeux Nintendo"
+  detail: "Mario, Zelda"
+- nom: "Licences"
+  detail: "films et parcs"
+modele: "Vente de consoles et de jeux, en magasin et en ligne, plus abonnements."
+clients: "joueurs, distributeurs"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Sony, Microsoft, Tencent"
+vente:
+  approche: mixte
+  resume: "Les joueurs achètent en magasin et en ligne ; des équipes vendent aux distributeurs."
+  acheteurs: "Les joueurs et les revendeurs"
+  argument: "Des jeux familiaux uniques, jouables partout"
+  objections:
+  - "Le prix des consoles"
+  - "Un calendrier de sorties irrégulier"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Nintendo"
+  url: "https://companiesmarketcap.com/nintendo/revenue/"
+verifie_le: '2026-10-19'

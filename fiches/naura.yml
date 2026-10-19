@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "NAURA Technology"
+categorie: puces
+region: asie
+groupe: "Cotée (Bourse de Shenzhen : 002371)"
+siege: "Pékin (Chine)"
+en_bref: "Le plus gros fabricant chinois de machines pour fabriquer des puces"
+chiffre_affaires:
+  texte: "≈ 5,5 Md$ sur les 12 derniers mois"
+  md_usd: 5.45
+chiffres_cles:
+- "Capitalisation d’environ 62,54 Md$ (oct. 2026)"
+- "Revenus 2024 : 4,15 Md$ (+34 %)"
+ce_qu_elle_vend: "Le plus gros fabricant chinois de machines pour fabriquer des puces."
+produits:
+- nom: "Machines de gravure"
+  detail: "creuser les motifs dans les puces"
+- nom: "Machines de dépôt"
+  detail: "empiler les couches"
+- nom: "Fours et nettoyage"
+  detail: "traitements thermiques"
+modele: "Vente de machines aux usines de puces chinoises."
+clients: "fabricants de puces chinois (SMIC, Hua Hong, CXMT)"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Applied Materials, Lam Research, Tokyo Electron"
+vente:
+  approche: vente-directe
+  resume: "Des équipes dédiées vendent aux usines de puces chinoises."
+  acheteurs: "Les directeurs des usines"
+  argument: "Des machines locales, face aux restrictions sur les importations"
+  objections:
+  - "Un retard sur les procédés les plus avancés"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de NAURA Technology"
+  url: "https://companiesmarketcap.com/naura-technology-group/revenue/"
+verifie_le: '2026-10-19'

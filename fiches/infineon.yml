@@ -1,0 +1,45 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Infineon"
+categorie: puces
+region: europe
+groupe: "Cotée à Francfort (IFX)"
+siege: "Neubiberg (Allemagne)"
+en_bref: "Les puces de puissance pour les voitures, l’industrie et les data centers"
+chiffre_affaires:
+  texte: "≈ 18,1 Md$ sur les 12 derniers mois"
+  md_usd: 18.1
+chiffres_cles:
+- "Capitalisation d’environ 77,35 Md$ (oct. 2026)"
+ce_qu_elle_vend: "Les puces de puissance pour les voitures, l’industrie et les data centers."
+produits:
+- nom: "Puces de puissance"
+  detail: "gérer l’énergie dans les véhicules et les serveurs"
+- nom: "Microcontrôleurs"
+  detail: "petits cerveaux des machines"
+- nom: "Capteurs et sécurité"
+  detail: "puces de sécurité"
+modele: "Vente de puces dans l’automobile, l’industrie et l’énergie."
+clients: "constructeurs automobiles, industriels, data centers"
+rachats:
+- "Cypress (2020)"
+concurrents: "STMicroelectronics, NXP, Texas Instruments"
+vente:
+  approche: mixte
+  resume: "Des équipes suivent les grands industriels ; des distributeurs vendent aux autres clients."
+  acheteurs: "Les ingénieurs et les achats des constructeurs"
+  argument: "Des puces économes en énergie, avec de forts volumes"
+  objections:
+  - "La dépendance au cycle automobile"
+  - "Le prix face aux Chinois"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Infineon"
+  url: "https://companiesmarketcap.com/infineon/revenue/"
+verifie_le: '2026-10-19'

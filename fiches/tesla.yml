@@ -1,0 +1,47 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Tesla"
+categorie: puces
+aussi: [ia]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : TSLA)"
+siege: "Austin (Texas)"
+en_bref: "Voitures électriques, batteries de stockage et conduite assistée"
+chiffre_affaires:
+  texte: "94,8 Md$ en 2025 (−3 %)"
+  md_usd: 94.82
+chiffres_cles:
+- "Capitalisation d’environ 1400 Md$ (oct. 2026)"
+- "103,6 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Voitures électriques, batteries de stockage et conduite assistée."
+produits:
+- nom: "Model 3, Y, S, X, Cybertruck"
+  detail: "véhicules électriques"
+- nom: "Megapack"
+  detail: "batteries de stockage pour réseaux électriques"
+- nom: "FSD"
+  detail: "logiciel de conduite assistée"
+modele: "Vente de véhicules en direct sur le web et en magasins, plus l’énergie et les abonnements logiciels."
+clients: "particuliers, entreprises, énergéticiens"
+rachats:
+- "Aucun rachat listé"
+concurrents: "BYD, Volkswagen, Toyota"
+vente:
+  approche: mixte
+  resume: "Les particuliers commandent en ligne ; des équipes dédiées vendent les batteries Megapack aux énergéticiens et aux entreprises."
+  acheteurs: "Les particuliers, les directions des achats des énergéticiens"
+  argument: "Des véhicules et des batteries intégrés à un même logiciel"
+  objections:
+  - "Le prix et la concurrence chinoise"
+  - "La fiabilité de la conduite assistée"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Tesla"
+  url: "https://companiesmarketcap.com/tesla/revenue/"
+verifie_le: '2026-10-19'

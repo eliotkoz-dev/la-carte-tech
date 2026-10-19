@@ -1,0 +1,43 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Constellation Software"
+categorie: saas
+region: amerique-du-nord
+groupe: "Cotée à Toronto (CSU)"
+siege: "Toronto (Canada)"
+en_bref: "Un groupe qui rachète et garde des centaines de petits éditeurs de logiciels"
+chiffre_affaires:
+  texte: "11,6 Md$ en 2025 (+15 %)"
+  md_usd: 11.62
+chiffres_cles:
+- "Capitalisation d’environ 47,91 Md$ (oct. 2026)"
+- "12,6 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Un groupe qui rachète et garde des centaines de petits éditeurs de logiciels."
+produits:
+- nom: "Logiciels métiers"
+  detail: "des centaines de logiciels pour des secteurs précis"
+- nom: "Rachats"
+  detail: "acquisition d’éditeurs de logiciels"
+modele: "Achat de petits éditeurs, qu’il garde ; revenus récurrents des logiciels."
+clients: "entreprises de secteurs variés"
+rachats:
+- "Des centaines de petits éditeurs de logiciels"
+concurrents: "Roper, Thoma Bravo"
+vente:
+  approche: vente-directe
+  resume: "Chaque filiale vend ses logiciels à ses clients de secteur."
+  acheteurs: "Les directions métier"
+  argument: "Des logiciels spécialisés, durables"
+  objections:
+  - "La dépendance aux rachats"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Constellation Software"
+  url: "https://companiesmarketcap.com/constellation-software/revenue/"
+verifie_le: '2026-10-19'

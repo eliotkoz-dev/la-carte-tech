@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Atlassian"
+categorie: saas
+region: asie
+groupe: "Cotée (Nasdaq : TEAM)"
+siege: "Sydney (Australie)"
+en_bref: "Jira, Confluence et Trello pour organiser le travail des équipes"
+chiffre_affaires:
+  texte: "5,8 Md$ en 2025 (+20 %)"
+  md_usd: 5.75
+chiffres_cles:
+- "Capitalisation d’environ 52,6 Md$ (oct. 2026)"
+- "6,6 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "Jira, Confluence et Trello pour organiser le travail des équipes."
+produits:
+- nom: "Jira"
+  detail: "suivi des tâches pour les équipes logicielles"
+- nom: "Confluence"
+  detail: "documentation partagée"
+- nom: "Trello"
+  detail: "tableaux de projets"
+modele: "Abonnements, d’abord en libre-service puis par équipes commerciales pour les grands clients."
+clients: "équipes logicielles, entreprises"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Microsoft, Asana, Monday.com"
+vente:
+  approche: libre-service
+  resume: "Les équipes testent et paient seules en ligne ; des commerciaux suivent les grands comptes."
+  acheteurs: "Les équipes produit et informatiques"
+  argument: "Un outil adopté par les équipes avant d’être acheté par l’entreprise"
+  objections:
+  - "La complexité de l’outil"
+  - "La concurrence de Microsoft"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Atlassian"
+  url: "https://companiesmarketcap.com/atlassian/revenue/"
+verifie_le: '2026-10-19'

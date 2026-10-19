@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Murata Manufacturing"
+categorie: puces
+region: asie
+groupe: "Cotée à Tokyo (6981)"
+siege: "Nagaokakyo (Japon)"
+en_bref: "Les petits composants électroniques (condensateurs) de tous les smartphones"
+chiffre_affaires:
+  texte: "≈ 12 Md$ (1 831 Md¥, exercice clos en mars 2026)"
+  md_usd: 12.0
+chiffres_cles:
+- "Capitalisation d’environ 77,76 Md$ (oct. 2026)"
+- "Chiffre d’affaires : 1 830,9 Md¥ pour l’exercice clos en mars 2026 (+5 %), converti à environ 150 ¥ pour 1 $"
+ce_qu_elle_vend: "Les petits composants électroniques (condensateurs) de tous les smartphones."
+produits:
+- nom: "Condensateurs MLCC"
+  detail: "composants qui stockent et filtrent le courant"
+- nom: "Modules sans fil"
+  detail: "Wi-Fi et Bluetooth"
+- nom: "Batteries"
+  detail: "petites batteries pour appareils"
+modele: "Vente de composants à très gros volumes aux constructeurs d’appareils."
+clients: "constructeurs de smartphones, voitures, serveurs"
+rachats:
+- "Aucun rachat listé"
+concurrents: "TDK, Samsung Electro-Mechanics"
+vente:
+  approche: vente-directe
+  resume: "Des équipes techniques et commerciales travaillent avec chaque constructeur sur ses prochains produits."
+  acheteurs: "Les achats et la conception chez les constructeurs"
+  argument: "Des composants fiables, toujours miniaturisés"
+  objections:
+  - "La dépendance au smartphone"
+  - "Le prix face à la concurrence"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "StockAnalysis, résultats de Murata"
+  url: "https://stockanalysis.com/quote/tyo/6981/financials/income-statement/"
+verifie_le: '2026-10-19'

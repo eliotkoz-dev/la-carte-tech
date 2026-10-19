@@ -1,0 +1,44 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "CXMT"
+categorie: puces
+region: asie
+groupe: "Cotée (Bourse de Shanghai : 688825)"
+siege: "Hefei (Chine)"
+en_bref: "Le plus gros fabricant chinois de mémoire DRAM"
+chiffre_affaires:
+  texte: "8,7 Md$ en 2025"
+  md_usd: 8.72
+chiffres_cles:
+- "Capitalisation d’environ 440,85 Md$ (oct. 2026)"
+- "Chiffre d’affaires 2025 issu de CompaniesMarketCap ; la page indique un chiffre sur 12 mois bien plus élevé (28,6 Md$), à vérifier"
+ce_qu_elle_vend: "Le plus gros fabricant chinois de mémoire DRAM."
+produits:
+- nom: "DRAM"
+  detail: "mémoire vive des ordinateurs, serveurs et téléphones"
+- nom: "Mémoire pour l’IA"
+  detail: "mémoires rapides pour les serveurs"
+modele: "Fabrication et vente de mémoire à des constructeurs d’appareils, avec le soutien de la politique industrielle chinoise."
+clients: "constructeurs de smartphones et de serveurs chinois"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Samsung, SK hynix, Micron"
+vente:
+  approche: vente-directe
+  resume: "Des équipes vendent directement aux grands constructeurs chinois de smartphones et de serveurs."
+  acheteurs: "Les achats des constructeurs"
+  argument: "Une alternative locale aux mémoires coréennes et américaines"
+  objections:
+  - "Les restrictions américaines sur les équipements"
+  - "Un retard technologique sur la mémoire de pointe"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de CXMT"
+  url: "https://companiesmarketcap.com/cxmt/revenue/"
+verifie_le: '2026-10-19'

@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Meituan"
+categorie: ecommerce
+region: asie
+groupe: "Cotée à Hong Kong (3690)"
+siege: "Pékin (Chine)"
+en_bref: "La livraison de repas et les services locaux en Chine"
+chiffre_affaires:
+  texte: "≈ 39 Md$ (exercice 2023)"
+  md_usd: 39.01
+chiffres_cles:
+- "Capitalisation d’environ 59,53 Md$ (oct. 2026)"
+- "Chiffre de la page CompaniesMarketCap (exercice 2023), à actualiser"
+ce_qu_elle_vend: "La livraison de repas et les services locaux en Chine."
+produits:
+- nom: "Livraison de repas"
+  detail: "le plus gros service en Chine"
+- nom: "Services locaux"
+  detail: "restaurants, hôtels, billets"
+- nom: "Keeta"
+  detail: "livraison au Moyen-Orient et ailleurs"
+modele: "Commission sur les commandes, publicité et livraison."
+clients: "restaurants, commerçants, consommateurs"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Alibaba (Ele.me), Douyin"
+vente:
+  approche: mixte
+  resume: "Les commerçants s’inscrivent seuls ; des équipes commerciales locales suivent les grands comptes."
+  acheteurs: "Les restaurateurs et les commerçants"
+  argument: "Des clients locaux et une livraison très rapide"
+  objections:
+  - "Les commissions"
+  - "La guerre des prix avec les concurrents"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Meituan"
+  url: "https://companiesmarketcap.com/meituan-dianping/revenue/"
+verifie_le: '2026-10-19'

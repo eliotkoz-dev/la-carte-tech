@@ -1,0 +1,46 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "SMIC"
+categorie: puces
+region: asie
+groupe: "Cotée à Hong Kong (0981) et à Shanghai"
+siege: "Shanghai (Chine)"
+en_bref: "Le plus grand fondeur de puces de Chine"
+chiffre_affaires:
+  texte: "9,3 Md$ en 2025"
+  md_usd: 9.33
+chiffres_cles:
+- "Capitalisation d’environ 57,17 Md$ (oct. 2026)"
+- "Revenus 2025 : 9,33 Md$"
+ce_qu_elle_vend: "Le plus grand fondeur de puces de Chine."
+produits:
+- nom: "Fonderie de puces"
+  detail: "fabrication de puces pour d’autres entreprises"
+- nom: "Procédés matures"
+  detail: "28 nm et plus"
+- nom: "Procédés avancés"
+  detail: "jusqu’à 7 nm"
+modele: "Fabrication de puces conçues par d’autres, facturée à la plaquette."
+clients: "concepteurs de puces chinois"
+rachats:
+- "Aucun rachat listé"
+concurrents: "TSMC, UMC, GlobalFoundries"
+vente:
+  approche: vente-directe
+  resume: "Des équipes commerciales suivent chaque concepteur de puces chinois."
+  acheteurs: "Les directeurs de fabrication des concepteurs"
+  argument: "Une capacité locale, quand les fondeurs étrangers sont restreints"
+  objections:
+  - "Les restrictions sur les équipements"
+  - "Un retard sur les procédés les plus fins"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "TrendForce, SMIC publie 9,3 Md$ de ventes en 2025"
+  url: "https://www.trendforce.com/news/2026/02/11/news-smic-posts-record-9-3b-in-2025-sales-7nm-yields-reportedly-weigh-on-margins/"
+verifie_le: '2026-10-19'

@@ -1,0 +1,47 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+# Le format est expliqué dans CONTRIBUTING.md.
+
+nom: "Intuit"
+categorie: saas
+aussi: [fintech]
+region: amerique-du-nord
+groupe: "Cotée (Nasdaq : INTU)"
+siege: "Mountain View (Californie)"
+en_bref: "TurboTax, QuickBooks et Credit Karma"
+chiffre_affaires:
+  texte: "20,1 Md$ en 2025 (+17 %)"
+  md_usd: 20.12
+chiffres_cles:
+- "Capitalisation d’environ 86,89 Md$ (oct. 2026)"
+- "21,4 Md$ de revenus sur les 12 derniers mois"
+ce_qu_elle_vend: "TurboTax, QuickBooks et Credit Karma."
+produits:
+- nom: "TurboTax"
+  detail: "déclarations d’impôts aux États-Unis"
+- nom: "QuickBooks"
+  detail: "comptabilité des petites entreprises"
+- nom: "Credit Karma"
+  detail: "suivi du crédit"
+modele: "Abonnements et commissions, avec une grosse part de revenus en début d’année."
+clients: "particuliers, petites entreprises, experts-comptables"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Xero, Sage, H&R Block"
+vente:
+  approche: mixte
+  resume: "Les particuliers s’abonnent en ligne ; des équipes vendent aux experts-comptables et aux entreprises."
+  acheteurs: "Les dirigeants de petites entreprises, les cabinets comptables"
+  argument: "Des finances simples à gérer et un outil qui s’intègre à la banque"
+  objections:
+  - "Les hausses de prix"
+  - "La concurrence de la déclaration gratuite"
+stages:
+  statut: a-verifier
+  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
+- titre: "CompaniesMarketCap, revenus de Intuit"
+  url: "https://companiesmarketcap.com/intuit/revenue/"
+verifie_le: '2026-10-19'
