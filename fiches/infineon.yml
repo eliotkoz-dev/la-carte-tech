@@ -34,6 +34,13 @@ vente:
   objections:
   - "La dépendance au cycle automobile"
   - "Le prix face aux Chinois"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Siège régional Asie-Pacifique à Kallang, inauguré en 2005 (production, ventes, R&D)."
+  sources:
+  - titre: "Semiconductor Digest, Infineon ouvre son siège Asie-Pacifique à Singapour"
+    url: "https://sst.semiconductor-digest.com/?p=26864"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

@@ -35,6 +35,13 @@ vente:
   objections:
   - "Le prix"
   - "La concurrence d’Apple"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Siège régional pour l’Asie du Sud-Est, choisi en 2017."
+  sources:
+  - titre: "Digital News Asia, Garmin installe son siège régional à Singapour"
+    url: "https://digitalnewsasia.com/business/garmin-sets-regional-hq-singapore-eye-sea"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

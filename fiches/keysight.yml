@@ -35,6 +35,16 @@ vente:
   objections:
   - "Le prix des instruments"
   - "Les cycles de l’électronique"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  - "Hong Kong (Chine)"
+  note: "Singapour : pôle régional (ventes, R&D, services partagés mondiaux). Hong Kong : bureau à Causeway Bay."
+  sources:
+  - titre: "Keysight, carrières à Singapour"
+    url: "https://careers.keysight.com/location-singapore"
+  - titre: "Keysight, contact Hong Kong"
+    url: "https://www.keysight.com/hk/en/contact.html"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

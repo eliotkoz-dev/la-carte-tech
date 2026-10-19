@@ -36,6 +36,13 @@ vente:
   objections:
   - "Le prix face à des concurrents locaux"
   - "Les délais d’approvisionnement"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  note: "Siège Asie de l’Est et Japon, ouvert le 29 mars 2018, avec un centre d’innovation."
+  sources:
+  - titre: "EDB Singapour, Schneider Electric ouvre son siège Asie de l’Est et Japon"
+    url: "https://www.edb.gov.sg/en/about-edb/media-releases-publications/schneider-electric-opens-east-asia-and-japan-headquarter-in-singapore.html"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

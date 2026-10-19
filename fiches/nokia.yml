@@ -35,6 +35,12 @@ vente:
   objections:
   - "Le prix face à Huawei"
   - "Des commandes qui suivent les budgets des opérateurs"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  sources:
+  - titre: "Nokia, bureaux Asie-Pacifique"
+    url: "https://www.nokia.com/contact-us/worldwide-offices/asia-pacific/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

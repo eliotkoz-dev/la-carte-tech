@@ -35,6 +35,13 @@ vente:
   objections:
   - "Les hausses de prix"
   - "La concurrence des outils en ligne"
+bureaux_asie:
+  villes:
+  - "Singapour (Singapour)"
+  - "Hong Kong (Chine)"
+  sources:
+  - titre: "Autodesk, bureaux Asie et Pacifique"
+    url: "https://www.autodesk.com/company/contact-us/office-locations/asia-and-pacific"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

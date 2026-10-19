@@ -184,6 +184,26 @@
   type: investissement
   texte: "Nvidia investit 2 Md$ dans Synopsys et élargit leur partenariat (déc. 2025)"
   source: "https://evertiq.com/design/2025-12-02-nvidia-invest-2-billion-in-synopsys"
+- de: nvidia
+  vers: nokia
+  type: investissement
+  texte: "Nvidia investit 1 Md$ dans Nokia pour 2,9 % du capital (nov. 2025)"
+  source: "https://broadbandbreakfast.com/nvidia-invests-1-billion-in-nokia/"
+- de: nvidia
+  vers: intel
+  type: investissement
+  texte: "Nvidia investit 5 Md$ dans Intel, à 23,28 $ l’action (sept. 2025)"
+  source: "https://www.news4jax.com/business/2025/09/18/nvidia-to-invest-5-billion-in-intel-companies-will-work-together-on-products-for-data-centers-pcs/"
+- de: nvidia
+  vers: lumentum
+  type: investissement
+  texte: "Nvidia investit 2 Md$ dans Lumentum, avec un accord pluriannuel sur l’optique (mars 2026)"
+  source: "https://www.nasdaq.com/press-release/nvidia-announces-strategic-partnership-lumentum-develop-state-art-optics-technology"
+- de: tencent
+  vers: sea-limited
+  type: investissement
+  texte: "Tencent détenait 18,7 % de Sea après une vente de titres (janv. 2022)"
+  source: "https://www.tencent.com/en-us/articles/2201261.html"
 - de: azure
   vers: openai
   type: partenariat
@@ -469,3 +489,43 @@
   type: partenariat
   texte: "Palantir et Anduril forment un consortium pour relier leurs logiciels d’IA pour la défense (décembre 2024)"
   source: "https://defensescoop.com/2024/12/06/palantir-anduril-consortium-ai-new-alliance-merge-capabilities/"
+- de: tesla
+  vers: samsung
+  type: partenariat
+  texte: "Samsung fabriquera les puces AI6 de Tesla, contrat d’environ 16,5 Md$ jusqu’en 2033 (juil. 2025)"
+  source: "https://www.maginative.com/tesla-just-handed-samsung-its-biggest-foundry-win-ever-with-a-16-5-billion-ai-chip-deal/"
+- de: paypal
+  vers: openai
+  type: partenariat
+  texte: "PayPal permet de payer dans ChatGPT via le protocole ACP d’OpenAI (oct. 2025)"
+  source: "https://techcrunch.com/2025/10/28/paypal-partners-with-openai-to-let-users-pay-for-their-shopping-within-chatgpt"
+- de: paypal
+  vers: perplexity
+  type: partenariat
+  texte: "PayPal gère les paiements des achats faits dans Perplexity (mai 2025)"
+  source: "https://newsroom.paypal-corp.com/2025-05-14-Perplexity-Selects-PayPal-to-Power-Agentic-Commerce"
+- de: schneider-electric
+  vers: nvidia
+  type: partenariat
+  texte: "Schneider Electric et Nvidia publient des designs de référence pour datacenters IA (mars 2024)"
+  source: "https://datacenterdynamics.com/en/news/schneider-collaborates-with-nvidia-on-ai-data-center-designs"
+- de: hpe
+  vers: nvidia
+  type: partenariat
+  texte: "« NVIDIA AI Computing by HPE » : offre d’IA clé en main en cloud privé (juin 2024)"
+  source: "https://hpe.com/us/en/newsroom/press-release/2024/06/hewlett-packard-enterprise-and-nvidia-announce-nvidia-ai-computing-by-hpe-to-accelerate-generative-ai-industrial-revolution.html"
+- de: intuit
+  vers: openai
+  type: partenariat
+  texte: "Intuit signe un contrat de plus de 100 M$ avec OpenAI pour ses applications dans ChatGPT (nov. 2025)"
+  source: "https://techcrunch.com/2025/11/18/intuit-signs-100m-deal-with-openai-to-bring-its-apps-to-chatgpt"
+- de: astera-labs
+  vers: nvidia
+  type: partenariat
+  texte: "Astera Labs rejoint l’écosystème NVLink Fusion de Nvidia (mai 2025)"
+  source: "https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-expands-collaboration-nvidia-advance-nvlink-fusion"
+- de: smic
+  vers: cambricon
+  type: partenariat
+  texte: "SMIC fabrique la puce Siyuan 590 de Cambricon (estimation TrendForce)"
+  source: "https://www.trendforce.com/news/2025/12/15/insights-cambricon-remains-chinas-top-ai-chip-startup-rumored-2026-triple-output-faces-smic-limits/"
