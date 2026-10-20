@@ -21,7 +21,7 @@
     { id: 'europe', nom: 'Europe' }, { id: 'asie', nom: 'Asie' }, { id: 'amerique-du-nord', nom: 'Amérique du Nord' },
     { id: 'amerique-latine', nom: 'Amérique latine' }, { id: 'moyen-orient-afrique', nom: 'Moyen-Orient et Afrique' }, { id: 'oceanie', nom: 'Océanie' }
   ];
-  const etat = { cat: 'tous', regionVille: 'europe', ville: null, stagesSeuls: false, choisi: null, types: { parente: true, investissement: true, partenariat: true } };
+  const etat = { q: '', cat: 'tous', regionVille: 'europe', ville: null, stagesSeuls: false, choisi: null, types: { parente: true, investissement: true, partenariat: true } };
   let acteurs = [];
   let liens = [];
   let depot = '';
@@ -292,6 +292,7 @@
       b.addEventListener('click', () => { etat.cat = cle; majListe(); });
       zone.append(b);
     });
+    $('recherche').addEventListener('input', (e) => { etat.q = e.target.value; majListe(); });
     $('filtre-stages').addEventListener('click', () => { etat.stagesSeuls = !etat.stagesSeuls; majListe(); });
   }
 
@@ -299,7 +300,10 @@
     document.querySelectorAll('#pilules .pilule').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.cat === etat.cat)));
     $('filtre-stages').setAttribute('aria-pressed', String(etat.stagesSeuls));
     document.querySelectorAll('#villes .pilules-villes .pilule[data-ville]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ville === etat.ville)));
-    const visibles = acteurs.filter((a) => (etat.cat === 'tous' || a.categorie === etat.cat) && (!etat.stagesSeuls || a.stage !== 'a-verifier') && (!etat.ville || villesDe(a).includes(etat.ville)));
+    const norme = (t) => String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const requete = norme(etat.q).trim();
+    const trouve = (a) => !requete || norme([a.nom, a.groupe, a.enBref, ...(a.produits || []).map((p) => p.nom)].join(' ')).includes(requete);
+    const visibles = acteurs.filter((a) => trouve(a) && (etat.cat === 'tous' || a.categorie === etat.cat) && (!etat.stagesSeuls || a.stage !== 'a-verifier') && (!etat.ville || villesDe(a).includes(etat.ville)));
     visibles.sort((p, q) => p.nom.localeCompare(q.nom, 'fr', { sensitivity: 'base' }));
     $('grille').replaceChildren(...visibles.map((a) => {
       const b = el('button', 'carte-ent');
