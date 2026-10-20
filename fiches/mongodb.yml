@@ -29,6 +29,85 @@ rachats:
 concurrents: "Oracle, PostgreSQL, Amazon (DynamoDB)"
 carrieres: "https://www.mongodb.com/company/careers"
 carrieres_jeunes: "https://www.mongodb.com/company/careers/students-and-graduates"
+bureaux_europe:
+  villes:
+  - "Dublin (Irlande)"
+  - "Cork (Irlande)"
+  - "Londres (Royaume-Uni)"
+  - "Paris (France)"
+  - "Amsterdam (Pays-Bas)"
+  - "Barcelone (Espagne)"
+  - "Madrid (Espagne)"
+  - "Berlin (Allemagne)"
+  - "Francfort (Allemagne)"
+  - "Munich (Allemagne)"
+  - "Copenhague (Danemark)"
+  - "Milan (Italie)"
+  - "Rome (Italie)"
+  - "Stockholm (Suède)"
+  - "Varsovie (Pologne)"
+  - "Zurich (Suisse)"
+  note: "Siège international à Dublin."
+  sources:
+  - titre: "MongoDB, bureaux dans le monde"
+    url: "https://www.mongodb.com/company/office-locations"
+bureaux_asie:
+  villes:
+  - "Pékin (Chine)"
+  - "Shanghai (Chine)"
+  - "Shenzhen (Chine)"
+  - "Hong Kong (Chine)"
+  - "Bengaluru (Inde)"
+  - "Gurugram (Inde)"
+  - "Mumbai (Inde)"
+  - "Kuala Lumpur (Malaisie)"
+  - "Séoul (Corée du Sud)"
+  - "Singapour (Singapour)"
+  - "Taipei (Taïwan)"
+  - "Tokyo (Japon)"
+  sources:
+  - titre: "MongoDB, bureaux dans le monde"
+    url: "https://www.mongodb.com/company/office-locations"
+bureaux_amerique_du_nord:
+  villes:
+  - "New York (États-Unis)"
+  - "Atlanta (États-Unis)"
+  - "Austin (États-Unis)"
+  - "Boca Raton (États-Unis)"
+  - "Boston (États-Unis)"
+  - "Chicago (États-Unis)"
+  - "Plano (États-Unis)"
+  - "Palo Alto (États-Unis)"
+  - "San Francisco (États-Unis)"
+  - "Seattle (États-Unis)"
+  - "McLean (États-Unis)"
+  - "Toronto (Canada)"
+  - "Vancouver (Canada)"
+  note: "Siège américain à New York."
+  sources:
+  - titre: "MongoDB, bureaux dans le monde"
+    url: "https://www.mongodb.com/company/office-locations"
+bureaux_amerique_latine:
+  villes:
+  - "Mexico (Mexique)"
+  - "São Paulo (Brésil)"
+  sources:
+  - titre: "MongoDB, bureaux dans le monde"
+    url: "https://www.mongodb.com/company/office-locations"
+bureaux_moyen_orient_afrique:
+  villes:
+  - "Dubaï (Émirats arabes unis)"
+  - "Tel Aviv (Israël)"
+  sources:
+  - titre: "MongoDB, bureaux dans le monde"
+    url: "https://www.mongodb.com/company/office-locations"
+bureaux_oceanie:
+  villes:
+  - "Melbourne (Australie)"
+  - "Sydney (Australie)"
+  sources:
+  - titre: "MongoDB, bureaux dans le monde"
+    url: "https://www.mongodb.com/company/office-locations"
 stages:
   statut: oui
   detail: "Page étudiants et jeunes diplômés ; stage ingénieur logiciel 2027 de 6 mois à Dublin vu ; France non vérifiée."

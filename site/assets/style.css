@@ -403,3 +403,5 @@ button { font: inherit; color: inherit; }
 .liens-carrieres{display:flex;flex-wrap:wrap;gap:.5rem 1rem;margin:.4rem 0 0;font-weight:600}
 
 .explication-locaux { margin: 4px 0 0; font-size: 14px; }
+
+.note-donnees { margin: 6px 0 14px; font-size: 14px; line-height: 1.5; max-width: 80ch; }

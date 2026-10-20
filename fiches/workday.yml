@@ -29,6 +29,91 @@ rachats:
 concurrents: "SAP (SuccessFactors), Oracle, ADP"
 carrieres: "https://www.workday.com/en-us/company/careers/open-positions.html"
 carrieres_jeunes: "https://www.workday.com/en-us/company/careers/early-career.html"
+bureaux_europe:
+  villes:
+  - "Dublin (Irlande)"
+  - "Londres (Royaume-Uni)"
+  - "Paris (France)"
+  - "Amsterdam (Pays-Bas)"
+  - "Berlin (Allemagne)"
+  - "Copenhague (Danemark)"
+  - "Helsinki (Finlande)"
+  - "Madrid (Espagne)"
+  - "Malines (Belgique)"
+  - "Milan (Italie)"
+  - "Munich (Allemagne)"
+  - "Oslo (Norvège)"
+  - "Prague (Tchéquie)"
+  - "Riga (Lettonie)"
+  - "Stockholm (Suède)"
+  - "Varsovie (Pologne)"
+  - "Zurich (Suisse)"
+  sources:
+  - titre: "Workday, nous contacter (bureaux)"
+    url: "https://www.workday.com/en-be/company/about-workday/contact-us.html"
+bureaux_asie:
+  villes:
+  - "Bangkok (Thaïlande)"
+  - "Chennai (Inde)"
+  - "Da Nang (Vietnam)"
+  - "Hô Chi Minh-Ville (Vietnam)"
+  - "Hong Kong (Chine)"
+  - "Jakarta (Indonésie)"
+  - "Kuala Lumpur (Malaisie)"
+  - "Mumbai (Inde)"
+  - "Osaka (Japon)"
+  - "Pune (Inde)"
+  - "Séoul (Corée du Sud)"
+  - "Singapour (Singapour)"
+  - "Taipei (Taïwan)"
+  - "Tokyo (Japon)"
+  sources:
+  - titre: "Workday, nous contacter (bureaux)"
+    url: "https://www.workday.com/en-be/company/about-workday/contact-us.html"
+bureaux_amerique_du_nord:
+  villes:
+  - "Pleasanton (États-Unis)"
+  - "Atlanta (États-Unis)"
+  - "Austin (États-Unis)"
+  - "Boston (États-Unis)"
+  - "Chicago (États-Unis)"
+  - "Denver (États-Unis)"
+  - "New York (États-Unis)"
+  - "San Francisco (États-Unis)"
+  - "Seattle (États-Unis)"
+  - "Washington (États-Unis)"
+  - "Montréal (Canada)"
+  - "Toronto (Canada)"
+  - "Vancouver (Canada)"
+  note: "Siège à Pleasanton ; liste partielle des villes américaines."
+  sources:
+  - titre: "Workday, nous contacter (bureaux)"
+    url: "https://www.workday.com/en-be/company/about-workday/contact-us.html"
+bureaux_amerique_latine:
+  villes:
+  - "Mexico (Mexique)"
+  - "Heredia (Costa Rica)"
+  sources:
+  - titre: "Workday, nous contacter (bureaux)"
+    url: "https://www.workday.com/en-be/company/about-workday/contact-us.html"
+bureaux_moyen_orient_afrique:
+  villes:
+  - "Johannesburg (Afrique du Sud)"
+  - "Dubaï (Émirats arabes unis)"
+  - "Tel Aviv (Israël)"
+  - "Riyad (Arabie saoudite)"
+  sources:
+  - titre: "Workday, nous contacter (bureaux)"
+    url: "https://www.workday.com/en-be/company/about-workday/contact-us.html"
+bureaux_oceanie:
+  villes:
+  - "Brisbane (Australie)"
+  - "Melbourne (Australie)"
+  - "Sydney (Australie)"
+  - "Auckland (Nouvelle-Zélande)"
+  sources:
+  - titre: "Workday, nous contacter (bureaux)"
+    url: "https://www.workday.com/en-be/company/about-workday/contact-us.html"
 stages:
   statut: oui
   detail: "Programmes de stages et de co-op ; lieux non vérifiés."

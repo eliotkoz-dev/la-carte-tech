@@ -31,6 +31,87 @@ rachats:
 concurrents: "Palo Alto Networks, Fortinet, Cisco"
 carrieres: "https://www.checkpoint.com/careers/"
 carrieres_jeunes: "https://www.checkpoint.com/careers/programs/"
+bureaux_europe:
+  villes:
+  - "Zaventem (Belgique)"
+  - "Utrecht (Pays-Bas)"
+  - "Vedbæk (Danemark)"
+  - "Espoo (Finlande)"
+  - "Lysaker (Norvège)"
+  - "Stockholm (Suède)"
+  - "Londres (Royaume-Uni)"
+  - "Vienne (Autriche)"
+  - "Ismaning (Allemagne)"
+  - "Spreitenbach (Suisse)"
+  - "Courbevoie (France)"
+  - "Lisbonne (Portugal)"
+  - "Madrid (Espagne)"
+  - "Milan (Italie)"
+  - "Rome (Italie)"
+  - "Prague (Tchéquie)"
+  - "Athènes (Grèce)"
+  - "Budapest (Hongrie)"
+  - "Varsovie (Pologne)"
+  - "Bucarest (Roumanie)"
+  - "Bratislava (Slovaquie)"
+  - "Sofia (Bulgarie)"
+  sources:
+  - titre: "Check Point, nous contacter"
+    url: "https://www.checkpoint.com/about-us/contact-check-point/"
+bureaux_asie:
+  villes:
+  - "Pékin (Chine)"
+  - "Shanghai (Chine)"
+  - "Hong Kong (Chine)"
+  - "Bengaluru (Inde)"
+  - "Jakarta (Indonésie)"
+  - "Tokyo (Japon)"
+  - "Séoul (Corée du Sud)"
+  - "Petaling Jaya (Malaisie)"
+  - "Manille (Philippines)"
+  - "Singapour (Singapour)"
+  - "Taipei (Taïwan)"
+  - "Bangkok (Thaïlande)"
+  - "Hanoï (Vietnam)"
+  sources:
+  - titre: "Check Point, nous contacter"
+    url: "https://www.checkpoint.com/about-us/contact-check-point/"
+bureaux_amerique_du_nord:
+  villes:
+  - "Redwood City (États-Unis)"
+  - "New York (États-Unis)"
+  note: "Siège américain à Redwood City."
+  sources:
+  - titre: "Check Point, nous contacter"
+    url: "https://www.checkpoint.com/about-us/contact-check-point/"
+bureaux_amerique_latine:
+  villes:
+  - "São Paulo (Brésil)"
+  sources:
+  - titre: "Check Point, nous contacter"
+    url: "https://www.checkpoint.com/about-us/contact-check-point/"
+bureaux_moyen_orient_afrique:
+  villes:
+  - "Tel Aviv (Israël)"
+  - "Istanbul (Turquie)"
+  - "Ankara (Turquie)"
+  - "Dubaï (Émirats arabes unis)"
+  - "Johannesburg (Afrique du Sud)"
+  note: "Siège international à Tel Aviv."
+  sources:
+  - titre: "Check Point, nous contacter"
+    url: "https://www.checkpoint.com/about-us/contact-check-point/"
+bureaux_oceanie:
+  villes:
+  - "Auckland (Nouvelle-Zélande)"
+  - "Wellington (Nouvelle-Zélande)"
+  - "Brisbane (Australie)"
+  - "Melbourne (Australie)"
+  - "Sydney (Australie)"
+  - "Perth (Australie)"
+  sources:
+  - titre: "Check Point, nous contacter"
+    url: "https://www.checkpoint.com/about-us/contact-check-point/"
 stages:
   statut: oui
   detail: "Page de programmes pour étudiants et jeunes diplômés sur le site carrières ; lieux non vérifiés."

@@ -28,6 +28,51 @@ rachats:
 - "Auth0 (2021) : connexion des clients des applications, environ 6,5 Md$"
 concurrents: "Microsoft (Entra ID), Ping Identity, CyberArk"
 carrieres_jeunes: "https://www.okta.com/company/careers/intern-program/"
+bureaux_europe:
+  villes:
+  - "Londres (Royaume-Uni)"
+  - "Dublin (Irlande)"
+  - "Amsterdam (Pays-Bas)"
+  - "Munich (Allemagne)"
+  - "Paris (France)"
+  - "Stockholm (Suède)"
+  - "Zurich (Suisse)"
+  sources:
+  - titre: "Okta, nous contacter"
+    url: "https://www.okta.com/contact/"
+bureaux_asie:
+  villes:
+  - "Bangalore (Inde)"
+  - "Manille (Philippines)"
+  - "Séoul (Corée du Sud)"
+  - "Singapour (Singapour)"
+  - "Tokyo (Japon)"
+  sources:
+  - titre: "Okta, nous contacter"
+    url: "https://www.okta.com/contact/"
+bureaux_amerique_du_nord:
+  villes:
+  - "San Francisco (États-Unis)"
+  - "Bellevue (États-Unis)"
+  - "Chicago (États-Unis)"
+  - "New York (États-Unis)"
+  - "Washington (États-Unis)"
+  - "Toronto (Canada)"
+  sources:
+  - titre: "Okta, nous contacter"
+    url: "https://www.okta.com/contact/"
+bureaux_moyen_orient_afrique:
+  villes:
+  - "Tel Aviv (Israël)"
+  sources:
+  - titre: "Okta, nous contacter"
+    url: "https://www.okta.com/contact/"
+bureaux_oceanie:
+  villes:
+  - "Sydney (Australie)"
+  sources:
+  - titre: "Okta, nous contacter"
+    url: "https://www.okta.com/contact/"
 stages:
   statut: oui
   detail: "Programme de stages (« Interning at Okta ») avec des offres d’été 2026, dont business development representative ; lieux non vérifiés."
