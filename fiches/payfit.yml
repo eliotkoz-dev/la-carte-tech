@@ -45,6 +45,8 @@ bureaux_europe:
   sources:
   - titre: "PayFit, carrières"
     url: "https://careers.payfit.com/"
+carrieres: "https://careers.payfit.com/"
+carrieres_jeunes: "https://careers.payfit.com/departments/internships-apprentices-2719c14f-aa2c-4754-8db9-9af5b2927f47"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

@@ -35,6 +35,8 @@ vente:
   objections:
   - "Le prix"
   - "La dépendance à l’automobile"
+carrieres: "https://careers.te.com/"
+carrieres_jeunes: "https://careers.te.com/content/Students-/?locale=en_US"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

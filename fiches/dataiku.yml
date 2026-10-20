@@ -41,6 +41,7 @@ bureaux_europe:
   sources:
   - titre: "Wikipédia, Dataiku"
     url: "https://en.wikipedia.org/wiki/Dataiku"
+carrieres: "https://job-boards.greenhouse.io/dataiku"
 stages:
   statut: oui
   detail: "Stage Business Transformation à Paris, 6 mois à partir de mi-septembre, ouvert aux écoles de commerce (offre 2026)."

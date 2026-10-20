@@ -45,6 +45,7 @@ bureaux_europe:
   sources:
   - titre: "Komo, bureaux de Mistral AI"
     url: "https://komo.ai/directory/mistral-ai-offices"
+carrieres: "https://jobs.lever.co/mistral"
 stages:
   statut: oui
   detail: "Stages à Paris de 4 à 6 mois, surtout techniques (logiciel, recherche, doctorat IA) ; les offres vues sont fermées, à surveiller pour 2027."

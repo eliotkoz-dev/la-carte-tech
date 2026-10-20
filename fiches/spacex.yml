@@ -40,6 +40,8 @@ vente:
   objections:
   - "La dépendance à un seul fournisseur"
   - "Le prix du matériel et de l’abonnement"
+carrieres: "https://www.spacex.com/careers/jobs/"
+carrieres_jeunes: "https://www.spacex.com/careers/internships"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

@@ -34,6 +34,8 @@ vente:
   objections:
   - "Un cours qui suit celui du bitcoin"
   - "Un métier logiciel de petite taille"
+carrieres: "https://software.strategy.com/careers"
+carrieres_jeunes: "https://software.strategy.com/careers/early-careers"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

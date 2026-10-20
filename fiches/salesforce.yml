@@ -168,6 +168,8 @@ bureaux_oceanie:
   sources:
   - titre: "Salesforce, bureaux dans le monde"
     url: "https://www.salesforce.com/company/locations/"
+carrieres: "https://www.salesforce.com/company/careers/"
+carrieres_jeunes: "https://www.salesforce.com/company/careers/university/"
 stages:
   statut: oui
   detail: "Stages Futureforce toute l’année en EMEA ; graduate rotation à Dublin."

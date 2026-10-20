@@ -32,6 +32,8 @@ vente:
   objections:
   - "La montée de RISC-V, libre de licence"
   - "Des clients puissants (Apple, Qualcomm) qui conçoivent leurs propres cœurs"
+carrieres: "https://careers.arm.com/"
+carrieres_jeunes: "https://careers.arm.com/internships"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

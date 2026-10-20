@@ -41,6 +41,8 @@ bureaux_asie:
   sources:
   - titre: "Nokia, bureaux Asie-Pacifique"
     url: "https://www.nokia.com/contact-us/worldwide-offices/asia-pacific/"
+carrieres: "https://www.nokia.com/careers/"
+carrieres_jeunes: "https://www.nokia.com/careers/students-and-graduates/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

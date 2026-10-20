@@ -90,6 +90,8 @@ bureaux_oceanie:
   sources:
   - titre: "Cloudflare, présentation et adresses"
     url: "https://www.cloudflare.com/overview/"
+carrieres: "https://www.cloudflare.com/careers/"
+carrieres_jeunes: "https://www.cloudflare.com/careers/early-talent/"
 stages:
   statut: a-verifier
   detail: "La page carrières ne mentionne pas de programme de stage en Europe ; à vérifier sur la liste des offres."

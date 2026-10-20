@@ -43,6 +43,8 @@ bureaux_asie:
   sources:
   - titre: "Synopsys, ses bureaux dans le monde"
     url: "https://synopsys.com/company/contact-synopsys/office-locations.html"
+carrieres: "https://careers.synopsys.com/"
+carrieres_jeunes: "https://careers.synopsys.com/early-careers"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

@@ -136,6 +136,8 @@ bureaux_oceanie:
   sources:
   - titre: "Fortinet, ses bureaux dans le monde"
     url: "https://www.fortinet.com/corporate/about-us/global-offices"
+carrieres: "https://www.fortinet.com/corporate/careers"
+carrieres_jeunes: "https://www.fortinet.com/corporate/careers/early-talent-program"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

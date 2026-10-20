@@ -97,6 +97,8 @@ bureaux_moyen_orient_afrique:
   sources:
   - titre: "Zscaler, ses bureaux"
     url: "https://www.zscaler.com/company/contact"
+carrieres: "https://www.zscaler.com/careers"
+carrieres_jeunes: "https://www.zscaler.com/careers/development-programs"
 stages:
   statut: a-verifier
   detail: "Programme de stage d’été (ingénierie, marketing), surtout aux États-Unis ; aucune offre trouvée en Europe."

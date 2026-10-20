@@ -114,6 +114,7 @@ for (const f of fichiers) {
   if (d.note !== undefined && !texte(d.note)) err(f, '« note » est vide');
   if (!d.stages || !STAGES.includes(d.stages.statut)) err(f, `« stages.statut » doit être : ${STAGES.join(', ')}`);
   if (!d.stages || !texte(d.stages.detail)) err(f, '« stages.detail » manquant');
+  for (const k of ['carrieres', 'carrieres_jeunes']) if (d[k] !== undefined && !url(d[k])) err(f, `« ${k} » doit être une adresse commençant par https://`);
   const rejoindre = verifierRejoindre(f, d.rejoindre);
   const vente = verifierVente(f, d.vente);
   const bureaux = {};
@@ -135,7 +136,7 @@ for (const f of fichiers) {
     ca: ca.texte, mdUsd: ca.md_usd, cles: d.chiffres_cles || [], vend: d.ce_qu_elle_vend,
     produits: (d.produits || []).map((p) => ({ nom: p?.nom, detail: p?.detail })), modele: d.modele, clients: d.clients,
     rachats: d.rachats, concurrents: d.concurrents, note: d.note || '', vente, aussi: d.aussi || [], bureaux,
-    stage: d.stages?.statut, stageDetail: d.stages?.detail, rejoindre,
+    carrieres: d.carrieres || '', carrieresJeunes: d.carrieres_jeunes || '', stage: d.stages?.statut, stageDetail: d.stages?.detail, rejoindre,
     sources: (d.sources || []).map((s) => ({ titre: s?.titre, url: s?.url })),
     verifieLe: date
   });

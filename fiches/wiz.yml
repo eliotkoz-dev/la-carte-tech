@@ -44,6 +44,7 @@ bureaux_europe:
   sources:
   - titre: "Wiz, carrières"
     url: "https://www.wiz.io/careers"
+carrieres: "https://www.wiz.io/careers"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage trouvée en octobre 2026."

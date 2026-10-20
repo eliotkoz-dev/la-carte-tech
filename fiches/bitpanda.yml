@@ -44,6 +44,7 @@ bureaux_europe:
   sources:
   - titre: "Wikipédia, Bitpanda"
     url: "https://en.wikipedia.org/wiki/Bitpanda"
+carrieres: "https://job-boards.greenhouse.io/bitpanda"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : la page carrières n’a pas pu être lue. À vérifier sur le site de l’entreprise."

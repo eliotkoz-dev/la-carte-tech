@@ -53,6 +53,8 @@ bureaux_asie:
   sources:
   - titre: "Stripe, son pôle d’ingénierie à Singapour"
     url: "https://stripe.com/ie/blog/singapore-eng-office"
+carrieres: "https://stripe.com/jobs"
+carrieres_jeunes: "https://stripe.com/jobs/university"
 stages:
   statut: oui
   detail: "Stage ingénierie seulement ; pas de stage commercial trouvé."

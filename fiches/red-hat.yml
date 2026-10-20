@@ -155,6 +155,7 @@ bureaux_amerique_du_nord:
   sources:
   - titre: "Red Hat, ses bureaux dans le monde"
     url: "https://www.redhat.com/en/about/office-locations"
+carrieres: "https://www.redhat.com/en/jobs/departments"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage en Europe vérifiée : la page carrières n’a pas pu être lue. À vérifier sur le site de l’entreprise."

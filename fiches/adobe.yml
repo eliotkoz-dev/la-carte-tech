@@ -125,6 +125,8 @@ bureaux_oceanie:
   sources:
   - titre: "Adobe, ses bureaux dans le monde"
     url: "https://www.adobe.com/company/contact/offices.html"
+carrieres: "https://careers.adobe.com/"
+carrieres_jeunes: "https://careers.adobe.com/us/en/university"
 stages:
   statut: oui
   detail: "Adobe Sales Academy EMEA : stages en vente à Londres (13 mois, en juillet), Madrid (6 mois, en mai) et Munich (6 mois, en mars) ; candidatures 2026 ouvertes."

@@ -121,6 +121,8 @@ bureaux_amerique_du_nord:
   sources:
   - titre: "ASML, ses implantations"
     url: "https://www.asml.com/en/company/about-asml/locations"
+carrieres: "https://www.asml.com/en/careers"
+carrieres_jeunes: "https://asml.com/students"
 stages:
   statut: oui
   detail: "Stages surtout en ingénierie, par exemple un stage logiciel à l’été 2026 aux États-Unis (Wilton) ; rien trouvé en France."

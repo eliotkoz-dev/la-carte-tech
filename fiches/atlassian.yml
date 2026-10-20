@@ -35,6 +35,8 @@ vente:
   objections:
   - "La complexité de l’outil"
   - "La concurrence de Microsoft"
+carrieres: "https://www.atlassian.com/company/careers/all-jobs"
+carrieres_jeunes: "https://www.atlassian.com/company/careers/earlycareers"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

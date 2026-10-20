@@ -41,6 +41,8 @@ bureaux_asie:
   sources:
   - titre: "EDB Singapour, Lam Research ajoute 200 emplois"
     url: "https://www.edb.gov.sg/en/news-and-insights/us-semiconductor-equipment-firm-lam-research-to-add-200-jobs-in-singapore-amid-ai-boom"
+carrieres: "https://www.lamresearch.com/careers/careers-overview/"
+carrieres_jeunes: "https://www.lamresearch.com/careers/university-programs/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

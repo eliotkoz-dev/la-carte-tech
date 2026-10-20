@@ -56,6 +56,8 @@ bureaux_asie:
   sources:
   - titre: "Fortune, OpenAI ouvre un bureau à Singapour"
     url: "https://fortune.com/asia/2024/10/09/openai-opens-singapore-office-chatgpt-asia"
+carrieres: "https://openai.com/careers/"
+carrieres_jeunes: "https://openai.com/careers/emerging-talent/"
 stages:
   statut: a-verifier
   detail: "Pas de stage trouvé. La Residency (6 mois à San Francisco, en poste à temps plein) est fermée pour 2026."

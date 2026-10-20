@@ -37,6 +37,7 @@ Copiez [`fiches/_modele.yml`](fiches/_modele.yml) dans un nouveau fichier, par e
 | `rachats` | Une liste : `Nom (année) : ce que ça apporte`, ou `Aucun rachat listé` |
 | `concurrents` | Deux ou trois noms |
 | `note` | Facultatif : une info utile (investisseurs, partenariats) |
+| `carrieres` | Facultatif : adresse https de la page carrières officielle (`carrieres_jeunes` : page stages / jeunes diplômés) |
 | `stages.statut` | `oui` ou `alternance` seulement avec une offre publique en lien ; sinon `a-verifier` |
 | `vente` | Facultatif : comment l’entreprise vend (voir ci-dessous) |
 | `bureaux_europe` | Facultatif : `villes` (liste au format `Ville (Pays)`, par exemple `Paris (France)`), `note` (facultatif) et `sources` (obligatoire). S’affiche quand on clique sur l’entreprise |

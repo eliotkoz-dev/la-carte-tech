@@ -50,6 +50,8 @@ bureaux_asie:
   sources:
   - titre: "Dassault Systèmes, ses bureaux dans le monde"
     url: "https://www.3ds.com/about/company/office-locations"
+carrieres: "https://www.3ds.com/careers"
+carrieres_jeunes: "https://www.3ds.com/careers/students-graduates"
 stages:
   statut: oui
   detail: "Stage Stratégie et développement de marché à Vélizy, 6 mois, écoles de commerce acceptées (offre publiée en septembre 2026)."

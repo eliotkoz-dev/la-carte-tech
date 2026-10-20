@@ -76,6 +76,8 @@ bureaux_oceanie:
   sources:
   - titre: "HubSpot, page Contact"
     url: "https://www.hubspot.com/company/contact"
+carrieres: "https://www.hubspot.com/careers"
+carrieres_jeunes: "https://www.hubspot.com/careers/students/entry-level"
 stages:
   statut: a-verifier
   detail: "Programme de stage ingénieur à Dublin en 2026 (offre retirée en février 2026) ; pas de stage commercial trouvé en Europe."

@@ -36,6 +36,8 @@ vente:
   objections:
   - "Le prix et la dépendance à un seul fournisseur"
   - "Les questions d’éthique liées au renseignement"
+carrieres: "https://www.palantir.com/careers/"
+carrieres_jeunes: "https://www.palantir.com/careers/students-and-early-talent/"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

@@ -42,6 +42,8 @@ bureaux_asie:
   sources:
   - titre: "TBS News, Uber garde son siège Asie-Pacifique à Singapour"
     url: "https://www.tbsnews.net/tech/uber-halts-move-apac-headquarters-singapore-hong-kong-113599"
+carrieres: "https://jobs.uber.com/"
+carrieres_jeunes: "https://jobs.uber.com/en/teams/emerging-talent/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

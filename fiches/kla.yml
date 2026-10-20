@@ -39,6 +39,8 @@ bureaux_asie:
   sources:
   - titre: "EDB Singapour, KLA ouvre une nouvelle usine"
     url: "https://www.edb.gov.sg/en/news-and-insights/semiconductor-firm-kla-opens-new-singapore-plant-that-will-create-400-new-jobs"
+carrieres: "https://www.kla.com/careers"
+carrieres_jeunes: "https://www.kla.com/careers/emerging-talent"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

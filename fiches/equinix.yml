@@ -34,6 +34,8 @@ vente:
   objections:
   - "Le prix de l’électricité"
   - "Les géants du cloud construisent leurs propres centres"
+carrieres: "https://careers.equinix.com/"
+carrieres_jeunes: "https://careers.equinix.com/students-recent-grads"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

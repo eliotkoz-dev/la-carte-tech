@@ -46,6 +46,8 @@ bureaux_europe:
     url: "https://www.lequotidiendumedecin.fr/actus-medicales/esante/rendez-vous-medicaux-en-ligne-doctolib-veut-simplanter-en-allemagne"
   - titre: "Siècle Digital, Doctolib en Italie"
     url: "https://siecledigital.fr/2021/01/05/doctolib-se-projette-en-italie/"
+carrieres: "https://careers.doctolib.com/"
+carrieres_jeunes: "https://careers.doctolib.com/students-and-graduates/"
 stages:
   statut: oui
   detail: "Stages et alternances à Levallois-Perret (1 an)."

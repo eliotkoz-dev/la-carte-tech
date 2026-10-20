@@ -448,6 +448,15 @@
     const r = a.rejoindre;
     const stage = el('div', 'bloc-stage');
     stage.append(el('h3', '', 'Stages'), el('span', 'badge badge-sombre ' + a.stage, STAGES[a.stage]), el('p', '', a.stageDetail));
+    if (a.carrieres || a.carrieresJeunes) {
+      const p = el('p', 'liens-carrieres');
+      [[a.carrieresJeunes, 'Stages et jeunes diplômés'], [a.carrieres, 'Page carrières']].forEach(([u, t]) => {
+        if (!u) return;
+        const l = el('a', '', t + ' ↗'); l.href = u; l.target = '_blank'; l.rel = 'noopener';
+        p.append(l, ' ');
+      });
+      stage.append(p);
+    }
     corps.append(stage);
     if (r) corps.append(blocRejoindre(r));
     const ul = el('ul');

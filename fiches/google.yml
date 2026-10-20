@@ -165,6 +165,8 @@ bureaux_moyen_orient_afrique:
   sources:
   - titre: "Google, ses bureaux dans le monde"
     url: "https://about.google/locations/"
+carrieres: "https://www.google.com/about/careers/applications/"
+carrieres_jeunes: "https://www.google.com/about/careers/applications/students/"
 stages:
   statut: oui
   detail: "Stage New Business Sales à Dublin ou Hambourg, de mai à juillet 2027 (13 semaines minimum), candidatures avant le 13 novembre 2026. Alternances à Paris chaque septembre."

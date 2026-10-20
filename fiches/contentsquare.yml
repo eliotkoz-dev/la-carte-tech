@@ -53,6 +53,7 @@ bureaux_europe:
     url: "https://www.contentsquare.com/about"
   - titre: "Built In, bureaux de Contentsquare"
     url: "https://builtin.com/company/contentsquare/offices"
+carrieres: "https://jobs.lever.co/contentsquare/"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

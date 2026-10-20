@@ -81,6 +81,8 @@ bureaux_asie:
   sources:
   - titre: "Intel dans le monde"
     url: "https://www.intel.com/content/www/us/en/corporate-responsibility/community-global-sites.html"
+carrieres: "https://jobs.intel.com/"
+carrieres_jeunes: "https://jobs.intel.com/page/show/business-jobs-internships"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

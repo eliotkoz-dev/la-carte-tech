@@ -35,6 +35,8 @@ vente:
   argument: "Une connectivité adaptée à l’IA, vendue à un très petit nombre de clients"
   objections:
   - "Peu de clients très importants"
+carrieres: "https://www.asteralabs.com/careers/"
+carrieres_jeunes: "https://www.asteralabs.com/early-career-programs/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

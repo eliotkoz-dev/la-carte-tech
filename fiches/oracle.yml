@@ -69,6 +69,8 @@ bureaux_asie:
   sources:
   - titre: "Oracle, bureaux en Asie-Pacifique"
     url: "https://www.oracle.com/apac/corporate/contact/field-offices/"
+carrieres: "https://www.oracle.com/careers/"
+carrieres_jeunes: "https://www.oracle.com/careers/students-grads/"
 stages:
   statut: a-verifier
   detail: "Stages en développement (Tchéquie, Espagne), pas d’offre confirmée en France : à vérifier."

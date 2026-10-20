@@ -34,6 +34,7 @@ vente:
   objections:
   - "Les règles locales sur les locations courte durée"
   - "Les frais de service"
+carrieres: "https://careers.airbnb.com/positions/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

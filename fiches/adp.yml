@@ -40,6 +40,8 @@ bureaux_asie:
   sources:
   - titre: "ADP Singapour, adresse du bureau"
     url: "https://sg.adp.com/about-adp/office-locations.aspx"
+carrieres: "https://jobs.adp.com/en/"
+carrieres_jeunes: "https://jobs.adp.com/en/early-careers/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

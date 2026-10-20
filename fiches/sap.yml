@@ -57,6 +57,8 @@ bureaux_asie:
     url: "https://www.sap.com/about/company/office-locations/singapore.html"
   - titre: "SAP, bureau de Hong Kong"
     url: "https://www.sap.com/about/company/office-locations/hong-kong.html"
+carrieres: "https://jobs.sap.com/en/"
+carrieres_jeunes: "https://jobs.sap.com/en/students-and-graduates/"
 stages:
   statut: oui
   detail: "Alternance de 2 ans en vente à Levallois-Perret et stages à Paris."

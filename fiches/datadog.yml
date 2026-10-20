@@ -103,6 +103,8 @@ bureaux_oceanie:
   sources:
   - titre: "Datadog, page Contact"
     url: "https://www.datadoghq.com/about/contact/"
+carrieres: "https://careers.datadoghq.com/"
+carrieres_jeunes: "https://careers.datadoghq.com/early-careers/"
 stages:
   statut: oui
   detail: "Stages à Paris (produit, ingénierie), 6 mois, début février à juin 2027 ; un stage « Applied Science » à Paris vu fin septembre 2026."

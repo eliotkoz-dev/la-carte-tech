@@ -91,6 +91,8 @@ bureaux_amerique_du_nord:
   sources:
   - titre: "Netflix, ses bureaux dans le monde"
     url: "https://jobs.netflix.com/locations"
+carrieres: "https://jobs.netflix.com/"
+carrieres_jeunes: "https://jobs.netflix.com/careers/internships"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

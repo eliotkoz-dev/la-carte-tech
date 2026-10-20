@@ -41,6 +41,8 @@ bureaux_asie:
   sources:
   - titre: "Booking.com, carrières à Singapour"
     url: "https://careers.booking.com/singapore"
+carrieres: "https://careers.booking.com/"
+carrieres_jeunes: "https://careers.booking.com/early-careers/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

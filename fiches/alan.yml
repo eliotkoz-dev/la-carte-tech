@@ -43,6 +43,7 @@ bureaux_europe:
   sources:
   - titre: "Alan, présentation de l’entreprise"
     url: "https://alan.com/llms.txt"
+carrieres: "https://jobs.ashbyhq.com/alan"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

@@ -36,6 +36,8 @@ vente:
   objections:
   - "Le prix"
   - "La dépendance à quelques clients"
+carrieres: "https://www.monolithicpower.com/en/careers"
+carrieres_jeunes: "https://www.monolithicpower.com/en/about-mps/careers/internship.html"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

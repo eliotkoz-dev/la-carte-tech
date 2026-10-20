@@ -41,6 +41,8 @@ bureaux_asie:
   sources:
   - titre: "Veeva, contact et adresses"
     url: "https://www.veeva.com/contact-us/"
+carrieres: "https://careers.veeva.com/"
+carrieres_jeunes: "https://www.veeva.com/generationveeva/europe-cdp/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

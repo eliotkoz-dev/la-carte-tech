@@ -43,6 +43,7 @@ bureaux_europe:
     url: "https://komo.ai/directory/tsmc-offices"
   - titre: "ESMC, programmes étudiants"
     url: "https://esmc.eu/en/academy_program.html"
+carrieres: "https://careers.tsmc.com/"
 stages:
   statut: a-verifier
   detail: "Pas de stage trouvé en Europe ; via ESMC, sa filiale de Dresde, un stage d’été de 4 semaines à Taïwan (session 2025 close)."

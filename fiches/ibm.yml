@@ -40,6 +40,8 @@ vente:
   objections:
   - "Le prix"
   - "Une image moins innovante que celle des clouds américains"
+carrieres: "https://www.ibm.com/careers"
+carrieres_jeunes: "https://www.ibm.com/careers/career-opportunities"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

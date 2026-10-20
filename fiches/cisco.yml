@@ -70,6 +70,8 @@ bureaux_asie:
   sources:
   - titre: "Cisco, bureaux Asie-Pacifique"
     url: "https://www3-realm.cisco.com/web/siteassets/contacts/offices/asiapac.html"
+carrieres: "https://careers.cisco.com/"
+carrieres_jeunes: "https://careers.cisco.com/global/en/entry-level-jobs"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

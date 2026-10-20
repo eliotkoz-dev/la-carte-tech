@@ -41,6 +41,8 @@ bureaux_asie:
   sources:
   - titre: "Micron, ses implantations"
     url: "https://www.micron.com/about/locations"
+carrieres: "https://www.micron.com/about/careers"
+carrieres_jeunes: "https://www.micron.com/about/careers/university-recruiting"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

@@ -66,6 +66,7 @@ bureaux_asie:
   sources:
   - titre: "CRN Asia, Databricks investit 350 M$ à Singapour"
     url: "https://www.crnasia.com/news/2026/data/databricks-invests-us-350m-in-singapore"
+carrieres: "https://www.databricks.com/company/careers/open-positions"
 stages:
   statut: oui
   detail: "Stages produit et ingénierie à Amsterdam pour l’été 2027, vus sur des sites relais."

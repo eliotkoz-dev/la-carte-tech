@@ -47,6 +47,8 @@ bureaux_europe:
   sources:
   - titre: "Back Market, nos bureaux"
     url: "https://jobs.backmarket.com/locations"
+carrieres: "https://jobs.backmarket.com/"
+carrieres_jeunes: "https://www.backmarket.com/en-us/careers/home/early-careers"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

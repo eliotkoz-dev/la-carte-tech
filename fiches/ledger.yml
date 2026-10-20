@@ -43,6 +43,7 @@ bureaux_asie:
   sources:
   - titre: "Ledger, ses implantations"
     url: "https://careers.ledger.com/our-company/our-locations/"
+carrieres: "https://careers.ledger.com/"
 stages:
   statut: oui
   detail: "Plusieurs stages et alternances à Paris vus sur le site d’emplois de Ledger (revenue growth, marketing, juridique, fiscalité, formation, comptabilité) ; dates de début à confirmer sur l’offre."

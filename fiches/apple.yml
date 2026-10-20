@@ -60,6 +60,8 @@ bureaux_europe:
   sources:
   - titre: "Relocate.me, Apple en Europe (mis à jour en 2025)"
     url: "https://relocate.me/blog/working-abroad/apple-tech-jobs-in-europe"
+carrieres: "https://jobs.apple.com/"
+carrieres_jeunes: "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"
 stages:
   statut: a-verifier
   detail: "Pas de stage trouvé en France ; les offres visibles sont des postes en Apple Store et en développement commercial."

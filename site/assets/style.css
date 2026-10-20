@@ -394,3 +394,4 @@ button { font: inherit; color: inherit; }
 .recherche input { width: 100%; font: inherit; font-size: 16px; padding: 12px 14px; border: 1px solid var(--trait); background: #FFFFFF; color: var(--encre); }
 .recherche input:focus { outline: 2px solid var(--bleu); outline-offset: 1px; }
 .sr-seul { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.liens-carrieres{display:flex;flex-wrap:wrap;gap:.5rem 1rem;margin:.4rem 0 0;font-weight:600}

@@ -39,6 +39,8 @@ vente:
   objections:
   - "Une part de marché bien plus petite que celle d’AWS, Azure et Google"
   - "Le coût de quitter son cloud actuel"
+carrieres: "https://www.ibm.com/careers"
+carrieres_jeunes: "https://www.ibm.com/careers/career-opportunities"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières d’IBM."

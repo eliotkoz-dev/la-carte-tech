@@ -45,6 +45,8 @@ bureaux_asie:
     url: "https://careers.keysight.com/location-singapore"
   - titre: "Keysight, contact Hong Kong"
     url: "https://www.keysight.com/hk/en/contact.html"
+carrieres: "https://careers.keysight.com/"
+carrieres_jeunes: "https://jobs.keysight.com/students/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

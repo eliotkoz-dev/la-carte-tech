@@ -36,6 +36,8 @@ vente:
   objections:
   - "Les hausses de prix"
   - "La concurrence de la déclaration gratuite"
+carrieres: "https://jobs.intuit.com/search-jobs/c"
+carrieres_jeunes: "https://www.intuit.com/careers/programs/internships/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

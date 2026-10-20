@@ -74,6 +74,8 @@ bureaux_asie:
   sources:
   - titre: "IT Brief, le nouveau siège Asie-Pacifique de Microsoft"
     url: "https://itbrief.com.au/story/microsoft-showcases-innovations-in-new-asia-pacific-hq"
+carrieres: "https://careers.microsoft.com/"
+carrieres_jeunes: "https://careers.microsoft.com/v2/global/en/students"
 stages:
   statut: alternance
   detail: "Alternance à Issy-les-Moulineaux (12 à 24 mois) ; stages globaux ouverts aux étudiants."

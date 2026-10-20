@@ -65,6 +65,8 @@ bureaux_europe:
   sources:
   - titre: "Nvidia, contacts en Europe"
     url: "https://www.nvidia.com/en-eu/contact/europe"
+carrieres: "https://www.nvidia.com/en-us/about-nvidia/careers/"
+carrieres_jeunes: "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
 stages:
   statut: oui
   detail: "Surtout des stages techniques, par exemple Data Processing Developer Technology à Munich (promotion 2027), offre publiée en octobre 2026 sur un site relais."

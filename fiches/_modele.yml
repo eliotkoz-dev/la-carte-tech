@@ -33,6 +33,8 @@ concurrents: "Concurrent 1, Concurrent 2"
 #   sources:                # obligatoire dès qu’il y a un chiffre
 #     - titre: "…"
 #       url: "https://…"
+# carrieres: "https://…"          # facultatif : page carrières officielle
+# carrieres_jeunes: "https://…"    # facultatif : page stages / jeunes diplômés
 stages:
   statut: a-verifier     # oui | alternance | a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

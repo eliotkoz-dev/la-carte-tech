@@ -43,6 +43,7 @@ bureaux_europe:
   sources:
   - titre: "ResumeGeni, offre de Cohere listant ses bureaux"
     url: "https://resumegeni.com/jobs/software-engineer-intern-fall-winter-2026-at-cohere-canada"
+carrieres: "https://jobs.ashbyhq.com/cohere"
 stages:
   statut: oui
   detail: "Stages ingénieur et recherche de 3 à 6 mois (automne-hiver 2026, au Canada), offre publiée en mai 2026 sur un site relais ; bureaux aussi à Paris et Londres."

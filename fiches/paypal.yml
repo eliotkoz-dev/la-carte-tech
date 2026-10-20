@@ -36,6 +36,8 @@ vente:
   objections:
   - "Les commissions"
   - "La concurrence des paiements des téléphones"
+carrieres: "https://careers.pypl.com/"
+carrieres_jeunes: "https://careers.pypl.com/university-hiring/university-overview/"
 stages:
   statut: a-verifier
   detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."

@@ -46,6 +46,8 @@ bureaux_europe:
   sources:
   - titre: "The Logic, Shopify choisit Berlin (2019)"
     url: "https://thelogic.co/news/exclusive/shopify-picks-berlin-for-first-engineering-hub-outside-canada/"
+carrieres: "https://www.shopify.com/careers"
+carrieres_jeunes: "https://www.shopify.com/careers/early-careers"
 stages:
   statut: oui
   detail: "Stages data aux États-Unis (Bellevue, New York), de janvier à août 2026 ; rien trouvé en Europe."

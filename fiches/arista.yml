@@ -71,6 +71,8 @@ bureaux_europe:
   sources:
   - titre: "Arista, nous contacter"
     url: "https://www.arista.com/en/company/contact-us"
+carrieres: "https://www.arista.com/en/careers"
+carrieres_jeunes: "https://www.arista.com/en/careers/university"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

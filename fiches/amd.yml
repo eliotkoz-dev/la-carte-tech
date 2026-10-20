@@ -39,6 +39,8 @@ vente:
   objections:
   - "Un écosystème logiciel moins mûr que CUDA, celui de Nvidia"
   - "Les volumes disponibles"
+carrieres: "https://careers.amd.com/"
+carrieres_jeunes: "https://jobs.amd.com/go/Internships-&-Co-op-Opportunities/2567200/"
 stages:
   statut: a-verifier
   detail: "À vérifier sur le site carrières de l’entreprise."

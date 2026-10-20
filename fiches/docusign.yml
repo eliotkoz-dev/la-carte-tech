@@ -42,6 +42,8 @@ bureaux_europe:
   sources:
   - titre: "Docusign, la société"
     url: "https://www.docusign.com/fr-fr/societe"
+carrieres: "https://careers.docusign.com/"
+carrieres_jeunes: "https://careers.docusign.com/students"
 stages:
   statut: oui
   detail: "Stages surtout aux États-Unis, par exemple Software Engineer Intern à San Francisco (offre de janvier 2026) ; rien trouvé en Europe."

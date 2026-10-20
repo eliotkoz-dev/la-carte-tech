@@ -61,6 +61,8 @@ bureaux_europe:
   sources:
   - titre: "Relocate.me, Meta en Europe (mis à jour en 2026)"
     url: "https://relocate.me/blog/wp-json/wp/v2/posts/1938"
+carrieres: "https://www.metacareers.com/"
+carrieres_jeunes: "https://www.metacareers.com/careerprograms/students/"
 stages:
   statut: oui
   detail: "Stage de 12 semaines à Dublin, de juin à septembre."
