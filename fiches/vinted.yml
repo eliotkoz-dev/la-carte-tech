@@ -45,7 +45,7 @@ bureaux_europe:
 carrieres: "https://careers.vinted.com/jobs"
 stages:
   statut: a-verifier
-  detail: "Offres de stage en opérations (optimisation des entrepôts, intégration) vues sur JobTeaser, date non confirmée."
+  detail: "Aucune offre de stage dans les 20 premières offres de la liste (sur 145)."
 sources:
 - titre: "FashionUnited, résultats 2025"
   url: "https://fashionunited.com/news/business/vinted-reaches-1-1-billion-euros-in-revenue-for-2025-accepting-a-strategic-drop-in-profits/2026040971654"

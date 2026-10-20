@@ -35,8 +35,19 @@ vente:
   - "Le coût des satellites de remplacement"
 carrieres: "https://careers.eutelsat.com/search/"
 stages:
-  statut: a-verifier
-  detail: "Des offres de stage et d’apprentissage à Issy-les-Moulineaux existent ; l’offre consultée est déjà pourvue, à vérifier sur les offres actuelles."
+  statut: alternance
+  detail: "Une offre d’alternance en finance (Analyste Corporate Finance) à Issy-les-Moulineaux sur le site carrières, parmi 25 offres consultées sur 39."
+rejoindre:
+  bureaux:
+  - ville: Issy-les-Moulineaux
+  voies:
+  - type: alternance
+    nom: "Analyste Corporate Finance (Alternance)"
+    detail: "Contrat « Stage / Alternance », Issy-les-Moulineaux."
+  a_verifier: "14 offres sur 39 non consultées ; durée et date de début non indiquées."
+  sources:
+  - titre: "Eutelsat, offres d’emploi"
+    url: "https://careers.eutelsat.com/search/?q=stage"
 sources:
 - titre: "DatacenterDynamics, résultats 2025-26 d’Eutelsat"
   url: "https://www.datacenterdynamics.com/en/news/eutelsat-releases-2025-26-financial-results-with-695-increase-in-leo-revenues-yoy/"

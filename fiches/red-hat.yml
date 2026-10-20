@@ -158,7 +158,7 @@ bureaux_amerique_du_nord:
 carrieres: "https://www.redhat.com/en/jobs/departments"
 stages:
   statut: a-verifier
-  detail: "Aucune offre de stage en Europe vérifiée : la page carrières n’a pas pu être lue. À vérifier sur le site de l’entreprise."
+  detail: "Pas d’offre de stage en France trouvée ; la page renvoie vers la liste d’offres France sur Workday."
 sources:
 - titre: "Wikipédia, Red Hat"
   url: "https://en.wikipedia.org/wiki/Red_Hat"

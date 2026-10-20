@@ -46,8 +46,8 @@ bureaux_europe:
     url: "https://en.wikipedia.org/wiki/Bitpanda"
 carrieres: "https://job-boards.greenhouse.io/bitpanda"
 stages:
-  statut: a-verifier
-  detail: "Aucune offre de stage vérifiée : la page carrières n’a pas pu être lue. À vérifier sur le site de l’entreprise."
+  statut: programme
+  detail: "5 offres de stage vues à Vienne et à Barcelone ; aucune en France ni en alternance."
 sources:
 - titre: "The Block, résultats 2025 de Bitpanda (mars 2026)"
   url: "https://www.theblock.co/post/393233/bitpanda-reports-430-million-adjusted-revenue-in-2025-as-user-base-grows-25"

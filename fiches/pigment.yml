@@ -38,8 +38,26 @@ vente:
   - "L’habitude d’Excel"
 carrieres: "https://jobs.lever.co/pigment"
 stages:
-  statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  statut: oui
+  detail: "3 offres de stage ou d’alternance à Paris sur le site carrières en octobre 2026 : business development / growth marketing (stage de 6 mois), IT, recrutement tech."
+rejoindre:
+  bureaux:
+  - ville: Paris
+    detail: Les 3 offres de stage et d’alternance consultées
+  voies:
+  - type: stage
+    nom: "Business Development/Sales & Growth Marketing North America (6-month Internship)"
+    detail: "Stage de 6 mois à Paris, sur site, équipe Growth."
+  - type: stage
+    nom: "IT Operations - Workplace (Internship)"
+    detail: "Stage à Paris, sur site, équipe Security."
+  - type: alternance
+    nom: "Tech Talent Acquisition Intern / Apprentice"
+    detail: "Stage ou alternance à Paris, équipe RH."
+  a_verifier: "Dates de début et durées des deux autres offres : non indiquées sur la liste."
+  sources:
+  - titre: "Pigment, offres d’emploi (Lever)"
+    url: https://jobs.lever.co/pigment
 sources:
 - titre: "Mucrunch, Pigment lève 145 M$ (avril 2024)"
   url: "https://mucrunch.beehiiv.com/p/french-startup-pigment-raises-145-million"
