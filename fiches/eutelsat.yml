@@ -33,6 +33,12 @@ vente:
   objections:
   - "La concurrence de Starlink"
   - "Le coût des satellites de remplacement"
+bureaux_europe:
+  villes:
+  - "Issy-les-Moulineaux (France)"
+  sources:
+  - titre: "Eutelsat, offres d’emploi"
+    url: "https://careers.eutelsat.com/search/?q=stage"
 carrieres: "https://careers.eutelsat.com/search/"
 stages:
   statut: alternance

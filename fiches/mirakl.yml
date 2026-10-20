@@ -48,6 +48,25 @@ bureaux_europe:
   sources:
   - titre: "Mirakl, nouveaux bureaux à Bordeaux"
     url: "https://www.mirakl.com/fr-fr/news/mirakl-inaugure-ses-nouveaux-bureaux-a-bordeaux-en-vue-dune-croissance-de-ses-equipes-dans-la-region/"
+bureaux_amerique_du_nord:
+  villes:
+  - "Boston (États-Unis)"
+  - "New York (États-Unis)"
+  sources:
+  - titre: "Offre Business Value Consultant Intern, Paris"
+    url: "https://www.welcometothejungle.com/fr/companies/mirakl/jobs/business-value-consultant-stage_paris"
+bureaux_oceanie:
+  villes:
+  - "Sydney (Australie)"
+  sources:
+  - titre: "Offre Business Value Consultant Intern, Paris"
+    url: "https://www.welcometothejungle.com/fr/companies/mirakl/jobs/business-value-consultant-stage_paris"
+bureaux_asie:
+  villes:
+  - "Tokyo (Japon)"
+  sources:
+  - titre: "Offre Business Value Consultant Intern, Paris"
+    url: "https://www.welcometothejungle.com/fr/companies/mirakl/jobs/business-value-consultant-stage_paris"
 carrieres: "https://www.mirakl.com/company/careers/jobs/"
 stages:
   statut: oui

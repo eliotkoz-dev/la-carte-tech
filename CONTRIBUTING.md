@@ -61,7 +61,7 @@ Le bloc `rejoindre` se remplit ainsi :
 
 | Champ | Ce qu’il faut mettre |
 |---|---|
-| `bureaux` | Facultatif : liste de `ville` (et `detail`) où l’entreprise recrute |
+| `bureaux` | Facultatif : liste de `ville` (et `detail`) où l’entreprise recrute. Chaque ville doit déjà figurer dans les listes `bureaux_<région>` de la fiche : les villes ne sont écrites qu’à un seul endroit, et le build refuse sinon |
 | `voies` | Obligatoire : liste de `type`, `nom`, `detail`. Types : `stage`, `alternance`, `graduate`, `vie`, `premier-poste` |
 | `calendrier`, `langues` | Facultatifs : quand postuler, langues demandées |
 | `a_verifier` | Facultatif : ce qu’on n’a pas pu confirmer (mieux vaut l’écrire que deviner) |

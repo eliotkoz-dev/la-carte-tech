@@ -39,10 +39,13 @@ vente:
 bureaux_europe:
   villes:
   - "Paris (France)"
+  - "Bordeaux (France)"
   note: "Le siège est à Paris ; Alan assure aussi des clients en Espagne et en Belgique (la page ne dit pas où sont les équipes)."
   sources:
   - titre: "Alan, présentation de l’entreprise"
     url: "https://alan.com/llms.txt"
+  - titre: "Alan, Propulsez votre début de carrière"
+    url: "https://alan.com/fr-fr/blog/tout-alan/a/propulsez-votre-debut-de-carriere-rejoignez-alan"
 carrieres: "https://jobs.ashbyhq.com/alan"
 stages:
   statut: a-verifier

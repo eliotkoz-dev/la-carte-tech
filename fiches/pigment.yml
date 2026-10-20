@@ -36,6 +36,12 @@ vente:
   objections:
   - "Le coût et le temps de mise en place"
   - "L’habitude d’Excel"
+bureaux_europe:
+  villes:
+  - "Paris (France)"
+  sources:
+  - titre: "Pigment, offres d’emploi (Lever)"
+    url: "https://jobs.lever.co/pigment"
 carrieres: "https://jobs.lever.co/pigment"
 stages:
   statut: oui

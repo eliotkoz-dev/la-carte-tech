@@ -41,6 +41,16 @@ bureaux_asie:
   sources:
   - titre: "Safran, présence à Singapour"
     url: "https://www.safran-group.com/country/safran-singapore"
+bureaux_europe:
+  villes:
+  - "Réau (France)"
+  - "Vanves (France)"
+  - "Moissy-Cramayel (France)"
+  - "Plaisir (France)"
+  - "Malakoff (France)"
+  sources:
+  - titre: "Safran, offre de stage Réau (10/09/2026)"
+    url: "https://www.safran-group.com/jobs/france/reau/stage-simulation-haute-fidelite-combustion-kerosene-regime-rechauffe-fh-188117"
 carrieres: "https://www.safran-group.com/jobs"
 stages:
   statut: oui

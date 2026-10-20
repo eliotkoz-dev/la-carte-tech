@@ -60,6 +60,12 @@ bureaux_asie:
   sources:
   - titre: "HR Online, Revolut investit à Singapour"
     url: "https://www.humanresourcesonline.net/revolut-to-invest-nearly-s-350mn-in-singapore-with-new-collyer-quay-office"
+bureaux_moyen_orient_afrique:
+  villes:
+  - "Dubaï (Émirats arabes unis)"
+  sources:
+  - titre: "Revolut, Graduate Programme"
+    url: "https://www.revolut.com/graduate-programme/"
 carrieres: "https://www.revolut.com/en-US/careers/"
 stages:
   statut: oui

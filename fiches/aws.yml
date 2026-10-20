@@ -51,6 +51,7 @@ bureaux_europe:
   - "Madrid (Espagne)"
   - "Milan (Italie)"
   - "Bruxelles (Belgique)"
+  - "Paris (France)"
   note: "Bureaux d’Amazon et d’AWS (liste partielle)."
   sources:
   - titre: "Amazon.jobs, offre de stage AWS en France"
@@ -61,6 +62,8 @@ bureaux_europe:
     url: "https://amazon.jobs/en/location/berlin-germany"
   - titre: "Amazon.jobs, Bruxelles"
     url: "https://amazon.jobs/en/location/brussels-belgium"
+  - titre: "Amazon.jobs, offre Solutions Architect Intern (AWS France)"
+    url: "https://amazon.jobs/jobs/2798605"
 bureaux_asie:
   villes:
   - "Singapour (Singapour)"

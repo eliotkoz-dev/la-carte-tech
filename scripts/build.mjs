@@ -123,6 +123,11 @@ for (const f of fichiers) {
     const b = verifierBureaux(f, d[cle], cle);
     if (b) bureaux[r] = b;
   }
+  // Une seule source pour les villes : chaque ville citée dans « rejoindre.bureaux » doit figurer dans les listes « bureaux_<région> » de la même fiche.
+  const villesBureaux = new Set(Object.values(bureaux).flatMap((b) => b.villes.map((v) => v.ville)));
+  (rejoindre?.bureaux || []).forEach((b) => {
+    if (!villesBureaux.has(b.ville)) err(f, `« rejoindre.bureaux » cite ${b.ville}, absente des listes « bureaux_<région> » : ajoutez-la d’abord là (format « Ville (Pays) »), les villes ne sont renseignées qu’à un seul endroit`);
+  });
   if (d.aussi !== undefined && (!Array.isArray(d.aussi) || d.aussi.length > 2 || !d.aussi.every((c) => CATEGORIES.includes(c) && c !== d.categorie))) err(f, `« aussi » : une liste de 1 ou 2 autres catégories (${CATEGORIES.join(', ')})`);
   if (!Array.isArray(d.sources) || d.sources.length === 0) err(f, 'au moins une source est obligatoire');
   else d.sources.forEach((s, i) => {

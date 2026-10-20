@@ -40,12 +40,15 @@ bureaux_europe:
   - "Levallois-Perret (France)"
   - "Berlin (Allemagne)"
   - "Milan (Italie)"
+  - "Paris (France)"
   note: "Siège à Levallois-Perret ; présente aussi en Allemagne et en Italie."
   sources:
   - titre: "Le Quotidien du médecin, Doctolib en Allemagne"
     url: "https://www.lequotidiendumedecin.fr/actus-medicales/esante/rendez-vous-medicaux-en-ligne-doctolib-veut-simplanter-en-allemagne"
   - titre: "Siècle Digital, Doctolib en Italie"
     url: "https://siecledigital.fr/2021/01/05/doctolib-se-projette-en-italie/"
+  - titre: "Offre alternance stratégie et produit marketing, septembre 2026"
+    url: "https://jobsbyculture.com/jobs/doctolib/alternance-strat-gie-et-produit-marketing-x-f-m-septembre-2026"
 carrieres: "https://careers.doctolib.com/"
 carrieres_jeunes: "https://careers.doctolib.com/students-and-graduates/"
 stages:

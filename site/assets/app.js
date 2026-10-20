@@ -231,10 +231,9 @@
   // Les communes de la banlieue parisienne comptent pour « Paris » dans le filtre par ville.
   const SEUIL_VILLE = 4;
   const ALIAS_VILLES = { 'Levallois-Perret': 'Paris', 'Issy-les-Moulineaux': 'Paris', 'La Défense': 'Paris', Courbevoie: 'Paris' };
-  // Villes où l'entreprise a des locaux : bureaux en Europe (« Ville (Pays) ») et villes citées dans « rejoindre ».
+  // Villes où l'entreprise a des locaux : uniquement les listes « bureaux_<région> » (source unique, le build vérifie que « rejoindre » n'en cite pas d'autres).
   const villesDe = (a) => [...new Set([
-    ...REGIONS_BUREAUX.flatMap((r) => ((a.bureaux && a.bureaux[r.id] && a.bureaux[r.id].villes) || []).map((v) => v.ville)),
-    ...((a.rejoindre && a.rejoindre.bureaux) || []).map((b) => b.ville)
+    ...REGIONS_BUREAUX.flatMap((r) => ((a.bureaux && a.bureaux[r.id] && a.bureaux[r.id].villes) || []).map((v) => v.ville))
   ].map((v) => ALIAS_VILLES[v] || v))];
   const VOIES = { stage: 'Stage', alternance: 'Alternance', graduate: 'Graduate program', vie: 'VIE', 'premier-poste': 'Premier poste' };
 
