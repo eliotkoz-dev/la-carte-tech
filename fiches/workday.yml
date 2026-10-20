@@ -1,0 +1,38 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: Workday
+categorie: saas
+region: amerique-du-nord
+groupe: "Cotée à New York (Nasdaq)"
+siege: "Pleasanton (États-Unis)"
+en_bref: "Logiciel RH et finance"
+chiffre_affaires:
+  texte: "9,55 Md$ en exercice 2026 (+13 %)"
+  md_usd: 9.552
+chiffres_cles:
+- "Plus de 11 500 clients, dont plus de 7 000 en gestion financière et RH"
+- "Revenus d’abonnement : 8,833 Md$ (+14,5 %), exercice clos le 31 janvier 2026"
+ce_qu_elle_vend: "Les logiciels de gestion des ressources humaines et de la finance des grandes entreprises, dans le cloud."
+produits:
+- nom: "Workday HCM"
+  detail: "ressources humaines et paie"
+- nom: "Workday Financial Management"
+  detail: "comptabilité et finance"
+- nom: "Workday Adaptive Planning"
+  detail: "budget et prévisions"
+modele: "Abonnement annuel, en général sur plusieurs années, selon le nombre de salariés."
+clients: "grandes entreprises et administrations"
+rachats:
+- "Adaptive Insights (2018) : planification budgétaire"
+- "Peakon (2021) : mesure de l’engagement des salariés"
+concurrents: "SAP (SuccessFactors), Oracle, ADP"
+carrieres: "https://www.workday.com/en-us/company/careers/open-positions.html"
+carrieres_jeunes: "https://www.workday.com/en-us/company/careers/early-career.html"
+stages:
+  statut: oui
+  detail: "Programmes de stages et de co-op ; lieux non vérifiés."
+sources:
+- titre: "Workday, résultats de l’exercice 2026"
+  url: "https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results"
+verifie_le: '2026-10-20'

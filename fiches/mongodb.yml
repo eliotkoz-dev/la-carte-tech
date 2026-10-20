@@ -1,0 +1,38 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: MongoDB
+categorie: data
+region: amerique-du-nord
+groupe: "Cotée à New York (Nasdaq)"
+siege: "New York (États-Unis)"
+en_bref: "Base de données pour développeurs"
+chiffre_affaires:
+  texte: "2,46 Md$ en exercice 2026 (+23 %)"
+  md_usd: 2.4638
+chiffres_cles:
+- "Plus de 65 200 clients, dont 2 799 à plus de 100 000 $ d’ARR"
+- "Atlas (version cloud) : 1,808 Md$ de revenus, environ 73 % du total"
+ce_qu_elle_vend: "Une base de données qui stocke les informations des applications sous forme de documents souples, en cloud ou chez le client."
+produits:
+- nom: "MongoDB Atlas"
+  detail: "base de données gérée dans le cloud"
+- nom: "MongoDB Enterprise Advanced"
+  detail: "version à installer chez soi"
+- nom: "Atlas Vector Search"
+  detail: "recherche pour les applications d’IA"
+modele: "Abonnement à l’usage pour Atlas, licences annuelles pour la version installée."
+clients: "développeurs, start-ups et grands groupes"
+rachats:
+- "Realm (2019) : base de données mobile"
+- "Voyage AI (2025) : modèles de recherche pour l’IA"
+concurrents: "Oracle, PostgreSQL, Amazon (DynamoDB)"
+carrieres: "https://www.mongodb.com/company/careers"
+carrieres_jeunes: "https://www.mongodb.com/company/careers/students-and-graduates"
+stages:
+  statut: oui
+  detail: "Page étudiants et jeunes diplômés ; stage ingénieur logiciel 2027 de 6 mois à Dublin vu ; France non vérifiée."
+sources:
+- titre: "MongoDB, résultats de l’exercice 2026"
+  url: "https://investors.mongodb.com/news-releases/news-release-details/mongodb-inc-announces-fourth-quarter-fiscal-2026-financial"
+verifie_le: '2026-10-20'

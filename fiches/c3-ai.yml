@@ -1,0 +1,34 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: C3.ai
+categorie: ia
+region: amerique-du-nord
+groupe: "Cotée à New York (NYSE)"
+siege: "Redwood City (États-Unis)"
+en_bref: "Applications d’IA pour grandes entreprises"
+chiffre_affaires:
+  texte: "250 M$ en exercice 2026 (en forte baisse)"
+  md_usd: 0.2503
+chiffres_cles:
+- "Revenu d’abonnement : 227 M$ (91 % du total)"
+- "Exercice clos le 30 avril 2026 ; fondateur Thomas Siebel redevenu directeur général"
+ce_qu_elle_vend: "Des applications d’IA toutes prêtes pour l’industrie, l’énergie, la défense et la finance."
+produits:
+- nom: "C3 AI Platform"
+  detail: "développer et faire tourner des applications d’IA"
+- nom: "C3 AI Applications"
+  detail: "maintenance prédictive, détection de fraude…"
+modele: "Abonnement et services d’intégration."
+clients: "grands groupes industriels et administrations"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Palantir, Databricks, Microsoft"
+carrieres: "https://c3.ai/iot-jobs"
+stages:
+  statut: oui
+  detail: "Stages d’été 2027 (ingénierie logicielle, data science, MBA product) ; lieux non vérifiés."
+sources:
+- titre: "C3.ai, résultats de l’exercice 2026"
+  url: "https://ir.c3.ai/news-releases/news-release-details/c3-ai-announces-fiscal-fourth-quarter-and-full-fiscal-year-2026"
+verifie_le: '2026-10-20'

@@ -1,0 +1,36 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: Tenable
+categorie: cyber
+region: amerique-du-nord
+groupe: "Cotée à New York (Nasdaq)"
+siege: "Columbia (États-Unis)"
+en_bref: "Trouver les failles avant les pirates"
+chiffre_affaires:
+  texte: "999 M$ en 2025 (+11 %)"
+  md_usd: 0.9994
+chiffres_cles:
+- "Plus de 40 000 clients dans le monde"
+- "Facturations courantes calculées : 1,049 Md$ (+8 %)"
+ce_qu_elle_vend: "La gestion des vulnérabilités : repérer les failles de sécurité des ordinateurs, applications et clouds, et les classer par urgence."
+produits:
+- nom: "Tenable One"
+  detail: "plateforme d’exposition aux risques"
+- nom: "Nessus"
+  detail: "scanner de vulnérabilités"
+- nom: "Tenable Cloud Security"
+  detail: "failles dans le cloud"
+modele: "Abonnement annuel selon le nombre d’actifs analysés."
+clients: "entreprises et administrations"
+rachats:
+- "Ermetic (2023) : sécurité du cloud"
+- "Accurics (2021) : sécurité des infrastructures"
+concurrents: "Qualys, Rapid7, Wiz"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Tenable, résultats 2025"
+  url: "https://investors.tenable.com/news-releases/news-release-details/tenable-announces-fourth-quarter-and-full-year-2025-financial"
+verifie_le: '2026-10-20'

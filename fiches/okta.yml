@@ -1,0 +1,37 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: Okta
+categorie: cyber
+region: amerique-du-nord
+aussi: [saas]
+groupe: "Cotée à New York (Nasdaq)"
+siege: "San Francisco (États-Unis)"
+en_bref: "Gérer qui a accès à quoi"
+chiffre_affaires:
+  texte: "2,92 Md$ en exercice 2026 (+12 %)"
+  md_usd: 2.919
+chiffres_cles:
+- "Chiffre d’affaires d’abonnement : 2,855 Md$ (+12 %), exercice clos le 31 janvier 2026"
+- "Flux de trésorerie disponible : 863 M$ (30 % du chiffre d’affaires)"
+ce_qu_elle_vend: "L’identité : permettre à chaque salarié ou client de se connecter en sécurité aux applications de l’entreprise."
+produits:
+- nom: "Workforce Identity"
+  detail: "connexion sécurisée des salariés"
+- nom: "Customer Identity (Auth0)"
+  detail: "connexion des clients des sites et applications"
+- nom: "Privileged Access"
+  detail: "protéger les comptes à pouvoirs étendus"
+modele: "Abonnement annuel par utilisateur et par produit."
+clients: "grandes entreprises et éditeurs de logiciels"
+rachats:
+- "Auth0 (2021) : connexion des clients des applications, environ 6,5 Md$"
+concurrents: "Microsoft (Entra ID), Ping Identity, CyberArk"
+carrieres_jeunes: "https://www.okta.com/company/careers/intern-program/"
+stages:
+  statut: oui
+  detail: "Programme de stages (« Interning at Okta ») avec des offres d’été 2026, dont business development representative ; lieux non vérifiés."
+sources:
+- titre: "Okta, résultats de l’exercice 2026"
+  url: "https://www.okta.com/newsroom/press-releases/okta-announces-fourth-quarter-fiscal-year-2026-financial-results/"
+verifie_le: '2026-10-20'

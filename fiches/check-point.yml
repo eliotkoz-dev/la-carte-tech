@@ -1,0 +1,42 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: Check Point
+categorie: cyber
+region: asie
+groupe: "Cotée à New York (Nasdaq)"
+siege: "Tel Aviv (Israël)"
+en_bref: "Pare-feu et sécurité réseau"
+chiffre_affaires:
+  texte: "2,73 Md$ en 2025 (+6 %)"
+  md_usd: 2.7254
+chiffres_cles:
+- "Revenus d’abonnements de sécurité : 1,219 Md$ (+10 %)"
+- "Facturation calculée : 2,906 Md$ (+9 %)"
+ce_qu_elle_vend: "Les pare-feu et services de sécurité qui protègent les réseaux, les clouds et les postes de travail des entreprises."
+produits:
+- nom: "Quantum"
+  detail: "pare-feu pour réseaux"
+- nom: "CloudGuard"
+  detail: "sécurité des clouds"
+- nom: "Harmony"
+  detail: "protection des salariés et des postes"
+- nom: "Infinity"
+  detail: "plateforme de gestion unifiée"
+modele: "Matériel et licences, plus abonnements de sécurité renouvelés chaque année."
+clients: "grandes entreprises, opérateurs et administrations"
+rachats:
+- "Perimeter 81 (2024) : accès réseau sécurisé"
+- "Cyberint (2024) : renseignement sur les menaces"
+concurrents: "Palo Alto Networks, Fortinet, Cisco"
+carrieres: "https://www.checkpoint.com/careers/"
+carrieres_jeunes: "https://www.checkpoint.com/careers/programs/"
+stages:
+  statut: oui
+  detail: "Page de programmes pour étudiants et jeunes diplômés sur le site carrières ; lieux non vérifiés."
+sources:
+- titre: "Check Point, résultats 2025"
+  url: "https://www.checkpoint.com/press-releases/check-point-software-reports-fourth-quarter-and-2025-full-year-results/"
+- titre: "Check Point, résultats du 4e trimestre 2025 (PDF)"
+  url: "https://www.checkpoint.com/downloads/investor/check-point-software-fourth-quarter-fy-2025-financial-results.pdf?v=1.1"
+verifie_le: '2026-10-20'

@@ -1,0 +1,37 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: Elastic
+categorie: data
+region: amerique-du-nord
+aussi: [cyber]
+groupe: "Cotée à New York (NYSE)"
+siege: "États-Unis et Pays-Bas · fondée à Amsterdam"
+en_bref: "Recherche et analyse de données"
+chiffre_affaires:
+  texte: "1,74 Md$ en exercice 2026 (+17 %)"
+  md_usd: 1.739
+chiffres_cles:
+- "Plus de 1 720 clients à plus de 100 000 $ de valeur annuelle de contrat"
+- "Chiffre d’affaires d’abonnement : 1,634 Md$ (+18 %), exercice clos le 30 avril 2026"
+ce_qu_elle_vend: "Un moteur de recherche et d’analyse qui retrouve très vite des informations dans d’énormes volumes de données, utilisé aussi pour la sécurité."
+produits:
+- nom: "Elasticsearch"
+  detail: "moteur de recherche et d’analyse"
+- nom: "Elastic Observability"
+  detail: "surveiller les applications"
+- nom: "Elastic Security"
+  detail: "détecter les menaces"
+modele: "Abonnement, en cloud (Elastic Cloud) ou installé chez le client."
+clients: "entreprises et éditeurs de logiciels"
+rachats:
+- "Endgame (2019) : sécurité des terminaux"
+- "Opster (2023) : optimisation d’Elasticsearch"
+concurrents: "Datadog, Splunk (Cisco), OpenSearch (Amazon)"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Elastic, résultats de l’exercice 2026"
+  url: "https://ir.elastic.co/News--Events/news/news-details/2026/Elastic-Reports-Fourth-Quarter-and-Fiscal-2026-Financial-Results/default.aspx"
+verifie_le: '2026-10-20'

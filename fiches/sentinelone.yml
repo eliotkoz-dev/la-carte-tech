@@ -1,0 +1,37 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: SentinelOne
+categorie: cyber
+region: amerique-du-nord
+groupe: "Cotée à New York (NYSE)"
+siege: "Mountain View (États-Unis) · fondée en Israël"
+en_bref: "Protéger les ordinateurs par IA"
+chiffre_affaires:
+  texte: "1,00 Md$ en exercice 2026 (+22 %)"
+  md_usd: 1.0013
+chiffres_cles:
+- "Revenu récurrent annualisé (ARR) : 1,119 Md$ (+22 %) au 31 janvier 2026"
+- "1 667 clients à plus de 100 000 $ d’ARR (+18 %)"
+ce_qu_elle_vend: "La protection des postes de travail, serveurs et clouds : détecter et bloquer les attaques automatiquement."
+produits:
+- nom: "Singularity Platform"
+  detail: "détection et réponse sur les terminaux"
+- nom: "Singularity Cloud Security"
+  detail: "protection des environnements cloud"
+- nom: "Singularity AI SIEM"
+  detail: "analyse des journaux de sécurité"
+modele: "Abonnement annuel selon le nombre de machines protégées."
+clients: "entreprises de toutes tailles et services de sécurité gérés"
+rachats:
+- "Attivo Networks (2022) : leurre et identité"
+- "Scalyr (2021) : analyse de données de sécurité"
+concurrents: "CrowdStrike, Microsoft Defender, Palo Alto Networks"
+carrieres: "https://www.sentinelone.com/careers/"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "SentinelOne, résultats de l’exercice 2026"
+  url: "https://investors.sentinelone.com/press-releases/news-details/2026/SentinelOne-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx"
+verifie_le: '2026-10-20'

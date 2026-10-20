@@ -1,0 +1,35 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: Zoom
+categorie: saas
+region: amerique-du-nord
+groupe: "Cotée à New York (Nasdaq)"
+siege: "San Jose (États-Unis)"
+en_bref: "Visioconférence et travail à distance"
+chiffre_affaires:
+  texte: "4,87 Md$ en exercice 2026 (+4 %)"
+  md_usd: 4.8688
+chiffres_cles:
+- "4 468 clients à plus de 100 000 $ de revenus sur 12 mois (+9 %)"
+- "Revenu entreprises : 2,934 Md$ (+6,5 %) ; revenu en ligne : 1,935 Md$ (+1,2 %)"
+ce_qu_elle_vend: "La visioconférence et des outils de travail à distance : appels, messagerie, téléphonie et centre de contact."
+produits:
+- nom: "Zoom Workplace"
+  detail: "réunions, messagerie, documents"
+- nom: "Zoom Phone"
+  detail: "téléphonie d’entreprise"
+- nom: "Zoom Contact Center"
+  detail: "service client"
+modele: "Abonnement mensuel ou annuel par utilisateur ; offre gratuite limitée."
+clients: "particuliers, PME et grands groupes"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Microsoft Teams, Google Meet, Cisco Webex"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Zoom, résultats de l’exercice 2026"
+  url: "https://investors.zoom.us/node/14151/pdf"
+verifie_le: '2026-10-20'

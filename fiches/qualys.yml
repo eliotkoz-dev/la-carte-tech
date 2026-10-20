@@ -1,0 +1,36 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: Qualys
+categorie: cyber
+region: amerique-du-nord
+groupe: "Cotée à New York (Nasdaq)"
+siege: "Foster City (États-Unis)"
+en_bref: "Analyser les failles dans le cloud"
+chiffre_affaires:
+  texte: "669 M$ en 2025 (+10 %)"
+  md_usd: 0.6691
+chiffres_cles:
+- "Marge d’exploitation non-GAAP : 45 %"
+- "Prévision 2026 : 717 à 725 M$ de chiffre d’affaires"
+ce_qu_elle_vend: "Une plateforme cloud qui scanne les systèmes d’une entreprise pour y trouver des failles et vérifier leur conformité."
+produits:
+- nom: "Qualys VMDR"
+  detail: "gestion des vulnérabilités"
+- nom: "Qualys TotalCloud"
+  detail: "sécurité du cloud"
+- nom: "Policy Compliance"
+  detail: "conformité aux règles"
+modele: "Abonnement annuel selon le nombre de machines analysées."
+clients: "grandes entreprises et prestataires de sécurité"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Tenable, Rapid7, Wiz"
+carrieres: "https://www.qualys.com/careers"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "Qualys, résultats 2025"
+  url: "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-fourth-quarter-and-full-year-2025-financial"
+verifie_le: '2026-10-20'

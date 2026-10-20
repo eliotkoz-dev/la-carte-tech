@@ -1,0 +1,34 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: Dynatrace
+categorie: data
+region: amerique-du-nord
+groupe: "Cotée à New York (NYSE)"
+siege: "Waltham (États-Unis)"
+en_bref: "Surveiller les applications par IA"
+chiffre_affaires:
+  texte: "2,02 Md$ en exercice 2026 (+19 %)"
+  md_usd: 2.0184
+chiffres_cles:
+- "ARR total : 2,054 Md$ (+18 %) à la fin de l’exercice"
+- "Free cash flow : 529 M$, exercice clos le 31 mars 2026"
+ce_qu_elle_vend: "L’observabilité : surveiller en temps réel les applications et l’infrastructure d’une entreprise et trouver la cause d’une panne."
+produits:
+- nom: "Dynatrace Platform"
+  detail: "surveillance applications, infrastructure et logs"
+- nom: "Davis AI"
+  detail: "analyse automatique des pannes"
+modele: "Abonnement selon la consommation de la plateforme."
+clients: "grandes entreprises"
+rachats:
+- "Rookout (2022) : débogage en production"
+concurrents: "Datadog, Splunk (Cisco), New Relic"
+carrieres_jeunes: "https://www.dynatrace.com/careers/early-careers/"
+stages:
+  statut: oui
+  detail: "Page Early Careers et offres de stage d’été 2027 en ingénierie ; lieux non vérifiés."
+sources:
+- titre: "Dynatrace, résultats de l’exercice 2026"
+  url: "https://ir.dynatrace.com/news-events/press-releases/detail/425/dynatrace-reports-fourth-quarter-and-full-year-fiscal-2026-financial-results"
+verifie_le: '2026-10-20'

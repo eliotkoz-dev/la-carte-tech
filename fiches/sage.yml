@@ -1,0 +1,38 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: Sage
+categorie: saas
+region: europe
+groupe: "Cotée à Londres"
+siege: "Newcastle (Royaume-Uni)"
+en_bref: "Compta et paie pour PME"
+chiffre_affaires:
+  texte: "2,51 Md£ en 2025 (+10 %), environ 3,3 Md$"
+  md_usd: 3.3
+chiffres_cles:
+- "ARR sous-jacent : 2 574 M£ (+11 %)"
+- "Taux de renouvellement en valeur : 101 %"
+ce_qu_elle_vend: "Des logiciels de comptabilité, de paie et de gestion pour les petites et moyennes entreprises, de plus en plus en cloud."
+produits:
+- nom: "Sage Intacct"
+  detail: "comptabilité cloud pour PME en croissance"
+- nom: "Sage 50 / Sage 100"
+  detail: "comptabilité et gestion"
+- nom: "Sage Payroll"
+  detail: "paie"
+modele: "Abonnement annuel par entreprise ou par utilisateur ; vente via experts-comptables."
+clients: "PME, experts-comptables"
+rachats:
+- "Intacct (2017) : comptabilité cloud"
+concurrents: "Intuit (QuickBooks), Xero, SAP"
+note: "Exercice clos le 30 septembre 2025. Chiffre en dollars estimé (1 £ ≈ 1,3 $)."
+carrieres: "https://www.sage.com/en-gb/company/careers/"
+carrieres_jeunes: "https://www.sage.com/en-us/company/careers/graduates-and-interns/"
+stages:
+  statut: oui
+  detail: "Page « Graduates and interns » (versions par pays) ; France non vérifiée."
+sources:
+- titre: "Sage, résultats 2025"
+  url: "https://www.sage.com/investors/investor-downloads/press-releases/2025/11/full-year-2025-results-19-november-2025/"
+verifie_le: '2026-10-20'

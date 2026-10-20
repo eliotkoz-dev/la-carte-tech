@@ -1,0 +1,40 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: Twilio
+categorie: saas
+region: amerique-du-nord
+groupe: "Cotée à New York (NYSE)"
+siege: "San Francisco (États-Unis)"
+en_bref: "Messages et appels via API"
+chiffre_affaires:
+  texte: "5,07 Md$ en 2025 (+14 %)"
+  md_usd: 5.07
+chiffres_cles:
+- "Plus de 402 000 comptes clients actifs"
+- "Taux d’expansion net en dollars : 108 %"
+ce_qu_elle_vend: "Des briques logicielles (API) pour envoyer SMS, e-mails et appels depuis ses propres applications, et mieux connaître ses clients."
+produits:
+- nom: "Twilio Messaging"
+  detail: "SMS et messageries"
+- nom: "SendGrid"
+  detail: "envoi d’e-mails"
+- nom: "Segment"
+  detail: "collecte et unification des données clients"
+- nom: "Twilio Voice"
+  detail: "appels"
+modele: "Paiement à l’usage (par message ou par minute), plus des abonnements pour Segment."
+clients: "développeurs, start-ups et grands groupes"
+rachats:
+- "SendGrid (2019) : e-mails"
+- "Segment (2020) : données clients"
+concurrents: "Sinch, Infobip, Bird"
+carrieres: "https://www.twilio.com/en-us/careers"
+carrieres_jeunes: "https://job-boards.greenhouse.io/twiliostudents"
+stages:
+  statut: oui
+  detail: "Offres de stage vues aux États-Unis et en Irlande (à distance) ; France non vérifiée."
+sources:
+- titre: "Twilio, résultats 2025"
+  url: "https://investors.twilio.com/news-releases/news-release-details/twilio-announces-fourth-quarter-and-full-year-2025-results"
+verifie_le: '2026-10-20'

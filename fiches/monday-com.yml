@@ -1,0 +1,36 @@
+# Fiche La Carte Tech · une entreprise = un fichier.
+# Règle d’or : uniquement des informations publiques, avec leur source.
+
+nom: monday.com
+categorie: saas
+region: asie
+groupe: "Cotée à New York (Nasdaq)"
+siege: "Tel Aviv (Israël)"
+en_bref: "Gestion de projets et de ventes"
+chiffre_affaires:
+  texte: "1,23 Md$ en 2025 (+27 %)"
+  md_usd: 1.232
+chiffres_cles:
+- "63 914 clients payants de plus de 10 utilisateurs"
+- "1 756 clients à plus de 100 000 $ d’ARR (+45 %)"
+ce_qu_elle_vend: "Une plateforme sans code pour suivre les projets, les ventes (CRM) et les services d’une entreprise."
+produits:
+- nom: "monday work management"
+  detail: "suivi de projets et de tâches"
+- nom: "monday CRM"
+  detail: "suivi des ventes"
+- nom: "monday dev"
+  detail: "gestion des équipes de développement"
+modele: "Abonnement par utilisateur, du libre-service aux contrats grands comptes."
+clients: "PME et grands groupes"
+rachats:
+- "Aucun rachat listé"
+concurrents: "Asana, Atlassian (Jira), Smartsheet"
+carrieres: "https://monday.com/careers"
+stages:
+  statut: a-verifier
+  detail: "À vérifier sur le site carrières de l’entreprise."
+sources:
+- titre: "monday.com, résultats 2025"
+  url: "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx"
+verifie_le: '2026-10-20'
