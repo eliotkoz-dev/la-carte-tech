@@ -7,26 +7,28 @@ categorie: puces
 region: asie
 groupe: "Cotée à Tokyo (6752)"
 siege: "Osaka (Japon)"
-en_bref: "Électronique, batteries pour voitures et équipements industriels"
+en_bref: "Batteries, composants et équipements"
 chiffre_affaires:
-  texte: "≈ 58 Md$ sur les 12 derniers mois"
-  md_usd: 58.0
+  texte: "8 049 Md¥ en exercice 2026 (-5 %), environ 52 Md$"
+  md_usd: 52.0
 chiffres_cles:
-- "Capitalisation d’environ 58,69 Md$ (oct. 2026)"
-- "Chiffre à confirmer : la page CompaniesMarketCap présente des données de 2023"
-ce_qu_elle_vend: "Électronique, batteries pour voitures et équipements industriels."
+- "Résultat opérationnel ajusté : 447,4 Md¥ ; chiffre d’affaires hors Automobile : +3 %"
+- "Exercice clos le 31 mars 2026 ; l’activité Automobile n’est plus consolidée"
+ce_qu_elle_vend: "Des batteries et du stockage d’énergie, des composants pour serveurs d’IA, de l’avionique, de la climatisation et de l’électroménager."
 produits:
-- nom: "Batteries"
-  detail: "cellules pour véhicules électriques"
-- nom: "Électroménager et électronique"
-  detail: "produits grand public"
-- nom: "Solutions pour entreprises"
-  detail: "logistique, automatisation"
-modele: "Vente de produits grand public et de batteries aux constructeurs."
-clients: "consommateurs, constructeurs automobiles, entreprises"
+- nom: "Energy"
+  detail: "batteries, dont stockage d’énergie pour data centers"
+- nom: "Industry"
+  detail: "condensateurs et matériaux de cartes pour serveurs d’IA"
+- nom: "Connect"
+  detail: "avionique et automatisation industrielle"
+- nom: "HVAC & CC, Electric Works, Smart Life"
+  detail: "climatisation, matériel électrique, électroménager"
+modele: "Vente de produits et de composants à des entreprises (batteries, composants, avionique) et au grand public (électroménager, climatisation)."
+clients: "entreprises industrielles, data centers, compagnies aériennes, consommateurs"
 rachats:
 - "Aucun rachat listé"
-concurrents: "LG, Samsung, CATL"
+concurrents: "LG Energy Solution, CATL, Murata"
 vente:
   approche: mixte
   resume: "Les produits grand public passent par des distributeurs ; des équipes vendent les batteries aux constructeurs."
@@ -42,6 +44,7 @@ stages:
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
   url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
-- titre: "CompaniesMarketCap, revenus de Panasonic"
-  url: "https://companiesmarketcap.com/panasonic/revenue/"
-verifie_le: '2026-10-19'
+- titre: "Panasonic, résultats de l’exercice 2026 (mai 2026)"
+  url: "https://news.panasonic.com/global/stories/18722"
+note: "Chiffre en dollars estimé à environ 155 yens pour 1 dollar."
+verifie_le: '2026-10-20'
