@@ -35,8 +35,8 @@ vente:
 carrieres: "https://careers.arm.com/"
 carrieres_jeunes: "https://careers.arm.com/internships"
 stages:
-  statut: a-verifier
-  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+  statut: programme
+  detail: "Plus de 440 stagiaires sur 23 sites dans 13 pays ; la France figure dans le filtre de lieux, sans stage confirmé."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
   url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"

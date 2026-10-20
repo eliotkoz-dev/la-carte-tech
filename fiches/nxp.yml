@@ -45,8 +45,20 @@ bureaux_asie:
 carrieres: "https://nxp.wd3.myworkdayjobs.com/en-US/careers"
 carrieres_jeunes: "https://www.nxp.com/company/about-nxp/careers/students-and-new-graduates:STUDENT"
 stages:
-  statut: a-verifier
-  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+  statut: alternance
+  detail: "Alternance en France (1 à 3 ans) et stages de 3 à 12 mois selon les sites, dont des stages de fin d’études ; offres par lieu sur le portail Workday de NXP."
+rejoindre:
+  voies:
+  - type: alternance
+    nom: "Alternance en France"
+    detail: "Études et alternance à temps partiel, en général 1 à 3 ans."
+  - type: stage
+    nom: "Stage à temps plein"
+    detail: "Environ 40 h par semaine, 3 à 12 mois ; stage de fin d’études d’environ 6 mois."
+  a_verifier: "Sites français précis et dates : non indiqués sur la page."
+  sources:
+  - titre: "NXP, étudiants et jeunes diplômés"
+    url: https://www.nxp.com/company/about-nxp/careers/students-and-new-graduates:STUDENT
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
   url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"

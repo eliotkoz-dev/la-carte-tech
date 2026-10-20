@@ -38,8 +38,8 @@ vente:
 carrieres: "https://www.asteralabs.com/careers/"
 carrieres_jeunes: "https://www.asteralabs.com/early-career-programs/"
 stages:
-  statut: a-verifier
-  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+  statut: programme
+  detail: "Stages et programme jeunes diplômés ; recrutement sur campus en Amérique du Nord ; France non citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
   url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"

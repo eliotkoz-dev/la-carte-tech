@@ -135,8 +135,8 @@ bureaux_moyen_orient_afrique:
 carrieres: "https://jobs.paloaltonetworks.com/en"
 carrieres_jeunes: "https://jobs.paloaltonetworks.com/en/early-in-career"
 stages:
-  statut: a-verifier
-  detail: "Aucun stage ni alternance parmi les offres en France (Paris, Boulogne-Billancourt) consultées en octobre 2026 ; programmes de stage surtout aux États-Unis et en Inde."
+  statut: programme
+  detail: "Stage d’été de 12 semaines (candidature via RippleMatch) ; pages régionales dont EMEA, France non citée."
 sources:
 - titre: "Palo Alto Networks, résultats 2026"
   url: "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results"

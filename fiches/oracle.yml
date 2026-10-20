@@ -72,8 +72,8 @@ bureaux_asie:
 carrieres: "https://www.oracle.com/careers/"
 carrieres_jeunes: "https://www.oracle.com/careers/students-grads/"
 stages:
-  statut: a-verifier
-  detail: "Stages en développement (Tchéquie, Espagne), pas d’offre confirmée en France : à vérifier."
+  statut: programme
+  detail: "Page stages et jeunes diplômés ; la page consultée est orientée États-Unis, la France se vérifie via la page par région."
 rejoindre:
   voies:
   - type: graduate

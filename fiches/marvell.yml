@@ -40,8 +40,8 @@ vente:
 carrieres: "https://www.marvell.com/company/careers.html"
 carrieres_jeunes: "https://www.marvell.com/company/careers/university-recruiting.html"
 stages:
-  statut: a-verifier
-  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+  statut: programme
+  detail: "Stages pour étudiants de licence, master, MBA et doctorat ; lieux et durée non précisés, France non citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
   url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"

@@ -74,8 +74,8 @@ bureaux_europe:
 carrieres: "https://www.arista.com/en/careers"
 carrieres_jeunes: "https://www.arista.com/en/careers/university"
 stages:
-  statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  statut: programme
+  detail: "Stages logiciel (Santa Clara, Austin, Vancouver, Nashua, Dublin, Bangalore) et matériel (Santa Clara) ; aucun stage en France."
 sources:
 - titre: "Arista, résultats 2025"
   url: "https://www.businesswire.com/news/home/20260212962784/en/Arista-Networks-Inc.-Reports-Fourth-Quarter-and-Year-End-2025-Financial-Results"

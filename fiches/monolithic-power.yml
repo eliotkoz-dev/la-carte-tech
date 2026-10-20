@@ -39,8 +39,8 @@ vente:
 carrieres: "https://www.monolithicpower.com/en/careers"
 carrieres_jeunes: "https://www.monolithicpower.com/en/about-mps/careers/internship.html"
 stages:
-  statut: a-verifier
-  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+  statut: programme
+  detail: "Stages rémunérés en validation de circuits intégrés et conception ; lieux et durée non précisés."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
   url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"

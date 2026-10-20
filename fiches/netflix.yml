@@ -94,8 +94,8 @@ bureaux_amerique_du_nord:
 carrieres: "https://jobs.netflix.com/"
 carrieres_jeunes: "https://jobs.netflix.com/careers/internships"
 stages:
-  statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  statut: programme
+  detail: "Stages d’été de 12 semaines aux États-Unis, en Inde, en Pologne et au Japon ; la France n’est pas citée."
 sources:
 - titre: "Value The Markets, résultats 2025 de Netflix"
   url: "https://www.valuethemarkets.com/news/netflix-hits-1205b-in-q4-2025-exceeding-financial-goals"

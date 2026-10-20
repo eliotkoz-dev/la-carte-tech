@@ -44,8 +44,8 @@ bureaux_asie:
 carrieres: "https://careers.veeva.com/"
 carrieres_jeunes: "https://www.veeva.com/generationveeva/europe-cdp/"
 stages:
-  statut: a-verifier
-  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+  statut: programme
+  detail: "Programme jeunes (stage de conseil technologique) cité à Budapest ; autres pays européens cités, France non citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
   url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"

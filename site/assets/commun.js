@@ -7,7 +7,7 @@ window.CarteTech = (function () {
   // Notion de la page « La tech en rapide » qui explique chaque catégorie.
   const NOTION_DE = { cloud: 'cloud', ia: 'ia', puces: 'puces', data: 'data', saas: 'logiciels', cyber: 'cyber', pub: 'pub', ecommerce: 'ecommerce', fintech: 'paiements', crypto: 'crypto', espace: 'espace' };
   const REGIONS = { 'amerique-du-nord': { nom: 'Amérique du Nord', c: '#3A3AF4' }, europe: { nom: 'Europe', c: '#FF4F8B' }, asie: { nom: 'Asie', c: '#FFD800', bord: '#C9A400' } };
-  const STAGES = { oui: 'Stage : oui', alternance: 'Alternance', 'a-verifier': 'Stage : à vérifier' };
+  const STAGES = { oui: 'Stage : oui', alternance: 'Alternance', programme: 'Programme de stages', 'a-verifier': 'Stage : à vérifier' };
   const MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
   // Rayon des bulles : grandit avec la racine carrée du chiffre d'affaires (en milliards de dollars).
   const rayon = (md) => (md > 0 ? 8 + 2 * Math.sqrt(md) : 9);

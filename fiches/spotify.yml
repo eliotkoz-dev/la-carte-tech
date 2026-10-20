@@ -44,8 +44,8 @@ bureaux_asie:
 carrieres: "https://www.lifeatspotify.com/"
 carrieres_jeunes: "https://www.lifeatspotify.com/start-your-journey/students"
 stages:
-  statut: a-verifier
-  detail: "Aucune offre de stage vérifiée : à vérifier sur le site carrières de l’entreprise."
+  statut: programme
+  detail: "Stage d’été de 10 semaines à Londres, Stockholm et New York seulement, rémunéré ; recrutement 2027 « à venir » ; France non citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
   url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"

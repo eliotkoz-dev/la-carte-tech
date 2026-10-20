@@ -59,8 +59,8 @@ bureaux_asie:
 carrieres: "https://openai.com/careers/"
 carrieres_jeunes: "https://openai.com/careers/emerging-talent/"
 stages:
-  statut: a-verifier
-  detail: "Pas de stage trouvé. La Residency (6 mois à San Francisco, en poste à temps plein) est fermée pour 2026."
+  statut: programme
+  detail: "Programme de stages et de résidence « Emerging Talent » ; lieux, durées et dates non précisés sur la page."
 sources:
 - titre: "Bloomberg Government, revenu annualisé"
   url: "https://news.bgov.com/artificial-intelligence/openais-annualized-revenue-nears-70-billion-axios-says"

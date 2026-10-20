@@ -9,7 +9,7 @@ import yaml from 'js-yaml';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CATEGORIES = ['cloud', 'ia', 'puces', 'data', 'saas', 'cyber', 'pub', 'ecommerce', 'fintech', 'crypto', 'espace'];
 const REGIONS = ['amerique-du-nord', 'europe', 'asie'];
-const STAGES = ['oui', 'alternance', 'a-verifier'];
+const STAGES = ['oui', 'alternance', 'programme', 'a-verifier'];
 // Régions des bureaux : un bloc facultatif « bureaux_<région> » (tirets bas) par région.
 const REGIONS_BUREAUX = ['europe', 'asie', 'amerique-du-nord', 'amerique-latine', 'moyen-orient-afrique', 'oceanie'];
 const TYPES = ['parente', 'investissement', 'partenariat'];

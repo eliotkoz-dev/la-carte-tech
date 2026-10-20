@@ -71,8 +71,8 @@ bureaux_asie:
 carrieres: "https://careers.microsoft.com/"
 carrieres_jeunes: "https://careers.microsoft.com/v2/global/en/students"
 stages:
-  statut: a-verifier
-  detail: "Azure fait partie de Microsoft : voir la fiche Microsoft. Dernières offres d’alternance vues à Issy-les-Moulineaux pour la rentrée 2024 (12 ou 24 mois)."
+  statut: programme
+  detail: "Stages mondiaux ouverts à toutes les familles de métiers ; programmes cités aux États-Unis, en Irlande et en Inde ; France non citée."
 sources:
 - titre: "Redmond Magazine, résultats Microsoft exercice 2026"
   url: "https://redmondmag.com/articles/2026/07/30/microsoft-tops-90b-quarterly-revenue.aspx"

@@ -79,8 +79,8 @@ bureaux_oceanie:
 carrieres: "https://www.hubspot.com/careers"
 carrieres_jeunes: "https://www.hubspot.com/careers/students/entry-level"
 stages:
-  statut: a-verifier
-  detail: "Programme de stage ingénieur à Dublin en 2026 (offre retirée en février 2026) ; pas de stage commercial trouvé en Europe."
+  statut: programme
+  detail: "Stages et co-ops (3 à 12 mois selon le pays) ; ingénierie citée aux États-Unis, Canada, Irlande et Royaume-Uni, ventes en Colombie ; France non citée."
 sources:
 - titre: "HubSpot, résultats 2025"
   url: "https://www.businesswire.com/news/home/20260211469584/en/HubSpot-Reports-Strong-Q4-and-Full-Year-2025-Results"

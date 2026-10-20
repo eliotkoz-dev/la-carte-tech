@@ -63,8 +63,8 @@ bureaux_europe:
 carrieres: "https://jobs.apple.com/"
 carrieres_jeunes: "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"
 stages:
-  statut: a-verifier
-  detail: "Pas de stage trouvé en France ; les offres visibles sont des postes en Apple Store et en développement commercial."
+  statut: programme
+  detail: "113 offres de stage listées en octobre 2026 (Chine, Munich, Zurich, Prague, Linz, Londres) ; aucune en France parmi celles visibles."
 sources:
 - titre: "MacRumors, résultats exercice 2025"
   url: "https://www.macrumors.com/2025/10/30/apple-4q-2025-earnings/"

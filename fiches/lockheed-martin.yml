@@ -38,8 +38,8 @@ vente:
 carrieres: "https://www.lockheedmartinjobs.com/"
 carrieres_jeunes: "https://www.lockheedmartin.com/en-us/careers/candidates/students-early-careers.html"
 stages:
-  statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  statut: programme
+  detail: "Stages universitaires et apprentissages ; la page ne cite pas la France."
 sources:
 - titre: "CompaniesMarketCap, revenus de Lockheed Martin"
   url: "https://companiesmarketcap.com/lockheed-martin/revenue/"

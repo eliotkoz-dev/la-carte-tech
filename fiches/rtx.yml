@@ -38,8 +38,8 @@ vente:
 carrieres: "https://careers.rtx.com/global/en"
 carrieres_jeunes: "https://careers.rtx.com/global/en/campusprograms"
 stages:
-  statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  statut: programme
+  detail: "Stages, co-ops et programme de rotations ; lieux non précisés, la page renvoie vers une recherche de stages."
 sources:
 - titre: "RTX, résultats 2025"
   url: "https://www.rtx.com/news/news-center/2026/01/27/rtx-reports-2025-results-and-announces-2026-outlook"
