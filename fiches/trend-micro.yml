@@ -8,11 +8,11 @@ groupe: "Cotée à Tokyo"
 siege: "Tokyo (Japon)"
 en_bref: "Cybersécurité des entreprises et du cloud"
 chiffre_affaires:
-  texte: "276 Md¥ en 2025 (+1 %), environ 1,8 Md$"
+  texte: "≈ 1,8 Md$ en 2025 (+1 %)"
   md_usd: 1.77
 chiffres_cles:
 - "ARR total : 1,7 Md$ ; ARR entreprises : plus de 1,3 Md$ (+2 %)"
-- "Résultat opérationnel : 58 Md¥ (record), marge de 21 %"
+- "Résultat opérationnel : ≈ 0,37 Md$ (record), marge de 21 %"
 ce_qu_elle_vend: "La sécurité des postes, serveurs, clouds et réseaux des entreprises, plus un antivirus grand public."
 produits:
 - nom: "Trend Vision One"
@@ -27,7 +27,7 @@ rachats:
 - "TippingPoint (2015) : prévention d’intrusion"
 - "Cloud Conformity (2020) : conformité du cloud"
 concurrents: "CrowdStrike, Palo Alto Networks, Microsoft"
-note: "Chiffre en dollars estimé avec le taux de la prévision 2026 du communiqué (301,5 Md¥ = 1 932 M$)."
+note: "Montants convertis en dollars avec le taux de la prévision 2026 du communiqué (301,5 Md¥ = 1 932 M$), soit environ 156 yens pour 1 dollar."
 carrieres: "https://www.trendmicro.com/en_us/about/careers.html"
 stages:
   statut: a-verifier

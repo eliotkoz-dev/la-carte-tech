@@ -9,10 +9,10 @@ groupe: Cotée à New York et Hong Kong
 siege: Hangzhou (Chine)
 en_bref: Le géant chinois du e-commerce
 chiffre_affaires:
-  texte: "1 023,7 Md de yuans sur l’exercice 2026 (+3 %), ≈ 142 Md$"
+  texte: "≈ 142 Md$ sur l’exercice 2026 (+3 %)"
   md_usd: 142
 chiffres_cles:
-- "Cloud : 41,6 Md de yuans au T1 2026 (+38 %)"
+- "Cloud : ≈ 6 Md$ au T1 2026 (+38 %)"
 ce_qu_elle_vend: "Les grandes places de marché chinoises (Taobao, Tmall), AliExpress à l’international, le B2B et le cloud."
 produits:
 - nom: Taobao et Tmall
@@ -65,4 +65,5 @@ sources:
   url: "https://www.itiger.com/news/1117739449"
 - titre: "Tiger Brokers, programme de stage mondial d’Alibaba (mars 2026)"
   url: "https://www-web.itiger.com/news/1152346468"
+note: "Montants convertis en dollars à environ 7,2 yuans pour 1 dollar."
 verifie_le: '2026-10-17'

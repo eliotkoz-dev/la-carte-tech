@@ -9,7 +9,7 @@ groupe: Groupe Alibaba
 siege: Hangzhou (Chine)
 en_bref: Le leader du cloud en Chine
 chiffre_affaires:
-  texte: "41,6 Md de yuans au T1 2026, ≈ 6 Md$ (+38 %)"
+  texte: "≈ 6 Md$ au T1 2026 (+38 %)"
   md_usd: 24
 chiffres_cles:
 - Soit un rythme d’environ 24 Md$ par an
@@ -65,4 +65,5 @@ sources:
   url: "https://dataconomy.com/2026/01/20/bytedance-targets-alibaba-with-aggressive-ai-cloud-expansion/"
 - titre: "Tiger Brokers, programme de stage mondial d’Alibaba (mars 2026)"
   url: "https://www-web.itiger.com/news/1152346468"
+note: "Montant converti en dollars à environ 7,2 yuans pour 1 dollar."
 verifie_le: '2026-10-17'

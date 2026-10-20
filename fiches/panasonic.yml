@@ -7,14 +7,14 @@ categorie: puces
 region: asie
 groupe: "Cotée à Tokyo (6752)"
 siege: "Osaka (Japon)"
-en_bref: "Batteries, composants et équipements"
+en_bref: "Électronique grand public, batteries, composants"
 chiffre_affaires:
-  texte: "8 049 Md¥ en exercice 2026 (-5 %), environ 52 Md$"
+  texte: "≈ 52 Md$ en exercice 2026 (-5 %)"
   md_usd: 52.0
 chiffres_cles:
-- "Résultat opérationnel ajusté : 447,4 Md¥ ; chiffre d’affaires hors Automobile : +3 %"
+- "Résultat opérationnel ajusté : ≈ 2,9 Md$ ; chiffre d’affaires hors Automobile : +3 %"
 - "Exercice clos le 31 mars 2026 ; l’activité Automobile n’est plus consolidée"
-ce_qu_elle_vend: "Des batteries et du stockage d’énergie, des composants pour serveurs d’IA, de l’avionique, de la climatisation et de l’électroménager."
+ce_qu_elle_vend: "De l’électronique et de l’électroménager grand public (téléviseurs, appareils photo Lumix), mais aussi des batteries et du stockage d’énergie, des composants pour serveurs d’IA, de l’avionique et de la climatisation."
 produits:
 - nom: "Energy"
   detail: "batteries, dont stockage d’énergie pour data centers"
@@ -22,13 +22,15 @@ produits:
   detail: "condensateurs et matériaux de cartes pour serveurs d’IA"
 - nom: "Connect"
   detail: "avionique et automatisation industrielle"
-- nom: "HVAC & CC, Electric Works, Smart Life"
-  detail: "climatisation, matériel électrique, électroménager"
+- nom: "Smart Life"
+  detail: "électroménager et électronique grand public : téléviseurs, appareils photo Lumix…"
+- nom: "HVAC & CC, Electric Works"
+  detail: "climatisation et matériel électrique pour le bâtiment"
 modele: "Vente de produits et de composants à des entreprises (batteries, composants, avionique) et au grand public (électroménager, climatisation)."
 clients: "entreprises industrielles, data centers, compagnies aériennes, consommateurs"
 rachats:
 - "Aucun rachat listé"
-concurrents: "LG Energy Solution, CATL, Murata"
+concurrents: "Sony, Samsung, LG, CATL"
 vente:
   approche: mixte
   resume: "Les produits grand public passent par des distributeurs ; des équipes vendent les batteries aux constructeurs."
@@ -46,5 +48,5 @@ sources:
   url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
 - titre: "Panasonic, résultats de l’exercice 2026 (mai 2026)"
   url: "https://news.panasonic.com/global/stories/18722"
-note: "Chiffre en dollars estimé à environ 155 yens pour 1 dollar."
+note: "Montants convertis en dollars à environ 155 yens pour 1 dollar (8 049 Md¥ de chiffre d’affaires, 447,4 Md¥ de résultat). Le grand public (Lumix, télévisions, électroménager) est la partie la plus connue, mais les batteries et composants pèsent davantage dans la stratégie actuelle."
 verifie_le: '2026-10-20'

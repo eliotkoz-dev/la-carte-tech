@@ -9,10 +9,10 @@ groupe: "Cotée à Séoul (groupe SK)"
 siege: "Icheon (Corée du Sud)"
 en_bref: "La mémoire des puces d’IA"
 chiffre_affaires:
-  texte: "97,1 trillions de wons en 2025 (+47 %), ≈ 68 Md$"
+  texte: "≈ 68 Md$ en 2025 (+47 %)"
   md_usd: 68
 chiffres_cles:
-- "Bénéfice d’exploitation : 47,2 trillions de wons (marge de 49 %)"
+- "Bénéfice d’exploitation : ≈ 33 Md$ (marge de 49 %)"
 - "Capitalisation d’environ 995 Md$ (oct. 2026)"
 ce_qu_elle_vend: "Des puces mémoire, dont la HBM, la mémoire empilée indispensable aux puces d’IA de Nvidia."
 produits:
@@ -44,4 +44,5 @@ sources:
   url: "https://technode.global/prnasia/sk-hynix-announces-fy25-financial-results-posts-record-high-results-and-delivers-highest-shareholder-returns/"
 - titre: "The Motley Fool, plus grandes entreprises tech (oct. 2026)"
   url: "https://www.fool.com/research/largest-tech-companies"
+note: "Montants convertis en dollars à environ 1 430 wons pour 1 dollar."
 verifie_le: '2026-10-17'

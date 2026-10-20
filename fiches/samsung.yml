@@ -9,10 +9,10 @@ groupe: "Groupe Samsung, cotée à Séoul"
 siege: Suwon (Corée du Sud)
 en_bref: "Smartphones, mémoire et écrans"
 chiffre_affaires:
-  texte: "333,6 trillions de wons en 2025 (+10,9 %), ≈ 235 Md$"
+  texte: "≈ 235 Md$ en 2025 (+10,9 %)"
   md_usd: 235
 chiffres_cles:
-- "Bénéfice d’exploitation : 43,6 trillions de wons (+33 %)"
+- "Bénéfice d’exploitation : ≈ 31 Md$ (+33 %)"
 ce_qu_elle_vend: "Des smartphones, de la mémoire pour ordinateurs et serveurs d’IA, des écrans, des TV et de l’électroménager."
 produits:
 - nom: Galaxy
@@ -55,4 +55,5 @@ sources:
   url: "https://www.khan.co.kr/en/article/202601290845007"
 - titre: "JobTeaser, stage Samsung Electronics France (relais)"
   url: "https://www.jobteaser.com/fr/job-offers/8b222963-037a-4ba1-a96a-9a11dc8f820c-samsung-electronics-france-chef-de-projet-junior-trade-marketing-division-telecom-saint-ouen-93-h-f-stage"
+note: "Montants convertis en dollars à environ 1 420 wons pour 1 dollar."
 verifie_le: '2026-10-17'

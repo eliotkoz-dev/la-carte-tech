@@ -9,11 +9,11 @@ groupe: "Cotée (Bourse de Tokyo : 6857)"
 siege: "Tokyo (Japon)"
 en_bref: "Les testeurs qui vérifient que chaque puce fonctionne"
 chiffre_affaires:
-  texte: "≈ 7,5 Md$ (1 129 Md¥, exercice clos en mars 2026)"
+  texte: "≈ 7,5 Md$ sur l’exercice clos en mars 2026"
   md_usd: 7.5
 chiffres_cles:
 - "Capitalisation d’environ 157,71 Md$ (16 oct. 2026)"
-- "Chiffre d’affaires : 1 129 Md¥ (≈ 7,5 Md$) sur l’exercice clos en mars 2026, en hausse de 45 %"
+- "Chiffre d’affaires : ≈ 7,5 Md$ sur l’exercice clos en mars 2026, en hausse de 45 %"
 ce_qu_elle_vend: "Les testeurs qui vérifient que chaque puce fonctionne."
 produits:
 - nom: "Testeurs de puces"
@@ -47,4 +47,5 @@ sources:
   url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-revenue/"
 - titre: "MT Newswires via Placera, résultats d’Advantest"
   url: "https://www.placera.se/telegram/advantest-s-net-income-soars-133-in-fiscal-year-2025-20260427"
+note: "Montants convertis en dollars à environ 150 yens pour 1 dollar."
 verifie_le: '2026-10-18'

@@ -9,7 +9,7 @@ groupe: Cotée à Hong Kong
 siege: Shenzhen (Chine)
 en_bref: "WeChat, jeux vidéo et pub"
 chiffre_affaires:
-  texte: "751,8 Md de yuans en 2025 (+14 %), ≈ 104 Md$"
+  texte: "≈ 104 Md$ en 2025 (+14 %)"
   md_usd: 104.4
 chiffres_cles:
 - "1,42 milliard d’utilisateurs mensuels sur WeChat"
@@ -61,4 +61,5 @@ sources:
   url: "https://technode.global/prnasia/tencent-announces-2025-annual-and-fourth-quarter-results/"
 - titre: "ResumeGeni, offre de stage Tencent à Paris (relais)"
   url: "https://resumegeni.com/jobs/marketing-and-communication-assistant-intern-at-tencent-france-paris"
+note: "Montant converti en dollars à environ 7,2 yuans pour 1 dollar."
 verifie_le: '2026-10-17'
