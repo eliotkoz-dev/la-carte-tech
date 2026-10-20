@@ -35,6 +35,27 @@ vente:
   objections:
   - "La complexité de l’outil"
   - "La concurrence de Microsoft"
+bureaux_amerique_du_nord:
+  pays:
+  - "États-Unis"
+  note: "Pays cités pour le recrutement de stagiaires, villes non précisées."
+  sources:
+  - titre: "Atlassian, Early Careers"
+    url: "https://www.atlassian.com/company/careers/earlycareers"
+bureaux_asie:
+  pays:
+  - "Inde"
+  note: "Pays cités pour le recrutement de stagiaires, villes non précisées."
+  sources:
+  - titre: "Atlassian, Early Careers"
+    url: "https://www.atlassian.com/company/careers/earlycareers"
+bureaux_oceanie:
+  pays:
+  - "Australie"
+  note: "Pays cités pour le recrutement de stagiaires, villes non précisées."
+  sources:
+  - titre: "Atlassian, Early Careers"
+    url: "https://www.atlassian.com/company/careers/earlycareers"
 carrieres: "https://www.atlassian.com/company/careers/all-jobs"
 carrieres_jeunes: "https://www.atlassian.com/company/careers/earlycareers"
 stages:

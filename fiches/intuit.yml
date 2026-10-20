@@ -36,6 +36,20 @@ vente:
   objections:
   - "Les hausses de prix"
   - "La concurrence de la déclaration gratuite"
+bureaux_amerique_du_nord:
+  villes:
+  - "Mountain View (États-Unis)"
+  - "San Diego (États-Unis)"
+  - "Atlanta (États-Unis)"
+  - "Dallas (États-Unis)"
+  - "New York (États-Unis)"
+  - "Oakland (États-Unis)"
+  - "Charlotte (États-Unis)"
+  - "Toronto (Canada)"
+  note: "Villes de stage citées par la page ; Dallas = Frisco."
+  sources:
+  - titre: "Intuit, stages"
+    url: "https://www.intuit.com/careers/programs/internships/"
 carrieres: "https://jobs.intuit.com/search-jobs/c"
 carrieres_jeunes: "https://www.intuit.com/careers/programs/internships/"
 stages:

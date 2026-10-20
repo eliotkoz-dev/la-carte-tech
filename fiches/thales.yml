@@ -34,6 +34,13 @@ vente:
   objections:
   - "Les procédures d’achat publiques très longues"
   - "La dépendance aux budgets des États"
+bureaux_europe:
+  pays:
+  - "France"
+  note: "Thales accueille environ 3 500 stagiaires et alternants « partout en France » ; sites non listés sur la page."
+  sources:
+  - titre: "Thales, futurs talents France"
+    url: "https://careers.thalesgroup.com/fr/fr/futurs-talents-france"
 carrieres: "https://careers.thalesgroup.com/fr/fr/carrieres-france"
 carrieres_jeunes: "https://careers.thalesgroup.com/fr/fr/stage-alternance"
 stages:

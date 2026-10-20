@@ -35,6 +35,21 @@ vente:
   objections:
   - "Le prix face aux clouds publics"
   - "Le délai des serveurs d’IA"
+bureaux_asie:
+  pays:
+  - "Japon"
+  - "Inde"
+  note: "Pays cités pour le recrutement de stagiaires, villes non précisées."
+  sources:
+  - titre: "HPE, étudiants"
+    url: "https://careers.hpe.com/us/en/students"
+bureaux_amerique_latine:
+  pays:
+  - "Mexique"
+  note: "Pays cités pour le recrutement de stagiaires, villes non précisées."
+  sources:
+  - titre: "HPE, étudiants"
+    url: "https://careers.hpe.com/us/en/students"
 carrieres: "https://careers.hpe.com/us/en/careers-at-hpe"
 carrieres_jeunes: "https://careers.hpe.com/us/en/students"
 stages:

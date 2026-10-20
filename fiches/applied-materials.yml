@@ -34,6 +34,19 @@ vente:
   objections:
   - "Le prix des machines"
   - "Les restrictions d’exportation vers la Chine"
+bureaux_amerique_du_nord:
+  villes:
+  - "Santa Clara (États-Unis)"
+  - "Austin (États-Unis)"
+  - "Albany (États-Unis)"
+  - "Gloucester (États-Unis)"
+  - "Phoenix (États-Unis)"
+  - "Hillsboro (États-Unis)"
+  - "Kalispell (États-Unis)"
+  note: "Sites cités pour les stages et jeunes diplômés."
+  sources:
+  - titre: "Applied Materials, étudiants et jeunes diplômés"
+    url: "https://www.appliedmaterials.com/us/en/careers/students-early-career.html"
 carrieres: "https://jobs.appliedmaterials.com/"
 carrieres_jeunes: "https://www.appliedmaterials.com/us/en/careers/students-early-career.html"
 stages:

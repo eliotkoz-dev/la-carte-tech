@@ -39,24 +39,18 @@ bureaux_amerique_du_nord:
   villes:
   - "Santa Clara (États-Unis)"
   - "Austin (États-Unis)"
+  - "Vancouver (Canada)"
   - "Nashua (États-Unis)"
-  - "Cary (États-Unis)"
-  - "San Francisco (États-Unis)"
-  - "Golden (États-Unis)"
-  - "Burnaby (Canada)"
+  note: "Villes de stage citées pour le logiciel ; le matériel est à Santa Clara."
   sources:
-  - titre: "Arista, nous contacter"
-    url: "https://www.arista.com/en/company/contact-us"
+  - titre: "Arista, programme universitaire"
+    url: "https://www.arista.com/en/careers/university"
 bureaux_asie:
   villes:
   - "Bangalore (Inde)"
-  - "Chennai (Inde)"
-  - "Pune (Inde)"
-  - "Singapour (Singapour)"
-  - "Seongnam (Corée du Sud)"
   sources:
-  - titre: "Arista, nous contacter"
-    url: "https://www.arista.com/en/company/contact-us"
+  - titre: "Arista, programme universitaire"
+    url: "https://www.arista.com/en/careers/university"
 bureaux_oceanie:
   villes:
   - "Sydney (Australie)"
@@ -66,11 +60,9 @@ bureaux_oceanie:
 bureaux_europe:
   villes:
   - "Dublin (Irlande)"
-  - "Shannon (Irlande)"
-  note: "Liste partielle sur la page."
   sources:
-  - titre: "Arista, nous contacter"
-    url: "https://www.arista.com/en/company/contact-us"
+  - titre: "Arista, programme universitaire"
+    url: "https://www.arista.com/en/careers/university"
 carrieres: "https://www.arista.com/en/careers"
 carrieres_jeunes: "https://www.arista.com/en/careers/university"
 stages:

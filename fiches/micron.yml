@@ -41,6 +41,13 @@ bureaux_asie:
   sources:
   - titre: "Micron, ses implantations"
     url: "https://www.micron.com/about/locations"
+bureaux_amerique_du_nord:
+  pays:
+  - "États-Unis"
+  note: "Sites cités : Idaho, New York, Virginie."
+  sources:
+  - titre: "Micron, recrutement universitaire"
+    url: "https://www.micron.com/about/careers/university-recruiting"
 carrieres: "https://www.micron.com/about/careers"
 carrieres_jeunes: "https://www.micron.com/about/careers/university-recruiting"
 stages:

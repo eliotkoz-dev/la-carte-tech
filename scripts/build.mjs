@@ -82,10 +82,15 @@ function verifierVente(f, v) {
 function verifierBureaux(f, b, cle = 'bureaux_europe') {
   if (b === undefined) return undefined;
   if (!b || typeof b !== 'object') { err(f, '« ' + cle + ' » doit contenir « villes » et « sources »'); return undefined; }
-  if (!Array.isArray(b.villes) || b.villes.length === 0 || !b.villes.every((v) => typeof v === 'string' && /^.+ \([^()]+\)$/.test(v))) err(f, '« ' + cle + '.villes » : une liste de villes au format « Ville (Pays) »');
+  const villes = b.villes === undefined ? [] : b.villes;
+  const pays = b.pays === undefined ? [] : b.pays;
+  if (!Array.isArray(villes) || !villes.every((v) => typeof v === 'string' && /^.+ \([^()]+\)$/.test(v))) err(f, '« ' + cle + '.villes » : une liste de villes au format « Ville (Pays) »');
+  if (!Array.isArray(pays) || !pays.every((p) => texte(p) && !/[()]/.test(p))) err(f, '« ' + cle + '.pays » : une liste de noms de pays, sans parenthèses (pour les pays où l’entreprise est présente ou recrute sans ville connue)');
+  if (villes.length === 0 && pays.length === 0) err(f, '« ' + cle + ' » : au moins une ville (« Ville (Pays) ») ou un pays dans « pays »');
   if (b.note !== undefined && !texte(b.note)) err(f, '« ' + cle + '.note » est vide');
   if (!Array.isArray(b.sources) || b.sources.length === 0 || !b.sources.every((s) => s && texte(s.titre) && url(s.url))) err(f, '« ' + cle + '.sources » : au moins une source (titre et url en https://)');
   return {
+    pays: (Array.isArray(b.pays) ? b.pays : []).filter((p) => !(b.villes || []).some((v) => String(v).endsWith('(' + p + ')'))),
     villes: (b.villes || []).map((v) => { const m = String(v).match(/^(.+) \(([^()]+)\)$/); return m ? { ville: m[1], pays: m[2] } : { ville: String(v), pays: '' }; }),
     note: b.note || '', sources: (b.sources || []).map((s) => ({ titre: s?.titre, url: s?.url }))
   };

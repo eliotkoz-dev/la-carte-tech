@@ -29,6 +29,20 @@ rachats:
 - "SendGrid (2019) : e-mails"
 - "Segment (2020) : données clients"
 concurrents: "Sinch, Infobip, Bird"
+bureaux_amerique_du_nord:
+  pays:
+  - "États-Unis"
+  note: "Pays cités pour le recrutement de stagiaires, villes non précisées."
+  sources:
+  - titre: "Twilio, offres étudiants"
+    url: "https://job-boards.greenhouse.io/twiliostudents"
+bureaux_europe:
+  pays:
+  - "Irlande"
+  note: "Stage vu en télétravail depuis l’Irlande."
+  sources:
+  - titre: "Twilio, offres étudiants"
+    url: "https://job-boards.greenhouse.io/twiliostudents"
 carrieres: "https://www.twilio.com/en-us/careers"
 carrieres_jeunes: "https://job-boards.greenhouse.io/twiliostudents"
 stages:

@@ -224,7 +224,7 @@
     if (!presentes.length) ligne.append(el('b', '', 'Bureaux : '), 'pas encore renseignés');
     presentes.forEach((r, i) => {
       if (i) ligne.append(el('br'));
-      ligne.append(el('b', '', r.nom + ' : '), parPays(a.bureaux[r.id].villes).map(([pays, villes]) => `${pays} (${villes.join(', ')})`).join(' · '));
+      ligne.append(el('b', '', r.nom + ' : '), [...parPays(a.bureaux[r.id].villes).map(([pays, villes]) => `${pays} (${villes.join(', ')})`), ...(a.bureaux[r.id].pays || []).map((p) => `${p} (ville non précisée)`)].join(' · '));
     });
   }
 
@@ -382,10 +382,12 @@
   function blocBureaux(b, titre) {
     const d = el('div', 'bloc-bureaux');
     const haut = el('div', 'vente-haut');
-    haut.append(el('h3', '', titre), el('span', 'nb-bureaux', `${b.villes.length} ville${b.villes.length > 1 ? 's' : ''} · ${parPays(b.villes).length} pays`));
+    const nbPays = parPays(b.villes).length + (b.pays || []).length;
+    haut.append(el('h3', '', titre), el('span', 'nb-bureaux', (b.villes.length ? `${b.villes.length} ville${b.villes.length > 1 ? 's' : ''} · ` : '') + `${nbPays} pays`));
     d.append(haut);
     const ul = el('ul', 'pays-bureaux');
     parPays(b.villes).forEach(([pays, villes]) => { const li = el('li'); li.append(el('b', '', pays), ' ', el('span', '', villes.join(', '))); ul.append(li); });
+    (b.pays || []).forEach((p) => { const li = el('li'); li.append(el('b', '', p), ' ', el('span', 'discret', 'ville non précisée')); ul.append(li); });
     d.append(ul);
     if (b.note) d.append(el('p', 'discret', b.note));
     const src = el('p', 'discret');

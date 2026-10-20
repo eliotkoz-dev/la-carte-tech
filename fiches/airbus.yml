@@ -37,6 +37,14 @@ vente:
   objections:
   - "Les délais de livraison"
   - "Le prix, face à Boeing"
+bureaux_europe:
+  pays:
+  - "France"
+  - "Royaume-Uni"
+  note: "Stages en France, alternances au Royaume-Uni d’après la page carrières ; villes non précisées."
+  sources:
+  - titre: "Airbus, stages en France"
+    url: "https://www.airbus.com/en/careers/students-and-graduates/interns/internships-in-france"
 carrieres: "https://www.airbus.com/en/careers"
 carrieres_jeunes: "https://www.airbus.com/en/careers/students-and-graduates/interns/internships-in-france"
 stages:

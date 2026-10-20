@@ -35,6 +35,30 @@ vente:
   objections:
   - "Des prix de la mémoire très volatils"
   - "La concurrence de Samsung, SK hynix et Micron"
+bureaux_amerique_du_nord:
+  pays:
+  - "États-Unis"
+  note: "Pays cités pour le recrutement de stagiaires, villes non précisées."
+  sources:
+  - titre: "Sandisk, étudiants et jeunes diplômés"
+    url: "https://www.sandisk.com/careers/students-grads"
+bureaux_asie:
+  pays:
+  - "Malaisie"
+  - "Inde"
+  - "Japon"
+  - "Chine"
+  note: "Pays cités pour le recrutement de stagiaires, villes non précisées."
+  sources:
+  - titre: "Sandisk, étudiants et jeunes diplômés"
+    url: "https://www.sandisk.com/careers/students-grads"
+bureaux_moyen_orient_afrique:
+  pays:
+  - "Israël"
+  note: "Pays cités pour le recrutement de stagiaires, villes non précisées."
+  sources:
+  - titre: "Sandisk, étudiants et jeunes diplômés"
+    url: "https://www.sandisk.com/careers/students-grads"
 carrieres: "https://www.sandisk.com/careers/jobs-at-sandisk"
 carrieres_jeunes: "https://www.sandisk.com/careers/students-grads"
 stages:

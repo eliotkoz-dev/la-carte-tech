@@ -40,7 +40,7 @@ Copiez [`fiches/_modele.yml`](fiches/_modele.yml) dans un nouveau fichier, par e
 | `carrieres` | Facultatif : adresse https de la page carrières officielle (`carrieres_jeunes` : page stages / jeunes diplômés) |
 | `stages.statut` | `oui` ou `alternance` seulement avec une offre publique en lien ; si l’offre n’est pas en France, le dire dans `detail` ; sinon `a-verifier` |
 | `vente` | Facultatif : comment l’entreprise vend (voir ci-dessous) |
-| `bureaux_europe` | Facultatif : `villes` (liste au format `Ville (Pays)`, par exemple `Paris (France)`), `note` (facultatif) et `sources` (obligatoire). S’affiche quand on clique sur l’entreprise |
+| `bureaux_europe` | Facultatif : `villes` (liste au format `Ville (Pays)`, par exemple `Paris (France)`), `note` (facultatif) et `sources` (obligatoire). S’affiche quand on clique sur l’entreprise. Si aucune ville n’est connue, `pays` (liste de noms de pays, par exemple `Irlande`) indique où l’entreprise est présente ou recrute |
 | `bureaux_asie`, `bureaux_amerique_du_nord`, `bureaux_amerique_latine`, `bureaux_moyen_orient_afrique`, `bureaux_oceanie` | Facultatifs, même format que `bureaux_europe` : `villes` au format `Ville (Pays)`, `note` facultative, `sources` obligatoire (page officielle de l’entreprise de préférence). S’affichent dans la fiche et alimentent le filtre « Locaux en … à … » |
 | `rejoindre` | Facultatif : comment l’entreprise recrute les étudiants (voir ci-dessous) |
 | `sources` | Au moins une : `titre` et `url` (qui commence par `https://`) |

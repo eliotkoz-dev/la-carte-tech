@@ -37,9 +37,36 @@ vente:
 bureaux_asie:
   villes:
   - "Singapour (Singapour)"
+  pays:
+  - "Inde"
+  - "Chine"
+  note: "Singapour : adresse du bureau ; Inde et Chine : pays cités pour les stages."
   sources:
   - titre: "ADP Singapour, adresse du bureau"
     url: "https://sg.adp.com/about-adp/office-locations.aspx"
+  - titre: "ADP, jeunes talents"
+    url: "https://jobs.adp.com/en/early-careers/"
+bureaux_europe:
+  villes:
+  - "Nanterre (France)"
+  note: "Nanterre est décrit comme le plus grand bureau d’ADP en Europe. ADP indique servir plus de 140 pays et marchés, sans lister ses bureaux."
+  sources:
+  - titre: "ADP France, offres et bureau de Nanterre"
+    url: "https://jobs.adp.com/en/locations/emea/france/"
+bureaux_amerique_du_nord:
+  pays:
+  - "États-Unis"
+  note: "Siège social d’après la page « Worldwide locations »."
+  sources:
+  - titre: "ADP, implantations dans le monde"
+    url: "https://www.adp.com/worldwide-locations.aspx"
+bureaux_amerique_latine:
+  pays:
+  - "Brésil"
+  note: "Pays cités pour le recrutement de stagiaires, villes non précisées."
+  sources:
+  - titre: "ADP, jeunes talents"
+    url: "https://jobs.adp.com/en/early-careers/"
 carrieres: "https://jobs.adp.com/en/"
 carrieres_jeunes: "https://jobs.adp.com/en/early-careers/"
 stages:
