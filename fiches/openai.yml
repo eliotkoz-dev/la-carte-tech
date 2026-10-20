@@ -59,7 +59,7 @@ bureaux_asie:
 carrieres: "https://openai.com/careers/"
 carrieres_jeunes: "https://openai.com/careers/emerging-talent/"
 stages:
-  statut: programme
+  statut: oui
   detail: "Programme de stages et de résidence « Emerging Talent » ; lieux, durées et dates non précisés sur la page."
 sources:
 - titre: "Bloomberg Government, revenu annualisé"

@@ -45,7 +45,7 @@ bureaux_asie:
 carrieres: "https://jobs.uber.com/"
 carrieres_jeunes: "https://jobs.uber.com/en/teams/emerging-talent/"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages (ingénierie, data science, MBA, rotation stratégie) classés par région dont l’EMEA ; Amsterdam cité, France non citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

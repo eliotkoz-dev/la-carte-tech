@@ -43,7 +43,7 @@ bureaux_asie:
 carrieres: "https://jobs.adp.com/en/"
 carrieres_jeunes: "https://jobs.adp.com/en/early-careers/"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages vus aux États-Unis, en Inde, en Chine et au Brésil ; la France est listée sans programme décrit."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

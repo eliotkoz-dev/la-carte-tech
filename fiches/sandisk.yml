@@ -38,7 +38,7 @@ vente:
 carrieres: "https://www.sandisk.com/careers/jobs-at-sandisk"
 carrieres_jeunes: "https://www.sandisk.com/careers/students-grads"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages de 12 semaines pour la plupart, rémunérés ; communautés citées aux États-Unis, Malaisie, Inde, Japon, Israël et Chine ; France non citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

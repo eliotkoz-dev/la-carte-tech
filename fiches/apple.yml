@@ -63,7 +63,7 @@ bureaux_europe:
 carrieres: "https://jobs.apple.com/"
 carrieres_jeunes: "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"
 stages:
-  statut: programme
+  statut: oui
   detail: "113 offres de stage listées en octobre 2026 (Chine, Munich, Zurich, Prague, Linz, Londres) ; aucune en France parmi celles visibles."
 sources:
 - titre: "MacRumors, résultats exercice 2025"

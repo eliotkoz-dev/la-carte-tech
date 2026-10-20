@@ -39,7 +39,7 @@ vente:
 carrieres: "https://jobs.intuit.com/search-jobs/c"
 carrieres_jeunes: "https://www.intuit.com/careers/programs/internships/"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages d’été de 10 à 12 semaines aux États-Unis et co-ops au Canada ; la France n’est pas citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

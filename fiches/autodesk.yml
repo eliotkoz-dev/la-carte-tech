@@ -45,7 +45,7 @@ bureaux_asie:
 carrieres: "https://www.autodesk.com/careers"
 carrieres_jeunes: "https://www.autodesk.com/careers/students"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages et co-ops dans 4 régions, dont l’Europe (3 à 6 mois, été) ; la France n’est pas citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

@@ -93,7 +93,7 @@ bureaux_oceanie:
 carrieres: "https://www.cloudflare.com/careers/"
 carrieres_jeunes: "https://www.cloudflare.com/careers/early-talent/"
 stages:
-  statut: programme
+  statut: oui
   detail: "Programme de stages (1 111 stagiaires visés en 2026) ; stages 2027 vus à Lisbonne, aucun à Paris trouvé."
 sources:
 - titre: "Cloudflare, résultats du 2e trimestre 2026"

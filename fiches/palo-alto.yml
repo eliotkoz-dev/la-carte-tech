@@ -135,7 +135,7 @@ bureaux_moyen_orient_afrique:
 carrieres: "https://jobs.paloaltonetworks.com/en"
 carrieres_jeunes: "https://jobs.paloaltonetworks.com/en/early-in-career"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stage d’été de 12 semaines (candidature via RippleMatch) ; pages régionales dont EMEA, France non citée."
 sources:
 - titre: "Palo Alto Networks, résultats 2026"

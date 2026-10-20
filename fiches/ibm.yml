@@ -43,7 +43,7 @@ vente:
 carrieres: "https://www.ibm.com/careers"
 carrieres_jeunes: "https://www.ibm.com/careers/career-opportunities"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages et co-op (un semestre) ; la page ne cite ni lieux ni durées, elle renvoie vers la page stages d’IBM."
 sources:
 - titre: "IBM, résultats 2025"

@@ -79,7 +79,7 @@ bureaux_oceanie:
 carrieres: "https://www.hubspot.com/careers"
 carrieres_jeunes: "https://www.hubspot.com/careers/students/entry-level"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages et co-ops (3 à 12 mois selon le pays) ; ingénierie citée aux États-Unis, Canada, Irlande et Royaume-Uni, ventes en Colombie ; France non citée."
 sources:
 - titre: "HubSpot, résultats 2025"

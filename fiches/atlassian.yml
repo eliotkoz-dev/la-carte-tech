@@ -38,7 +38,7 @@ vente:
 carrieres: "https://www.atlassian.com/company/careers/all-jobs"
 carrieres_jeunes: "https://www.atlassian.com/company/careers/earlycareers"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stage d’été rémunéré, annoncé pour les États-Unis, l’Australie et l’Inde ; ni l’Europe ni la France ne sont citées."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

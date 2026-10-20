@@ -44,7 +44,7 @@ bureaux_asie:
 carrieres: "https://www.lamresearch.com/careers/careers-overview/"
 carrieres_jeunes: "https://www.lamresearch.com/careers/university-programs/"
 stages:
-  statut: programme
+  statut: oui
   detail: "Programme de stages ; pays cités : Chine, Inde, Corée, Japon, Malaisie, Taïwan, États-Unis ; France non citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

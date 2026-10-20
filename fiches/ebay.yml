@@ -38,7 +38,7 @@ vente:
 carrieres: "https://careers.ebayinc.com/"
 carrieres_jeunes: "https://careers.ebayinc.com/student-opportunities/"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages pour étudiants, offres publiées de septembre à mars ; la page renvoie vers une page EMEA sans citer la France."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

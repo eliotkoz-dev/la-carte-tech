@@ -139,7 +139,7 @@ bureaux_oceanie:
 carrieres: "https://www.fortinet.com/corporate/careers"
 carrieres_jeunes: "https://www.fortinet.com/corporate/careers/early-talent-program"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages d’été de 10 à 12 semaines, candidatures de l’automne au début du printemps ; lieux non précisés, France non citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

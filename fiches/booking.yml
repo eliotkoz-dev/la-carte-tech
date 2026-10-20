@@ -44,7 +44,7 @@ bureaux_asie:
 carrieres: "https://careers.booking.com/"
 carrieres_jeunes: "https://careers.booking.com/early-careers/"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages à Amsterdam seulement (finance 5 à 6 mois, ingénierie 9 semaines, été 2027), réservés aux inscrits d’une université néerlandaise ; aucun stage en France cité."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

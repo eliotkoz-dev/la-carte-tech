@@ -1,7 +1,7 @@
 // La Carte Tech · page « Les acteurs » : carte des liens, filtres et fiches.
 // Les données viennent de data/acteurs.json, généré depuis fiches/*.yml par scripts/build.mjs.
 (function () {
-  const { CATEGORIES, NOTION_DE, REGIONS, STAGES, rayon, el, dateFr, charger } = window.CarteTech;
+  const { CATEGORIES, NOTION_DE, REGIONS, STAGES, el, dateFr, charger } = window.CarteTech;
   let W = 1180;
   let H = 1020;
   // Les trois types de liens, par ordre d'importance.
@@ -136,8 +136,8 @@
       const dx = b.x - a.x;
       const dy = b.y - a.y;
       const long = Math.hypot(dx, dy);
-      const ra = rayon(a.mdUsd) + 2;
-      const rb = rayon(b.mdUsd) + 3;
+      const ra = a.rayon + 2;
+      const rb = b.rayon + 3;
       const t = el('span', 'lien ' + l.type);
       t.style.left = (a.x + dx / long * ra).toFixed(1) + 'px';
       t.style.top = (a.y + dy / long * ra).toFixed(1) + 'px';
@@ -149,7 +149,7 @@
       traits.push({ l, t });
     });
     acteurs.forEach((a) => {
-      const r = rayon(a.mdUsd);
+      const r = a.rayon;
       const couleur = REGIONS[a.region].c;
       // Pas de contour blanc : le contour prend la couleur de la bulle (sauf l’Asie, bordée d’or pour rester visible).
       const bord = REGIONS[a.region].bord || couleur;

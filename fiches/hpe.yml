@@ -38,7 +38,7 @@ vente:
 carrieres: "https://careers.hpe.com/us/en/careers-at-hpe"
 carrieres_jeunes: "https://careers.hpe.com/us/en/students"
 stages:
-  statut: programme
+  statut: oui
   detail: "Plus de 1 000 stagiaires par an dans le monde, candidatures toute l’année ; programmes locaux cités au Japon, Mexique, Inde et Porto Rico ; France non citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

@@ -46,7 +46,7 @@ bureaux_asie:
 carrieres: "https://careers.synopsys.com/"
 carrieres_jeunes: "https://careers.synopsys.com/early-careers"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages d’été (candidatures de novembre à mai) et placements de 6 à 12 mois ; la France n’est pas dans la liste des pays."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

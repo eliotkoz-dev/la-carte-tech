@@ -74,7 +74,7 @@ bureaux_europe:
 carrieres: "https://www.arista.com/en/careers"
 carrieres_jeunes: "https://www.arista.com/en/careers/university"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages logiciel (Santa Clara, Austin, Vancouver, Nashua, Dublin, Bangalore) et matériel (Santa Clara) ; aucun stage en France."
 sources:
 - titre: "Arista, résultats 2025"

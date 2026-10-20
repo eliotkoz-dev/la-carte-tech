@@ -46,7 +46,7 @@ bureaux_europe:
     url: "https://en.wikipedia.org/wiki/Bitpanda"
 carrieres: "https://job-boards.greenhouse.io/bitpanda"
 stages:
-  statut: programme
+  statut: oui
   detail: "5 offres de stage vues à Vienne et à Barcelone ; aucune en France ni en alternance."
 sources:
 - titre: "The Block, résultats 2025 de Bitpanda (mars 2026)"

@@ -38,7 +38,7 @@ vente:
 carrieres: "https://www.cadence.com/en_US/home/company/life-at-cadence/careers.html"
 carrieres_jeunes: "https://www.cadence.com/en_US/home/company/careers/interns-and-new-grads.html"
 stages:
-  statut: programme
+  statut: oui
   detail: "Page dédiée aux stagiaires et jeunes diplômés (« Intern Roles ») ; pays et dates non précisés."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

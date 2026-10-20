@@ -44,7 +44,7 @@ bureaux_asie:
 carrieres: "https://www.micron.com/about/careers"
 carrieres_jeunes: "https://www.micron.com/about/careers/university-recruiting"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages de mai à août (environ 4 mois), candidatures d’août à mars ; sites cités aux États-Unis, France non citée."
 sources:
 - titre: "Micron, résultats de l’exercice 2026 (SEC)"

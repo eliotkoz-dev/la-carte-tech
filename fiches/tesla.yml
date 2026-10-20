@@ -39,7 +39,7 @@ vente:
 carrieres: "https://www.tesla.com/careers"
 carrieres_jeunes: "https://www.tesla.com/careers/internships"
 stages:
-  statut: programme
+  statut: oui
   detail: "Page officielle des stages ; pays, durées et dates non précisés."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

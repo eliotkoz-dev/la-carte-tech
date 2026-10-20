@@ -9,7 +9,7 @@ import yaml from 'js-yaml';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CATEGORIES = ['cloud', 'ia', 'puces', 'data', 'saas', 'cyber', 'pub', 'ecommerce', 'fintech', 'crypto', 'espace'];
 const REGIONS = ['amerique-du-nord', 'europe', 'asie'];
-const STAGES = ['oui', 'alternance', 'programme', 'a-verifier'];
+const STAGES = ['oui', 'alternance', 'a-verifier'];
 // Régions des bureaux : un bloc facultatif « bureaux_<région> » (tirets bas) par région.
 const REGIONS_BUREAUX = ['europe', 'asie', 'amerique-du-nord', 'amerique-latine', 'moyen-orient-afrique', 'oceanie'];
 const TYPES = ['parente', 'investissement', 'partenariat'];
@@ -215,7 +215,7 @@ for (const a of [...acteurs].sort((p, q) => q.mdUsd - p.mdUsd || p.nom.localeCom
     }
   }
   if (!meilleur) { console.error(`\n  ✗ Plus de place sur la carte pour ${a.id} : agrandir H dans scripts/build.mjs.\n`); process.exit(1); }
-  a.x = meilleur.x; a.y = meilleur.y;
+  a.x = meilleur.x; a.y = meilleur.y; a.rayon = r;
   poses.push({ x: a.x, y: a.y, r, etiquette: meilleur.etiquette });
 }
 const zones = Object.entries(CENTRES).map(([id, [x, y]]) => ({ id, nom: LIBELLES[id], x, y }));
@@ -224,4 +224,9 @@ const sortie = join(root, 'site', 'data');
 mkdirSync(sortie, { recursive: true });
 const meta = { depot: process.env.GITHUB_REPOSITORY || '', genereLe: new Date().toISOString().slice(0, 10), carte: { w: W, h: H, zones } };
 writeFileSync(join(sortie, 'acteurs.json'), JSON.stringify({ meta, acteurs, liens, notions }, null, 1));
+// Chiffres de l’accueil écrits dans le HTML : ils s’affichent même si le JavaScript ne se charge pas.
+const accueil = join(root, 'site', 'index.html');
+let html = readFileSync(accueil, 'utf8');
+html = html.replace(/(<span id="nb-acteurs">)\d+(<\/span>)/, `$1${acteurs.length}$2`).replace(/(<span id="nb-liens">)\d+(<\/span>)/, `$1${liens.length}$2`);
+writeFileSync(accueil, html);
 console.log(`✓ ${acteurs.length} fiches, ${liens.length} liens et ${notions.length} notions → site/data/acteurs.json`);

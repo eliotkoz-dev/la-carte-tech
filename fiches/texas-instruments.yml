@@ -37,7 +37,7 @@ vente:
 carrieres: "https://careers.ti.com/"
 carrieres_jeunes: "https://careers.ti.com/engineer-your-future/"
 stages:
-  statut: programme
+  statut: oui
   detail: "Page d’opportunités de stage et de début de carrière ; pays et dates non précisés."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

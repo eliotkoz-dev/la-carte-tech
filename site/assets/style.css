@@ -1,3 +1,9 @@
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url('polices/inter-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: swap; src: url('polices/inter-latin-500-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url('polices/inter-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 800; font-display: swap; src: url('polices/inter-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url('polices/ibm-plex-mono-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url('polices/ibm-plex-mono-latin-500-normal.woff2') format('woff2'); }
 /* La Carte Tech · charte : bleu nuit, bleu électrique, violet, rose */
 :root {
   --nuit: #15153A;
@@ -181,7 +187,6 @@ button { font: inherit; color: inherit; }
 .badge { display: inline-block; align-self: flex-start; font-size: 12px; font-weight: 700; padding: 4px 10px; }
 .badge.oui { background: var(--bleu); color: #FFFFFF; border: 1px solid var(--bleu); }
 .badge.alternance { background: var(--lavande); color: var(--encre); border: 1px solid var(--lavande); }
-.badge.programme { background: #FFFFFF; color: var(--bleu); border: 1px solid var(--bleu); }
 .badge.a-verifier { background: #FFFFFF; color: var(--gris); border: 1px dashed var(--gris-3); }
 .vide-filtres { margin: 0; padding: 24px; border: 1px dashed var(--gris-3); color: var(--gris); }
 
@@ -223,7 +228,6 @@ button { font: inherit; color: inherit; }
 .bloc-stage p { font-size: 15px; color: var(--lavande-texte); }
 .badge-sombre.oui { background: var(--rose); color: var(--nuit); }
 .badge-sombre.alternance { background: var(--lavande); color: var(--nuit); }
-.badge-sombre.programme { background: transparent; color: var(--rose); border: 1px solid var(--rose); }
 .badge-sombre.a-verifier { background: transparent; color: var(--lavande-texte); border: 1px dashed #9393B3; }
 .filtres-villes { margin-top: 8px; }
 .etiquette-filtre { font-size: 12px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gris); margin-right: 4px; }

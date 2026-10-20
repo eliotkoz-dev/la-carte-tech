@@ -38,7 +38,7 @@ vente:
 carrieres: "https://robinhood.com/us/en/careers/"
 carrieres_jeunes: "https://robinhood.com/us/en/careers/early-talent/"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages d’été de 12 ou 16 semaines, offres publiées vers mi-septembre ; bureaux non nommés, France non citée."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

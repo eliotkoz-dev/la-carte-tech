@@ -72,7 +72,7 @@ bureaux_asie:
 carrieres: "https://www.oracle.com/careers/"
 carrieres_jeunes: "https://www.oracle.com/careers/students-grads/"
 stages:
-  statut: programme
+  statut: oui
   detail: "Page stages et jeunes diplômés ; la page consultée est orientée États-Unis, la France se vérifie via la page par région."
 rejoindre:
   voies:

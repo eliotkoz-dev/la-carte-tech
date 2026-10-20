@@ -71,7 +71,7 @@ bureaux_asie:
 carrieres: "https://careers.microsoft.com/"
 carrieres_jeunes: "https://careers.microsoft.com/v2/global/en/students"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages mondiaux ouverts à toutes les familles de métiers ; programmes cités aux États-Unis, en Irlande et en Inde ; France non citée."
 sources:
 - titre: "Redmond Magazine, résultats Microsoft exercice 2026"

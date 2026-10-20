@@ -37,7 +37,7 @@ vente:
 carrieres: "https://software.strategy.com/careers"
 carrieres_jeunes: "https://software.strategy.com/careers/early-careers"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stage d’été de 10 semaines (recrutement via Handshake, début en juin) ; lieu non précisé."
 sources:
 - titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"

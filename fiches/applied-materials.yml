@@ -37,7 +37,7 @@ vente:
 carrieres: "https://jobs.appliedmaterials.com/"
 carrieres_jeunes: "https://www.appliedmaterials.com/us/en/careers/students-early-career.html"
 stages:
-  statut: programme
+  statut: oui
   detail: "Stages de 8 à 12 semaines en été et co-ops de 6 à 8 mois, cycle de recrutement de septembre à mars ; sites cités aux États-Unis, France non citée."
 sources:
 - titre: "Applied Materials, résultats de l’exercice 2025"
