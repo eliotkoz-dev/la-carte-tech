@@ -386,3 +386,7 @@ button { font: inherit; color: inherit; }
 .onglets button[aria-selected="true"] { color: var(--bleu); border-bottom-color: var(--bleu); }
 .panneau { display: flex; flex-direction: column; gap: 36px; }
 .panneau[hidden] { display: none; }
+
+.filtres-villes { flex-direction: column; align-items: stretch; gap: 10px; }
+.ligne-filtre { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.ligne-filtre .etiquette-filtre { min-width: 82px; }

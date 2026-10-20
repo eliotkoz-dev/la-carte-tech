@@ -300,6 +300,7 @@
     $('filtre-stages').setAttribute('aria-pressed', String(etat.stagesSeuls));
     document.querySelectorAll('#villes .pilules-villes .pilule[data-ville]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ville === etat.ville)));
     const visibles = acteurs.filter((a) => (etat.cat === 'tous' || a.categorie === etat.cat) && (!etat.stagesSeuls || a.stage !== 'a-verifier') && (!etat.ville || villesDe(a).includes(etat.ville)));
+    visibles.sort((p, q) => p.nom.localeCompare(q.nom, 'fr', { sensitivity: 'base' }));
     $('grille').replaceChildren(...visibles.map((a) => {
       const b = el('button', 'carte-ent');
       b.type = 'button';
