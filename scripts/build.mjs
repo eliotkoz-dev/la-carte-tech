@@ -3,6 +3,7 @@
 // et la vérification de la pull request sur GitHub affiche l'erreur.
 import { readFileSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
 
@@ -239,4 +240,12 @@ const accueil = join(root, 'site', 'index.html');
 let html = readFileSync(accueil, 'utf8');
 html = html.replace(/(<span id="nb-acteurs">)\d+(<\/span>)/, `$1${acteurs.length}$2`).replace(/(<span id="nb-liens">)\d+(<\/span>)/, `$1${liens.length}$2`);
 writeFileSync(accueil, html);
+// Version des fichiers CSS et JS dans chaque page (?v=empreinte) : après une mise à jour, le navigateur recharge le nouveau code au lieu de garder l’ancien en cache.
+const empreinte = (fichier) => createHash('sha1').update(readFileSync(join(root, 'site', fichier))).digest('hex').slice(0, 8);
+for (const page of readdirSync(join(root, 'site')).filter((n) => n.endsWith('.html'))) {
+  const chemin = join(root, 'site', page);
+  const avant = readFileSync(chemin, 'utf8');
+  const apres = avant.replace(/(href|src)="(assets\/[\w.-]+\.(?:css|js))(?:\?v=[\w]+)?"/g, (_, attr, f) => `${attr}="${f}?v=${empreinte(f)}"`);
+  if (apres !== avant) writeFileSync(chemin, apres);
+}
 console.log(`✓ ${acteurs.length} fiches, ${liens.length} liens et ${notions.length} notions → site/data/acteurs.json`);
