@@ -263,9 +263,22 @@
     majVilles(compte);
   }
 
+  // Phrase sous les filtres : dit ce que comptent les chiffres (entreprises présentes, quelle que soit leur origine).
+  function majExplication(compte) {
+    const p = $('explication-locaux');
+    if (!p) return;
+    const nomRegion = (REGIONS_BUREAUX.find((r) => r.id === etat.regionVille) || {}).nom || '';
+    const nbRegion = acteurs.filter((a) => a.bureaux && a.bureaux[etat.regionVille]).length;
+    const s = (n) => (n > 1 ? 's' : '');
+    p.textContent = etat.ville
+      ? `${compte[etat.ville] || 0} entreprise${s(compte[etat.ville] || 0)} ${(compte[etat.ville] || 0) > 1 ? 'ont' : 'a'} des locaux à ${etat.ville}, quel que soit leur pays d’origine.`
+      : `${nbRegion} entreprise${s(nbRegion)} ${nbRegion > 1 ? 'ont' : 'a'} des locaux en ${nomRegion}, quel que soit leur pays d’origine. Choisissez une ville pour voir celles qui y sont installées.`;
+  }
+
   function majVilles(compte) {
     const zone = $('villes');
     zone.querySelectorAll('.regions-villes .pilule').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.region === etat.regionVille)));
+    majExplication(compte);
     const villes = Object.entries(compte).filter(([v, n]) => regionDeVille[v] === etat.regionVille && n >= SEUIL_VILLE).sort((p, q) => q[1] - p[1] || p[0].localeCompare(q[0], 'fr'));
     const cible = zone.querySelector('.pilules-villes');
     if (!villes.length) { cible.replaceChildren(el('span', 'discret', 'Pas encore assez de bureaux renseignés dans cette région.')); return; }
@@ -274,7 +287,7 @@
       b.type = 'button';
       b.dataset.ville = v;
       b.append(el('span', 'n', String(n)));
-      b.addEventListener('click', () => { etat.ville = etat.ville === v ? null : v; majListe(); });
+      b.addEventListener('click', () => { etat.ville = etat.ville === v ? null : v; majExplication(compte); majListe(); });
       return b;
     }));
     zone.querySelectorAll('.pilules-villes .pilule[data-ville]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ville === etat.ville)));

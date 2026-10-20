@@ -401,3 +401,5 @@ button { font: inherit; color: inherit; }
 .recherche input:focus { outline: 2px solid var(--bleu); outline-offset: 1px; }
 .sr-seul { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .liens-carrieres{display:flex;flex-wrap:wrap;gap:.5rem 1rem;margin:.4rem 0 0;font-weight:600}
+
+.explication-locaux { margin: 4px 0 0; font-size: 14px; }
