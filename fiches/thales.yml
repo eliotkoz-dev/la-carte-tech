@@ -37,8 +37,24 @@ vente:
 carrieres: "https://careers.thalesgroup.com/fr/fr/carrieres-france"
 carrieres_jeunes: "https://careers.thalesgroup.com/fr/fr/stage-alternance"
 stages:
-  statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  statut: oui
+  detail: "Stages de 3 à 6 mois et alternances de 12 à 36 mois en France, plus des VIE ; annonces de stage publiées dès octobre."
+rejoindre:
+  voies:
+  - type: stage
+    nom: "Stage (3 à 6 mois)"
+    detail: "Annonces publiées à partir d’octobre, recrutement jusqu’en février ; du CAP au bac+5."
+  - type: alternance
+    nom: "Alternance (12 à 36 mois)"
+    detail: "Annonces publiées à partir de mars, recrutement jusqu’en septembre."
+  - type: vie
+    nom: "VIE"
+    detail: "De 6 à 24 mois, annonces toute l’année."
+  calendrier: "Stages : annonces d’octobre à février ; alternances : de mars à septembre."
+  a_verifier: "Sites précis et offres commerciales : non détaillés sur la page ; programme jeunes diplômés non trouvé."
+  sources:
+  - titre: "Thales, futurs talents France"
+    url: https://careers.thalesgroup.com/fr/fr/futurs-talents-france
 sources:
 - titre: "CompaniesMarketCap, revenus de Thales"
   url: "https://companiesmarketcap.com/thales/revenue/"

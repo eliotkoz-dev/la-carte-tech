@@ -50,8 +50,23 @@ bureaux_europe:
 carrieres: "https://jobs.backmarket.com/"
 carrieres_jeunes: "https://www.backmarket.com/en-us/careers/home/early-careers"
 stages:
-  statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  statut: oui
+  detail: "Stages et alternances à Paris et Bordeaux (environ 80 étudiants par an selon le site)."
+rejoindre:
+  bureaux:
+  - ville: Paris
+  - ville: Bordeaux
+  voies:
+  - type: stage
+    nom: "Stages"
+    detail: "Annoncés dans les bureaux de Paris, Bordeaux, Barcelone, Londres et Berlin."
+  - type: alternance
+    nom: "Alternances"
+    detail: "Idem ; exemple : alternance assistant RH en Île-de-France."
+  a_verifier: "Durées et dates non indiquées ; consulter la liste des offres via la page jeunes."
+  sources:
+  - titre: "Back Market, Early Careers"
+    url: https://www.backmarket.com/en-us/careers/home/early-careers
 sources:
 - titre: "Maddyness, Back Market rentable (févr. 2026)"
   url: "https://www.maddyness.com/2026/02/04/back-market-devient-a-son-tour-rentable-pour-la-premiere-fois/"

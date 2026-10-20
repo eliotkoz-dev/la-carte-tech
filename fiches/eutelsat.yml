@@ -36,7 +36,7 @@ vente:
 carrieres: "https://careers.eutelsat.com/search/"
 stages:
   statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  detail: "Des offres de stage et d’apprentissage à Issy-les-Moulineaux existent ; l’offre consultée est déjà pourvue, à vérifier sur les offres actuelles."
 sources:
 - titre: "DatacenterDynamics, résultats 2025-26 d’Eutelsat"
   url: "https://www.datacenterdynamics.com/en/news/eutelsat-releases-2025-26-financial-results-with-695-increase-in-leo-revenues-yoy/"

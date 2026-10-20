@@ -43,8 +43,33 @@ bureaux_asie:
     url: "https://www.safran-group.com/country/safran-singapore"
 carrieres: "https://www.safran-group.com/jobs"
 stages:
-  statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  statut: oui
+  detail: "Offres de stage et d’alternance en France sur le site Safran, dont un stage en simulation publié le 10 septembre 2026 (Réau)."
+rejoindre:
+  bureaux:
+  - ville: Réau
+  - ville: Vanves
+    detail: "Stage affaires publiques"
+  - ville: Moissy-Cramayel
+  - ville: Plaisir
+    detail: "Alternance compétences et formation"
+  - ville: Malakoff
+    detail: "Alternance talent acquisition"
+  voies:
+  - type: stage
+    nom: "Stages ingénierie et fonctions support"
+    detail: "Offres vues à Réau, Vanves, Moissy-Cramayel et Châteaufort ; durée non précisée sur les pages."
+  - type: alternance
+    nom: "Alternances (RH, électronique…)"
+    detail: "Offres vues à Plaisir, Malakoff et Dijon."
+  a_verifier: "Durées et dates de début non indiquées ; offres commerciales et programme jeunes diplômés non trouvés."
+  sources:
+  - titre: "Safran, offre de stage Réau (10/09/2026)"
+    url: https://www.safran-group.com/jobs/france/reau/stage-simulation-haute-fidelite-combustion-kerosene-regime-rechauffe-fh-188117
+  - titre: "Safran, offre de stage affaires publiques (Vanves)"
+    url: https://www.safran-group.com/jobs/france/vanves/stage-affaires-publiques-fh-183629
+  - titre: "Safran, offre d’alternance (Plaisir)"
+    url: https://www.safran-group.com/fr/offres/france/plaisir/alternance-chargee-competences-formation-fh-181133
 sources:
 - titre: "CompaniesMarketCap, revenus de Safran"
   url: "https://companiesmarketcap.com/safran/revenue/"

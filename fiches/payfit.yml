@@ -49,7 +49,7 @@ carrieres: "https://careers.payfit.com/"
 carrieres_jeunes: "https://careers.payfit.com/departments/internships-apprentices-2719c14f-aa2c-4754-8db9-9af5b2927f47"
 stages:
   statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  detail: "Des offres de stage et d’alternance à Paris existent sur le site carrières, mais celles consultées sont fermées ; à vérifier sur les offres actuelles."
 sources:
 - titre: "PayFit, espace presse"
   url: "https://payfit.com/fr/presse/"

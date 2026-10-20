@@ -67,7 +67,7 @@ carrieres: "https://careers.adyen.com/"
 carrieres_jeunes: "https://careers.adyen.com/career-types/student"
 stages:
   statut: a-verifier
-  detail: "Aucune offre de stage trouvée en octobre 2026 ; les offres visibles sont des postes de jeunes diplômés et confirmés."
+  detail: "Programmes étudiants (NextGen, stage de fin d’études) et postes jeunes diplômés ; lieux et dates non précisés, aucune offre affichée lors de la vérification."
 sources:
 - titre: "Adyen, résultats du 2e semestre 2025"
   url: "https://www.adyen.com/press-and-media/adyen-publishes-h2-2025-financial-results-3pgu2"

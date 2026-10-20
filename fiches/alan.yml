@@ -46,7 +46,19 @@ bureaux_europe:
 carrieres: "https://jobs.ashbyhq.com/alan"
 stages:
   statut: a-verifier
-  detail: "À vérifier sur le site carrières de l’entreprise."
+  detail: "Pas de stage vu ; le site décrit un Sales Graduate Program de 18 à 24 mois à Paris ou Bordeaux (promotion de janvier 2026, page mise à jour en septembre 2025)."
+rejoindre:
+  bureaux:
+  - ville: Paris
+  - ville: Bordeaux
+  voies:
+  - type: graduate
+    nom: "Sales Graduate Program"
+    detail: "18 à 24 mois, poste de départ Business Development Representative ; master d’école de commerce, jusqu’à 2 ans d’expérience."
+  a_verifier: "Promotion de janvier 2026 ; stages et alternances non trouvés."
+  sources:
+  - titre: "Alan, Propulsez votre début de carrière"
+    url: https://alan.com/fr-fr/blog/tout-alan/a/propulsez-votre-debut-de-carriere-rejoignez-alan
 sources:
 - titre: "L’Echo, Alan en Belgique (janv. 2026)"
   url: "https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/Business/Press/20260107-LEcho-Alan.pdf"
