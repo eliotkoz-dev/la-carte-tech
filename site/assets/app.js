@@ -21,6 +21,8 @@
     { id: 'europe', nom: 'Europe' }, { id: 'asie', nom: 'Asie' }, { id: 'amerique-du-nord', nom: 'Amérique du Nord' },
     { id: 'amerique-latine', nom: 'Amérique latine' }, { id: 'moyen-orient-afrique', nom: 'Moyen-Orient et Afrique' }, { id: 'oceanie', nom: 'Océanie' }
   ];
+  // Une entreprise est présente dans une région si elle y a des bureaux renseignés, ou si son siège (sa région d'origine) y est.
+  const presente = (a, rid) => Boolean((a.bureaux && a.bureaux[rid]) || a.region === rid);
   const etat = { q: '', cat: 'tous', regionVille: 'europe', ville: null, stagesSeuls: false, choisi: null, types: { parente: true, investissement: true, partenariat: true } };
   let acteurs = [];
   let liens = [];
@@ -220,11 +222,12 @@
     $('resume-choix').replaceChildren(el('b', '', a.nom), ' ', el('span', '', `· ${CATEGORIES[a.categorie]} · ${REGIONS[a.region].nom} · ${a.ca} · ${texteLiens(a.id)}`));
     const ligne = $('bureaux-choix');
     ligne.replaceChildren();
-    const presentes = REGIONS_BUREAUX.filter((r) => a.bureaux && a.bureaux[r.id]);
+    const presentes = REGIONS_BUREAUX.filter((r) => presente(a, r.id));
     if (!presentes.length) ligne.append(el('b', '', 'Bureaux : '), 'pas encore renseignés');
     presentes.forEach((r, i) => {
       if (i) ligne.append(el('br'));
-      ligne.append(el('b', '', r.nom + ' : '), [...parPays(a.bureaux[r.id].villes).map(([pays, villes]) => `${pays} (${villes.join(', ')})`), ...(a.bureaux[r.id].pays || []).map((p) => `${p} (ville non précisée)`)].join(' · '));
+      const detail = a.bureaux && a.bureaux[r.id] ? [...parPays(a.bureaux[r.id].villes).map(([pays, villes]) => `${pays} (${villes.join(', ')})`), ...(a.bureaux[r.id].pays || []).map((p) => `${p} (ville non précisée)`)].join(' · ') : `siège : ${a.siege}`;
+      ligne.append(el('b', '', r.nom + ' : '), detail);
     });
   }
 
@@ -246,12 +249,12 @@
     const zone = $('villes');
     const nbParRegion = {};
     Object.keys(compte).forEach((v) => { if (regionDeVille[v]) nbParRegion[regionDeVille[v]] = (nbParRegion[regionDeVille[v]] || 0) + 1; });
-    const regions = REGIONS_BUREAUX.filter((r) => acteurs.some((a) => a.bureaux && a.bureaux[r.id]));
+    const regions = REGIONS_BUREAUX.filter((r) => acteurs.some((a) => presente(a, r.id)));
     if (!regions.length) { zone.hidden = true; return; }
     if (!regions.some((r) => r.id === etat.regionVille)) etat.regionVille = regions[0].id;
     const onglets = zone.querySelector('.regions-villes');
     onglets.replaceChildren(...regions.map((r) => {
-      const n = acteurs.filter((a) => a.bureaux && a.bureaux[r.id]).length;
+      const n = acteurs.filter((a) => presente(a, r.id)).length;
       const b = el('button', 'pilule', r.nom + ' ');
       b.type = 'button';
       b.dataset.region = r.id;
@@ -267,7 +270,7 @@
     const p = $('explication-locaux');
     if (!p) return;
     const nomRegion = (REGIONS_BUREAUX.find((r) => r.id === etat.regionVille) || {}).nom || '';
-    const nbRegion = acteurs.filter((a) => a.bureaux && a.bureaux[etat.regionVille]).length;
+    const nbRegion = acteurs.filter((a) => presente(a, etat.regionVille)).length;
     const s = (n) => (n > 1 ? 's' : '');
     p.textContent = etat.ville
       ? `${compte[etat.ville] || 0} entreprise${s(compte[etat.ville] || 0)} ${(compte[etat.ville] || 0) > 1 ? 'ont' : 'a'} des locaux à ${etat.ville}, quel que soit leur pays d’origine.`
@@ -439,6 +442,7 @@
     if (a.vente) corps.append(blocVente(a.vente));
     REGIONS_BUREAUX.forEach((r) => {
       if (a.bureaux && a.bureaux[r.id]) corps.append(blocBureaux(a.bureaux[r.id], 'Bureaux en ' + r.nom));
+      else if (a.region === r.id) corps.append(bloc('Siège en ' + r.nom, el('p', '', a.siege), el('p', 'discret', 'Autres bureaux dans cette région : pas encore renseignés.')));
       else if (r.id === 'europe') corps.append(bloc('Bureaux en Europe', el('p', 'discret', 'Pas encore renseigné.')));
     });
     corps.append(bloc('Rachats marquants', liste(a.rachats)));
