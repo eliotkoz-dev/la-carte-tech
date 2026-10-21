@@ -1,14 +1,56 @@
 // Éléments communs aux trois pages : mosaïque, libellés, chargement des données.
 window.CarteTech = (function () {
   const CATEGORIES = {
-    cloud: 'Cloud & infra', ia: 'IA', puces: 'Puces & matériel', data: 'Data', saas: 'Logiciels',
-    cyber: 'Cybersécurité', pub: 'Pub & plateformes', ecommerce: 'E-commerce', fintech: 'Fintech & paiements', crypto: 'Crypto & web3', espace: 'Aérospatial & défense'
+    cloud: 'Cloud & infra',
+    ia: 'IA',
+    puces: 'Puces & matériel',
+    data: 'Data',
+    saas: 'Logiciels',
+    cyber: 'Cybersécurité',
+    pub: 'Pub & plateformes',
+    ecommerce: 'E-commerce',
+    fintech: 'Fintech & paiements',
+    crypto: 'Crypto & web3',
+    espace: 'Aérospatial & défense',
   };
   // Notion de la page « La tech en rapide » qui explique chaque catégorie.
-  const NOTION_DE = { cloud: 'cloud', ia: 'ia', puces: 'puces', data: 'data', saas: 'logiciels', cyber: 'cyber', pub: 'pub', ecommerce: 'ecommerce', fintech: 'paiements', crypto: 'crypto', espace: 'espace' };
-  const REGIONS = { 'amerique-du-nord': { nom: 'Amérique du Nord', c: '#3A3AF4' }, europe: { nom: 'Europe', c: '#FF4F8B' }, asie: { nom: 'Asie', c: '#FFD800', bord: '#C9A400' } };
-  const STAGES = { oui: 'Stage : oui', alternance: 'Alternance', 'a-verifier': 'Stage : à vérifier' };
-  const MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+  const NOTION_DE = {
+    cloud: 'cloud',
+    ia: 'ia',
+    puces: 'puces',
+    data: 'data',
+    saas: 'logiciels',
+    cyber: 'cyber',
+    pub: 'pub',
+    ecommerce: 'ecommerce',
+    fintech: 'paiements',
+    crypto: 'crypto',
+    espace: 'espace',
+  };
+  const REGIONS = {
+    'amerique-du-nord': { nom: 'Amérique du Nord', c: '#3A3AF4' },
+    europe: { nom: 'Europe', c: '#FF4F8B' },
+    asie: { nom: 'Asie', c: '#FFD800', bord: '#C9A400' },
+  };
+  const STAGES = {
+    oui: 'Stage : oui',
+    alternance: 'Alternance',
+    'a-verifier': 'Stage : à vérifier',
+  };
+  const MOIS = [
+    'janvier',
+    'février',
+    'mars',
+    'avril',
+    'mai',
+    'juin',
+    'juillet',
+    'août',
+    'septembre',
+    'octobre',
+    'novembre',
+    'décembre',
+  ];
   // Rayon des bulles : grandit avec la racine carrée du chiffre d'affaires (en milliards de dollars).
 
   const el = (tag, cls, texte) => {
@@ -17,8 +59,15 @@ window.CarteTech = (function () {
     if (texte !== undefined) e.textContent = texte;
     return e;
   };
-  const dateFr = (iso) => { const [a, m, j] = iso.split('-').map(Number); return `${j === 1 ? '1er' : j} ${MOIS[m - 1]} ${a}`; };
-  const charger = () => fetch('data/acteurs.json', { cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  const dateFr = (iso) => {
+    const [a, m, j] = iso.split('-').map(Number);
+    return `${j === 1 ? '1er' : j} ${MOIS[m - 1]} ${a}`;
+  };
+  const charger = () =>
+    fetch('data/acteurs.json', { cache: 'no-cache' }).then((r) => {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    });
 
   // Mosaïque de carrés : clairsemée en haut, pleine en bas, sur toute la largeur.
   const couleurs = ['#FF4F8B', '#3A3AF4', '#7B5CFF', '#2929A0', '#3A3AF4', '#7B5CFF', '#3A3AF4'];

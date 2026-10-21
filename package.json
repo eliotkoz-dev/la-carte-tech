@@ -6,9 +6,14 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "start": "node scripts/build.mjs && npx --yes serve@14.2.4 site"
+    "start": "node scripts/build.mjs && npx --yes serve@14.2.4 site",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "js-yaml": "4.1.0"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3"
   }
 }

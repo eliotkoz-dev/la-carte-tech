@@ -1,7 +1,7 @@
 name: Signaler une erreur
 description: Une information est fausse ou plus à jour
-title: "Correction : "
-labels: ["correction"]
+title: 'Correction : '
+labels: ['correction']
 body:
   - type: input
     id: fiche

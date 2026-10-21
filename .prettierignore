@@ -1,0 +1,9 @@
+# Les fiches et listes de données gardent leur mise en forme actuelle (voir CONTRIBUTING.md)
+fiches/
+liens.yml
+notions.yml
+site/data/
+site/*.html
+node_modules/
+package-lock.json
+*.md

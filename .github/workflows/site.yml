@@ -25,6 +25,8 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - name: Vérifier la mise en forme du code
+        run: npm run format:check
       - name: Vérifier les fiches et construire les données
         run: npm run build
       - name: Ajouter un numéro de version aux fichiers CSS et JS (évite que les navigateurs gardent l’ancienne version)

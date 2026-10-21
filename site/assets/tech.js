@@ -6,8 +6,12 @@
   let acteurs = [];
 
   const plusGros = (n) => {
-    if (Array.isArray(n.acteurs)) return n.acteurs.map((id) => acteurs.find((a) => a.id === id)).filter(Boolean);
-    return acteurs.filter((a) => a.categorie === n.categorie).sort((a, b) => b.mdUsd - a.mdUsd).slice(0, 6);
+    if (Array.isArray(n.acteurs))
+      return n.acteurs.map((id) => acteurs.find((a) => a.id === id)).filter(Boolean);
+    return acteurs
+      .filter((a) => a.categorie === n.categorie)
+      .sort((a, b) => b.mdUsd - a.mdUsd)
+      .slice(0, 6);
   };
 
   function detail(n) {
@@ -36,7 +40,13 @@
       m.append(el('p', 'chiffre-marche', n.marche.chiffre), el('p', '', n.marche.detail), p);
       dr.append(m);
     } else {
-      dr.append(el('p', 'a-completer', 'Chiffre du marché à ajouter : proposez une source publique sur GitHub.'));
+      dr.append(
+        el(
+          'p',
+          'a-completer',
+          'Chiffre du marché à ajouter : proposez une source publique sur GitHub.',
+        ),
+      );
     }
     if (n.barres) {
       const parts = el('div', 'parts');
@@ -46,7 +56,7 @@
         const ligne = el('div', 'part');
         const barre = el('span', 'barre');
         const b = el('span');
-        b.style.width = Math.round(i.valeur / max * 66) + '%';
+        b.style.width = Math.round((i.valeur / max) * 66) + '%';
         b.style.background = ['var(--bleu)', 'var(--violet)', 'var(--rose)'][k % 3];
         barre.append(b, i.texte);
         ligne.append(el('span', 'qui', i.nom), barre);
@@ -56,7 +66,13 @@
     }
     const gros = plusGros(n);
     if (gros.length) {
-      dr.append(el('h3', '', Array.isArray(n.acteurs) ? 'Des acteurs à connaître' : 'Les plus gros acteurs'));
+      dr.append(
+        el(
+          'h3',
+          '',
+          Array.isArray(n.acteurs) ? 'Des acteurs à connaître' : 'Les plus gros acteurs',
+        ),
+      );
       const ul = el('ul', 'gros');
       gros.forEach((a) => {
         const li = el('li');
@@ -95,13 +111,22 @@
       zone.append(art);
     });
     const tuiles = $('tuiles');
-    notions.filter((n) => n.marche).forEach((n) => {
-      const t = el('button', 'tuile');
-      t.type = 'button';
-      t.append(el('span', 'v', n.marche.chiffre), el('span', 'n', n.titre), el('span', 'd', n.marche.detail));
-      t.addEventListener('click', () => { ouvrir(n.id); $('n-' + n.id).scrollIntoView(); });
-      tuiles.append(t);
-    });
+    notions
+      .filter((n) => n.marche)
+      .forEach((n) => {
+        const t = el('button', 'tuile');
+        t.type = 'button';
+        t.append(
+          el('span', 'v', n.marche.chiffre),
+          el('span', 'n', n.titre),
+          el('span', 'd', n.marche.detail),
+        );
+        t.addEventListener('click', () => {
+          ouvrir(n.id);
+          $('n-' + n.id).scrollIntoView();
+        });
+        tuiles.append(t);
+      });
   }
 
   function ouvrir(id, sansAdresse) {
@@ -113,9 +138,18 @@
       art.querySelector('.ouvrir').textContent = ouverte ? 'Fermer' : 'Ouvrir';
       art.querySelector('.notion-detail').hidden = !ouverte;
     });
-    if (!sansAdresse) { try { history.replaceState(null, '', id ? '#' + id : location.pathname); } catch (e) { /* sans effet */ } }
+    if (!sansAdresse) {
+      try {
+        history.replaceState(null, '', id ? '#' + id : location.pathname);
+      } catch (e) {
+        /* sans effet */
+      }
+    }
   }
-  const basculer = (id) => { const deja = $('n-' + id).classList.contains('ouverte'); ouvrir(deja ? null : id); };
+  const basculer = (id) => {
+    const deja = $('n-' + id).classList.contains('ouverte');
+    ouvrir(deja ? null : id);
+  };
 
   charger()
     .then((d) => {
@@ -123,8 +157,20 @@
       acteurs = d.acteurs;
       construire();
       const id = location.hash.slice(1);
-      if (notions.some((n) => n.id === id)) { ouvrir(id, true); $('n-' + id).scrollIntoView(); }
-      window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (notions.some((n) => n.id === h)) { ouvrir(h, true); $('n-' + h).scrollIntoView(); } });
+      if (notions.some((n) => n.id === id)) {
+        ouvrir(id, true);
+        $('n-' + id).scrollIntoView();
+      }
+      window.addEventListener('hashchange', () => {
+        const h = location.hash.slice(1);
+        if (notions.some((n) => n.id === h)) {
+          ouvrir(h, true);
+          $('n-' + h).scrollIntoView();
+        }
+      });
     })
-    .catch(() => { $('notions').textContent = 'Les données n’ont pas pu être chargées. Lancez « npm run build » puis rechargez la page.'; });
+    .catch(() => {
+      $('notions').textContent =
+        'Les données n’ont pas pu être chargées. Lancez « npm run build » puis rechargez la page.';
+    });
 })();

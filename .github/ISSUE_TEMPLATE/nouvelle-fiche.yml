@@ -1,11 +1,11 @@
 name: Proposer une fiche
 description: Une entreprise manque sur La Carte Tech
-title: "Nouvelle fiche : "
-labels: ["nouvelle fiche"]
+title: 'Nouvelle fiche : '
+labels: ['nouvelle fiche']
 body:
   - type: markdown
     attributes:
-      value: "Merci ! Uniquement des informations publiques, avec un lien pour chacune. Si vous êtes à l’aise avec GitHub, vous pouvez aussi ajouter directement un fichier dans `fiches/` (voir CONTRIBUTING.md)."
+      value: 'Merci ! Uniquement des informations publiques, avec un lien pour chacune. Si vous êtes à l’aise avec GitHub, vous pouvez aussi ajouter directement un fichier dans `fiches/` (voir CONTRIBUTING.md).'
   - type: input
     id: nom
     attributes:

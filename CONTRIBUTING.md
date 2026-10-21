@@ -88,4 +88,7 @@ Les notions de la page « La tech en rapide » sont dans [`notions.yml`](notions
 npm install
 npm run build    # vérifie toutes les fiches
 npm start        # ouvre le site en local
+npm run format   # met en forme le code avec Prettier (scripts et fichiers du site)
 ```
+
+En participant, vous acceptez le [code de conduite](CODE_OF_CONDUCT.md). Pour signaler une faille, voir [SECURITY.md](SECURITY.md).
