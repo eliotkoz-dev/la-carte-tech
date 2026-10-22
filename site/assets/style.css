@@ -209,9 +209,9 @@ button {
   color: #ffffff;
 }
 .hero-texte {
-  max-width: var(--largeur);
-  margin: 0 auto;
-  padding: 64px 24px 40px;
+  max-width: none;
+  margin: 0;
+  padding: 64px clamp(24px, 3vw, 40px) 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -224,7 +224,6 @@ button {
 }
 .hero h1 {
   margin: 0;
-  max-width: 900px;
   font-size: clamp(40px, 6vw, 60px);
   line-height: 1.02;
   font-weight: 800;
@@ -232,15 +231,14 @@ button {
 }
 .hero p.chapo {
   margin: 0;
-  max-width: 640px;
   font-size: 18px;
   color: var(--lavande-texte);
 }
 
 .page {
-  max-width: var(--largeur);
-  margin: 0 auto;
-  padding: 40px 24px 64px;
+  max-width: none;
+  margin: 0;
+  padding: 40px clamp(24px, 3vw, 40px) 64px;
   display: flex;
   flex-direction: column;
   gap: 44px;
@@ -344,13 +342,11 @@ button {
 }
 .intro {
   margin: -8px 0 0;
-  max-width: 820px;
   font-size: 17px;
   color: var(--encre-2);
 }
 .intro-grande {
   margin: -12px 0 0;
-  max-width: 820px;
   font-size: 22px;
   line-height: 1.35;
   font-weight: 600;
