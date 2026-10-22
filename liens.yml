@@ -199,6 +199,46 @@
   type: investissement
   texte: "Tencent détenait 18,7 % de Sea après une vente de titres (janv. 2022)"
   source: "https://www.tencent.com/en-us/articles/2201261.html"
+- de: nvidia
+  vers: spacex
+  type: investissement
+  texte: "Nvidia avait investi 10 Md$ dans xAI ; après la fusion avec SpaceX, sa participation vaut environ 21 Md$ (août 2026)"
+  source: "https://www.mobileworldlive.com/ai-cloud/nvidia-reveals-21b-holding-in-spacex/"
+- de: tesla
+  vers: spacex
+  type: investissement
+  texte: "Tesla a converti ses 2 Md$ investis dans xAI en actions SpaceX, moins de 1 % du capital (mars 2026)"
+  source: "https://electrek.co/2026/10/19/tesla-tsla-proxy-annual-meeting-spacex-merger/"
+- de: tencent
+  vers: spotify
+  type: investissement
+  texte: "Tencent et Spotify ont échangé des participations en 2017 ; Spotify détient toujours des actions de Tencent Music"
+  source: "https://techcrunch.com/2017/12/08/spotify-tencent-share-swap/amp"
+- de: meta
+  vers: databricks
+  type: investissement
+  texte: "Meta entre au capital de Databricks comme investisseur stratégique (janv. 2025)"
+  source: "https://techcrunch.com/2025/01/22/databricks-closes-15-3b-financing-at-62b-valuation-meta-joins-as-strategic-investor"
+- de: microsoft
+  vers: databricks
+  type: investissement
+  texte: "Microsoft investit dans Databricks, déjà proposé dans Azure (2019)"
+  source: "https://www.cnbc.com/2019/02/04/microsoft-invests-in-databricks-funding-at-2point7-billion-valuation.html"
+- de: salesforce
+  vers: mistral-ai
+  type: investissement
+  texte: "Salesforce participe à la levée de 600 M€ de Mistral AI (juin 2024)"
+  source: "https://www.verdict.co.uk/ai-startup-mistral-raises-e600m/"
+- de: ibm
+  vers: mistral-ai
+  type: investissement
+  texte: "IBM participe à la levée de 600 M€ de Mistral AI (juin 2024)"
+  source: "https://www.verdict.co.uk/ai-startup-mistral-raises-e600m/"
+- de: cisco
+  vers: cohere
+  type: investissement
+  texte: "Cisco entre au capital de Cohere lors de sa levée de 450 M$ (juin 2024)"
+  source: "https://betakit.com/cohere-launches-program-to-help-early-stage-startups-adopt-ai-and-secures-450-million-usd/"
 - de: azure
   vers: openai
   type: partenariat
@@ -544,3 +584,208 @@
   type: partenariat
   texte: "Airbus utilise toute la gamme de Mistral AI, des avions à la défense et à l’espace (mai 2026)"
   source: "https://www.airbus.com/en/newsroom/press-releases/2026-05-airbus-partners-with-mistral-ai-to-strengthen-the-use-of-artificial-intelligence-in-sovereign"
+- de: nvidia
+  vers: meta
+  type: partenariat
+  texte: "Meta achète des millions de GPU Nvidia dans un accord pluriannuel (fév. 2026)"
+  source: "https://evertiq.com/design/2026-02-18-nvidia-and-meta-enter-multiyear-deal-covering-millions-of-gpus"
+- de: amd
+  vers: meta
+  type: partenariat
+  texte: "Meta déploie jusqu’à 6 GW de GPU AMD Instinct (fév. 2026)"
+  source: "https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/"
+- de: google-cloud
+  vers: openai
+  type: partenariat
+  texte: "OpenAI ajoute Google Cloud à ses fournisseurs de puissance de calcul (2025)"
+  source: "https://siliconangle.com/2025/07/16/openai-taps-google-cloud-access-much-needed-gpus-chatgpt/"
+- de: samsung
+  vers: openai
+  type: partenariat
+  texte: "Samsung fournit de la mémoire pour Stargate, le projet de data centers d’OpenAI (oct. 2025)"
+  source: "https://www.techcrunch.com/2025/10/01/openai-ropes-in-samsung-sk-hynix-to-source-memory-chips-for-stargate"
+- de: sk-hynix
+  vers: openai
+  type: partenariat
+  texte: "SK hynix fournit de la mémoire pour Stargate, le projet de data centers d’OpenAI (oct. 2025)"
+  source: "https://www.techcrunch.com/2025/10/01/openai-ropes-in-samsung-sk-hynix-to-source-memory-chips-for-stargate"
+- de: broadcom
+  vers: google
+  type: partenariat
+  texte: "Broadcom conçoit avec Google ses puces d’IA TPU, accord long terme jusqu’en 2031 (avril 2026)"
+  source: "https://www.theregister.com/2026/04/07/broadcom_google_chip_deal_anthropic_customer/"
+- de: palantir
+  vers: anthropic
+  type: partenariat
+  texte: "Palantir et AWS proposent Claude aux agences de défense et de renseignement américaines (nov. 2024)"
+  source: "https://www.businesswire.com/news/home/20241107699415/en/Anthropic-and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations"
+- de: ibm
+  vers: anthropic
+  type: partenariat
+  texte: "IBM intègre Claude à ses logiciels pour entreprises (oct. 2025)"
+  source: "https://newsroom.ibm.com/2025-10-07-2025-ibm-and-anthropic-partner-to-advance-enterprise-software-development-with-proven-security-and-governance"
+- de: servicenow
+  vers: anthropic
+  type: partenariat
+  texte: "Claude alimente les agents IA de ServiceNow (janv. 2026)"
+  source: "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Anthropic-partner-to-help-customers-build-AI-powered-applications-accelerate-time-to-value-and-apply-trusted-AI-to-critical-industries/default.aspx"
+- de: servicenow
+  vers: openai
+  type: partenariat
+  texte: "ServiceNow intègre les modèles d’OpenAI à sa plateforme (2026)"
+  source: "https://investor.servicenow.com/news/news-details/2026/ServiceNow-and-OpenAI-collaborate-to-deepen-and-accelerate-enterprise-AI-outcomes/default.aspx"
+- de: salesforce
+  vers: openai
+  type: partenariat
+  texte: "Agentforce et les données Salesforce accessibles dans ChatGPT (oct. 2025)"
+  source: "https://investor.salesforce.com/news/news-details/2025/Salesforce-and-OpenAI-Partner-Across-Enterprise-Work-and-Commerce/default.aspx"
+- de: sap
+  vers: mistral-ai
+  type: partenariat
+  texte: "SAP et Mistral AI : une IA souveraine pour les administrations françaises et allemandes (nov. 2025)"
+  source: "https://news.sap.com/france/2025/11/sap-sallie-a-lecosysteme-francais-de-lia-pour-renforcer-lavenir-numerique-souverain-de-leurope/"
+- de: thales
+  vers: google-cloud
+  type: partenariat
+  texte: "S3NS, coentreprise de Thales et Google Cloud, propose un cloud de confiance qualifié SecNumCloud"
+  source: "https://next.ink/215464/s3ns-obtient-la-qualification-secnumcloud-par-lanssi/"
+- de: airbus
+  vers: thales
+  type: partenariat
+  texte: "Airbus, Thales et Leonardo vont regrouper leurs activités spatiales dans une société commune (35 % / 32,5 % / 32,5 %), lancement visé en 2027"
+  source: "https://aerospaceglobalnews.com/news/project-bromo-thales-airbus-leonardo-signed/"
+- de: openai
+  vers: anduril
+  type: partenariat
+  texte: "OpenAI et Anduril : l’IA au service de la lutte anti-drones (déc. 2024)"
+  source: "https://www.defensenews.com/pentagon/2024/12/05/anduril-openai-join-to-boost-counter-drone-tech-for-us-bases-troops/"
+- de: meta
+  vers: anduril
+  type: partenariat
+  texte: "Meta et Anduril développent des casques de réalité mixte pour l’armée américaine (mai 2025)"
+  source: "https://www.defensenews.com/pentagon/2025/05/30/meta-and-anduril-work-on-mixed-reality-devices-for-the-us-military/"
+- de: nvidia
+  vers: nintendo
+  type: partenariat
+  texte: "La Switch 2 de Nintendo tourne sur une puce Nvidia sur mesure"
+  source: "https://www.tweaktown.com/news/104759/nintendo-switch-2-and-its-nvidia-tegra239-soc-confirmed-check-out-this-shot-of-the-chip/index.html"
+- de: nvidia
+  vers: uber
+  type: partenariat
+  texte: "Uber vise 100 000 robotaxis sur la plateforme de conduite autonome de Nvidia (oct. 2025)"
+  source: "https://newmobility.news/en/2025/10/29/uber-targets-100000-robotaxis-in-partnership-with-nvidia-foxconn-and-several-car-oems/"
+- de: nvidia
+  vers: palantir
+  type: partenariat
+  texte: "Palantir et Nvidia associent leurs logiciels et puces pour l’IA en entreprise (oct. 2025)"
+  source: "https://investor.nvidia.com/news/press-release-details/2025/Palantir-and-NVIDIA-Team-Up-to-Operationalize-AI--Turning-Enterprise-Data-Into-Dynamic-Decision-Intelligence/default.aspx"
+- de: mediatek
+  vers: nvidia
+  type: partenariat
+  texte: "MediaTek a conçu avec Nvidia la puce GB10 du DGX Spark"
+  source: "https://www.mediatek.com/press-room/newly-launched-nvidia-dgx-spark-features-gb10-superchip-co-designed-by-mediatek"
+- de: broadcom
+  vers: apple
+  type: partenariat
+  texte: "Apple signe un contrat de plusieurs milliards de dollars avec Broadcom pour des composants 5G fabriqués aux États-Unis (2023)"
+  source: "https://www.telecomtv.com/content/5g/apple-announces-multibillion-dollar-deal-with-broadcom-for-components-made-in-the-usa-47584/"
+- de: qualcomm
+  vers: apple
+  type: partenariat
+  texte: "Qualcomm fournit des modems pour iPhone, qu’Apple remplace peu à peu par ses propres puces (2026)"
+  source: "https://www.mactech.com/2026/07/30/qualcomm-says-its-apple-revenue-will-decline-faster-than-expected/"
+- de: sony
+  vers: tsmc
+  type: partenariat
+  texte: "Sony est actionnaire minoritaire de JASM, l’usine de TSMC au Japon"
+  source: "https://www.eenewseurope.com/en/tsmc-tips-second-japan-wafer-fab-as-toyota-joins-team"
+- de: intel
+  vers: umc
+  type: partenariat
+  texte: "Intel et UMC développent ensemble une gravure en 12 nm (janv. 2024)"
+  source: "https://newsroom.intel.com/intel-foundry/ifs-manufacturing-news-2024"
+- de: tsmc
+  vers: amd
+  type: partenariat
+  texte: "TSMC grave les puces d’AMD, dont son premier processeur pour serveurs en 2 nm"
+  source: "https://newsroom.amd.com/news/amd-announces-production-ramp-of-next-generation-a/"
+- de: samsung
+  vers: google
+  type: partenariat
+  texte: "Les fonctions d’IA des Galaxy reposent en partie sur Gemini de Google (2024)"
+  source: "https://mobilesyrup.com/2024/01/17/samsung-google-enter-partnership-to-bring-ai-technology-to-samsung-users/"
+- de: perplexity
+  vers: samsung
+  type: partenariat
+  texte: "Perplexity intégré aux smartphones Galaxy S26 de Samsung"
+  source: "https://www.outlookbusiness.com/deeptech/tech/samsung-partners-with-perplexity-to-boost-galaxy-s26-ai-capabilities"
+- de: netflix
+  vers: amazon
+  type: partenariat
+  texte: "Les publicités Netflix s’achètent via la plateforme Amazon DSP (2025)"
+  source: "https://www.marketingdive.com/news/netflix-ads-come-to-amazon-dsp-as-streaming-race-evolves/759706/"
+- de: shopify
+  vers: amazon
+  type: partenariat
+  texte: "Les marchands Shopify peuvent proposer « Buy with Prime » d’Amazon (2023)"
+  source: "https://www.retaildive.com/news/shopify-integrates-amazon-buy-with-prime/692664"
+- de: google
+  vers: paypal
+  type: partenariat
+  texte: "Google et PayPal : partenariat pluriannuel sur le paiement et le commerce par IA (sept. 2025)"
+  source: "https://newsroom.paypal-corp.com/2025-09-17-Google-and-PayPal-Forge-Multiyear-Partnership-to-Revolutionize-Commerce"
+- de: openai
+  vers: foxconn
+  type: partenariat
+  texte: "OpenAI et Foxconn conçoivent du matériel de data center fabriqué aux États-Unis (nov. 2025)"
+  source: "https://www.datacenterknowledge.com/deals/openai-partners-with-foxconn-to-develop-ai-data-center-kit"
+- de: dassault-systemes
+  vers: nvidia
+  type: partenariat
+  texte: "Dassault Systèmes et Nvidia : une plateforme d’IA industrielle pour les jumeaux virtuels (fév. 2026)"
+  source: "https://www.3ds.com/fr/newsroom/press-releases/dassault-systemes-and-nvidia-partner-build-industrial-ai-platform-powering-virtual-twins"
+- de: airbus
+  vers: eutelsat
+  type: partenariat
+  texte: "Airbus construit 340 satellites OneWeb pour Eutelsat (déc. 2024)"
+  source: "https://airbus.com/en/newsroom/press-releases/2024-12-airbus-awarded-eutelsat-contract-to-build-oneweb-low-orbit"
+- de: delta-electronics
+  vers: nvidia
+  type: partenariat
+  texte: "Delta fournit l’alimentation électrique en 800 V des usines d’IA de Nvidia (2026)"
+  source: "https://www.deltapowersolutions.com/en/mcis/news-2026-delta-exhibits-energy-saving-solutions-for-800-vdc-at-nvidia-gtc-2026.php"
+- de: databricks
+  vers: openai
+  type: partenariat
+  texte: "Databricks et OpenAI : partenariat de 100 M$ pour proposer GPT-5 aux entreprises (sept. 2025)"
+  source: "https://www.intelligentcio.com/north-america/2025/10/03/databricks-and-openai-launch-us100-million-partnership-to-bring-frontier-intelligence-to-enterprises-with-databricks-agent-bricks/"
+- de: snowflake
+  vers: openai
+  type: partenariat
+  texte: "Snowflake et OpenAI : partenariat de 200 M$ (fév. 2026)"
+  source: "https://investors.snowflake.com/news/news-details/2026/Snowflake-and-OpenAI-Forge-200-Million-Partnership-to-Bring-Enterprise-Ready-AI-to-the-Worlds-Most-Trusted-Data-Platform/default.aspx"
+- de: samsung
+  vers: nvidia
+  type: partenariat
+  texte: "Samsung fournit de la mémoire HBM4 pour la plateforme Vera Rubin de Nvidia (2026)"
+  source: "https://www.igorslab.de/en/samsung-is-one-of-the-first-providers-of-hbm4-for-nvidias-vera-rubin-ai-platform/"
+- de: micron
+  vers: nvidia
+  type: partenariat
+  texte: "Micron fournit de la mémoire HBM3E pour les puces Blackwell de Nvidia"
+  source: "https://www.tipranks.com/news/the-fly/micron-says-hbm3e-8h-designed-into-nvidias-blackwell-platforms"
+- de: oracle
+  vers: azure
+  type: partenariat
+  texte: "Les bases de données Oracle tournent dans les data centers d’Azure (Oracle Database@Azure)"
+  source: "https://www.oracle.com/news/announcement/ocw24-oracle-expands-multicloud-capabilities-with-aws-google-cloud-and-microsoft-azure-2024-09-11/"
+- de: oracle
+  vers: aws
+  type: partenariat
+  texte: "Les bases de données Oracle tournent dans les data centers d’AWS (Oracle Database@AWS)"
+  source: "https://www.oracle.com/news/announcement/ocw24-oracle-expands-multicloud-capabilities-with-aws-google-cloud-and-microsoft-azure-2024-09-11/"
+- de: oracle
+  vers: google-cloud
+  type: partenariat
+  texte: "Les bases de données Oracle tournent dans les data centers de Google Cloud (Oracle Database@Google Cloud)"
+  source: "https://www.oracle.com/news/announcement/ocw24-oracle-expands-multicloud-capabilities-with-aws-google-cloud-and-microsoft-azure-2024-09-11/"
