@@ -218,8 +218,8 @@ button {
 }
 .surtitre {
   margin: 0;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   color: var(--pervenche);
 }
 .hero h1 {
@@ -231,7 +231,7 @@ button {
 }
 .hero p.chapo {
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--lavande-texte);
 }
 
@@ -273,7 +273,7 @@ button {
   color: var(--gris-2);
 }
 .chiffre .legende {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gris-2);
 }
 
@@ -358,7 +358,7 @@ button {
   flex-wrap: wrap;
   gap: 12px 32px;
   align-items: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 .legende-carte > div {
   display: flex;
@@ -452,7 +452,7 @@ button {
   margin: 0;
   padding: 7px 12px;
   max-width: calc(100% - 80px);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   color: #ffffff;
   background: var(--nuit);
@@ -611,16 +611,16 @@ button {
 }
 .infobulle p {
   margin: 0;
-  font-size: 13px;
+  font-size: 15px;
   color: var(--lavande-texte);
 }
 .infobulle .t {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 800;
   color: #ffffff;
 }
 .infobulle .l {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--pervenche);
 }
 .infobulle .ca {
@@ -639,7 +639,7 @@ button {
 }
 .barre-choix p {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
 }
 .barre-choix span {
   color: var(--lavande-texte);
@@ -658,7 +658,7 @@ button {
   filter: brightness(1.05);
 }
 .texte-liens {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--encre-2);
 }
 .texte-liens summary {
@@ -695,7 +695,7 @@ button {
 .pilule {
   padding: 9px 14px;
   min-height: 44px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   border: 1px solid var(--trait);
@@ -746,7 +746,7 @@ button {
 }
 .compte {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gris-2);
 }
 .grille {
@@ -779,7 +779,7 @@ button {
   align-items: center;
   gap: 8px;
   width: 100%;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--gris-2);
 }
@@ -808,18 +808,18 @@ button {
   color: var(--encre);
 }
 .carte-ent .bref {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gris);
 }
 .carte-ent .ca-carte {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--encre);
 }
 .badge {
   display: inline-block;
   align-self: flex-start;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   padding: 4px 10px;
 }
@@ -863,7 +863,7 @@ button {
   gap: 8px;
   padding: 10px 18px;
   background: var(--nuit);
-  font-size: 13px;
+  font-size: 15px;
 }
 .fiche-entete a {
   color: var(--pervenche);
@@ -923,7 +923,7 @@ button {
 }
 .fiche-corps h3 {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 800;
 }
 .fiche-corps p {
@@ -942,7 +942,7 @@ button {
   gap: 4px;
 }
 .discret {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--gris-2);
 }
 .bloc-ca {
@@ -954,7 +954,7 @@ button {
   border-left: 3px solid var(--bleu);
 }
 .bloc-ca .etiquette-ca {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -969,11 +969,11 @@ button {
   text-wrap: balance;
 }
 .bloc-ca ul {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--encre-2);
 }
 .produits li {
-  font-size: 15px;
+  font-size: 16px;
 }
 .produits b {
   font-weight: 700;
@@ -981,11 +981,11 @@ button {
 .ses-liens {
   list-style: none;
   padding-left: 0 !important;
-  font-size: 14px;
+  font-size: 16px;
 }
 .type-lien {
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   padding: 1px 6px;
   margin-right: 2px;
@@ -1013,13 +1013,13 @@ button {
   font-weight: 700;
   text-decoration: underline;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
 }
 .note {
   padding: 12px 14px;
   background: var(--fond-2);
   border-left: 3px solid var(--violet);
-  font-size: 15px;
+  font-size: 16px;
   color: var(--encre-2);
 }
 .bloc-stage {
@@ -1031,7 +1031,7 @@ button {
   color: #ffffff;
 }
 .bloc-stage p {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--lavande-texte);
 }
 .badge-sombre.oui {
@@ -1051,7 +1051,7 @@ button {
   margin-top: 8px;
 }
 .etiquette-filtre {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -1070,7 +1070,7 @@ button {
   margin: 0;
 }
 .sous-etiquette {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -1080,7 +1080,7 @@ button {
 .bloc-rejoindre ul {
   list-style: none;
   padding-left: 0 !important;
-  font-size: 15px;
+  font-size: 16px;
   gap: 8px !important;
 }
 .bureaux b {
@@ -1088,7 +1088,7 @@ button {
 }
 .voie {
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   padding: 1px 6px;
   margin-right: 2px;
@@ -1114,12 +1114,12 @@ button {
 .detail-voie {
   display: block;
   color: var(--encre-2);
-  font-size: 14px;
+  font-size: 16px;
 }
 .a-verifier-rej {
   padding: 8px 10px;
   border: 1px dashed var(--gris-3);
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gris);
 }
 .bloc-rejoindre .discret a {
@@ -1141,7 +1141,7 @@ button {
 }
 .approche {
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   padding: 2px 7px;
   background: #694aea;
@@ -1153,15 +1153,15 @@ button {
   border: 1px solid var(--violet);
 }
 .aide-approche {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--gris);
 }
 .bloc-vente > p:not(.sous-etiquette):not(.aide-approche):not(.discret) {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--encre-2);
 }
 .bloc-vente ul {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--encre-2);
 }
 .bloc-vente .discret a {
@@ -1176,14 +1176,14 @@ button {
   border-left: 3px solid var(--bleu);
 }
 .nb-bureaux {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--bleu);
 }
 .pays-bureaux {
   list-style: none;
   padding-left: 0 !important;
-  font-size: 15px;
+  font-size: 16px;
   color: var(--encre-2);
   gap: 6px !important;
 }
@@ -1203,7 +1203,7 @@ button {
 }
 .barre-choix .bureaux-choix {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--lavande-texte);
 }
 .bureaux-choix b {
@@ -1212,7 +1212,7 @@ button {
 .pied-fiche {
   padding-top: 12px;
   border-top: 1px solid var(--trait);
-  font-size: 13px;
+  font-size: 15px;
   color: var(--gris-2);
 }
 
@@ -1268,7 +1268,7 @@ button {
   padding: 20px;
   background: var(--nuit-2);
   border: 1px solid #2d2d51;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7;
   color: var(--lavande-texte);
   overflow-x: auto;
@@ -1318,7 +1318,7 @@ button {
 }
 .pied {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--gris-2);
 }
 
@@ -1338,7 +1338,7 @@ button {
   width: 150px;
   flex-shrink: 0;
   text-align: right;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 .part .barre {
@@ -1346,7 +1346,7 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 800;
   white-space: nowrap;
 }
@@ -1397,7 +1397,7 @@ button {
   gap: 6px;
 }
 .mots span {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   padding: 4px 9px;
   background: var(--lavande);
@@ -1412,17 +1412,17 @@ button {
   color: #ffffff;
 }
 .en-vente .t {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   color: var(--rose-clair);
 }
 .en-vente p {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--lavande-texte);
 }
 .source {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--gris-2);
 }
 
@@ -1449,7 +1449,7 @@ button {
 }
 .pas-de-parcours p {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   color: var(--lavande-texte);
 }
 .pas-de-parcours b {
@@ -1462,7 +1462,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 6px 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--gris-3);
 }
@@ -1492,7 +1492,7 @@ button {
 }
 .metier .role {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--bleu);
 }
@@ -1500,7 +1500,7 @@ button {
   padding: 10px 12px;
   background: var(--fond-2);
   border-left: 3px solid var(--rose);
-  font-size: 15px;
+  font-size: 16px;
   color: var(--encre-2);
 }
 .vocabulaire {
@@ -1524,7 +1524,7 @@ button {
 }
 .vocabulaire p {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   color: var(--lavande-texte);
 }
 .vocabulaire b {
@@ -1599,11 +1599,11 @@ button {
   font-variant-numeric: tabular-nums;
 }
 .tuile .n {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
 }
 .tuile .d {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--gris);
 }
 .notions {
@@ -1653,7 +1653,7 @@ button {
   letter-spacing: -0.02em;
 }
 .notion-tete .phrase {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--gris);
 }
 .notion-tete .actions {
@@ -1665,7 +1665,7 @@ button {
   margin-top: 6px;
 }
 .puce-marche {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   padding: 3px 8px;
   background: var(--lavande);
@@ -1674,7 +1674,7 @@ button {
 }
 .ouvrir {
   margin-left: auto;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   padding: 4px 10px;
   border: 1px solid var(--nuit);
@@ -1703,7 +1703,7 @@ button {
 }
 .notion-col h3 {
   margin: 8px 0 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 800;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -1739,11 +1739,11 @@ button {
   padding: 12px 14px;
   border: 1px dashed var(--gris-3);
   color: var(--gris);
-  font-size: 14px;
+  font-size: 16px;
 }
 .titre-barres {
   margin: 4px 0 0;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--gris);
 }
@@ -1761,7 +1761,7 @@ button {
   gap: 10px;
   padding: 8px 0;
   border-bottom: 1px solid var(--trait);
-  font-size: 15px;
+  font-size: 16px;
 }
 .gros a {
   font-weight: 700;
@@ -1769,7 +1769,7 @@ button {
 .gros .ca-gros {
   margin-left: auto;
   text-align: right;
-  font-size: 13px;
+  font-size: 15px;
   color: var(--gris);
 }
 
@@ -1784,7 +1784,7 @@ button {
   padding: 8px 12px;
   min-height: 44px;
   text-align: left;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.3;
   cursor: pointer;
   background: #ffffff;
@@ -1792,7 +1792,7 @@ button {
   color: var(--encre);
 }
 .type-lien-btn b {
-  font-size: 14px;
+  font-size: 16px;
 }
 .type-lien-btn .nb {
   font-weight: 600;
@@ -1806,7 +1806,7 @@ button {
   text-decoration: line-through;
 }
 .aide {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--gris-2);
 }
 .ech {
@@ -1839,7 +1839,7 @@ button {
 }
 .liste-liens h4 {
   margin: 6px 0 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 800;
 }
 .liste-liens ul {
@@ -1866,7 +1866,7 @@ button {
 .onglets button {
   font: inherit;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
   padding: 10px 16px;
   background: none;
   border: 0;
@@ -1933,12 +1933,12 @@ button {
 
 .explication-locaux {
   margin: 4px 0 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .note-donnees {
   margin: 6px 0 14px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   max-width: 80ch;
 }
