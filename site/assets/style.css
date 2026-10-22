@@ -8,6 +8,13 @@
 @font-face {
   font-family: 'Baloo 2';
   font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('polices/baloo-2-latin-500-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url('polices/baloo-2-latin-600-normal.woff2') format('woff2');
@@ -25,20 +32,6 @@
   font-weight: 800;
   font-display: swap;
   src: url('polices/baloo-2-latin-800-normal.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Comic Neue';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('polices/comic-neue-latin-400-normal.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Comic Neue';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('polices/comic-neue-latin-700-normal.woff2') format('woff2');
 }
 @font-face {
   font-family: 'IBM Plex Mono';
@@ -94,34 +87,14 @@ body {
   background: #ffffff;
   color: var(--encre);
   font-family:
-    'Comic Neue',
-    'Comic Sans MS',
+    'Baloo 2',
     system-ui,
     -apple-system,
     'Segoe UI',
     sans-serif;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
-}
-/* Titres et gros chiffres : Baloo 2 (le texte courant est en Comic Neue). */
-h1,
-h2,
-h3,
-h4,
-.logo-nom,
-.chiffre .valeur,
-.chiffre-romain,
-.sous-titre,
-.carte-ent .nom,
-.bloc-ca .valeur-ca,
-.tuile .v,
-.notion-tete .t,
-.notion-tete .num,
-.notion .tete span,
-.chiffre-marche,
-.infobulle .t,
-.titre-zone {
-  font-family: 'Baloo 2', 'Comic Sans MS', system-ui, sans-serif;
 }
 a {
   color: var(--bleu);
