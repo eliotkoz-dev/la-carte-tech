@@ -29,6 +29,7 @@ clients: "clouds, laboratoires d’IA, entreprises, joueurs"
 rachats:
 - "Mellanox (2020) : réseau"
 - "Run:ai (2024) : orchestration de l’IA"
+- "Hugging Face (annoncé en sept. 2026, pas encore finalisé) : plateforme de modèles d’IA"
 concurrents: "AMD, Google (TPU), Broadcom"
 note: "Investit dans OpenAI, Anthropic et Mistral AI."
 vente:
@@ -71,6 +72,8 @@ stages:
   statut: oui
   detail: "Surtout des stages techniques, par exemple Data Processing Developer Technology à Munich (promotion 2027), offre publiée en octobre 2026 sur un site relais."
 sources:
+- titre: "Nvidia, annonce du rachat de Hugging Face (sept. 2026)"
+  url: "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
 - titre: "Techleap, résultats Nvidia exercice 2026"
   url: "https://finder.techleap.nl/news/feed/nvidia-grows-revenue-by-65-in-fiscal-2026-expects-78b-for-next-quarter"
 - titre: "Barchart, communiqué T4 2026"

@@ -92,8 +92,8 @@
 - de: samsung
   vers: mistral-ai
   type: investissement
-  texte: Samsung investit dans Mistral AI (juin 2024)
-  source: "https://www.bloomberg.com/news/articles/2024-06-11/mistral-ai-raises-600-million-from-nvidia-samsung-and-vcs"
+  texte: "Samsung, investisseur depuis 2024, mène la levée de 3 Md€ de Mistral AI (sept. 2026)"
+  source: "https://www.orrick.com/en/News/2026/09/Orrick-Advises-Mistral-in-its-3B-Series-D-at-21B-Post-Money-Valuation"
 - de: nvidia
   vers: databricks
   type: investissement
@@ -142,18 +142,13 @@
 - de: nvidia
   vers: hugging-face
   type: investissement
-  texte: "Nvidia investit dans Hugging Face (2023)"
-  source: "https://betanews.com/article/hugging-face-13-billion-sale/"
+  texte: "Investisseur depuis 2023, Nvidia annonce le rachat de Hugging Face pour 12,9 Md$ (sept. 2026, pas encore finalisé)"
+  source: "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
 - de: nvidia
   vers: perplexity
   type: investissement
   texte: "Nvidia investit dans Perplexity (janv. 2024)"
   source: "https://www.businesstoday.in/amp/entrepreneurship/start-up/story/perplexity-ai-raises-736m-in-funding-round-led-by-nvidia-bezos-now-valued-at-522m-412130-2024-01-06"
-- de: nvidia
-  vers: intel
-  type: investissement
-  texte: "Nvidia investit 5 Md$ dans Intel (finalisé fin 2025)"
-  source: "https://www.eenewseurope.com/en/nvidia-intel-stake-finalised-with-5-billion-share-purchase"
 - de: amazon
   vers: openai
   type: investissement
@@ -192,7 +187,7 @@
 - de: nvidia
   vers: intel
   type: investissement
-  texte: "Nvidia investit 5 Md$ dans Intel, à 23,28 $ l’action (sept. 2025)"
+  texte: "Nvidia investit 5 Md$ dans Intel, à 23,28 $ l’action (annoncé en sept. 2025, finalisé fin 2025)"
   source: "https://www.news4jax.com/business/2025/09/18/nvidia-to-invest-5-billion-in-intel-companies-will-work-together-on-products-for-data-centers-pcs/"
 - de: nvidia
   vers: lumentum
@@ -207,7 +202,7 @@
 - de: azure
   vers: openai
   type: partenariat
-  texte: OpenAI s’engage à acheter 250 Md$ de services Azure (oct. 2025)
+  texte: "OpenAI s’engage à acheter 250 Md$ de services Azure (oct. 2025) ; Azure reste son cloud principal mais n’est plus exclusif (avril 2026)"
   source: "https://www.scmp.com/tech/big-tech/article/3330714/microsoft-holds-27-openai-revamped-partnership"
 - de: oracle
   vers: openai
@@ -217,7 +212,7 @@
 - de: aws
   vers: openai
   type: partenariat
-  texte: "AWS et OpenAI : contrat cloud de 38 Md$ (nov. 2025)"
+  texte: "AWS et OpenAI : contrat cloud de 38 Md$ (nov. 2025), élargi de 100 Md$ (fév. 2026)"
   source: "https://sdtimes.com/ai/openai-and-aws-announce-38-billion-deal-for-compute-infrastructure/"
 - de: aws
   vers: anthropic
@@ -422,8 +417,8 @@
 - de: coinbase
   vers: circle
   type: partenariat
-  texte: "Coinbase reçoit la moitié du revenu résiduel des réserves de l’USDC, le stablecoin de Circle"
-  source: "https://decrypt.co/312757/coinbase-circles-residual-usdc-reserve-revenue-filing?amp=1"
+  texte: "Coinbase reçoit la moitié du revenu résiduel des réserves de l’USDC, le stablecoin de Circle ; accord renouvelé jusqu’en 2029 (août 2026)"
+  source: "https://stablecoininsider.org/circle-coinbase-usdc-agreement-renewal-2029/"
 - de: foxconn
   vers: nvidia
   type: partenariat
@@ -529,3 +524,23 @@
   type: partenariat
   texte: "SMIC fabrique la puce Siyuan 590 de Cambricon (estimation TrendForce)"
   source: "https://www.trendforce.com/news/2025/12/15/insights-cambricon-remains-chinas-top-ai-chip-startup-rumored-2026-triple-output-faces-smic-limits/"
+- de: nvidia
+  vers: marvell
+  type: investissement
+  texte: "Nvidia investit 2 Md$ dans Marvell, partenaire pour les réseaux d’IA et l’optique (mars 2026)"
+  source: "https://finance.yahoo.com/news/nvidia-invests-2-billion-marvell-121325616.html"
+- de: google
+  vers: spacex
+  type: investissement
+  texte: "Google détient environ 5 % de SpaceX, une participation valorisée 94 Md$ après l’entrée en Bourse (juil. 2026)"
+  source: "https://finance.yahoo.com/markets/stocks/articles/google-reports-94-billion-stake-122126618.html"
+- de: azure
+  vers: mistral-ai
+  type: partenariat
+  texte: "Microsoft et Mistral AI : accord de plusieurs milliards de dollars pour de la capacité de calcul en Europe, modèles Mistral dans Microsoft Foundry (juil. 2026)"
+  source: "https://microsoft.gcs-web.com/node/35071"
+- de: mistral-ai
+  vers: airbus
+  type: partenariat
+  texte: "Airbus utilise toute la gamme de Mistral AI, des avions à la défense et à l’espace (mai 2026)"
+  source: "https://www.airbus.com/en/newsroom/press-releases/2026-05-airbus-partners-with-mistral-ai-to-strengthen-the-use-of-artificial-intelligence-in-sovereign"

@@ -30,7 +30,7 @@ clients: développeurs, chercheurs, entreprises
 rachats:
 - Aucun rachat listé
 concurrents: "GitHub, les plateformes d’IA des clouds (Amazon Bedrock, Vertex AI)"
-note: "Sa levée de 2023 (235 M$) a été menée par Salesforce, avec Google, Amazon, Nvidia, Intel, IBM, Qualcomm et AMD."
+note: "Sa levée de 2023 (235 M$) a été menée par Salesforce, avec Google, Amazon, Nvidia, Intel, IBM, Qualcomm et AMD. Nvidia a annoncé son rachat pour 12,9 Md$ en septembre 2026 (pas encore finalisé)."
 vente:
   approche: mixte
   resume: "Les développeurs l’utilisent gratuitement, puis les entreprises passent aux offres payantes en ligne ou avec une équipe commerciale."
@@ -44,6 +44,8 @@ stages:
   statut: a-verifier
   detail: "Stages en machine learning à distance (EMEA) ; la dernière offre vue a été retirée en février 2025."
 sources:
+- titre: "Nvidia, annonce du rachat de Hugging Face (sept. 2026)"
+  url: "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
 - titre: "BetaNews, Hugging Face étudie une vente à 13 Md$ (août 2026)"
   url: "https://betanews.com/article/hugging-face-13-billion-sale/"
 - titre: "eesel AI, les tarifs de Hugging Face (2026)"

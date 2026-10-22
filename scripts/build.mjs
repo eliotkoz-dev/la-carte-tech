@@ -299,8 +299,17 @@ for (const f of fichiers) {
 
 const ids = new Set(acteurs.map((a) => a.id));
 const liens = lire('liens.yml') || [];
+// Un même lien (de, vers, type) ne doit apparaître qu'une fois : sinon les deux textes finissent par diverger.
+const liensVus = new Map();
 liens.forEach((l, i) => {
   const n = `lien n°${i + 1}`;
+  const cleLien = `${l.de} → ${l.vers} (${l.type})`;
+  if (liensVus.has(cleLien))
+    err(
+      'liens.yml',
+      `${n} : doublon du lien n°${liensVus.get(cleLien)} (${cleLien}), fusionnez-les`,
+    );
+  else liensVus.set(cleLien, i + 1);
   if (!ids.has(l.de)) err('liens.yml', `${n} : « de: ${l.de} » ne correspond à aucune fiche`);
   if (!ids.has(l.vers)) err('liens.yml', `${n} : « vers: ${l.vers} » ne correspond à aucune fiche`);
   if (!TYPES.includes(l.type)) err('liens.yml', `${n} : « type » doit être ${TYPES.join(', ')}`);
