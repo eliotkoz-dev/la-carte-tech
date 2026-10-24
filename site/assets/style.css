@@ -1964,37 +1964,6 @@ button {
   letter-spacing: 0.04em;
 }
 @media (prefers-reduced-motion: no-preference) {
-  @keyframes carre {
-    from {
-      opacity: 0;
-      transform: translateY(40px) scale(0.6);
-    }
-    to {
-      opacity: 1;
-      transform: none;
-    }
-  }
-  .hero .mosaique span {
-    animation: carre 0.8s var(--douce) both;
-    animation-delay: calc(0.25s + var(--o, 0) * 1ms);
-  }
-  .hero {
-    position: relative;
-    overflow: hidden;
-  }
-  .envol {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    --cell: calc((100% - 147px) / 48);
-  }
-  .envol span {
-    position: absolute;
-    top: calc(100% + 3px);
-    left: calc(3px + var(--c) * (var(--cell) + 3px));
-    width: var(--cell);
-    aspect-ratio: 1 / 1;
-  }
   .metier,
   .tuile,
   .notion {
@@ -2079,9 +2048,6 @@ button {
 }
 .mosaique span:nth-child(11n + 5)[style] {
   background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.28), rgba(0, 0, 0, 0));
-}
-.envol span {
-  background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.3), rgba(255, 79, 139, 0.45));
 }
 .titre-section.grand h1,
 .titre-section h2 {

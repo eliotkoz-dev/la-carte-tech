@@ -83,73 +83,11 @@ window.CarteTech = (function () {
         const k = h % 7 === 0 && r < rangs / 2 ? 1 : h % 7;
         const s = document.createElement('span');
         if (allume) s.style.background = couleurs[k];
-        // Délai d'apparition : le bas se remplit en premier, de gauche à droite.
-        s.style.setProperty('--o', (rangs - 1 - r) * 90 + c * 7);
         frag.appendChild(s);
       }
     }
     m.appendChild(frag);
   });
-
-  // Mouvement : seule la mosaïque de l'accueil est animée.
-  const reduit = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (!reduit) {
-    // Mosaïque de l'accueil : au défilement, chaque colonne s'envole vers le haut à sa vitesse,
-    // par pas d'une case (donc toujours alignée), et de nouveaux carrés montent depuis le bas.
-    const mosaique = document.querySelector('.hero .mosaique');
-    if (mosaique) {
-      const hero = mosaique.closest('.hero');
-      const COLS = 48;
-      const vitesse = (c) => 0.2 + ((c * 37) % 10) * 0.07;
-      mosaique.querySelectorAll('span').forEach((c, i) => {
-        c.style.translate = `0 var(--y${i % COLS})`;
-      });
-      const envol = document.createElement('div');
-      envol.className = 'envol';
-      envol.setAttribute('aria-hidden', 'true');
-      const volants = [];
-      for (let i = 0; i < 26; i++) {
-        const col = (i * 7 + 3) % COLS;
-        const f = document.createElement('span');
-        f.style.background = couleurs[(i * 5) % 7];
-        f.style.setProperty('--c', col);
-        volants.push({ f, col, depart: (i * 23) % 360 });
-        envol.appendChild(f);
-      }
-      hero.appendChild(envol);
-      let pas = 0;
-      const mesurer = () => {
-        const premier = mosaique.querySelector('span');
-        pas = premier ? premier.offsetHeight + 3 : 0;
-      };
-      const maj = () => {
-        const sy = Math.min(scrollY, hero.offsetHeight);
-        const q = (px) => -Math.round(px / pas) * pas;
-        for (let c = 0; c < COLS; c++) hero.style.setProperty(`--y${c}`, q(sy * vitesse(c)) + 'px');
-        volants.forEach((v) => {
-          v.f.style.translate = `0 ${q(Math.max(0, sy - v.depart) * vitesse(v.col))}px`;
-        });
-      };
-      let occupe = false;
-      addEventListener(
-        'scroll',
-        () => {
-          if (occupe) return;
-          occupe = true;
-          requestAnimationFrame(() => {
-            occupe = false;
-            if (!pas) mesurer();
-            if (pas) maj();
-          });
-        },
-        { passive: true },
-      );
-      addEventListener('resize', () => {
-        mesurer();
-        if (pas) maj();
-      });
-    }
-  }
 
   return { CATEGORIES, NOTION_DE, REGIONS, STAGES, el, dateFr, charger };
 })();
