@@ -2059,10 +2059,46 @@ button {
 
 /* Place réservée à la liste des notions (remplie par tech.js) : le bas de page ne bouge pas au chargement */
 .notions {
-  min-height: 743px;
+  min-height: 945px;
 }
 @media (max-width: 640px) {
   .notions {
-    min-height: 2430px;
+    min-height: 2833px;
   }
+}
+
+/* Notions « conseils » : erreurs à éviter et sources */
+.erreurs,
+.sources {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--trait);
+}
+.erreurs li,
+.sources li {
+  padding: 8px 0 8px 18px;
+  border-bottom: 1px solid var(--trait);
+  font-size: 16px;
+  position: relative;
+}
+.erreurs li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 8px;
+  height: 8px;
+  background: var(--rose);
+}
+.sources li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 8px;
+  height: 8px;
+  background: var(--violet);
 }

@@ -333,6 +333,15 @@ notions.forEach((n, i) => {
   (n?.acteurs || []).forEach((a) => {
     if (!ids.has(a)) err('notions.yml', `${nom} : l’acteur « ${a} » n’a pas de fiche`);
   });
+  for (const champ of ['erreurs'])
+    if (n?.[champ] !== undefined && !listeTextes(n[champ]))
+      err('notions.yml', `${nom} : « ${champ} » doit être une liste de textes`);
+  if (n?.etiquette_vente !== undefined && !texte(n.etiquette_vente))
+    err('notions.yml', `${nom} : « etiquette_vente » doit être un texte`);
+  (n?.sources || []).forEach((src) => {
+    if (!texte(src?.titre) || !url(src?.url))
+      err('notions.yml', `${nom} : chaque source doit avoir un titre et une url`);
+  });
   if (n?.marche) {
     if (!texte(n.marche.chiffre) || !texte(n.marche.detail))
       err('notions.yml', `${nom} : « marche » doit avoir « chiffre » et « detail »`);

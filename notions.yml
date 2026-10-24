@@ -2,6 +2,7 @@
 # categorie : les plus gros acteurs de cette catégorie s’affichent quand on ouvre la notion
 #             (ou bien « acteurs » : une liste de fiches choisies à la main).
 # marche : facultatif, toujours avec sa source.
+# Notions « conseils » (sans marché) : etiquette_vente (titre du bloc), erreurs (liste), sources (titre + url).
 
 - id: cloud
   titre: Le cloud
@@ -186,3 +187,41 @@
     - "Beaucoup d’entreprises tech vendent directement leur API (Stripe, OpenAI, Lemonway)."
   mots_cles: [REST, Clé d’API, Webhook, SDK, MCP]
   en_vente: "Un produit bien branché au système du client est adopté, et difficile à remplacer."
+
+- id: entretiens
+  titre: Préparer ses entretiens
+  etiquette_vente: "À retenir"
+  en_une_phrase: "Connaître le déroulé, préparer des exemples chiffrés et poser de bonnes questions."
+  comment_ca_marche:
+    - "Exemple chez Amazon : un entretien téléphonique de 30 à 45 minutes, puis une série de 4 à 6 entretiens de 45 à 60 minutes avec le manager, l’équipe et d’autres interlocuteurs."
+    - "Les questions comportementales se préparent avec la méthode STAR : Situation, Tâche, Action, Résultat. Visez 2 à 3 minutes par réponse, avec des chiffres mesurables et un « je » qui dit ce que vous avez fait vous-même."
+    - "Lisez l’offre : elle indique souvent ce que l’entreprise veut vérifier (Amazon s’appuie sur 16 principes de leadership). Préparez un exemple concret pour chacun des points clés."
+    - "Préparez des questions sur le poste, l’équipe et l’évolution. Un message de remerciement 1 à 2 jours après est facultatif, et une relance polie est normale si le recruteur ne répond pas."
+  erreurs:
+    - "Rester général au lieu de raconter un exemple précis, avec son contexte et son résultat."
+    - "Dire « nous » partout : l’interlocuteur veut savoir ce que vous avez fait."
+    - "Ne poser aucune question à la fin de l’entretien."
+  mots_cles: [STAR, Question comportementale, Étude de cas, Série d’entretiens, Remerciement, Relance]
+  en_vente: "Pour un poste non technique, attendez-vous à davantage d’entretiens comportementaux et souvent à une étude de cas propre au poste."
+  sources:
+    - { titre: "Amazon, guide de l’entretien", url: "https://aboutamazon.com/news/workplace/amazon-interview-guide" }
+
+- id: cv
+  titre: Préparer son CV
+  etiquette_vente: "À retenir"
+  en_une_phrase: "Une page claire qui montre ce que vous avez accompli, avec des chiffres, plutôt qu’une liste de tâches."
+  comment_ca_marche:
+    - "Une seule page, enregistrée en PDF (par exemple CV-Nom-Prénom), dans une police classique (Arial 11 ou Calibri 12), sans faute d’orthographe."
+    - "Structure : le poste visé ou une phrase de profil, la formation (de la plus récente à la plus ancienne, avant l’expérience quand on est étudiant), les expériences (stages, jobs d’été, associations, bénévolat), les compétences (langues, outils) et cinq loisirs au plus."
+    - "Formule X-Y-Z proposée par Google : « J’ai accompli X, mesuré par Y, en faisant Z ». Elle met en avant le résultat plutôt que la tâche."
+    - "Adaptez le CV à chaque poste et retirez les expériences anciennes ou peu pertinentes."
+  erreurs:
+    - "Fautes d’orthographe et adresse e-mail fantaisiste."
+    - "Allonger le CV pour le remplir au lieu de garder l’essentiel sur une page."
+    - "Des loisirs vagues (télévision, sorties entre amis) au lieu d’activités régulières dont on peut parler."
+    - "Mentir : cela se remarque en entretien."
+  mots_cles: [CV d’une page, PDF, Formule X-Y-Z, Résultats chiffrés, Formation avant expérience]
+  en_vente: "Chaque ligne doit répondre à « qu’est-ce que j’ai accompli, et avec quel résultat ? »."
+  sources:
+    - { titre: "CIDJ, rédiger son CV pour un stage", url: "https://www.cidj.com/travailler/denicher-un-stage/comment-rediger-son-cv-pour-un-stage" }
+    - { titre: "Inc., les conseils de CV des recruteurs de Google", url: "https://www.inc.com/bill-murphy-jr/google-recruiters-say-these-5-resume-tips-including-x-y-z-formula-will-improve-your-odds-of-getting-hired-at-google.html" }
