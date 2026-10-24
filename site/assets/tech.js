@@ -110,23 +110,13 @@
       art.append(tete, d);
       zone.append(art);
     });
-    const tuiles = $('tuiles');
-    notions
-      .filter((n) => n.marche)
-      .forEach((n) => {
-        const t = el('button', 'tuile');
-        t.type = 'button';
-        t.append(
-          el('span', 'v', n.marche.chiffre),
-          el('span', 'n', n.titre),
-          el('span', 'd', n.marche.detail),
-        );
-        t.addEventListener('click', () => {
-          ouvrir(n.id);
-          $('n-' + n.id).scrollIntoView();
-        });
-        tuiles.append(t);
-      });
+    // Les tuiles sont écrites dans la page par le build : on branche seulement les clics.
+    document.querySelectorAll('#tuiles .tuile').forEach((t) =>
+      t.addEventListener('click', () => {
+        ouvrir(t.dataset.notion);
+        $('n-' + t.dataset.notion).scrollIntoView();
+      }),
+    );
   }
 
   function ouvrir(id, sansAdresse) {

@@ -453,6 +453,27 @@ html = html
   .replace(/(<span id="nb-acteurs">)\d+(<\/span>)/, `$1${acteurs.length}$2`)
   .replace(/(<span id="nb-liens">)\d+(<\/span>)/, `$1${liens.length}$2`);
 writeFileSync(accueil, html);
+// Tuiles « La tech en chiffres » écrites dans tech.html : elles sont là dès le chargement, sans décalage (tech.js ne fait que brancher les clics).
+const echapper = (t) =>
+  String(t).replace(
+    /[&<>"]/g,
+    (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c],
+  );
+const pageTech = join(root, 'site', 'tech.html');
+const tuilesHtml = notions
+  .filter((n) => n.marche)
+  .map(
+    (n) =>
+      `\n      <button class="tuile" type="button" data-notion="${echapper(n.id)}"><span class="v">${echapper(n.marche.chiffre)}</span><span class="n">${echapper(n.titre)}</span><span class="d">${echapper(n.marche.detail)}</span></button>`,
+  )
+  .join('');
+writeFileSync(
+  pageTech,
+  readFileSync(pageTech, 'utf8').replace(
+    /(<div class="tuiles" id="tuiles">)[\s\S]*?(<\/div>)/,
+    `$1${tuilesHtml}\n    $2`,
+  ),
+);
 // Version des fichiers CSS et JS dans chaque page (?v=empreinte) : après une mise à jour, le navigateur recharge le nouveau code au lieu de garder l’ancien en cache.
 const empreinte = (fichier) =>
   createHash('sha1')
