@@ -1964,16 +1964,6 @@ button {
   letter-spacing: 0.04em;
 }
 @media (prefers-reduced-motion: no-preference) {
-  @keyframes monte {
-    from {
-      opacity: 0;
-      transform: translateY(18px);
-    }
-    to {
-      opacity: 1;
-      transform: none;
-    }
-  }
   @keyframes carre {
     from {
       opacity: 0;
@@ -1983,20 +1973,6 @@ button {
       opacity: 1;
       transform: none;
     }
-  }
-  .hero .surtitre,
-  .hero h1,
-  .hero .chapo {
-    animation: monte 0.9s var(--douce) both;
-  }
-  .hero .surtitre {
-    animation-delay: 0.1s;
-  }
-  .hero h1 {
-    animation-delay: 0.22s;
-  }
-  .hero .chapo {
-    animation-delay: 0.38s;
   }
   .hero .mosaique span {
     animation: carre 0.8s var(--douce) both;
@@ -2019,34 +1995,19 @@ button {
     width: var(--cell);
     aspect-ratio: 1 / 1;
   }
-  .js .rev {
-    opacity: 0;
-    transform: translateY(22px);
-    transition:
-      opacity 0.8s var(--douce) var(--d, 0ms),
-      transform 0.8s var(--douce) var(--d, 0ms),
-      box-shadow 0.3s var(--douce),
-      border-color 0.3s var(--douce);
-  }
-  .js .rev.vu {
-    opacity: 1;
-    transform: none;
-  }
   .metier,
   .tuile,
   .notion {
     transition:
-      opacity 0.8s var(--douce) var(--d, 0ms),
-      transform 0.8s var(--douce) var(--d, 0ms),
+      transform 0.3s var(--douce),
       box-shadow 0.3s var(--douce),
       border-color 0.3s var(--douce);
   }
-  .js .metier.vu:hover,
-  .js .tuile.vu:hover,
-  .js .notion.vu:hover {
+  .metier:hover,
+  .tuile:hover,
+  .notion:hover {
     transform: translateY(-3px);
     box-shadow: var(--ombre-haute);
-    transition-delay: 0ms, 0ms, 0ms, 0ms;
   }
   .nav a {
     transition:

@@ -91,38 +91,9 @@ window.CarteTech = (function () {
     m.appendChild(frag);
   });
 
-  // Mouvement : apparition douce au défilement, décalage entre voisins, léger décalage de la mosaïque.
+  // Mouvement : seule la mosaïque de l'accueil est animée.
   const reduit = matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (!reduit) {
-    document.documentElement.classList.add('js');
-    const CIBLES =
-      '.chiffre, .section, .titre-section, .intro-grande, .metier, .tuile, .notion, .contribuer, .a-propos, .panneau, .nav-familles';
-    const obs = new IntersectionObserver(
-      (entrees) =>
-        entrees.forEach((e) => {
-          if (!e.isIntersecting) return;
-          e.target.classList.add('vu');
-          obs.unobserve(e.target);
-        }),
-      { threshold: 0.01, rootMargin: '0px 0px -8% 0px' },
-    );
-    const reveler = () => {
-      document.querySelectorAll(CIBLES).forEach((n) => {
-        if (n.dataset.rev) return;
-        n.dataset.rev = '1';
-        const rang = [...n.parentElement.children].filter((f) => f.matches(CIBLES)).indexOf(n);
-        n.style.setProperty('--d', Math.min(Math.max(rang, 0), 6) * 70 + 'ms');
-        n.classList.add('rev');
-        obs.observe(n);
-      });
-    };
-    reveler();
-    let attente = 0;
-    new MutationObserver(() => {
-      clearTimeout(attente);
-      attente = setTimeout(reveler, 50);
-    }).observe(document.body, { childList: true, subtree: true });
-
     // Mosaïque de l'accueil : au défilement, chaque colonne s'envole vers le haut à sa vitesse,
     // par pas d'une case (donc toujours alignée), et de nouveaux carrés montent depuis le bas.
     const mosaique = document.querySelector('.hero .mosaique');
