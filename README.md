@@ -10,7 +10,7 @@ Un site open source, fait par des étudiants pour des étudiants, qui explique s
 
 - **les acteurs** : 167 entreprises (cloud, IA, puces, data, logiciels, cybersécurité, pub, e-commerce, fintech, crypto, aérospatial et défense), avec leur chiffre d’affaires, leurs produits phares, leur modèle économique, leur façon de vendre, leurs rachats, leurs liens (qui possède qui, qui investit dans qui, qui travaille avec qui) et leurs stages ;
 - **la tech en rapide** : des notions qui s’ouvrent au clic (cloud, IA, puces, etc.), avec la taille du marché et les plus gros acteurs ;
-- **se préparer** : deux guides pour préparer son CV et ses entretiens, avec les erreurs à éviter, des sources publiques et des retours anonymes de professionnels ;
+- **préparer son CV** et **préparer ses entretiens** : deux guides (structure, méthode STAR, types d’entretien, erreurs à éviter, sources publiques et retours anonymes de professionnels) ;
 - **les métiers** de la tech au-delà du code : vente, avant-vente, relation client, marketing, produit, data et fonctions business.
 - **où candidater** : les sites d’offres (grandes audiences, start-ups, stages et alternance) et comment lire les sites carrières des entreprises.
 

@@ -25,11 +25,11 @@
     const mots = el('div', 'mots');
     n.mots_cles.forEach((m) => mots.append(el('span', '', m)));
     const vente = el('div', 'en-vente');
-    vente.append(el('p', 't', n.etiquette_vente || 'En vente'), el('p', '', n.en_vente));
+    vente.append(el('p', 't', 'En vente'), el('p', '', n.en_vente));
     g.append(mots, vente);
 
     const dr = el('div', 'notion-col');
-    if (n.marche) dr.append(el('h3', '', 'Le marché'));
+    dr.append(el('h3', '', 'Le marché'));
     if (n.marche) {
       const m = el('div', 'marche');
       const src = el('a', '', n.marche.source.titre);
@@ -39,8 +39,7 @@
       p.append(src);
       m.append(el('p', 'chiffre-marche', n.marche.chiffre), el('p', '', n.marche.detail), p);
       dr.append(m);
-    } else if (!n.sources) {
-      dr.append(el('h3', '', 'Le marché'));
+    } else {
       dr.append(
         el(
           'p',
@@ -48,38 +47,6 @@
           'Chiffre du marché à ajouter : proposez une source publique sur GitHub.',
         ),
       );
-    }
-    if (n.erreurs) {
-      dr.append(el('h3', '', 'Les erreurs à éviter'));
-      const ul = el('ul', 'erreurs');
-      n.erreurs.forEach((e) => ul.append(el('li', '', e)));
-      dr.append(ul);
-    }
-    if (n.retours) {
-      dr.append(el('h3', '', 'Ce que racontent des professionnels'));
-      const ul = el('ul', 'erreurs retours');
-      n.retours.forEach((r) => ul.append(el('li', '', r)));
-      dr.append(ul);
-      dr.append(
-        el(
-          'p',
-          'source',
-          'Témoignages anonymes recueillis lors d’appels avec des professionnels, non vérifiés.',
-        ),
-      );
-    }
-    if (!n.marche && n.sources) {
-      dr.append(el('h3', '', 'Sources'));
-      const ul = el('ul', 'sources');
-      n.sources.forEach((src) => {
-        const li = el('li');
-        const a = el('a', '', src.titre);
-        a.href = src.url;
-        a.rel = 'noopener';
-        li.append(a);
-        ul.append(li);
-      });
-      dr.append(ul);
     }
     if (n.barres) {
       const parts = el('div', 'parts');
@@ -176,8 +143,7 @@
 
   charger()
     .then((d) => {
-      const page = $('notions').dataset.page;
-      notions = d.notions.filter((n) => n.page === page);
+      notions = d.notions;
       acteurs = d.acteurs;
       construire();
       const id = location.hash.slice(1);
