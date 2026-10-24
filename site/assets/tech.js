@@ -37,7 +37,12 @@
       src.rel = 'noopener';
       const p = el('p', 'source', 'Source : ');
       p.append(src);
-      m.append(el('p', 'chiffre-marche', n.marche.chiffre), el('p', '', n.marche.detail), p);
+      m.append(
+        el('p', 'chiffre-marche', n.marche.chiffre),
+        el('p', 'indicateur', n.marche.indicateur),
+        el('p', '', n.marche.detail),
+        p,
+      );
       dr.append(m);
     } else {
       dr.append(

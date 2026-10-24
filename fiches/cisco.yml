@@ -78,6 +78,6 @@ stages:
 sources:
 - titre: "Cisco, résultats de l’exercice 2026"
   url: "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
-- titre: "americancompanies.com, les 100 plus grandes entreprises américaines (oct. 2026)"
-  url: "https://americancompanies.com/reports/largest-american-companies/"
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
 verifie_le: '2026-10-18'

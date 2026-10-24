@@ -1,7 +1,8 @@
 // La Carte Tech · page « Les acteurs » : carte des liens, filtres et fiches.
 // Les données viennent de data/acteurs.json, généré depuis fiches/*.yml par scripts/build.mjs.
 (function () {
-  const { CATEGORIES, NOTION_DE, REGIONS, STAGES, el, dateFr, charger } = window.CarteTech;
+  const { CATEGORIES, NOTION_DE, REGIONS, STAGES, el, dateFr, periodeFr, charger } =
+    window.CarteTech;
   let W = 1180;
   let H = 1020;
   // Les trois types de liens, par ordre d'importance.
@@ -10,6 +11,9 @@
     investissement: 'Investissement',
     partenariat: 'Partenariat',
   };
+  // Un lien annoncé mais pas encore finalisé (champ « statut: annonce » dans liens.yml) le dit à l'écran.
+  const texteLien = (l) =>
+    l.statut === 'annonce' ? `${l.texte} (annoncé, pas encore finalisé)` : l.texte;
   const ORDRE = ['parente', 'investissement', 'partenariat'];
   // Comment lire un lien depuis la fiche de chaque côté.
   const ROLE = {
@@ -29,14 +33,8 @@
       )
       .join('');
 
-  const REGIONS_BUREAUX = [
-    { id: 'europe', nom: 'Europe' },
-    { id: 'asie', nom: 'Asie' },
-    { id: 'amerique-du-nord', nom: 'Amérique du Nord' },
-    { id: 'amerique-latine', nom: 'Amérique latine' },
-    { id: 'moyen-orient-afrique', nom: 'Moyen-Orient et Afrique' },
-    { id: 'oceanie', nom: 'Océanie' },
-  ];
+  // Mêmes régions que la région d'origine (commun.js) : une seule liste.
+  const REGIONS_BUREAUX = Object.entries(REGIONS).map(([id, r]) => ({ id, nom: r.nom }));
   // Une entreprise est présente dans une région si elle y a des bureaux renseignés, ou si son siège (sa région d'origine) y est.
   const presente = (a, rid) => Boolean((a.bureaux && a.bureaux[rid]) || a.region === rid);
   const etat = {
@@ -284,7 +282,7 @@
       zone.append(el('h4', '', `${i + 1} · ${TYPES[type]} (${du.length})`));
       const ul = el('ul');
       du.forEach((l) => {
-        const li = el('li', '', `${l.texte}. `);
+        const li = el('li', '', `${texteLien(l)}. `);
         if (l.source) {
           const a = el('a', '', 'source');
           a.href = l.source;
@@ -769,7 +767,7 @@
           el('span', 'type-lien ' + l.type, ROLE[l.type][sens]),
           ' ',
           b,
-          el('span', 'discret', ` · ${l.texte}`),
+          el('span', 'discret', ` · ${texteLien(l)}`),
         );
         ul.append(li);
       });
@@ -781,6 +779,13 @@
       el('h3', '', 'Stages'),
       el('span', 'badge badge-sombre ' + a.stage, STAGES[a.stage]),
       el('p', '', a.stageDetail),
+      el(
+        'p',
+        'discret',
+        a.stageObsolete
+          ? `Relevé ${periodeFr(a.stageVuLe)} (${STAGES[a.stageDeclare].toLowerCase()} à l’époque) : plus de 6 mois, à revérifier sur le site de l’entreprise.`
+          : `Relevé ${periodeFr(a.stageVuLe)}.`,
+      ),
     );
     if (a.carrieres || a.carrieresJeunes) {
       const p = el('p', 'liens-carrieres');
@@ -812,7 +817,9 @@
     const pied = el('p', 'pied-fiche', `Vérifiée le ${dateFr(a.verifieLe)} · une erreur ? `);
     const modif = el('a', '', 'Modifier cette fiche');
     modif.href = lienGitHub(`edit/main/fiches/${a.id}.yml`) || '#contribuer';
-    pied.append(modif);
+    const page = el('a', '', 'Page de la fiche');
+    page.href = `fiche/${a.id}.html`;
+    pied.append(modif, ' · ', page);
     corps.append(pied);
     $('fiche').replaceChildren(entete, corps);
     $('fiche').scrollTop = 0;
@@ -857,6 +864,16 @@
         W = d.meta.carte.w;
         H = d.meta.carte.h;
       }
+      // Légende des régions : seulement celles où se trouve au moins un siège.
+      Object.entries(REGIONS)
+        .filter(([id]) => acteurs.some((a) => a.region === id))
+        .forEach(([, r]) => {
+          const pastille = el('span', 'pastille');
+          pastille.style.background = r.c;
+          const ligne = el('span', 'leg');
+          ligne.append(pastille, r.nom);
+          $('legende-regions').append(ligne);
+        });
       construireCarte((d.meta.carte && d.meta.carte.zones) || []);
       construirePilules();
       construireVilles();

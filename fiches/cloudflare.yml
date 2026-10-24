@@ -100,6 +100,8 @@ sources:
   url: "https://secure.businesswire.com/news/home/20260806407787/en/Cloudflare-Announces-Second-Quarter-2026-Financial-Results"
 - titre: "Converge Digest, résultats annuels 2025 de Cloudflare"
   url: "https://convergedigest.com/cloudflare-hits-2-17b-in-2025-revenue-expands-edge-infrastructure-for-ai-traffic/"
-- titre: "Wikipédia, Cloudflare"
-  url: "https://en.wikipedia.org/wiki/Cloudflare"
+- titre: "W3Techs, part de Cloudflare parmi les sites web"
+  url: "https://w3techs.com/technologies/details/cn-cloudflare"
+- titre: "eWeek, Cloudflare supprime 20 % de ses effectifs (mai 2026)"
+  url: "https://www.eweek.com/news/cloudflare-ai-layoffs-workforce-cuts/"
 verifie_le: '2026-10-18'

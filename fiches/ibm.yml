@@ -48,6 +48,6 @@ stages:
 sources:
 - titre: "IBM, résultats 2025"
   url: "https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS"
-- titre: "americancompanies.com, les 100 plus grandes entreprises américaines (oct. 2026)"
-  url: "https://americancompanies.com/reports/largest-american-companies/"
+- titre: "CompaniesMarketCap, plus grosses capitalisations tech (oct. 2026)"
+  url: "https://companiesmarketcap.com/tech/largest-tech-companies-by-market-cap/"
 verifie_le: '2026-10-17'

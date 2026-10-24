@@ -57,8 +57,8 @@ stages:
   statut: oui
   detail: "Stage Data Science à Londres, pour un diplôme prévu entre l’automne 2026 et l’été 2027 ; pas de stage commercial trouvé."
 sources:
-- titre: "PPC Land, résultats 2025"
-  url: "https://ppc.land/trade-desk-posts-2-9b-in-2025-revenue-but-growth-slows-to-18/"
+- titre: "The Trade Desk, résultats de l’exercice 2025"
+  url: "https://www.thetradedesk.com/press-room/the-trade-desk-reports-fourth-quarter-and-fiscal-year-2025-financial-results"
 - titre: "The Trade Desk, offre 2026 London Data Science Internship"
   url: "https://careers.thetradedesk.com/jobs/4793185007/2026-london-data-science-internship"
 verifie_le: '2026-10-17'

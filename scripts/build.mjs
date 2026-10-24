@@ -6,6 +6,7 @@ import { join, dirname } from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
+import { genererPagesFiches } from './pages-fiches.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CATEGORIES = [
@@ -21,10 +22,8 @@ const CATEGORIES = [
   'crypto',
   'espace',
 ];
-const REGIONS = ['amerique-du-nord', 'europe', 'asie'];
-const STAGES = ['oui', 'alternance', 'a-verifier'];
-// Régions des bureaux : un bloc facultatif « bureaux_<région> » (tirets bas) par région.
-const REGIONS_BUREAUX = [
+// Une seule liste de régions : la région d'origine d'une entreprise (« region ») et ses bureaux (un bloc facultatif « bureaux_<région> », tirets bas) en dépendent.
+const REGIONS = [
   'europe',
   'asie',
   'amerique-du-nord',
@@ -32,6 +31,7 @@ const REGIONS_BUREAUX = [
   'moyen-orient-afrique',
   'oceanie',
 ];
+const STAGES = ['oui', 'alternance', 'a-verifier'];
 const TYPES = ['parente', 'investissement', 'partenariat'];
 const W = 1950;
 const H = 1100;
@@ -225,13 +225,18 @@ for (const f of fichiers) {
   if (!d.stages || !STAGES.includes(d.stages.statut))
     err(f, `« stages.statut » doit être : ${STAGES.join(', ')}`);
   if (!d.stages || !texte(d.stages.detail)) err(f, '« stages.detail » manquant');
+  // Date de relevé des stages : par défaut « verifie_le » ; « stages.vu_le » la remplace quand l'offre citée est plus ancienne.
+  const jour = (v) => (v instanceof Date ? v.toISOString().slice(0, 10) : String(v ?? ''));
+  const vuLe = d.stages?.vu_le === undefined ? '' : jour(d.stages.vu_le);
+  if (d.stages?.vu_le !== undefined && !/^\d{4}(-\d{2}(-\d{2})?)?$/.test(vuLe))
+    err(f, '« stages.vu_le » doit être AAAA, AAAA-MM ou AAAA-MM-JJ (la précision connue)');
   for (const k of ['carrieres', 'carrieres_jeunes'])
     if (d[k] !== undefined && !url(d[k]))
       err(f, `« ${k} » doit être une adresse commençant par https://`);
   const rejoindre = verifierRejoindre(f, d.rejoindre);
   const vente = verifierVente(f, d.vente);
   const bureaux = {};
-  for (const r of REGIONS_BUREAUX) {
+  for (const r of REGIONS) {
     const cle = 'bureaux_' + r.replace(/-/g, '_');
     const b = verifierBureaux(f, d[cle], cle);
     if (b) bureaux[r] = b;
@@ -291,11 +296,36 @@ for (const f of fichiers) {
     carrieresJeunes: d.carrieres_jeunes || '',
     stage: d.stages?.statut,
     stageDetail: d.stages?.detail,
+    stageVuLe: vuLe,
     rejoindre,
     sources: (d.sources || []).map((s) => ({ titre: s?.titre, url: s?.url })),
     verifieLe: date,
   });
 }
+
+// Fraîcheur : une fiche n'affiche « Stage : oui » ou « Alternance » que si l'offre a été relevée il y a moins de 6 mois ; au-delà, le build la passe en « à vérifier » (la date et le texte restent affichés).
+const DELAI_JOURS = 183;
+const aujourdhui = new Date();
+// Une date peut être partielle (AAAA ou AAAA-MM) : l'âge se compte depuis le dernier jour de la période, donc jamais exagéré.
+const finDePeriode = (iso) => {
+  const [a, m, j] = iso.split('-').map(Number);
+  return new Date(Date.UTC(a, m ?? 12, j ?? 0));
+};
+const ageJours = (iso) => Math.floor((aujourdhui - finDePeriode(iso)) / 864e5);
+for (const a of acteurs) {
+  a.stageVuLe = a.stageVuLe || a.verifieLe;
+  a.stageObsolete = a.stage !== 'a-verifier' && ageJours(a.stageVuLe) > DELAI_JOURS;
+  if (a.stageObsolete) {
+    a.stageDeclare = a.stage;
+    a.stage = 'a-verifier';
+  }
+}
+// Alerte (sans bloquer le build) : fiches dont la dernière vérification date de plus d'un an.
+const anciennes = acteurs.filter((a) => ageJours(a.verifieLe) > 365).map((a) => a.id);
+if (anciennes.length)
+  console.warn(
+    `\n  ⚠ ${anciennes.length} fiche(s) vérifiée(s) il y a plus d’un an : ${anciennes.join(', ')}\n`,
+  );
 
 const ids = new Set(acteurs.map((a) => a.id));
 const liens = lire('liens.yml') || [];
@@ -314,6 +344,14 @@ liens.forEach((l, i) => {
   if (!ids.has(l.vers)) err('liens.yml', `${n} : « vers: ${l.vers} » ne correspond à aucune fiche`);
   if (!TYPES.includes(l.type)) err('liens.yml', `${n} : « type » doit être ${TYPES.join(', ')}`);
   if (!texte(l.texte)) err('liens.yml', `${n} : « texte » manquant`);
+  // Règle « daté, jamais actuellement » : un partenariat ou un investissement indique son année (une parenté est un fait de structure, durable).
+  if (l.type !== 'parente' && texte(l.texte) && !/\b(19|20)\d{2}\b/.test(l.texte))
+    err(
+      'liens.yml',
+      `${n} (${l.de} → ${l.vers}) : « texte » doit indiquer l’année (ex. « (2025) »)`,
+    );
+  if (l.statut !== undefined && l.statut !== 'annonce')
+    err('liens.yml', `${n} : « statut » ne peut valoir que « annonce »`);
   if (l.source !== undefined && !url(l.source))
     err('liens.yml', `${n} : « source » doit commencer par https://`);
 });
@@ -334,8 +372,11 @@ notions.forEach((n, i) => {
     if (!ids.has(a)) err('notions.yml', `${nom} : l’acteur « ${a} » n’a pas de fiche`);
   });
   if (n?.marche) {
-    if (!texte(n.marche.chiffre) || !texte(n.marche.detail))
-      err('notions.yml', `${nom} : « marche » doit avoir « chiffre » et « detail »`);
+    if (!texte(n.marche.chiffre) || !texte(n.marche.detail) || !texte(n.marche.indicateur))
+      err(
+        'notions.yml',
+        `${nom} : « marche » doit avoir « chiffre », « detail » et « indicateur » (ce que mesure le chiffre : mesure ou prévision, période, périmètre)`,
+      );
     if (!n.marche.source || !texte(n.marche.source.titre) || !url(n.marche.source.url))
       err('notions.yml', `${nom} : le marché doit avoir une source (titre et url)`);
   }
@@ -446,12 +487,22 @@ writeFileSync(
   join(sortie, 'acteurs.json'),
   JSON.stringify({ meta, acteurs, liens, notions }, null, 1),
 );
+// Chiffre d'affaires cumulé des acteurs, calculé ici et non saisi à la main. Une filiale (cible d'un lien « parente ») est déjà comptée dans sa maison mère : on ne l'additionne pas deux fois.
+const filiales = new Set(liens.filter((l) => l.type === 'parente').map((l) => l.vers));
+const caCumule = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 })
+  .format(
+    Math.round(acteurs.filter((a) => !filiales.has(a.id)).reduce((s, a) => s + a.mdUsd, 0) / 100) *
+      100,
+  )
+  .replace(/\u202f/g, ' ')
+  .replace(/\u00a0/g, ' ');
 // Chiffres de l’accueil écrits dans le HTML : ils s’affichent même si le JavaScript ne se charge pas.
 const accueil = join(root, 'site', 'index.html');
 let html = readFileSync(accueil, 'utf8');
 html = html
   .replace(/(<span id="nb-acteurs">)\d+(<\/span>)/, `$1${acteurs.length}$2`)
-  .replace(/(<span id="nb-liens">)\d+(<\/span>)/, `$1${liens.length}$2`);
+  .replace(/(<span id="nb-liens">)\d+(<\/span>)/, `$1${liens.length}$2`)
+  .replace(/(<span id="ca-cumule">)[^<]*(<\/span>)/, `$1${caCumule}$2`);
 writeFileSync(accueil, html);
 // Tuiles « La tech en chiffres » écrites dans tech.html : elles sont là dès le chargement, sans décalage (tech.js ne fait que brancher les clics).
 const echapper = (t) =>
@@ -464,7 +515,7 @@ const tuilesHtml = notions
   .filter((n) => n.marche)
   .map(
     (n) =>
-      `\n      <button class="tuile" type="button" data-notion="${echapper(n.id)}"><span class="v">${echapper(n.marche.chiffre)}</span><span class="n">${echapper(n.titre)}</span><span class="d">${echapper(n.marche.detail)}</span></button>`,
+      `\n      <button class="tuile" type="button" data-notion="${echapper(n.id)}"><span class="v">${echapper(n.marche.chiffre)}</span><span class="n">${echapper(n.titre)}</span><span class="i">${echapper(n.marche.indicateur)}</span><span class="d">${echapper(n.marche.detail)}</span></button>`,
   )
   .join('');
 writeFileSync(
@@ -489,6 +540,16 @@ for (const page of readdirSync(join(root, 'site')).filter((n) => n.endsWith('.ht
   );
   if (apres !== avant) writeFileSync(chemin, apres);
 }
+// Une page statique par fiche, le plan du site et robots.txt (adresse du site déduite du dépôt GitHub).
+const depotGitHub = process.env.GITHUB_REPOSITORY || 'eliotkoz-dev/la-carte-tech';
+const [proprio, nomDepot] = depotGitHub.split('/');
+genererPagesFiches({
+  racine: root,
+  acteurs,
+  liens,
+  depot: depotGitHub,
+  urlBase: `https://${proprio.toLowerCase()}.github.io/${nomDepot}/`,
+});
 console.log(
-  `✓ ${acteurs.length} fiches, ${liens.length} liens et ${notions.length} notions → site/data/acteurs.json`,
+  `✓ ${acteurs.length} fiches, ${liens.length} liens et ${notions.length} notions → site/data/acteurs.json, ${acteurs.length} pages site/fiche/*.html`,
 );

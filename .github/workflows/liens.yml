@@ -1,0 +1,25 @@
+name: Vérifier les liens
+
+# Chaque lundi, et à la demande : cherche les liens morts dans les fiches, les liens, les notions et les pages.
+# Un lien refusé aux robots (403, 429) n'est pas compté comme mort.
+on:
+  schedule:
+    - cron: '43 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  liens:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress --max-retries 2 --timeout 30
+            --accept '200..=299,403,429'
+            --exclude '^https://github.com/.*/(issues|edit)'
+            'fiches/*.yml' liens.yml notions.yml 'site/*.html'
+          fail: true

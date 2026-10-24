@@ -37,8 +37,8 @@ vente:
   - "Le prix par appareil"
   - "La confiance, après la panne mondiale causée par une mise à jour en juillet 2024"
   sources:
-  - titre: "Wikipédia, panne informatique de juillet 2024"
-    url: "https://fr.wikipedia.org/wiki/Panne_informatique_mondiale_de_juillet_2024"
+  - titre: "CrowdStrike, analyse de la cause de l’incident de juillet 2024"
+    url: "https://www.crowdstrike.com/en-us/blog/channel-file-291-rca-available/"
 bureaux_europe:
   villes:
   - "Reading (Royaume-Uni)"

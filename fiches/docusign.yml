@@ -47,6 +47,7 @@ carrieres_jeunes: "https://careers.docusign.com/students"
 stages:
   statut: oui
   detail: "Stages surtout aux États-Unis, par exemple Software Engineer Intern à San Francisco (offre de janvier 2026) ; rien trouvé en Europe."
+  vu_le: "2026-01"
 sources:
 - titre: "Docusign, résultats de l’exercice 2026"
   url: "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000017/q426ex-991er.htm"

@@ -1,7 +1,7 @@
 # Les notions de la page « La tech en rapide ».
 # categorie : les plus gros acteurs de cette catégorie s’affichent quand on ouvre la notion
 #             (ou bien « acteurs » : une liste de fiches choisies à la main).
-# marche : facultatif, toujours avec sa source.
+# marche : facultatif, toujours avec sa source et son « indicateur » (ce que mesure le chiffre : mesure ou prévision, période, périmètre), car les chiffres de deux notions ne sont pas comparables entre eux.
 
 - id: cloud
   titre: Le cloud
@@ -13,6 +13,7 @@
     - "On paie à l’usage : à l’heure de calcul, au gigaoctet stocké, à la requête."
   marche:
     chiffre: "143 Md$"
+    indicateur: "Mesure : dépenses d’un trimestre (T2 2026)"
     detail: "dépensés dans le cloud d’infrastructure au seul T2 2026, +43 % sur un an"
     source: { titre: "Synergy Research, juillet 2026", url: "https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years" }
   barres:
@@ -34,6 +35,7 @@
     - "Les agents vont plus loin : ils enchaînent seuls des actions avec des outils (chercher, écrire du code, remplir un CRM)."
   marche:
     chiffre: "2 700 Md$"
+    indicateur: "Prévision : dépenses mondiales de l’année 2026"
     detail: "de dépenses mondiales liées à l’IA prévues en 2026 (+49,5 %), puces et data centers compris"
     source: { titre: "Gartner, septembre 2026", url: "https://gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026" }
   mots_cles: [LLM, Token, RAG, Agent, MCP, Fine-tuning]
@@ -49,6 +51,7 @@
     - "Pour graver les plus fines, il faut les machines EUV d’ASML, seul fabricant au monde."
   marche:
     chiffre: "772 Md$"
+    indicateur: "Mesure : ventes mondiales de l’année 2025"
     detail: "de ventes de semi-conducteurs en 2025 (+22 %) ; près de 1 000 Md$ attendus en 2026"
     source: { titre: "WSTS, prévisions de novembre 2025", url: "https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026" }
   mots_cles: [GPU, Fondeur, Nanomètre, EUV, HBM]
@@ -75,6 +78,7 @@
     - "Exemples : CRM (Salesforce, HubSpot), ERP (SAP), bureautique (Microsoft 365), création (Adobe)."
   marche:
     chiffre: "299 Md$"
+    indicateur: "Prévision : dépenses mondiales de l’année 2025"
     detail: "dépensés en logiciels SaaS dans le monde en 2025 (+19 %), selon une prévision"
     source: { titre: "Gartner, prévision de novembre 2024", url: "https://www.gartner.com/en/newsroom/press-releases/2024-11-19-gartner-forecasts-worldwide-public-cloud-end-user-spending-to-total-723-billion-dollars-in-2025" }
   mots_cles: [Abonnement, ARR, Churn, Onboarding, CRM, ERP]
@@ -90,8 +94,9 @@
     - "Des règles comme le RGPD ou NIS2 obligent les entreprises à se protéger et à déclarer les incidents."
   marche:
     chiffre: "247,5 Md$"
+    indicateur: "Prévision : dépenses mondiales de l’année 2026"
     detail: "de dépenses mondiales en cybersécurité prévues en 2026 (+13,6 %)"
-    source: { titre: "Gartner, septembre 2026 (via Software Strategies)", url: "https://softwarestrategiesblog.com/2026/10/05/gartner-3q26-information-security-forecast-post-quantum-firewalls-2030/" }
+    source: { titre: "Gartner, septembre 2026 (étude payante, chiffre repris par Software Strategies)", url: "https://softwarestrategiesblog.com/2026/10/05/gartner-3q26-information-security-forecast-post-quantum-firewalls-2030/" }
   mots_cles: [IAM, SSO, SOC, Pare-feu, RGPD, NIS2]
   en_vente: "Le responsable sécurité peut bloquer un deal à la fin : il faut l’impliquer tôt."
 
@@ -105,8 +110,9 @@
     - "Le retail media : les distributeurs vendent de la pub sur leur propre site, en s’appuyant sur leurs données d’achat."
   marche:
     chiffre: "1 343 Md$"
+    indicateur: "Prévision : dépenses mondiales de l’année 2026"
     detail: "de dépenses publicitaires mondiales prévues en 2026 (+11,9 %) ; Alphabet, Amazon et Meta en captent 59,7 % hors Chine"
-    source: { titre: "WARC, prévisions d’octobre 2026 (via PPC Land)", url: "https://ppc.land/warc-forecasts-social-media-ad-spend-gains-21-3-to-394-6bn-in-2026/" }
+    source: { titre: "WARC, prévisions d’octobre 2026", url: "https://www.warc.com/article/global-ad-spend-outlook-q-3-2026-eb1a9505c8d34d1fb3833cf61f675165" }
   barres:
     titre: "Où va l’argent en 2026 (prévision)"
     items:
@@ -137,6 +143,7 @@
     - "Chaque acteur prend une petite commission sur chaque transaction."
   marche:
     chiffre: "2 600 Md$"
+    indicateur: "Estimation : revenus mondiaux de l’année 2025"
     detail: "de revenus mondiaux tirés des paiements en 2025"
     source: { titre: "McKinsey, Global Payments Report", url: "https://www.mckinsey.com/industries/financial-services/our-insights/global-payments-report" }
   mots_cles: [PSP, KYC, Néobanque, Stablecoin, Commission]
@@ -154,6 +161,7 @@
     - "En Europe, le règlement MiCA impose depuis le 1er juillet 2026 une autorisation pour proposer ces services."
   marche:
     chiffre: "73 Md$"
+    indicateur: "Mesure : un seul stablecoin (USDC), fin juin 2026"
     detail: "de stablecoin USDC en circulation fin juin 2026"
     source: { titre: "Circle, résultats du deuxième trimestre 2026", url: "https://s206.q4cdn.com/265218871/files/doc_news/2026/Aug/05/CIRCLE_Q2-2026.pdf" }
   mots_cles: [Blockchain, Stablecoin, Custody, MiCA, Wallet]
@@ -171,6 +179,7 @@
     - "De nouveaux acteurs comme Anduril ou Palantir vendent des logiciels et des drones à la défense, comme une start-up de la tech."
   marche:
     chiffre: "268 Md$"
+    indicateur: "Mesure : le carnet de commandes d’une seule entreprise (RTX), fin 2025"
     detail: "de carnet de commandes chez RTX fin 2025 (161 Md$ civil, 107 Md$ défense)"
     source: { titre: "RTX, résultats 2025", url: "https://www.rtx.com/news/news-center/2026/01/27/rtx-reports-2025-results-and-announces-2026-outlook" }
   mots_cles: [Carnet de commandes, Lanceur, Constellation, Orbite basse, Appel d’offres public]

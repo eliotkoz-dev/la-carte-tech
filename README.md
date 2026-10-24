@@ -6,7 +6,7 @@
 
 [![La Carte Tech](site/assets/apercu.png)](https://eliotkoz-dev.github.io/la-carte-tech/)
 
-Un site open source, fait par des étudiants pour des étudiants, qui explique simplement :
+Un site open source, fait pour les étudiants et ouvert à toutes les contributions, qui explique simplement :
 
 - **les acteurs** : 167 entreprises (cloud, IA, puces, data, logiciels, cybersécurité, pub, e-commerce, fintech, crypto, aérospatial et défense), avec leur chiffre d’affaires, leurs produits phares, leur modèle économique, leur façon de vendre, leurs rachats, leurs liens (qui possède qui, qui investit dans qui, qui travaille avec qui) et leurs stages ;
 - **la tech en rapide** : des notions qui s’ouvrent au clic (cloud, IA, puces, etc.), avec la taille du marché et les plus gros acteurs ;

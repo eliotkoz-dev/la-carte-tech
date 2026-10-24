@@ -40,10 +40,10 @@ bureaux_europe:
   - "Barcelone (Espagne)"
   - "Dublin (Irlande)"
   - "Londres (Royaume-Uni)"
-  note: "Liste issue de Wikipédia, à confirmer sur le site de l’entreprise."
+  note: "Liste partielle, à confirmer sur la page carrières de l’entreprise."
   sources:
-  - titre: "Wikipédia, Bitpanda"
-    url: "https://en.wikipedia.org/wiki/Bitpanda"
+  - titre: "Bitpanda, page carrières"
+    url: "https://www.bitpanda.com/en/career"
 carrieres: "https://job-boards.greenhouse.io/bitpanda"
 stages:
   statut: oui
@@ -53,6 +53,4 @@ sources:
   url: "https://www.theblock.co/post/393233/bitpanda-reports-430-million-adjusted-revenue-in-2025-as-user-base-grows-25"
 - titre: "The Block, Bitpanda vise une Bourse en 2026 (janv. 2026)"
   url: "https://www.theblock.co/post/385494/bitpanda-ipo-2026"
-- titre: "Wikipédia, Bitpanda"
-  url: "https://en.wikipedia.org/wiki/Bitpanda"
 verifie_le: '2026-10-18'

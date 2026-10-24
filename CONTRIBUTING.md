@@ -23,7 +23,7 @@ Copiez [`fiches/_modele.yml`](fiches/_modele.yml) dans un nouveau fichier, par e
 |---|---|
 | `nom` | Le nom courant de l’entreprise |
 | `categorie` | `cloud`, `ia`, `puces`, `data`, `saas` (logiciels), `cyber`, `pub` (pub & plateformes), `ecommerce`, `fintech`, `crypto` ou `espace` (aérospatial & défense) |
-| `region` | Région d’origine : `amerique-du-nord`, `europe` ou `asie` |
+| `region` | Région d’origine : `europe`, `asie`, `amerique-du-nord`, `amerique-latine`, `moyen-orient-afrique` ou `oceanie` |
 | `aussi` | Facultatif : 1 ou 2 autres catégories où l’entreprise est très active, par exemple `[ia]` pour un cloud qui vend aussi de l’IA. Sa bulle se place alors entre les zones |
 | `groupe`, `siege` | Cotée ou non, groupe, ville et pays |
 | `en_bref` | Ce qu’elle fait, en moins de 6 mots |
@@ -38,7 +38,8 @@ Copiez [`fiches/_modele.yml`](fiches/_modele.yml) dans un nouveau fichier, par e
 | `concurrents` | Deux ou trois noms |
 | `note` | Facultatif : une info utile (investisseurs, partenariats) |
 | `carrieres` | Facultatif : adresse https de la page carrières officielle (`carrieres_jeunes` : page stages / jeunes diplômés) |
-| `stages.statut` | `oui` ou `alternance` seulement avec une offre publique en lien ; si l’offre n’est pas en France, le dire dans `detail` ; sinon `a-verifier` |
+| `stages.statut` | `oui` ou `alternance` seulement avec une offre publique en lien ; si l’offre n’est pas en France, le dire dans `detail` ; sinon `a-verifier`. Passé 6 mois après le relevé, le build l’affiche lui-même en « à vérifier » |
+| `stages.vu_le` | Facultatif, `AAAA`, `AAAA-MM` ou `AAAA-MM-JJ` (la précision connue) : date où l’offre citée a été vue, si elle est plus ancienne que `verifie_le` (sinon c’est `verifie_le` qui sert) |
 | `vente` | Facultatif : comment l’entreprise vend (voir ci-dessous) |
 | `bureaux_europe` | Facultatif : `villes` (liste au format `Ville (Pays)`, par exemple `Paris (France)`), `note` (facultatif) et `sources` (obligatoire). S’affiche quand on clique sur l’entreprise. Si aucune ville n’est connue, `pays` (liste de noms de pays, par exemple `Irlande`) indique où l’entreprise est présente ou recrute |
 | `bureaux_asie`, `bureaux_amerique_du_nord`, `bureaux_amerique_latine`, `bureaux_moyen_orient_afrique`, `bureaux_oceanie` | Facultatifs, même format que `bureaux_europe` : `villes` au format `Ville (Pays)`, `note` facultative, `sources` obligatoire (page officielle de l’entreprise de préférence). S’affichent dans la fiche et alimentent le filtre « Locaux en … à … » |
@@ -73,7 +74,9 @@ Pour ajouter un lien, ajoutez une entrée dans [`liens.yml`](liens.yml), avec sa
 2. `investissement` : « de » a investi dans « vers ». Trait noir avec une flèche.
 3. `partenariat` : les deux travaillent ensemble (contrat, intégration, fournisseur). Pointillé, sans flèche.
 
-Les notions de la page « La tech en rapide » sont dans [`notions.yml`](notions.yml) : chaque chiffre de marché doit avoir sa source.
+Le `texte` d’un partenariat ou d’un investissement indique son année (« (2025) ») : le build refuse sinon. Pour un rachat annoncé mais pas encore finalisé, ajoutez `statut: annonce` : le site l’écrit, et on retire la ligne (en passant le type à `parente`) une fois le rachat terminé. Les sources doivent être primaires quand elles existent (communiqué de l’entreprise, dépôt SEC, résultats), pas un site qui reprend l’information.
+
+Les notions de la page « La tech en rapide » sont dans [`notions.yml`](notions.yml) : chaque chiffre de marché doit avoir sa source et son `indicateur` (ce que mesure le chiffre : mesure ou prévision, période, périmètre), car deux chiffres de deux notions ne sont pas comparables.
 
 ## Les règles
 

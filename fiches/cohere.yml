@@ -47,6 +47,7 @@ carrieres: "https://jobs.ashbyhq.com/cohere"
 stages:
   statut: oui
   detail: "Stages ingénieur et recherche de 3 à 6 mois (automne-hiver 2026, au Canada), offre publiée en mai 2026 sur un site relais ; bureaux aussi à Paris et Londres."
+  vu_le: "2026-05"
 sources:
 - titre: "TechCrunch, Cohere valorisée 6,8 Md$ (août 2025)"
   url: "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"

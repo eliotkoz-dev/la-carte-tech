@@ -28,9 +28,12 @@ window.CarteTech = (function () {
     espace: 'espace',
   };
   const REGIONS = {
-    'amerique-du-nord': { nom: 'Amérique du Nord', c: '#3A3AF4' },
     europe: { nom: 'Europe', c: '#FF4F8B' },
     asie: { nom: 'Asie', c: '#FFD800', bord: '#C9A400' },
+    'amerique-du-nord': { nom: 'Amérique du Nord', c: '#3A3AF4' },
+    'amerique-latine': { nom: 'Amérique latine', c: '#14B8A6' },
+    'moyen-orient-afrique': { nom: 'Moyen-Orient et Afrique', c: '#FF7A1A' },
+    oceanie: { nom: 'Océanie', c: '#8B5CF6' },
   };
   const STAGES = {
     oui: 'Stage : oui',
@@ -63,6 +66,12 @@ window.CarteTech = (function () {
     const [a, m, j] = iso.split('-').map(Number);
     return `${j === 1 ? '1er' : j} ${MOIS[m - 1]} ${a}`;
   };
+  // Date possiblement partielle (AAAA, AAAA-MM ou AAAA-MM-JJ) : « en 2025 », « en novembre 2025 », « le 3 novembre 2025 ».
+  const periodeFr = (iso) => {
+    const [a, m, j] = iso.split('-').map(Number);
+    if (!m) return `en ${a}`;
+    return j ? `le ${dateFr(iso)}` : `en ${MOIS[m - 1]} ${a}`;
+  };
   const charger = () =>
     fetch('data/acteurs.json', { cache: 'no-cache' }).then((r) => {
       if (!r.ok) throw new Error(r.status);
@@ -89,5 +98,5 @@ window.CarteTech = (function () {
     m.appendChild(frag);
   });
 
-  return { CATEGORIES, NOTION_DE, REGIONS, STAGES, el, dateFr, charger };
+  return { CATEGORIES, NOTION_DE, REGIONS, STAGES, el, dateFr, periodeFr, charger };
 })();

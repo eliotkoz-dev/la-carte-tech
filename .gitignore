@@ -1,3 +1,6 @@
 node_modules/
 site/data/
 .DS_Store
+site/fiche/
+site/sitemap.xml
+site/robots.txt

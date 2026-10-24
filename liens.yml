@@ -2,6 +2,7 @@
 #   1 · parente        « de » possède « vers » (maison mère → filiale)   trait rouge avec flèche
 #   2 · investissement « de » a investi dans « vers »                     trait noir avec flèche
 #   3 · partenariat    « de » et « vers » travaillent ensemble             pointillé, sans flèche
+# statut : facultatif, « annonce » pour un rachat annoncé mais pas encore finalisé (le site l'indique ; retirer la ligne une fois finalisé et passer le type à « parente »).
 # de / vers : le nom du fichier de la fiche, sans .yml. Ajoutez la source quand vous l’avez.
 
 - de: amazon
@@ -33,7 +34,7 @@
   vers: red-hat
   type: parente
   texte: "IBM a racheté Red Hat 34 Md$ en 2019 ; elle reste une filiale indépendante"
-  source: "https://en.wikipedia.org/wiki/Red_Hat"
+  source: "https://www.ibm.com/investor/news/ibm-completes-acquisition-of-red-hat"
 - de: ibm
   vers: ibm-cloud
   type: parente
@@ -48,12 +49,12 @@
   vers: openai
   type: investissement
   texte: "Nvidia investit 30 Md$ dans le tour de 110 Md$ d’OpenAI (fév. 2026)"
-  source: "https://english.aaj.tv/news/amp/330453182"
+  source: "https://wtop.com/national/2026/02/chatgpt-maker-openai-receives-110b-in-investments-from-amazon-nvidia-and-softbank/"
 - de: amazon
   vers: anthropic
   type: investissement
   texte: "Amazon a investi 8 Md$ dans Anthropic (2023-2024) et annonce jusqu’à 25 Md$ de plus (avril 2026)"
-  source: "https://www.thenews.pk/story/1411340-amazon-to-invest-up-to-25-billion-in-anthropic-as-part-of-100-billion-cloud-deal"
+  source: "https://www.anthropic.com/news/anthropic-amazon-compute"
 - de: google
   vers: anthropic
   type: investissement
@@ -142,7 +143,8 @@
 - de: nvidia
   vers: hugging-face
   type: investissement
-  texte: "Investisseur depuis 2023, Nvidia annonce le rachat de Hugging Face pour 12,9 Md$ (sept. 2026, pas encore finalisé)"
+  texte: "Investisseur depuis 2023, Nvidia annonce le rachat de Hugging Face pour 12,9 Md$ (sept. 2026)"
+  statut: annonce
   source: "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
 - de: nvidia
   vers: perplexity
@@ -153,7 +155,7 @@
   vers: openai
   type: investissement
   texte: "Amazon investit jusqu’à 50 Md$ dans OpenAI : 15 Md$ d’abord, 35 Md$ ensuite sous conditions (fév. 2026)"
-  source: "https://english.aaj.tv/news/amp/330453182"
+  source: "https://wtop.com/national/2026/02/chatgpt-maker-openai-receives-110b-in-investments-from-amazon-nvidia-and-softbank/"
 - de: amd
   vers: cohere
   type: investissement
@@ -258,7 +260,7 @@
   vers: anthropic
   type: partenariat
   texte: "AWS, principal partenaire cloud d’Anthropic, qui s’engage à y dépenser plus de 100 Md$ sur 10 ans (avril 2026)"
-  source: "https://www.thenews.pk/story/1411340-amazon-to-invest-up-to-25-billion-in-anthropic-as-part-of-100-billion-cloud-deal"
+  source: "https://www.anthropic.com/news/anthropic-amazon-compute"
 - de: google-cloud
   vers: anthropic
   type: partenariat
@@ -312,7 +314,7 @@
 - de: stripe
   vers: shopify
   type: partenariat
-  texte: Stripe traite les paiements de Shopify Payments
+  texte: "Stripe traite les paiements de Shopify Payments (accord de 2013)"
   source: "https://thelogic.co/news/shopifys-secret-growth-weapon-stripe/"
 - de: sap
   vers: databricks
@@ -337,17 +339,17 @@
 - de: asml
   vers: tsmc
   type: partenariat
-  texte: ASML fournit à TSMC ses machines de gravure
+  texte: "ASML fournit à TSMC ses machines de gravure, dont une machine High-NA annoncée en juin 2024"
   source: "https://bits-chips.nl/article/asml-to-ship-high-na-tool-to-tsmc-this-year"
 - de: oracle
   vers: cohere
   type: partenariat
-  texte: "Oracle, partenaire et ancien investisseur de Cohere"
+  texte: "Oracle, partenaire et ancien investisseur de Cohere (2025)"
   source: "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"
 - de: sap
   vers: cohere
   type: partenariat
-  texte: "SAP, partenaire de Cohere"
+  texte: "SAP, partenaire de Cohere (2025)"
   source: "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down"
 - de: google-cloud
   vers: palo-alto
@@ -367,12 +369,12 @@
 - de: nvidia
   vers: ovhcloud
   type: partenariat
-  texte: "OVHcloud propose les puces Nvidia dans son cloud"
+  texte: "OVHcloud propose les puces Nvidia dans son cloud (juin 2024)"
   source: "https://corporate.ovhcloud.com/en/newsroom/news/adopt-ai"
 - de: aws
   vers: datadog
   type: partenariat
-  texte: "Datadog élargit son accord de collaboration avec AWS"
+  texte: "Datadog élargit son accord de collaboration avec AWS (déc. 2025)"
   source: "https://www.datadoghq.com/about/latest-news/press-releases/datadog-announces-expanded-collaboration-agreement-highlights-new-capabilities-with-aws-across-ai-observability-and-security-at-aws-reinvent/"
 - de: google-cloud
   vers: adobe
@@ -402,7 +404,7 @@
 - de: adyen
   vers: vinted
   type: partenariat
-  texte: "Adyen traite les paiements de Vinted"
+  texte: "Adyen traite les paiements de Vinted (page d’aide relevée en 2026)"
   source: "https://www.vinted.com/help/1039"
 - de: adyen
   vers: shopify
@@ -412,7 +414,7 @@
 - de: mirakl
   vers: shopify
   type: partenariat
-  texte: "Mirakl et Shopify, partenaires pour les places de marché"
+  texte: "Mirakl et Shopify, partenaires pour les places de marché (janv. 2024)"
   source: "https://www.mirakl.com/news/new-mirakl-and-shopify-partnership-opens-pathways-for-rapid-commerce-growth"
 - de: google-cloud
   vers: revolut
@@ -432,33 +434,28 @@
 - de: sk-hynix
   vers: nvidia
   type: partenariat
-  texte: "SK Hynix, premier fournisseur de mémoire HBM de Nvidia"
-  source: "https://mail.iconnect007.com/article/146969/nvidia-seeks-to-raise-hbm4-specs-in-response-to-amd-competition-sk-hynix-expected-to-remain-largest-supplier-in-2026/146966/smt"
+  texte: "SK hynix, retenu pour fournir la mémoire HBM4 des puces Rubin de Nvidia (rapport TrendForce, mars 2026)"
+  source: "https://www.trendforce.com/news/2026/03/09/news-samsung-sk%E2%80%AFhynix-reportedly-tapped-as-nvidia-rubin-hbm4-suppliers-shipments-could-start-in-march"
 - de: dell
   vers: nvidia
   type: partenariat
-  texte: "Dell AI Factory : des serveurs d’IA construits avec Nvidia"
+  texte: "Dell AI Factory : des serveurs d’IA construits avec Nvidia (mai 2025)"
   source: "https://www.dell.com/en-uk/blog/let-s-dive-into-the-dell-ai-factory-announcements-from-dell-technologies-world/"
 - de: arista
   vers: microsoft
   type: partenariat
-  texte: "Microsoft, l’un des deux plus gros clients d’Arista"
-  source: "https://americancompanies.com/news/arista-networks-inside-the-santa-clara-switch-makers-numbers/"
+  texte: "Microsoft, l’un des deux plus gros clients d’Arista (exercice 2024)"
+  source: "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000028/anet-20241231.htm"
 - de: arista
   vers: meta
   type: partenariat
-  texte: "Meta, l’un des deux plus gros clients d’Arista"
-  source: "https://americancompanies.com/news/arista-networks-inside-the-santa-clara-switch-makers-numbers/"
-- de: pigment
-  vers: datadog
-  type: partenariat
-  texte: "Datadog utilise Pigment pour sa planification"
-  source: "https://mucrunch.beehiiv.com/p/french-startup-pigment-raises-145-million"
+  texte: "Meta, l’un des deux plus gros clients d’Arista (exercice 2024)"
+  source: "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000028/anet-20241231.htm"
 - de: coinbase
   vers: circle
   type: partenariat
   texte: "Coinbase reçoit la moitié du revenu résiduel des réserves de l’USDC, le stablecoin de Circle ; accord renouvelé jusqu’en 2029 (août 2026)"
-  source: "https://stablecoininsider.org/circle-coinbase-usdc-agreement-renewal-2029/"
+  source: "https://www.sec.gov/Archives/edgar/data/0001876042/000187604226000248/crcl-20260630.htm"
 - de: foxconn
   vers: nvidia
   type: partenariat
@@ -467,8 +464,8 @@
 - de: foxconn
   vers: apple
   type: partenariat
-  texte: "Foxconn assemble des iPhone d’Apple depuis de longues années"
-  source: "https://thenextweb.com/news/hon-hai-sales-surge-ai-servers"
+  texte: "Foxconn (Hon Hai) figure parmi les assembleurs d’Apple dans sa liste officielle de fournisseurs (liste 2024)"
+  source: "https://s203.q4cdn.com/367071867/files/doc_downloads/2024/04/Apple-Supplier-List.pdf"
 - de: broadcom
   vers: anthropic
   type: partenariat
@@ -487,27 +484,27 @@
 - de: lam-research
   vers: tsmc
   type: partenariat
-  texte: "TSMC figure parmi les plus gros clients de Lam Research"
+  texte: "TSMC figure parmi les plus gros clients de Lam Research (exercice clos en juin 2026)"
   source: "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000037/lrcx-20260628.htm"
 - de: lam-research
   vers: micron
   type: partenariat
-  texte: "Micron figure parmi les plus gros clients de Lam Research"
+  texte: "Micron figure parmi les plus gros clients de Lam Research (exercice clos en juin 2026)"
   source: "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000037/lrcx-20260628.htm"
 - de: lam-research
   vers: samsung
   type: partenariat
-  texte: "Samsung figure parmi les plus gros clients de Lam Research"
+  texte: "Samsung figure parmi les plus gros clients de Lam Research (exercice clos en juin 2026)"
   source: "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000037/lrcx-20260628.htm"
 - de: lam-research
   vers: sk-hynix
   type: partenariat
-  texte: "SK hynix figure parmi les plus gros clients de Lam Research"
+  texte: "SK hynix figure parmi les plus gros clients de Lam Research (exercice clos en juin 2026)"
   source: "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000037/lrcx-20260628.htm"
 - de: arm
   vers: nvidia
   type: partenariat
-  texte: "Nvidia détient une licence d’architecture Arm de 20 ans pour concevoir ses processeurs Grace"
+  texte: "Nvidia détient une licence d’architecture Arm de 20 ans pour concevoir ses processeurs Grace (confirmé en 2022)"
   source: "https://www.tomshardware.com/uk/news/nvidia-big-cpu-plans-with-20-year-arm-license"
 - de: qualcomm
   vers: microsoft
@@ -562,7 +559,7 @@
 - de: smic
   vers: cambricon
   type: partenariat
-  texte: "SMIC fabrique la puce Siyuan 590 de Cambricon (estimation TrendForce)"
+  texte: "SMIC fabrique la puce Siyuan 590 de Cambricon (estimation TrendForce, déc. 2025)"
   source: "https://www.trendforce.com/news/2025/12/15/insights-cambricon-remains-chinas-top-ai-chip-startup-rumored-2026-triple-output-faces-smic-limits/"
 - de: nvidia
   vers: marvell
@@ -647,7 +644,7 @@
 - de: thales
   vers: google-cloud
   type: partenariat
-  texte: "S3NS, coentreprise de Thales et Google Cloud, propose un cloud de confiance qualifié SecNumCloud"
+  texte: "S3NS, coentreprise de Thales et Google Cloud, obtient la qualification SecNumCloud pour son cloud de confiance (déc. 2025)"
   source: "https://next.ink/215464/s3ns-obtient-la-qualification-secnumcloud-par-lanssi/"
 - de: airbus
   vers: thales
@@ -667,7 +664,7 @@
 - de: nvidia
   vers: nintendo
   type: partenariat
-  texte: "La Switch 2 de Nintendo tourne sur une puce Nvidia sur mesure"
+  texte: "La Switch 2 de Nintendo (juin 2025) tourne sur une puce Nvidia sur mesure"
   source: "https://www.tweaktown.com/news/104759/nintendo-switch-2-and-its-nvidia-tegra239-soc-confirmed-check-out-this-shot-of-the-chip/index.html"
 - de: nvidia
   vers: uber
@@ -682,7 +679,7 @@
 - de: mediatek
   vers: nvidia
   type: partenariat
-  texte: "MediaTek a conçu avec Nvidia la puce GB10 du DGX Spark"
+  texte: "MediaTek a conçu avec Nvidia la puce GB10 du DGX Spark (2025)"
   source: "https://www.mediatek.com/press-room/newly-launched-nvidia-dgx-spark-features-gb10-superchip-co-designed-by-mediatek"
 - de: broadcom
   vers: apple
@@ -697,7 +694,7 @@
 - de: sony
   vers: tsmc
   type: partenariat
-  texte: "Sony est actionnaire minoritaire de JASM, l’usine de TSMC au Japon"
+  texte: "Sony est actionnaire minoritaire de JASM, l’usine de TSMC au Japon (2024)"
   source: "https://www.eenewseurope.com/en/tsmc-tips-second-japan-wafer-fab-as-toyota-joins-team"
 - de: intel
   vers: umc
@@ -707,7 +704,7 @@
 - de: tsmc
   vers: amd
   type: partenariat
-  texte: "TSMC grave les puces d’AMD, dont son premier processeur pour serveurs en 2 nm"
+  texte: "TSMC grave les puces d’AMD, dont son premier processeur pour serveurs en 2 nm (mai 2026)"
   source: "https://newsroom.amd.com/news/amd-announces-production-ramp-of-next-generation-a/"
 - de: samsung
   vers: google
@@ -717,7 +714,7 @@
 - de: perplexity
   vers: samsung
   type: partenariat
-  texte: "Perplexity intégré aux smartphones Galaxy S26 de Samsung"
+  texte: "Perplexity intégré aux smartphones Galaxy S26 de Samsung (2026)"
   source: "https://www.outlookbusiness.com/deeptech/tech/samsung-partners-with-perplexity-to-boost-galaxy-s26-ai-capabilities"
 - de: netflix
   vers: amazon
@@ -772,20 +769,20 @@
 - de: micron
   vers: nvidia
   type: partenariat
-  texte: "Micron fournit de la mémoire HBM3E pour les puces Blackwell de Nvidia"
+  texte: "Micron fournit de la mémoire HBM3E pour les puces Blackwell de Nvidia (mars 2025)"
   source: "https://www.tipranks.com/news/the-fly/micron-says-hbm3e-8h-designed-into-nvidias-blackwell-platforms"
 - de: oracle
   vers: azure
   type: partenariat
-  texte: "Les bases de données Oracle tournent dans les data centers d’Azure (Oracle Database@Azure)"
+  texte: "Les bases de données Oracle tournent dans les data centers d’Azure (Oracle Database@Azure, sept. 2024)"
   source: "https://www.oracle.com/news/announcement/ocw24-oracle-expands-multicloud-capabilities-with-aws-google-cloud-and-microsoft-azure-2024-09-11/"
 - de: oracle
   vers: aws
   type: partenariat
-  texte: "Les bases de données Oracle tournent dans les data centers d’AWS (Oracle Database@AWS)"
+  texte: "Les bases de données Oracle tournent dans les data centers d’AWS (Oracle Database@AWS, sept. 2024)"
   source: "https://www.oracle.com/news/announcement/ocw24-oracle-expands-multicloud-capabilities-with-aws-google-cloud-and-microsoft-azure-2024-09-11/"
 - de: oracle
   vers: google-cloud
   type: partenariat
-  texte: "Les bases de données Oracle tournent dans les data centers de Google Cloud (Oracle Database@Google Cloud)"
+  texte: "Les bases de données Oracle tournent dans les data centers de Google Cloud (Oracle Database@Google Cloud, sept. 2024)"
   source: "https://www.oracle.com/news/announcement/ocw24-oracle-expands-multicloud-capabilities-with-aws-google-cloud-and-microsoft-azure-2024-09-11/"

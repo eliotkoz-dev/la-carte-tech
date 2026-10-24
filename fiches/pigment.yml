@@ -24,7 +24,7 @@ produits:
 - nom: "Effectifs"
   detail: "prévoir les recrutements"
 modele: "Abonnement annuel."
-clients: "entreprises de taille moyenne et grands groupes (Unilever, Datadog…)"
+clients: "entreprises de taille moyenne et grands groupes (Unilever…)"
 rachats:
 - "Aucun rachat listé"
 concurrents: "Anaplan, Workday Adaptive Planning, Board"
@@ -65,6 +65,6 @@ rejoindre:
   - titre: "Pigment, offres d’emploi (Lever)"
     url: https://jobs.lever.co/pigment
 sources:
-- titre: "Mucrunch, Pigment lève 145 M$ (avril 2024)"
-  url: "https://mucrunch.beehiiv.com/p/french-startup-pigment-raises-145-million"
+- titre: "Pigment, annonce de sa série D de 145 M$ (avril 2024)"
+  url: "https://www.pigment.com/newsroom/pigment-announces-145m-series-d"
 verifie_le: '2026-10-17'

@@ -1602,6 +1602,14 @@ button {
   font-size: 16px;
   font-weight: 700;
 }
+.tuile .i,
+.marche .indicateur {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--bleu);
+}
 .tuile .d {
   font-size: 15px;
   color: var(--gris);
@@ -2173,4 +2181,19 @@ button {
 /* Quatre cartes exactement : quatre colonnes sur grand écran plutôt que 3 + 1 orpheline */
 .metiers:has(> .metier:nth-child(4):last-child) {
   grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+}
+
+/* Pages statiques des fiches (site/fiche/*.html, générées par le build) */
+.liste-fiche {
+  display: grid;
+  gap: 8px;
+  padding-left: 20px;
+  margin: 0;
+}
+.texte-fiche {
+  display: grid;
+  gap: 12px;
+}
+.texte-fiche p {
+  margin: 0;
 }

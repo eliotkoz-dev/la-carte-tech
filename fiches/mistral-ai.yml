@@ -13,7 +13,6 @@ chiffre_affaires:
   md_usd: 0.4
 chiffres_cles:
 - Plus de 11 Md€ de valorisation après la levée menée par ASML (sept. 2025)
-- Environ 350 personnes (2025)
 ce_qu_elle_vend: "Des modèles d’IA ouverts et commerciaux, et l’assistant Le Chat, pour les entreprises et administrations surtout en Europe."
 produits:
 - nom: Le Chat
@@ -50,8 +49,8 @@ stages:
   statut: oui
   detail: "Stages à Paris de 4 à 6 mois, surtout techniques (logiciel, recherche, doctorat IA) ; les offres vues sont fermées, à surveiller pour 2027."
 sources:
-- titre: "Wikipédia, Mistral AI"
-  url: "https://en.wikipedia.org/wiki/Mistral_AI"
+- titre: "Mistral AI, annonce de sa levée de 1,7 Md€ (sept. 2025)"
+  url: "https://mistral.ai/fr/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai"
 - titre: "Tiger Brokers, revenu récurrent de Mistral"
   url: "https://www.itiger.com/news/1147847199"
 - titre: "ASML, partenariat avec Mistral AI"

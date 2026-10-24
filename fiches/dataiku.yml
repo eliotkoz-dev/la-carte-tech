@@ -39,8 +39,8 @@ bureaux_europe:
   - "Munich (Allemagne)"
   - "Francfort (Allemagne)"
   sources:
-  - titre: "Wikipédia, Dataiku"
-    url: "https://en.wikipedia.org/wiki/Dataiku"
+  - titre: "Dataiku, page Contact"
+    url: "https://www.dataiku.com/contact-us"
 carrieres: "https://job-boards.greenhouse.io/dataiku"
 stages:
   statut: oui

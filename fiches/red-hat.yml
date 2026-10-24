@@ -160,8 +160,10 @@ stages:
   statut: a-verifier
   detail: "Pas d’offre de stage en France trouvée ; la page renvoie vers la liste d’offres France sur Workday."
 sources:
-- titre: "Wikipédia, Red Hat"
-  url: "https://en.wikipedia.org/wiki/Red_Hat"
+- titre: "IBM, finalisation du rachat de Red Hat (juillet 2019)"
+  url: "https://www.ibm.com/investor/news/ibm-completes-acquisition-of-red-hat"
+- titre: "Red Hat, présentation de l’entreprise"
+  url: "https://www.redhat.com/en/about/company"
 - titre: "Hudson Labs, résultats d’IBM au 2e trimestre 2026"
   url: "https://www.hudson-labs.com/research/ibm-q2-2026-earnings"
 verifie_le: '2026-10-18'
