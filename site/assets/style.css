@@ -71,7 +71,6 @@
   --asie: #ffd800;
   --asie-bord: #c9a400;
   --parente: #d7263d;
-  --largeur: 1240px;
 }
 * {
   box-sizing: border-box;
@@ -394,6 +393,7 @@ button {
 }
 .legende-tailles text {
   font-family: inherit;
+  font-size: 12px;
 }
 
 /* Carte des acteurs */
