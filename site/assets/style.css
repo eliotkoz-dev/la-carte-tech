@@ -129,7 +129,7 @@ button {
   gap: 16px;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 40px;
+  padding: 16px 20px;
   background: var(--nuit);
 }
 .logo {
@@ -211,7 +211,7 @@ button {
 .hero-texte {
   max-width: none;
   margin: 0;
-  padding: 64px clamp(24px, 3vw, 40px) 40px;
+  padding: 64px 20px 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -238,7 +238,7 @@ button {
 .page {
   max-width: none;
   margin: 0;
-  padding: 40px clamp(24px, 3vw, 40px) 64px;
+  padding: 40px 20px 64px;
   display: flex;
   flex-direction: column;
   gap: 44px;
@@ -1941,4 +1941,106 @@ button {
   font-size: 16px;
   line-height: 1.5;
   max-width: 80ch;
+}
+
+/* Mouvement et finition : courbe douce commune, apparition au défilement, survols discrets */
+:root {
+  --douce: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ombre: 0 1px 0 rgba(21, 21, 58, 0.04), 0 14px 34px -20px rgba(21, 21, 58, 0.3);
+  --ombre-haute: 0 1px 0 rgba(21, 21, 58, 0.04), 0 22px 40px -18px rgba(58, 58, 244, 0.35);
+}
+.metier,
+.tuile,
+.notion,
+.fiche,
+.panneau {
+  border-radius: 14px;
+  box-shadow: var(--ombre);
+}
+.chiffre .valeur {
+  font-variant-numeric: tabular-nums;
+}
+.surtitre {
+  letter-spacing: 0.04em;
+}
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes monte {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes carre {
+    from {
+      opacity: 0;
+      transform: translateY(40px) scale(0.6);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .hero .surtitre,
+  .hero h1,
+  .hero .chapo {
+    animation: monte 0.9s var(--douce) both;
+  }
+  .hero .surtitre {
+    animation-delay: 0.1s;
+  }
+  .hero h1 {
+    animation-delay: 0.22s;
+  }
+  .hero .chapo {
+    animation-delay: 0.38s;
+  }
+  .mosaique span {
+    animation: carre 0.8s var(--douce) both;
+    animation-delay: calc(0.25s + var(--o, 0) * 1ms);
+  }
+  .hero .mosaique {
+    will-change: transform;
+  }
+  .js .rev {
+    opacity: 0;
+    transform: translateY(22px);
+    transition:
+      opacity 0.8s var(--douce) var(--d, 0ms),
+      transform 0.8s var(--douce) var(--d, 0ms),
+      box-shadow 0.3s var(--douce),
+      border-color 0.3s var(--douce);
+  }
+  .js .rev.vu {
+    opacity: 1;
+    transform: none;
+  }
+  .metier,
+  .tuile,
+  .notion {
+    transition:
+      opacity 0.8s var(--douce) var(--d, 0ms),
+      transform 0.8s var(--douce) var(--d, 0ms),
+      box-shadow 0.3s var(--douce),
+      border-color 0.3s var(--douce);
+  }
+  .js .metier.vu:hover,
+  .js .tuile.vu:hover,
+  .js .notion.vu:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--ombre-haute);
+    transition-delay: 0ms, 0ms, 0ms, 0ms;
+  }
+  .nav a {
+    transition:
+      background-color 0.25s var(--douce),
+      color 0.25s var(--douce),
+      transform 0.25s var(--douce);
+  }
+  .nav a.bouton-nav:hover {
+    transform: translateY(-2px);
+  }
 }

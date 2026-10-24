@@ -83,11 +83,63 @@ window.CarteTech = (function () {
         const k = h % 7 === 0 && r < rangs / 2 ? 1 : h % 7;
         const s = document.createElement('span');
         if (allume) s.style.background = couleurs[k];
+        // Délai d'apparition : le bas se remplit en premier, de gauche à droite.
+        s.style.setProperty('--o', (rangs - 1 - r) * 90 + c * 7);
         frag.appendChild(s);
       }
     }
     m.appendChild(frag);
   });
+
+  // Mouvement : apparition douce au défilement, décalage entre voisins, léger décalage de la mosaïque.
+  const reduit = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduit) {
+    document.documentElement.classList.add('js');
+    const CIBLES =
+      '.chiffre, .section, .titre-section, .intro-grande, .metier, .tuile, .notion, .contribuer, .a-propos, .panneau, .nav-familles';
+    const obs = new IntersectionObserver(
+      (entrees) =>
+        entrees.forEach((e) => {
+          if (!e.isIntersecting) return;
+          e.target.classList.add('vu');
+          obs.unobserve(e.target);
+        }),
+      { threshold: 0.01, rootMargin: '0px 0px -8% 0px' },
+    );
+    const reveler = () => {
+      document.querySelectorAll(CIBLES).forEach((n) => {
+        if (n.dataset.rev) return;
+        n.dataset.rev = '1';
+        const rang = [...n.parentElement.children].filter((f) => f.matches(CIBLES)).indexOf(n);
+        n.style.setProperty('--d', Math.min(Math.max(rang, 0), 6) * 70 + 'ms');
+        n.classList.add('rev');
+        obs.observe(n);
+      });
+    };
+    reveler();
+    let attente = 0;
+    new MutationObserver(() => {
+      clearTimeout(attente);
+      attente = setTimeout(reveler, 50);
+    }).observe(document.body, { childList: true, subtree: true });
+
+    const mosaique = document.querySelector('.hero .mosaique');
+    if (mosaique) {
+      let occupe = false;
+      addEventListener(
+        'scroll',
+        () => {
+          if (occupe) return;
+          occupe = true;
+          requestAnimationFrame(() => {
+            occupe = false;
+            mosaique.style.transform = `translateY(${Math.min(scrollY, 600) * 0.06}px)`;
+          });
+        },
+        { passive: true },
+      );
+    }
+  }
 
   return { CATEGORIES, NOTION_DE, REGIONS, STAGES, el, dateFr, charger };
 })();
