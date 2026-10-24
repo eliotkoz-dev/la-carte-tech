@@ -2102,3 +2102,6 @@ button {
   height: 8px;
   background: var(--violet);
 }
+.erreurs.retours li::before {
+  background: var(--bleu);
+}

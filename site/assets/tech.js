@@ -55,6 +55,19 @@
       n.erreurs.forEach((e) => ul.append(el('li', '', e)));
       dr.append(ul);
     }
+    if (n.retours) {
+      dr.append(el('h3', '', 'Ce que racontent des professionnels'));
+      const ul = el('ul', 'erreurs retours');
+      n.retours.forEach((r) => ul.append(el('li', '', r)));
+      dr.append(ul);
+      dr.append(
+        el(
+          'p',
+          'source',
+          'Témoignages anonymes recueillis lors d’appels avec des professionnels, non vérifiés.',
+        ),
+      );
+    }
     if (!n.marche && n.sources) {
       dr.append(el('h3', '', 'Sources'));
       const ul = el('ul', 'sources');

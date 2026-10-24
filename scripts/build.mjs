@@ -333,7 +333,7 @@ notions.forEach((n, i) => {
   (n?.acteurs || []).forEach((a) => {
     if (!ids.has(a)) err('notions.yml', `${nom} : l’acteur « ${a} » n’a pas de fiche`);
   });
-  for (const champ of ['erreurs'])
+  for (const champ of ['erreurs', 'retours'])
     if (n?.[champ] !== undefined && !listeTextes(n[champ]))
       err('notions.yml', `${nom} : « ${champ} » doit être une liste de textes`);
   if (n?.etiquette_vente !== undefined && !texte(n.etiquette_vente))

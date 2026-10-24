@@ -2,7 +2,8 @@
 # categorie : les plus gros acteurs de cette catégorie s’affichent quand on ouvre la notion
 #             (ou bien « acteurs » : une liste de fiches choisies à la main).
 # marche : facultatif, toujours avec sa source.
-# Notions « conseils » (sans marché) : etiquette_vente (titre du bloc), erreurs (liste), sources (titre + url).
+# Notions « conseils » (sans marché) : etiquette_vente (titre du bloc), erreurs (liste), sources (titre + url),
+#   retours (liste : témoignages anonymes de professionnels, sans nom, entreprise ni chiffre personnel).
 
 - id: cloud
   titre: Le cloud
@@ -201,6 +202,13 @@
     - "Rester général au lieu de raconter un exemple précis, avec son contexte et son résultat."
     - "Dire « nous » partout : l’interlocuteur veut savoir ce que vous avez fait."
     - "Ne poser aucune question à la fin de l’entretien."
+  retours:
+    - "Beaucoup d’entretiens de stage sont surtout des entretiens de « fit » : savoir se présenter en une minute et répondre à trois questions : pourquoi cette entreprise, pourquoi ce poste, pourquoi vous."
+    - "La méthode STAR revient dans presque tous les conseils, toujours reliée à une expérience personnelle et chiffrée."
+    - "Certains process comprennent un exercice Excel (ratios, business case) et un entretien en anglais : à vérifier dans l’offre et à s’entraîner."
+    - "Si votre parcours change de direction, préparez un discours simple pour expliquer pourquoi, et ce que vous voulez apprendre."
+    - "Montrer de la curiosité pour l’IA, en la reliant à son projet, et citer les valeurs de l’entreprise marche bien."
+    - "Parler à des personnes déjà en poste (anciens de l’école, cooptation) aide à comprendre le process, et la résilience est la qualité la plus souvent citée."
   mots_cles: [STAR, Question comportementale, Étude de cas, Série d’entretiens, Remerciement, Relance]
   en_vente: "Pour un poste non technique, attendez-vous à davantage d’entretiens comportementaux et souvent à une étude de cas propre au poste."
   sources:
@@ -220,6 +228,12 @@
     - "Allonger le CV pour le remplir au lieu de garder l’essentiel sur une page."
     - "Des loisirs vagues (télévision, sorties entre amis) au lieu d’activités régulières dont on peut parler."
     - "Mentir : cela se remarque en entretien."
+  retours:
+    - "Un CV de 3 à 4 expériences avec des résultats chiffrés vaut mieux qu’une longue liste."
+    - "Pour se différencier, racontez aussi ce qui sort du lot (sport, association, projet personnel) et dites-le explicitement en entretien."
+    - "Les certifications ne sont pas décisives mais sont bien vues (Excel, bases du cloud ou de l’IA)."
+    - "Pour les métiers proches de la tech, un projet visible (GitHub, produit réalisé) compte de plus en plus."
+    - "Reliez votre parcours au poste visé : chaque ligne doit servir ce poste."
   mots_cles: [CV d’une page, PDF, Formule X-Y-Z, Résultats chiffrés, Formation avant expérience]
   en_vente: "Chaque ligne doit répondre à « qu’est-ce que j’ai accompli, et avec quel résultat ? »."
   sources:

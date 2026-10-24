@@ -73,7 +73,7 @@ Pour ajouter un lien, ajoutez une entrée dans [`liens.yml`](liens.yml), avec sa
 2. `investissement` : « de » a investi dans « vers ». Trait noir avec une flèche.
 3. `partenariat` : les deux travaillent ensemble (contrat, intégration, fournisseur). Pointillé, sans flèche.
 
-Les notions de la page « La tech en rapide » sont dans [`notions.yml`](notions.yml) : chaque chiffre de marché doit avoir sa source. Les notions « conseils » (CV, entretiens) n’ont pas de marché : elles utilisent `etiquette_vente`, `erreurs` et `sources`.
+Les notions de la page « La tech en rapide » sont dans [`notions.yml`](notions.yml) : chaque chiffre de marché doit avoir sa source. Les notions « conseils » (CV, entretiens) n’ont pas de marché : elles utilisent `etiquette_vente`, `erreurs`, `sources` et `retours` (témoignages anonymes : jamais de nom, d’entreprise ni de salaire personnel).
 
 ## Les règles
 
