@@ -2058,11 +2058,11 @@ button {
 }
 
 /* Place réservée à la liste des notions (remplie par tech.js) : le bas de page ne bouge pas au chargement */
-.notions {
+.notions:not([data-page]) {
   min-height: 945px;
 }
 @media (max-width: 640px) {
-  .notions {
+  .notions:not([data-page]) {
     min-height: 2833px;
   }
 }

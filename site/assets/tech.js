@@ -176,7 +176,8 @@
 
   charger()
     .then((d) => {
-      notions = d.notions;
+      const page = $('notions').dataset.page;
+      notions = d.notions.filter((n) => n.page === page);
       acteurs = d.acteurs;
       construire();
       const id = location.hash.slice(1);

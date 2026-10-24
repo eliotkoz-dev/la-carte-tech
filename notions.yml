@@ -1,6 +1,7 @@
 # Les notions de la page « La tech en rapide ».
 # categorie : les plus gros acteurs de cette catégorie s’affichent quand on ouvre la notion
 #             (ou bien « acteurs » : une liste de fiches choisies à la main).
+# page : facultatif. « preparer » = la notion s’affiche sur la page « Se préparer » au lieu de « La tech en rapide ».
 # marche : facultatif, toujours avec sa source.
 # Notions « conseils » (sans marché) : etiquette_vente (titre du bloc), erreurs (liste), sources (titre + url),
 #   retours (liste : témoignages anonymes de professionnels, sans nom, entreprise ni chiffre personnel).
@@ -190,6 +191,7 @@
   en_vente: "Un produit bien branché au système du client est adopté, et difficile à remplacer."
 
 - id: entretiens
+  page: preparer
   titre: Préparer ses entretiens
   etiquette_vente: "À retenir"
   en_une_phrase: "Connaître le déroulé, préparer des exemples chiffrés et poser de bonnes questions."
@@ -215,6 +217,7 @@
     - { titre: "Amazon, guide de l’entretien", url: "https://aboutamazon.com/news/workplace/amazon-interview-guide" }
 
 - id: cv
+  page: preparer
   titre: Préparer son CV
   etiquette_vente: "À retenir"
   en_une_phrase: "Une page claire qui montre ce que vous avez accompli, avec des chiffres, plutôt qu’une liste de tâches."
