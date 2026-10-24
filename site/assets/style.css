@@ -1998,7 +1998,7 @@ button {
   .hero .chapo {
     animation-delay: 0.38s;
   }
-  .mosaique span {
+  .hero .mosaique span {
     animation: carre 0.8s var(--douce) both;
     animation-delay: calc(0.25s + var(--o, 0) * 1ms);
   }
@@ -2061,4 +2061,71 @@ button {
 .hero-texte {
   position: relative;
   z-index: 1;
+}
+
+/* Texte justifié, sans césure */
+.page p,
+.page li,
+.hero .chapo {
+  text-align: justify;
+  hyphens: none;
+  -webkit-hyphens: none;
+}
+.page .tuile p,
+.page .chiffre p,
+.page .legende-carte p,
+.page .pied,
+.page .titre-section p,
+.page .discret,
+.page [class*='legende'] p,
+.page .notion-tete p {
+  text-align: left;
+}
+
+/* Dégradés doux, comme sur Novaterra : lueurs dans l'en-tête, boutons, filets et carrés */
+.hero {
+  background: radial-gradient(
+      circle at 8% 115%,
+      rgba(255, 79, 139, 0.28),
+      rgba(255, 79, 139, 0) 52%
+    ),
+    radial-gradient(ellipse 45% 55% at 92% 55%, rgba(123, 92, 255, 0.32), rgba(123, 92, 255, 0)),
+    var(--nuit);
+}
+.nav a.bouton-nav,
+.bouton-rose {
+  background-image: linear-gradient(135deg, var(--bleu), var(--violet));
+}
+.nav a.bouton-nav:hover {
+  background-image: linear-gradient(135deg, var(--violet), var(--rose));
+}
+.chiffre {
+  border-top: 0;
+  position: relative;
+}
+.chiffre::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--encre), var(--violet));
+}
+.chiffre.rose::before {
+  background: linear-gradient(90deg, var(--rose), var(--violet));
+}
+.mosaique span:nth-child(7n + 3)[style] {
+  background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.35), rgba(255, 79, 139, 0.55));
+}
+.mosaique span:nth-child(11n + 5)[style] {
+  background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.28), rgba(0, 0, 0, 0));
+}
+.envol span {
+  background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.3), rgba(255, 79, 139, 0.45));
+}
+.titre-section.grand h1,
+.titre-section h2 {
+  background: linear-gradient(100deg, var(--encre) 55%, var(--bleu-fonce));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
