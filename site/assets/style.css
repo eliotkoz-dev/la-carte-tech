@@ -2105,3 +2105,72 @@ button {
 .erreurs.retours li::before {
   background: var(--bleu);
 }
+
+/* CV modèle de la page « Préparer son CV » : rendu proche d'une feuille A4 */
+.cv-modele {
+  max-width: 820px;
+  padding: 40px 44px;
+  background: #ffffff;
+  border: 1px solid var(--trait);
+  border-radius: 14px;
+  box-shadow: var(--ombre);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.45;
+  color: #111111;
+}
+.cv-modele p,
+.cv-modele li {
+  text-align: left;
+}
+.cv-tete {
+  padding-bottom: 14px;
+  border-bottom: 2px solid #111111;
+}
+.cv-tete p {
+  margin: 0;
+}
+.cv-nom {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.cv-titre {
+  margin-top: 4px !important;
+  font-size: 16px;
+  font-weight: 700;
+}
+.cv-contact {
+  margin-top: 6px !important;
+  color: #444444;
+}
+.cv-bloc {
+  padding-top: 14px;
+}
+.cv-bloc h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 4px;
+}
+.cv-bloc p {
+  margin: 0 0 6px;
+}
+.cv-bloc ul {
+  margin: 0 0 10px;
+  padding-left: 20px;
+}
+@media (max-width: 640px) {
+  .cv-modele {
+    padding: 24px 18px;
+    font-size: 14px;
+  }
+}
+/* Quatre cartes exactement : quatre colonnes sur grand écran plutôt que 3 + 1 orpheline */
+.metiers:has(> .metier:nth-child(4):last-child) {
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+}
